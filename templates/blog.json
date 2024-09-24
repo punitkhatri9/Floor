@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--blog",
+      "settings": {
+        "show_author_name": false,
+        "blog-sidebar-description": "",
+        "blog-sidebar-link": "",
+        "show_blog_tags": false,
+        "show_recent_posts": true,
+        "blog_show_date": true
+      }
+    },
+    "1646004249db2dcfc2": {
+      "type": "newsletter",
+      "settings": {
+        "newsletter_heading": "Join our Mailing List",
+        "newsletter_description": "<p>Be the first to know about our biggest and best sales.<\/p>",
+        "colors": "accent"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1646004249db2dcfc2"
+  ]
+}

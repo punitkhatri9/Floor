@@ -1,0 +1,66 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_title": "Newsletter",
+            "footer_newsletter_description": "<p>Be the first to know about our biggest and best sales.<\/p>",
+            "override_button_colors": true,
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#242424"
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Quick links",
+            "footer_linklist": "footer"
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "social_title": "Follow us"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "newsletter",
+        "menu",
+        "social"
+      ],
+      "settings": {
+        "alignment": "left",
+        "color_scheme": "dark",
+        "heading_font_size": 18
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "settings": {
+        "show_methods_of_payment": true,
+        "center_content_on_desktop": true,
+        "footer_text": "",
+        "show_currency_selector": true,
+        "show_locale_selector": false,
+        "color_scheme": "dark"
+      }
+    }
+  },
+  "order": [
+    "footer-main",
+    "footer-bottom"
+  ]
+}
