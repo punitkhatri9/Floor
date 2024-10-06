@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Farbschemata"
         },
         "header-35": {
-          "content": "Schubladen"
+          "content": "Warenkorb-Schublade"
         },
         "header-38": {
           "content": "Fußzeile"
@@ -114,31 +123,21 @@
           "label": "Beim Hinzufügen eines Artikels zum Warenkorb…",
           "options": {
             "show_added_message": "'Hinzugefügt' Nachricht anzeigen",
-            "go_to_or_open_cart": "Zum Warenkorb gehen/öffnen"
+            "go_to_or_open_cart": "Zum Warenkorb gehen\/öffnen"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Anzeige von Produktanbieter"
+        },
         "cart_notes_enable": {
-          "label": "Bestellhinweis anzeigen"
+          "label": "Notizen im Warenkorb aktivieren"
         },
         "giftwrap_gift_note": {
           "label": "Grußnachricht aktivieren"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Dynamische Checkout-Buttons auf der Warenkorbseite anzeigen",
-          "info": "[Erfahren Sie mehr](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Produktempfehlungen",
-          "show_cart_recommendations": {
-            "label": "Dynamische Empfehlungen anzeigen",
-            "info": "Dynamische Empfehlungen basieren auf den Produkten im Warenkorb. Sie verwenden Bestell- und Produktinformationen, um sie im Laufe der Zeit zu ändern und zu verbessern. [Weitere Informationen](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Leerer Warenkorb",
-          "empty_cart_message": "Nachricht",
-          "empty_cart_collections": "Vorgeschlagene Sammlungen",
-          "empty_cart_products": "Produktempfehlungen"
+          "label": "Dynamische Kassen-Schaltflächen aktivieren",
+          "info": "[Erfahren Sie mehr](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Zeigt das zweite Bild Ihres Produkts beim Hovern an"
         },
         "badges": {
-          "info": "Fügen Sie benutzerdefinierte Abzeichen mit Produkt-Tags hinzu. [Mehr erfahren](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Fügen Sie benutzerdefinierte Abzeichen mit Produkt-Tags hinzu. [Mehr erfahren](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Abzeichen",
           "show_badges": "Abzeichen anzeigen"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Sternenbewertung anzeigen",
           "show_if_no_reviews": "Anzeigen, wenn keine Bewertung vorliegt",
-          "info": "Um eine Bewertung anzuzeigen, fügen Sie eine Produktbewertungs-App hinzu. [Mehr erfahren](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "Um eine Bewertung anzuzeigen, fügen Sie eine Produktbewertungs-App hinzu. [Mehr erfahren](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Sternenbewertung anzeigen als...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Farbfelder",
-      "info": "Farbfelder können mithilfe von Kategorie-Metafeldern oder Variantenbildern erstellt werden. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Farbfelder können mithilfe von Kategorie-Metafeldern oder Variantenbildern erstellt werden. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Swatch-Stil",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Variantenbild für Optionen anzeigen",
-          "info": "Um Variantenbilder für Farbfelder zu verwenden, verwenden Sie eine durch Kommas getrennte Liste mit den Optionsnamen, für die Sie Farbfelder erstellen möchten (z. B. „Material, Farbe, Geschmack, Kettenlänge“). [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "Um Variantenbilder für Farbfelder zu verwenden, verwenden Sie eine durch Kommas getrennte Liste mit den Optionsnamen, für die Sie Farbfelder erstellen möchten (z. B. „Material, Farbe, Geschmack, Kettenlänge“). [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Teilen"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Zoom-Effekt aktivieren",
-          "info": "Aktivieren Sie einen subtilen Zoom-Effekt auf ausgewählten Startseitenbildern beim ersten Laden. [Erfahren Sie mehr](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Aktivieren Sie einen subtilen Zoom-Effekt auf ausgewählten Startseitenbildern beim ersten Laden. [Erfahren Sie mehr](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Text",
-      "name": "Akkordeon/FAQ",
+      "name": "Akkordeon\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "Tab-Inhalt"
         }
       },
       "presets": {
-        "name": "Akkordeon/FAQ"
+        "name": "Akkordeon\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Container-Breite",
       "name": "Benutzerdefiniertes HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Benutzerdefiniertes Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Hoverbild",
@@ -613,7 +614,8 @@
           "label": "Bereichsränder wie im Theme einstellen"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Apps"
       }
@@ -665,14 +667,15 @@
       "name": "Navigationsbanner",
       "settings": {
         "navigation": {
-          "paragraph": "Zeigen Sie ein Menü (bearbeitet im Online-Shop > Navigation > Menüs) oder eine Sammlungsliste an. Verwenden Sie Metafelder, um bestimmte Sammlungslisten basierend auf dem Standort anzuzeigen. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Zeigen Sie ein Menü (bearbeitet im Online-Shop > Navigation > Menüs) oder eine Sammlungsliste an. Verwenden Sie Metafelder, um bestimmte Sammlungslisten basierend auf dem Standort anzuzeigen. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Ausrichtung der Navigation",
           "info": "Wenn der Stil auf „Raster“ eingestellt ist"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Navigationsbanner"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Konto",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Konto aktivieren",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Adressen",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Anmeldung",
       "settings": {
         "enable_shop_login_button": "Anmeldung mit Shop aktivieren"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Bestellung",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Registrieren",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Passwort zurücksetzen",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Text",
@@ -1013,7 +1029,8 @@
           "label": "Inhalte auf dem Desktop zentrieren"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Überschrift",
@@ -1051,7 +1068,7 @@
           "name": "Folgen Sie im Shop",
           "settings": {
             "paragraph-0": {
-              "content": "Zeigen Sie den 'Folgen'-Button für Ihren Shop im Shop-App an. [Erfahren Sie mehr](https://help.shopify.com/de/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Zeigen Sie den 'Folgen'-Button für Ihren Shop im Shop-App an. [Erfahren Sie mehr](https:\/\/help.shopify.com\/de\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Headerbild"
           },
-          "paragraph": "Sie können dieses Bild auch in den E-Mail-Benachrichtigungen „Geschenkkartenbeleg“ und „Neue Geschenkkarte“ anzeigen. [Weitere Informationen](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Sie können dieses Bild auch in den E-Mail-Benachrichtigungen „Geschenkkartenbeleg“ und „Neue Geschenkkarte“ anzeigen. [Weitere Informationen](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Bild der Geschenkkarte",
             "info": "900 x 600px empfohlen"
@@ -1162,7 +1179,7 @@
           "name": "Mega-Menü",
           "settings": {
             "mega-menu": {
-              "info": "Geben Sie ein vorhandenes Menüelement ein, um ein Mega-Menü-Dropdown anzuwenden. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Geben Sie ein vorhandenes Menüelement ein, um ein Mega-Menü-Dropdown anzuwenden. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Aktion eins"
@@ -1223,7 +1240,8 @@
           "info": "Parallax ist nicht sichtbar, wenn die 'Abschnittshöhe' auf 'Original' eingestellt ist"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Bild mit Textüberlagerung"
       }
@@ -1238,7 +1256,8 @@
           "label": "Inhalt über das Bild legen"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Bild mit Text"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Newsletter",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Akkordeoninhalt",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Geschenkverpackung anzeigen",
-          "info": "[Erfahren Sie mehr](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) über Geschenkverpackung"
+          "info": "[Erfahren Sie mehr](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) über Geschenkverpackung"
         },
         "paragraph-8": {
           "content": "Wählen Sie ein Geschenkverpackungsprodukt unter Theme-Einstellungen > Produkt"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Karte",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google Maps API-Schlüssel",
-          "info": "Sie müssen einen [Google Maps API-Schlüssel registrieren](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key), um die Karte anzuzeigen"
+          "info": "Sie müssen einen [Google Maps API-Schlüssel registrieren](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key), um die Karte anzuzeigen"
         },
         "button_text": {
           "label": "Beschriftung des Kartenlinks"
@@ -1496,7 +1519,8 @@
           "info": "Wird angezeigt, wenn die Karte nicht geladen wird"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Karte"
       }
@@ -1511,7 +1535,8 @@
           "label": "Zeige Datum"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Blogseiten",
@@ -1523,7 +1548,8 @@
           "label": "Zeige 'Aktuelle Artikel'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Schriftart",
@@ -1627,7 +1653,7 @@
       "name": "Passwortseite",
       "settings": {
         "paragraph-13": {
-          "content": "[Bearbeiten Sie Ihre Passwortseitenmeldung in Ihren Shopify-Einstellungen](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Bearbeiten Sie Ihre Passwortseitenmeldung in Ihren Shopify-Einstellungen](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Bearbeiten Sie Ihre Social-Media-Einstellungen und Konten in den Allgemeinen Einstellungen."
@@ -1636,7 +1662,8 @@
           "label": "Newsletter-Anmeldung anzeigen"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Produktbeschreibung",
@@ -1645,7 +1672,8 @@
           "label": "„Weiterlesen“ für Beschreibung aktivieren (veraltet)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Schaltflächenlink",
@@ -1658,7 +1686,7 @@
           "label": "Vertikale Ausrichtung"
         },
         "image_or_video": {
-          "label": "Bild/Video",
+          "label": "Bild\/Video",
           "maximum_width": "Maximale Breite"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Produktempfehlungen",
       "settings": {
         "paragraph-0": {
-          "content": "Dynamische Empfehlungen verwenden Bestell- und Produktinformationen, um sich im Laufe der Zeit zu ändern und zu verbessern. [Erfahren Sie mehr](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamische Empfehlungen verwenden Bestell- und Produktinformationen, um sich im Laufe der Zeit zu ändern und zu verbessern. [Erfahren Sie mehr](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Klebende Inhalte auf dem Desktop aktivieren"
         },
         "image_size": {
-          "info": "Empfohlene Mindestbreite 950 Pixel. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Empfohlene Mindestbreite 950 Pixel. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Darstellung sekundärer Medien",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Vorbestellen",
-          "info_text": "Fügen Sie einem beliebigen Produkt den Tag „Vorbestellen“ hinzu, um den Wortlaut der Schaltfläche „Kaufen“ auf „Vorbestellen“ festzulegen. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Fügen Sie einem beliebigen Produkt den Tag „Vorbestellen“ hinzu, um den Wortlaut der Schaltfläche „Kaufen“ auf „Vorbestellen“ festzulegen. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Abstand unter Ihren installierten App-Blöcken, die im Produktformular angezeigt werden"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "Um Farbfelder zu erstellen, gehen Sie zu „Designeinstellungen > Farbfelder“.",
-              "swatch_info": "Visuelle Farbfelder können mithilfe von Kategorie-Metafeldern oder Variantenbildern erstellt werden. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Visuelle Farbfelder können mithilfe von Kategorie-Metafeldern oder Variantenbildern erstellt werden. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Variante basierend auf der Miniaturansicht ändern"
@@ -1780,13 +1808,13 @@
           "name": "Verknüpfte Produkte",
           "settings": {
             "info": {
-              "content": "Wenn Sie ein Plus-Händler sind, empfehlen wir Ihnen, für diese Funktion die App „Combined Listings“ zu verwenden. [Weitere Informationen](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Wenn Sie ein Plus-Händler sind, empfehlen wir Ihnen, für diese Funktion die App „Combined Listings“ zu verwenden. [Weitere Informationen](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Größe der Farbfelder"
             },
             "paragraph-4": {
-              "content": "Wir empfehlen die Verwendung von Metafeldern. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Wir empfehlen die Verwendung von Metafeldern. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Geschenkpapier",
           "settings": {
             "paragraph-0": {
-              "content": "Wählen Sie ein Geschenkpapierprodukt unter Design-Einstellungen > Produkt aus. [Erfahren Sie mehr](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Wählen Sie ein Geschenkpapierprodukt unter Design-Einstellungen > Produkt aus. [Erfahren Sie mehr](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Formular für Empfängerinformationen für Geschenkkartenprodukte anzeigen",
-              "info": "Geschenkkartenprodukte können optional direkt an den Empfänger zusammen mit einer persönlichen Nachricht gesendet werden. [Erfahren Sie mehr](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Geschenkkartenprodukte können optional direkt an den Empfänger zusammen mit einer persönlichen Nachricht gesendet werden. [Erfahren Sie mehr](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Abholung im Geschäft",
           "settings": {
             "paragraph-0": {
-              "content": "Standorte müssen eingerichtet sein, um die Anzeige zu aktivieren. [Erfahren Sie mehr](https://help.shopify.com/en/manual/locations)"
+              "content": "Standorte müssen eingerichtet sein, um die Anzeige zu aktivieren. [Erfahren Sie mehr](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Vertrauenssiegel",
-              "info": "Empfohlen: 100 x 300px. [Erfahren Sie mehr](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Empfohlen: 100 x 300px. [Erfahren Sie mehr](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Ergänzende Produkte",
           "settings": {
             "paragraph-0": {
-              "content": "Um ergänzende Produkte auszuwählen, fügen Sie die Such- und Entdeckungs-App hinzu. [Erfahren Sie mehr](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Um ergänzende Produkte auszuwählen, fügen Sie die Such- und Entdeckungs-App hinzu. [Erfahren Sie mehr](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Anzuzeigende Produkte"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Kontrollkästchen",
             "paragraph": {
-              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Erforderlich",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Runterfallen",
             "paragraph": {
-              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Erforderlich",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Datei-Upload",
             "paragraph": {
-              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Erforderlich",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Optionsfelder",
             "paragraph": {
-              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Erforderlich",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Textfeld",
             "paragraph": {
-              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sammeln Sie Anpassungsinformationen für einen Artikel, der dem Einkaufswagen hinzugefügt wurde. [Weitere Informationen](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Erforderlich",
@@ -1994,7 +2022,8 @@
           "label": "Farbfeldfilterbeschriftungen anzeigen"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Autor",
@@ -2059,7 +2088,7 @@
         "name": "Kundenbewertungen"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Link",
       "name": "Textanzeigen",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Größe der Unterüberschrift"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Video-Held"
       }
@@ -2106,7 +2136,8 @@
           "info": "Wird nicht angezeigt, wenn die Wiedergabe automatisch aktiviert ist."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Text",
@@ -2142,7 +2173,7 @@
     "Heading": "Überschrift",
     "Icon_style": "Symbolstil",
     "Images": "Bilder",
-    "Plus_minus": "Plus/Minus",
+    "Plus_minus": "Plus\/Minus",
     "Caret": "Caret",
     "Text": "Text",
     "Custom_HTML": "Benutzerdefiniertes HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Abstand entfernen",
     "Full_width": "Volle Breite",
     "Content_width": "Inhaltsbreite",
-    "1_2_width": "1/2 Breite",
-    "1_3_width": "1/3 Breite",
-    "2_3_width": "2/3 Breite",
-    "1_4_width": "1/4 Breite",
-    "3_4_width": "3/4 Breite",
+    "1_2_width": "1\/2 Breite",
+    "1_3_width": "1\/3 Breite",
+    "2_3_width": "2\/3 Breite",
+    "1_4_width": "1\/4 Breite",
+    "3_4_width": "3\/4 Breite",
     "Extra_small": "Extra klein",
     "Extra_large": "Extra groß",
     "Top": "Oben",
@@ -2246,10 +2277,10 @@
     "Overlay": "Überlagerung",
     "A_Shopify_hosted_video": "Ein von Shopify gehostetes Video",
     "Embed_video_from_URL": "Video von URL einbetten",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Akzeptiert YouTube und Vimeo. Das Video wird stummgeschaltet und einige Geräte verhindern möglicherweise die automatische Wiedergabe. [Erfahren Sie mehr](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Akzeptiert YouTube und Vimeo. Das Video wird stummgeschaltet und einige Geräte verhindern möglicherweise die automatische Wiedergabe. [Erfahren Sie mehr](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Mobiles Video",
     "A_Shopify_hosted_video_optional": "Ein von Shopify gehostetes Video (optional)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Akzeptiert YouTube und Vimeo. [Erfahren Sie mehr](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Akzeptiert YouTube und Vimeo. [Erfahren Sie mehr](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Textausrichtung",
     "Alignment": "Ausrichtung",
     "Countdown_timer": "Countdown-Timer",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "1400 x 1400px empfohlen",
     "Menu": "Menü",
     "Footer_text": "Fußzeilentext",
-    "Country_region_selector": "Länder-/Regionenauswahl",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Um ein Land/eine Region hinzuzufügen, gehen Sie zu Ihren [Markteinstellungen.](/admin/settings/markets)",
-    "Enable_country_region_selector": "Länder-/Regionenauswahl aktivieren",
+    "Country_region_selector": "Länder-\/Regionenauswahl",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Um ein Land\/eine Region hinzuzufügen, gehen Sie zu Ihren [Markteinstellungen.](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Länder-\/Regionenauswahl aktivieren",
     "Language_selector": "Sprachauswahl",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Um eine Sprache hinzuzufügen, gehen Sie zu Ihren [Spracheinstellungen.](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Um eine Sprache hinzuzufügen, gehen Sie zu Ihren [Spracheinstellungen.](\/admin\/settings\/languages)",
     "Enable_language_selector": "Sprachauswahl aktivieren",
     "Newsletter": "Newsletter",
     "Header": "Header",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Ausverkaufte Varianten ausblenden",
     "Show_vendor": "Hersteller anzeigen",
     "Show_dynamic_checkout_button": "Dynamische Kaufoption anzeigen",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Ermöglicht Kunden, direkt mit einer vertrauten Zahlungsmethode auszuchecken. [Erfahren Sie mehr](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Ermöglicht Kunden, direkt mit einer vertrauten Zahlungsmethode auszuchecken. [Erfahren Sie mehr](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Medien",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Erfahren Sie mehr über [Medienarten](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Erfahren Sie mehr über [Medienarten](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Videoschleife aktivieren",
     "Product_rating": "Produktbewertung",
     "Label": "Bezeichnung",
     "Rating": "Bewertung",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Um eine Bewertung anzuzeigen, fügen Sie ein [Produktbewertungs-Metafeld](/admin/metafields/product) hinzu",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Um eine Bewertung anzuzeigen, fügen Sie ein [Produktbewertungs-Metafeld](\/admin\/metafields\/product) hinzu",
     "Full_icon": "Volles Symbol",
     "Empty_icon": "Leeres Symbol",
     "Maximum": "Maximal",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Wählen Sie ein Maximum, das dem [Maximalwert der Bewertungsmetafeldskala](/admin/metafields/product) entspricht",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Wählen Sie ein Maximum, das dem [Maximalwert der Bewertungsmetafeldskala](\/admin\/metafields\/product) entspricht",
     "Image_with_offers": "Bild mit Angeboten",
     "Link_hover_border_color": "Link Hover-Rahmenfarbe",
     "Text_with_icon": "Text mit Symbol",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Desktop-Position",
     "Top_bar": "Oberste Leiste",
     "Enable_filtering": "Filterung aktivieren",
-    "Customize_filters_admin_menus": "[Filter anpassen](/admin/menus)",
+    "Customize_filters_admin_menus": "[Filter anpassen](\/admin\/menus)",
     "Enable_sorting": "Sortierung aktivieren",
     "2000_x_800px_recommended": "Empfohlen: 2000 x 800px",
     "Required_to_show_the_button": "Erforderlich, um die Schaltfläche anzuzeigen",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Ausblendbare Registerkarten",
     "Custom_icon": "Benutzerdefiniertes Symbol",
     "Aspect_ratio_of_1_1_recommended": "Seitenverhältnis 1:1 empfohlen",
-    "Open_Close_icon_style": "Stil des Öffnen-/Schließen-Symbols",
+    "Open_Close_icon_style": "Stil des Öffnen-\/Schließen-Symbols",
     "Page": "Seite",
     "Page_content": "Seiteninhalt",
     "Image_style": "Bildstil",

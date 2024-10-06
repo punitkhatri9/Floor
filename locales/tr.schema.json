@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Renk şemaları"
         },
         "header-35": {
-          "content": "Çekmeceler"
+          "content": "Sepet çekmecesi"
         },
         "header-38": {
           "content": "Alt Bilgi"
@@ -114,31 +123,21 @@
           "label": "Sepete bir ürün eklerken…",
           "options": {
             "show_added_message": "'Eklenmiştir' mesajını göster",
-            "go_to_or_open_cart": "Sepete git/aç"
+            "go_to_or_open_cart": "Sepete git\/aç"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Ürün satıcısını göster"
+        },
         "cart_notes_enable": {
-          "label": "Sipariş notunu göster"
+          "label": "Sepet notlarını etkinleştir"
         },
         "giftwrap_gift_note": {
           "label": "Hediye mesajını etkinleştir"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Sepet sayfasında dinamik ödeme butonlarını göster",
-          "info": "[Daha fazla bilgi](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Ürün önerileri",
-          "show_cart_recommendations": {
-            "label": "Dinamik önerileri göster",
-            "info": "Dinamik öneriler, sepetteki ürünlere dayanır. Zamanla değişmek ve gelişmek için sipariş ve ürün bilgilerini kullanırlar. [Daha fazla bilgi edinin](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Boş sepet",
-          "empty_cart_message": "Mesaj",
-          "empty_cart_collections": "Önerilen koleksiyonlar",
-          "empty_cart_products": "Ürün önerileri"
+          "label": "Dinamik ödeme düğmelerini etkinleştir",
+          "info": "[Daha fazla bilgi](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Üzerine gelindiğinde ürününüzün ikinci resmini gösterir"
         },
         "badges": {
-          "info": "Ürün etiketlerini kullanarak özel rozetler ekleyin. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Ürün etiketlerini kullanarak özel rozetler ekleyin. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Rozetler",
           "show_badges": "Rozetleri göster"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Yıldız derecelendirmesini göster",
           "show_if_no_reviews": "Değerlendirme yoksa göster",
-          "info": "Bir puanı göstermek için bir ürün değerlendirme uygulaması ekleyin. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "Bir puanı göstermek için bir ürün değerlendirme uygulaması ekleyin. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Yıldız puanlamayı şu şekilde göster...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Örnekler",
-      "info": "Örnekler, Kategori meta alanları veya Varyant görüntüleri kullanılarak oluşturulabilir. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Örnekler, Kategori meta alanları veya Varyant görüntüleri kullanılarak oluşturulabilir. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Örnek stili",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Seçenekler için varyant resmini göster",
-          "info": "Örnekler için değişken görseller kullanmak için, örnek oluşturmak istediğiniz Seçenek adlarını (örneğin, 'Malzeme, Renk, Lezzet, Zincir uzunluğu') içeren virgülle ayrılmış bir liste kullanın. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "Örnekler için değişken görseller kullanmak için, örnek oluşturmak istediğiniz Seçenek adlarını (örneğin, 'Malzeme, Renk, Lezzet, Zincir uzunluğu') içeren virgülle ayrılmış bir liste kullanın. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Paylaşma"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Yakınlaştırma efektini etkinleştir",
-          "info": "Seçilen ana sayfa görüntülerinde ilk yüklendiğinde hafif bir yakınlaştırma efektini etkinleştir. [Daha fazla bilgi](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Seçilen ana sayfa görüntülerinde ilk yüklendiğinde hafif bir yakınlaştırma efektini etkinleştir. [Daha fazla bilgi](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Metin",
-      "name": "Açılır Menü/S.S.S.",
+      "name": "Açılır Menü\/S.S.S.",
       "blocks": {
         "tab_content": {
           "name": "Sekme içeriği"
         }
       },
       "presets": {
-        "name": "Açılır Menü/S.S.S."
+        "name": "Açılır Menü\/S.S.S."
       }
     },
     "advanced-layout--custom-html": {
       "label": "Konteyner Genişliği",
       "name": "Özel HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Özel Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Üzerine gelindiğinde görüntü",
@@ -613,7 +614,8 @@
           "label": "Bölüm marjlarını temayla aynı yapın"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Uygulamalar"
       }
@@ -665,14 +667,15 @@
       "name": "Gezinme bannerı",
       "settings": {
         "navigation": {
-          "paragraph": "Bir Menüyü (Çevrimiçi mağaza > Gezinme > Menüler bölümünde düzenlenmiştir) veya Koleksiyon listesini görüntüleyin. Konuma göre belirli Koleksiyon listelerini göstermek için meta alanları kullanın. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Bir Menüyü (Çevrimiçi mağaza > Gezinme > Menüler bölümünde düzenlenmiştir) veya Koleksiyon listesini görüntüleyin. Konuma göre belirli Koleksiyon listelerini göstermek için meta alanları kullanın. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Gezinme hizalaması",
           "info": "Stil 'Izgara' olarak ayarlandığında"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Gezinme bannerı"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Hesap",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Hesap Aktivasyonu",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Adresler",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Giriş",
       "settings": {
         "enable_shop_login_button": "Mağaza ile Girişi Etkinleştir"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Sipariş",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Kayıt Ol",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Şifre Sıfırlama",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Metin",
@@ -1013,7 +1029,8 @@
           "label": "Masaüstünde içeriği ortala"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Başlık",
@@ -1051,7 +1068,7 @@
           "name": "Mağazada Takip Et",
           "settings": {
             "paragraph-0": {
-              "content": "Mağazanızın Shop uygulamasında takip düğmesini görüntüle. [Daha fazla bilgi](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Mağazanızın Shop uygulamasında takip düğmesini görüntüle. [Daha fazla bilgi](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Başlık resmi"
           },
-          "paragraph": "Bu görseli ayrıca ‘Hediye kartı makbuzu’ ve ‘Yeni hediye kartı’ e-posta bildirimlerinde de gösterebilirsiniz. [Daha fazla bilgi edinin](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Bu görseli ayrıca ‘Hediye kartı makbuzu’ ve ‘Yeni hediye kartı’ e-posta bildirimlerinde de gösterebilirsiniz. [Daha fazla bilgi edinin](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Hediye kartı resmi",
             "info": "900 x 600 piksel önerilir"
@@ -1162,7 +1179,7 @@
           "name": "Mega Menü",
           "settings": {
             "mega-menu": {
-              "info": "Mega menü açılır menüsünü uygulamak için mevcut bir menü öğesini girin. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Mega menü açılır menüsünü uygulamak için mevcut bir menü öğesini girin. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Promosyon bir"
@@ -1223,7 +1240,8 @@
           "info": "'Bölüm Yüksekliği' 'Orijinal' olarak ayarlandığında paralaks görünmez"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Metin Üzerine Görüntü"
       }
@@ -1238,7 +1256,8 @@
           "label": "Görüntü üzerine üstüne çıkartma içerik"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Metinli Görüntü"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Bülten",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Akordiyon İçeriği",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Hediye paketi göster",
-          "info": "Hediye paketi hakkında daha fazla bilgi için [buraya tıklayın](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+          "info": "Hediye paketi hakkında daha fazla bilgi için [buraya tıklayın](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
         },
         "paragraph-8": {
           "content": "Tema ayarları > Ürün bölümünde bir hediye paketi ürünü seçin"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Harita",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google Haritalar API anahtarı",
-          "info": "Haritayı görüntülemek için bir [Google Haritalar API Anahtarı kaydetmeniz gerekecektir](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key)."
+          "info": "Haritayı görüntülemek için bir [Google Haritalar API Anahtarı kaydetmeniz gerekecektir](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key)."
         },
         "button_text": {
           "label": "Harita bağlantı etiketi"
@@ -1496,7 +1519,8 @@
           "info": "Harita yüklenmediğinde görüntülenir"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Harita"
       }
@@ -1511,7 +1535,8 @@
           "label": "Tarih göster"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Blog sayfaları",
@@ -1523,7 +1548,8 @@
           "label": "'Son makaleler' göster"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Yazı tipi",
@@ -1627,7 +1653,7 @@
       "name": "Şifre sayfası",
       "settings": {
         "paragraph-13": {
-          "content": "Şifre sayfası mesajınızı Shopify ayarlarınızda [düzenleyin](http://www.shopify.com/admin/online_store/preferences)."
+          "content": "Şifre sayfası mesajınızı Shopify ayarlarınızda [düzenleyin](http:\/\/www.shopify.com\/admin\/online_store\/preferences)."
         },
         "social_media_icons": {
           "info": "Sosyal ayarlarınızı ve hesaplarınızı Genel ayarlarda düzenleyin"
@@ -1636,7 +1662,8 @@
           "label": "Bülten kaydını göster"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Ürün açıklaması",
@@ -1645,7 +1672,8 @@
           "label": "Açıklama için 'daha fazlasını oku'yu etkinleştirin (kullanımdan kaldırıldı)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Düğme bağlantısı",
@@ -1658,7 +1686,7 @@
           "label": "Dikey hizalama"
         },
         "image_or_video": {
-          "label": "Resim/video",
+          "label": "Resim\/video",
           "maximum_width": "Maksimum genişlik"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Ürün önerileri",
       "settings": {
         "paragraph-0": {
-          "content": "Dinamik öneriler, sipariş ve ürün bilgilerini kullanarak zaman içinde değişir ve iyileşir. [Daha fazla bilgi edinin](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dinamik öneriler, sipariş ve ürün bilgilerini kullanarak zaman içinde değişir ve iyileşir. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Masaüstünde yapışkan içeriği etkinleştir"
         },
         "image_size": {
-          "info": "Önerilen minimum 950 piksel genişlik. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Önerilen minimum 950 piksel genişlik. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "İkincil medya görüntülemesi",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Ön sipariş",
-          "info_text": "Satın Al düğmesi metnini 'Ön Sipariş' olarak ayarlamak için herhangi bir ürüne 'Ön Sipariş' etiketi ekleyin. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Satın Al düğmesi metnini 'Ön Sipariş' olarak ayarlamak için herhangi bir ürüne 'Ön Sipariş' etiketi ekleyin. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Ürün formunda görünen kurulu uygulama bloklarının altındaki boşluğu kontrol et"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "Örnek oluşturmak için ‘Tema ayarları > Örnekler’ bölümüne gidin.",
-              "swatch_info": "Görsel örnekler, Kategori meta alanları veya Varyant görselleri kullanılarak oluşturulabilir. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Görsel örnekler, Kategori meta alanları veya Varyant görselleri kullanılarak oluşturulabilir. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Küçük resme göre çeşit değiştir"
@@ -1780,13 +1808,13 @@
           "name": "Bağlantılı ürünler",
           "settings": {
             "info": {
-              "content": "Plus satıcısıysanız, bu işlevsellik için Birleşik Listelemeler uygulamasını kullanmanızı öneririz. [Daha fazla bilgi edinin](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Plus satıcısıysanız, bu işlevsellik için Birleşik Listelemeler uygulamasını kullanmanızı öneririz. [Daha fazla bilgi edinin](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Renk numunesi boyutu"
             },
             "paragraph-4": {
-              "content": "Meta alanları kullanmanızı öneririz. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Meta alanları kullanmanızı öneririz. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Hediye paketi",
           "settings": {
             "paragraph-0": {
-              "content": "Hediye paketi ürününü Tema ayarları > Ürün bölümünden seçin. [Daha fazla bilgi](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Hediye paketi ürününü Tema ayarları > Ürün bölümünden seçin. [Daha fazla bilgi](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Hediye kartı ürünleri için alıcı bilgi formunu göster",
-              "info": "Hediye kartı ürünleri isteğe bağlı olarak kişiye özel bir mesajla birlikte doğrudan alıcıya gönderilebilir. [Daha fazla bilgi](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Hediye kartı ürünleri isteğe bağlı olarak kişiye özel bir mesajla birlikte doğrudan alıcıya gönderilebilir. [Daha fazla bilgi](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Yerel Teslimat",
           "settings": {
             "paragraph-0": {
-              "content": "Görüntülemeyi etkinleştirmek için konumlar kurulmalıdır. [Daha fazla bilgi](https://help.shopify.com/en/manual/locations)"
+              "content": "Görüntülemeyi etkinleştirmek için konumlar kurulmalıdır. [Daha fazla bilgi](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Güven rozeti",
-              "info": "Önerilen 100 x 300 piksel. [Daha fazla bilgi](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Önerilen 100 x 300 piksel. [Daha fazla bilgi](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Tamamlayıcı Ürünler",
           "settings": {
             "paragraph-0": {
-              "content": "Tamamlayıcı ürünleri seçmek için Arama ve Keşif uygulamasını ekleyin. [Daha fazla bilgi](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Tamamlayıcı ürünleri seçmek için Arama ve Keşif uygulamasını ekleyin. [Daha fazla bilgi](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Gösterilecek Ürünler"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Onay kutusu",
             "paragraph": {
-              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Gerekli",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Yıkılmak",
             "paragraph": {
-              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Onay Kutusu ve Açılır Menüler)"
+              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Onay Kutusu ve Açılır Menüler)"
             },
             "required": {
               "label": "Gerekli",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Dosya yükleme",
             "paragraph": {
-              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Gerekli",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Radyo düğmeleri",
             "paragraph": {
-              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Gerekli",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Metin alanı",
             "paragraph": {
-              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Sepete eklenen bir ürün için özelleştirme bilgilerini toplayın. [Daha fazla bilgi edinin](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Gerekli",
@@ -1994,7 +2022,8 @@
           "label": "Renk örneği filtre etiketlerini göster"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Yazar",
@@ -2059,7 +2088,7 @@
         "name": "İncelemeler"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Bağlantı",
       "name": "Metin Reklamları",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Alt başlık boyutu"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Video kahraman"
       }
@@ -2106,7 +2136,8 @@
           "info": "Otomatik oynatma etkinleştirilmişse görüntülenmez."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Metin",
@@ -2142,7 +2173,7 @@
     "Heading": "Başlık",
     "Icon_style": "Simge stili",
     "Images": "Görüntüler",
-    "Plus_minus": "Artı/Eksi",
+    "Plus_minus": "Artı\/Eksi",
     "Caret": "İmleç",
     "Text": "Metin",
     "Custom_HTML": "Özel HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Aralığı kaldır",
     "Full_width": "Tam genişlik",
     "Content_width": "İçerik genişliği",
-    "1_2_width": "1/2 genişlik",
-    "1_3_width": "1/3 genişlik",
-    "2_3_width": "2/3 genişlik",
-    "1_4_width": "1/4 genişlik",
-    "3_4_width": "3/4 genişlik",
+    "1_2_width": "1\/2 genişlik",
+    "1_3_width": "1\/3 genişlik",
+    "2_3_width": "2\/3 genişlik",
+    "1_4_width": "1\/4 genişlik",
+    "3_4_width": "3\/4 genişlik",
     "Extra_small": "Ekstra küçük",
     "Extra_large": "Ekstra büyük",
     "Top": "Üst",
@@ -2246,10 +2277,10 @@
     "Overlay": "Örtüşme",
     "A_Shopify_hosted_video": "Shopify barındırılan video",
     "Embed_video_from_URL": "URL'den video gömme",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube ve Vimeo kabul eder. Video sessiz olacak ve bazı cihazlar otomatik oynatmayı engelleyebilir. [Daha fazla bilgi](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube ve Vimeo kabul eder. Video sessiz olacak ve bazı cihazlar otomatik oynatmayı engelleyebilir. [Daha fazla bilgi](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Mobil video",
     "A_Shopify_hosted_video_optional": "Shopify barındırılan video (isteğe bağlı)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube ve Vimeo kabul eder. [Daha fazla bilgi](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube ve Vimeo kabul eder. [Daha fazla bilgi](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Metin hizalaması",
     "Alignment": "Hizalama",
     "Countdown_timer": "Geri sayım sayacı",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "1400 x 1400 piksel önerilir",
     "Menu": "Menü",
     "Footer_text": "Alt bilgi metni",
-    "Country_region_selector": "Ülke/bölge seçici",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Bir ülke/bölge eklemek için [pazar ayarlarınıza gidin.](/admin/settings/markets)",
-    "Enable_country_region_selector": "Ülke/bölge seçicisini etkinleştir",
+    "Country_region_selector": "Ülke\/bölge seçici",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Bir ülke\/bölge eklemek için [pazar ayarlarınıza gidin.](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Ülke\/bölge seçicisini etkinleştir",
     "Language_selector": "Dil seçici",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Bir dil eklemek için [dil ayarlarınıza gidin.](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Bir dil eklemek için [dil ayarlarınıza gidin.](\/admin\/settings\/languages)",
     "Enable_language_selector": "Dil seçicisini etkinleştir",
     "Newsletter": "Bülten",
     "Header": "Üstbilgi",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Stokta olmayan varyantları gizle",
     "Show_vendor": "Tedarikçiyi göster",
     "Show_dynamic_checkout_button": "Dinamik ödeme düğmesini göster",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Müşterilere tanıdık bir ödeme yöntemi kullanarak doğrudan ödeme yapma imkanı sağlar. [Daha fazla bilgi](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Müşterilere tanıdık bir ödeme yöntemi kullanarak doğrudan ödeme yapma imkanı sağlar. [Daha fazla bilgi](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Medya",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Medya türleri hakkında [daha fazla bilgi edinin](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Medya türleri hakkında [daha fazla bilgi edinin](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Video döngüsünü etkinleştir",
     "Product_rating": "Ürün değerlendirmesi",
     "Label": "Etiket",
     "Rating": "Değerlendirme",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Bir değerlendirme görüntülemek için bir [ürün değerlendirme meta alanı](/admin/metafields/product) ekleyin",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Bir değerlendirme görüntülemek için bir [ürün değerlendirme meta alanı](\/admin\/metafields\/product) ekleyin",
     "Full_icon": "Tam simge",
     "Empty_icon": "Boş simge",
     "Maximum": "Maksimum",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Derecelendirme meta alanının [maksimum ölçeklendirmesine](/admin/metafields/product) eşit bir maksimum seçin",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Derecelendirme meta alanının [maksimum ölçeklendirmesine](\/admin\/metafields\/product) eşit bir maksimum seçin",
     "Image_with_offers": "Tekliflerle resim",
     "Link_hover_border_color": "Bağlantı üzerine gelindiğinde kenar rengi",
     "Text_with_icon": "Simgeli metin",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Masaüstü pozisyon",
     "Top_bar": "Üst çubuk",
     "Enable_filtering": "Filtrelemeyi etkinleştir",
-    "Customize_filters_admin_menus": "[Filtreleri özelleştir](/admin/menus)",
+    "Customize_filters_admin_menus": "[Filtreleri özelleştir](\/admin\/menus)",
     "Enable_sorting": "Sıralamayı etkinleştir",
     "2000_x_800px_recommended": "Önerilen 2000 x 800 piksel",
     "Required_to_show_the_button": "Düğmeyi göstermek için gereklidir",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Katlanabilir sekmeler",
     "Custom_icon": "Özel simge",
     "Aspect_ratio_of_1_1_recommended": "1:1 önerilen en-boy oranı",
-    "Open_Close_icon_style": "Aç/Kapat simge stili",
+    "Open_Close_icon_style": "Aç\/Kapat simge stili",
     "Page": "Sayfa",
     "Page_content": "Sayfa içeriği",
     "Image_style": "Resim stili",

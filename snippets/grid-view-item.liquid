@@ -146,9 +146,6 @@
               {% elsif product.available %}
                 {% form 'product', product, id: "CollectionAddToCartForm" %}
                   <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                  {% if settings.cart_type == "drawer" %}
-                    <input type="hidden" name="sections" value="cart-drawer" />
-                  {% endif %}
                   {% if quick_shop_desktop_enabled %}
                     <button class="btn quick-add-button quick-add-button-desktop" type="submit" tabindex="0">
                       {% if preorder_product %}{{ 'products.product.preorder' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}
@@ -225,9 +222,6 @@
         {% elsif product.available %}
           {% form 'product', product, id: "CollectionAddToCartForm" %}
             <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-            {% if settings.cart_type == "drawer" %}
-              <input type="hidden" name="sections" value="cart-drawer" />
-            {% endif %}
             <button class="{{ button_classes }} quick-add-button quick-add-button-desktop" type="submit" tabindex="0">
               {% if preorder_product %}{{ 'products.product.preorder' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}
             </button>

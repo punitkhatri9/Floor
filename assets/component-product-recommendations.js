@@ -10902,12 +10902,6 @@ class QuickAdd extends Component {
         return false;
       }
 
-      // Update cart drawer
-      if(this.cartType == 'drawer') {
-        const responseJson = await response.json();
-        window.eventBus.emit('update:cart:drawer', responseJson);
-      }
-
       const languageParam = !this.languageUrl || this.languageUrl == '/' ? '' : this.languageUrl;
       const response2 = await window.fetch(`${languageParam}/cart?view=compare`);
       if (!response2.ok) {
@@ -10917,13 +10911,12 @@ class QuickAdd extends Component {
       const cart = await response2.json();
 
       if(this.cartType == 'drawer' && this.cartAction == 'go_to_or_open_cart') {
-        window.eventBus.emit('open:cart:drawer', { scrollToTop: true });
+        this.theme.toggleRightDrawer('cart', true, { cart: cart });
       }
       else {
         if (this.isDesktopQuickAdd) this.currentButton.innerHTML = this.translationsObject.translations.productAdded;
+        this.theme.updateCartDrawer(cart);
       }
-      
-      this.theme.updateCartCount(cart);
 
       if (this.isDesktopQuickAdd) {
         setTimeout(() => {

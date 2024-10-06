@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Nesten der...",
-      "no_products_html": "Du har ingen produkter i din hjemmeside samling. Dette plassenholderet vil vises inntil du <a href=\"/admin/collections?tutorial=Frontpage\">legger til et produkt i denne samlingen</a>.",
+      "no_products_html": "Du har ingen produkter i din hjemmeside samling. Dette plassenholderet vil vises inntil du <a href=\"\/admin\/collections?tutorial=Frontpage\">legger til et produkt i denne samlingen<\/a>.",
       "add_product": "Legg til et produkt",
       "product_title": "Produkttittel",
       "product_description": "Dette området brukes til å beskrive detaljene om produktet ditt. Fortell kundene om utseende, følelsen og stilen til produktet. Legg til detaljer om farge, materialer, størrelse og hvor det ble laget.",
-      "no_collections_html": "Du har ingen samlinger å vise her. <a href=\"/admin/custom_collections\">Legg til noen samlinger</a> for å gå sammen med standard hjemmeside.",
+      "no_collections_html": "Du har ingen samlinger å vise her. <a href=\"\/admin\/custom_collections\">Legg til noen samlinger<\/a> for å gå sammen med standard hjemmeside.",
       "add_collection": "Legg til en samling",
       "collection_title": "Samlingstittel",
       "blog_title": "Tittelen på innlegget ditt",
@@ -76,10 +85,10 @@
       "return_text": "Tilbake"
     },
     "localization": {
-      "country_label": "Land/område",
+      "country_label": "Land\/område",
       "language_label": "Språk",
       "update_language": "Oppdater språk",
-      "update_country": "Oppdater land/område"
+      "update_country": "Oppdater land\/område"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Handlekurv",
       "remove": "Fjern",
-      "note": "Bestillingsnotat",
-      "add_note": "Legg til bestillingsnotat",
-      "edit_note": "Rediger ordrenotat",
-      "save_note": "Lagre ordrenotat",
-      "add_gift_note": "Legg til gavemelding",
-      "edit_gift_note": "Rediger gavemelding",
-      "save_gift_note": "Lagre gavemelding",
-      "save": "Spare",
+      "note": "Spesielle instruksjoner til selger",
       "see_more": "Se mer",
       "subtotal": "Delsum",
-      "regular_subtotal": "Vanlig delsum",
-      "sale_subtotal": "Salgsdelsum",
       "taxes_and_shipping_at_checkout": "Skatter og frakt beregnes ved utsjekking",
-      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">frakt</a> beregnes ved utsjekking",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">frakt<\/a> beregnes ved utsjekking",
       "taxes_included_but_shipping_at_checkout": "MVA inkludert og frakt beregnes ved utsjekking",
-      "taxes_included_and_shipping_policy_html": "MVA inkludert. <a href=\"{{ link }}\">Frakt</a> beregnes ved utsjekking.",
+      "taxes_included_and_shipping_policy_html": "MVA inkludert. <a href=\"{{ link }}\">Frakt<\/a> beregnes ved utsjekking.",
       "update": "Oppdater handlekurv",
       "checkout": "Gå til kassen",
       "empty": "Handlekurven din er for øyeblikket tom.",
       "close_cart": "Lukk handlekurv",
-      "view_cart": "Se handlekurv",
-      "savings_html": "Du sparer {{ price }}",
-      "return_to_shop": "Gå tilbake til butikken"
+      "savings_html": "Du sparer {{ price }}"
     },
     "label": {
       "product": "Produkt",
@@ -262,7 +260,7 @@
       "clear_all": "Tøm alle",
       "empty": "Ingen produkter funnet",
       "from": "Fra",
-      "filter_and_sort": "Filter/Sorter",
+      "filter_and_sort": "Filter\/Sorter",
       "filter_by_label": "Filtrer etter",
       "filter_button": "Filtrer",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Sorter etter",
       "title": "Samling",
       "to": "Til",
-      "use_fewer_filters_html": "Bruk færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">tøm alle</a>"
+      "use_fewer_filters_html": "Bruk færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">tøm alle<\/a>"
     },
     "events_calendar": {
       "tbc_text": "TBC"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Feil under oppslag av den adressen",
       "address_no_results": "Ingen resultater for den adressen",
-      "address_query_limit_html": "Du har overskredet bruksgrensen for Google API. Vurder å oppgradere til et <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premiumsabonnement</a>.",
+      "address_query_limit_html": "Du har overskredet bruksgrensen for Google API. Vurder å oppgradere til et <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premiumsabonnement<\/a>.",
       "auth_error_html": "Det oppsto et problem under godkjenning av Google Maps API Key."
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "Legg til et produkt",
       "product_title": "Produkttittel",
       "product_vendor": "Leverandør",
-      "no_collections_html": "Du har ingen samlinger å vise her. <a href=\"/admin/custom_collections\">Legg til noen samlinger</a> for å gå sammen med standard forsiden.",
+      "no_collections_html": "Du har ingen samlinger å vise her. <a href=\"\/admin\/custom_collections\">Legg til noen samlinger<\/a> for å gå sammen med standard forsiden.",
       "add_collection": "Legg til en samling",
       "collection_title": "Samlingstittel",
       "no_content": "Denne seksjonen inneholder for øyeblikket ingen innhold. Legg til innhold i denne seksjonen ved hjelp av sidefeltet."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Gavebeskjed",
       "giftwrap_note_placeholder": "Legg til din gavebeskjed her",
       "from_text_html": "Fra {{ price }}",
-      "file_upload_html": "Dra og slipp eller <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">bla gjennom</a> filer for å laste opp",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Bla gjennom</a> filer for å laste opp"
+      "file_upload_html": "Dra og slipp eller <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">bla gjennom<\/a> filer for å laste opp",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Bla gjennom<\/a> filer for å laste opp"
     },
     "product": {
       "sold_out": "Utsolgt",
@@ -497,14 +495,14 @@
       "category": "Kategori",
       "type": "Type",
       "include_taxes": "MVA inkludert.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beregnes ved utsjekking.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt<\/a> beregnes ved utsjekking.",
       "quote": "Sitat",
       "preorder_today": "Forhåndsbestill i dag",
       "in_stock": "På lager",
       "low_stock": "Lavt lager",
       "out_of_stock": "Utsolgt",
       "stock_left": "igjen",
-      "out_of_stock_html": "Klikk <a href=\"#\"><strong>her</strong></a> for å bli varslet per e-post når {{ product }} - {{ variant }} blir tilgjengelig.",
+      "out_of_stock_html": "Klikk <a href=\"#\"><strong>her<\/strong><\/a> for å bli varslet per e-post når {{ product }} - {{ variant }} blir tilgjengelig.",
       "wrong_email": "Vennligst oppgi en gyldig e-postadresse.",
       "out_of_stock_success": "Takk! Vi vil varsle deg når dette produktet blir tilgjengelig!",
       "read_more_html": "Les mer",
@@ -564,9 +562,9 @@
       "password": "Angi butikken ved å bruke passord",
       "enter_password": "Skriv inn passord",
       "store_owner": "Er du butikkeieren?",
-      "store_owner_html": "<a href=\"/admin\">Logg inn her</a>",
+      "store_owner_html": "<a href=\"\/admin\">Logg inn her<\/a>",
       "continue": "Fortsett",
-      "powered_by_html": "Denne butikken blir drevet av <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Denne butikken blir drevet av <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

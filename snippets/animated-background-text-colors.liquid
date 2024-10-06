@@ -1,49 +1,78 @@
-<animated-background-text-colors class="{{ announcement_bar_layout }}" style="background-color: {{ section.blocks[0].settings.announcement_bg_color }}; color: {{ section.blocks[0].settings.announcement_text_color }};">
-
-  {%- for block in section.blocks -%}          
-    <div 
+{%- assign autorotate_speed_in_ms = section.settings.autorotate_speed | times: 1000 -%}
+<animated-background-text-colors
+  class="{{ announcement_bar_layout }}"
+  style="
+    background-color: {{ section.blocks[0].settings.announcement_bg_color }}; 
+    color: {{ section.blocks[0].settings.announcement_text_color }};
+    {% if section.settings.show_divider %}
+      border-bottom: 1px solid {{ section.blocks[0].settings.announcement_text_color }};
+    {% endif %}
+  "
+  data-autorotate-speed="{{ autorotate_speed_in_ms }}"
+>
+   <div class="announcement_bar__mobile-number">
+  {% if section.settings.mobile_number != blank %}
+      {% render 'theme-icon' with icon: 'call', iconSize: 20 %}
+    <a href="tel:{{ section.settings.mobile_number }}" class="mobile-number-link">    
+      <span class="mobile-number">{{ section.settings.mobile_number }}</span>
+    </a>
+  {% endif %}
+</div>
+  {%- for block in section.blocks -%}
+    <div
       data-announcement-block
-      data-background-color-block="{{ block.settings.announcement_bg_color }}" 
+      data-background-color-block="{{ block.settings.announcement_bg_color }}"
       data-front-color-block="{{ block.settings.announcement_text_color }}"
-      data-announcement-block-index="{{ forloop.index0 }}" 
-      class="announcement_block block-id-{{ block.id }}{% if forloop.first %} active{% endif %}" 
+      data-announcement-block-index="{{ forloop.index0 }}"
+      class="announcement_block block-id-{{ block.id }}{% if forloop.first %} active{% endif %}"
       {{ block.shopify_attributes }}
+      style="" 
     >
+      {%- if block.settings.announcement_text != blank -%}
+        {% style %}
+          .block-id-{{ block.id }} .announcement_wrapper.text-link-animated a {
+            background: linear-gradient(to top, {{ block.settings.announcement_text_color | color_modify: 'alpha', 0.5 }} 0, {{ block.settings.announcement_text_color | color_modify: 'alpha', 0.5 }} 0), linear-gradient(to top, currentColor 0, currentColor 0);
+            background-size: 100% 1px, 0 1px;
+            background-position: 100% 100%, 0 100%;
+            background-repeat: no-repeat;
+          }
 
+          .block-id-{{ block.id }} .announcement_wrapper.text-link-animated a:hover {
+            background-size: 0 1px, 100% 1px;
+          }
+        {% endstyle %}
 
-          {%- if block.settings.announcement_text != blank -%}
-            {% style %}
-              .block-id-{{ block.id }} .announcement_wrapper.text-link-animated a {
-                background: linear-gradient(to top, {{ block.settings.announcement_text_color | color_modify: 'alpha', 0.5 }} 0, {{ block.settings.announcement_text_color | color_modify: 'alpha', 0.5 }} 0), linear-gradient(to top, currentColor 0, currentColor 0);
-                background-size: 100% 1px, 0 1px;
-                background-position: 100% 100%, 0 100%;
-                background-repeat: no-repeat;
-              }
-
-              .block-id-{{ block.id }} .announcement_wrapper.text-link-animated a:hover {
-                background-size: 0 1px, 100% 1px;
-              }
-            {% endstyle %}
-
-            <div class="announcement_wrapper text-link-animated" data-announcement>
-              <span class="announcement_text">{{ block.settings.announcement_text }}</span>
-            </div>
-
-          {%- endif -%}
-
-
+        <div class="announcement_wrapper text-link-animated" data-announcement>
+          <span class="announcement_text">
+            {{ block.settings.announcement_text }}
+          </span>
+          
+        </div>
+      {%- endif -%}
     </div>
   {%- endfor -%}
 
   {%- liquid
     if enable_social_icons
       render 'social-icons' with icon_wrapper_classes: 'icon-no-padding', icon_classes: 'fa-2x'
-    endif 
+    endif
   -%}
+
+  {%- if enable_close_button -%}
+    <div class="m-announcement-bar__close" onclick="this.closest('.announcement_bar').style.display='none';">
+      {% render 'theme-icon' with icon: 'close', iconSize: 20 %}
+    </div>
+  {%- endif -%}
   
 </animated-background-text-colors>
+
 {%- if section.blocks.size > 1 -%}
   <safe-load-scripts class="hidden">
-    <script src="{{ 'component-animated-background-text-colors.js' | asset_url }}" type="module" defer="defer" data-flow-load-key="component-animated-background-text-colors"></script>
+    <script
+      src="{{ 'component-animated-background-text-colors.js' | asset_url }}"
+      type="module"
+      defer="defer"
+      data-flow-load-key="component-animated-background-text-colors"
+    ></script>
   </safe-load-scripts>
 {%- endif -%}

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "快到了...",
-      "no_products_html": "您的首页集合中没有任何产品。此占位符将显示，直到您<a href=\"/admin/collections?tutorial=Frontpage\">将产品添加到此集合</a>。",
+      "no_products_html": "您的首页集合中没有任何产品。此占位符将显示，直到您<a href=\"\/admin\/collections?tutorial=Frontpage\">将产品添加到此集合<\/a>。",
       "add_product": "添加产品",
       "product_title": "产品标题",
       "product_description": "此区域用于描述产品的详细信息。告诉客户有关产品的外观、手感和风格。添加关于颜色、材料、尺寸和制造地点的详细信息。",
-      "no_collections_html": "您没有要显示的任何集合。<a href=\"/admin/custom_collections\">添加一些集合</a>与默认首页配套使用。",
+      "no_collections_html": "您没有要显示的任何集合。<a href=\"\/admin\/custom_collections\">添加一些集合<\/a>与默认首页配套使用。",
       "add_collection": "添加集合",
       "collection_title": "集合标题",
       "blog_title": "您的帖子标题",
@@ -76,10 +85,10 @@
       "return_text": "返回"
     },
     "localization": {
-      "country_label": "国家/地区",
+      "country_label": "国家\/地区",
       "language_label": "语言",
       "update_language": "更新语言",
-      "update_country": "更新国家/地区"
+      "update_country": "更新国家\/地区"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "购物车",
       "remove": "移除",
-      "note": "订单备注",
-      "add_note": "添加订单备注",
-      "edit_note": "编辑订单备注",
-      "save_note": "保存订单备注",
-      "add_gift_note": "添加礼物留言",
-      "edit_gift_note": "编辑礼物讯息",
-      "save_gift_note": "保存礼品讯息",
-      "save": "节省",
+      "note": "卖家特别说明",
       "see_more": "查看更多",
       "subtotal": "小计",
-      "regular_subtotal": "常规小计",
-      "sale_subtotal": "销售小计",
       "taxes_and_shipping_at_checkout": "结账时计算税费和运费",
-      "taxes_and_shipping_policy_at_checkout_html": "税费和<a href=\"{{ link }}\">运费</a>在结账时计算",
+      "taxes_and_shipping_policy_at_checkout_html": "税费和<a href=\"{{ link }}\">运费<\/a>在结账时计算",
       "taxes_included_but_shipping_at_checkout": "已包含税费，运费在结账时计算",
-      "taxes_included_and_shipping_policy_html": "已包含税费。在结账时计算<a href=\"{{ link }}\">运费</a>。",
+      "taxes_included_and_shipping_policy_html": "已包含税费。在结账时计算<a href=\"{{ link }}\">运费<\/a>。",
       "update": "更新购物车",
       "checkout": "结账",
       "empty": "您的购物车目前是空的。",
       "close_cart": "关闭购物车",
-      "view_cart": "查看购物车",
-      "savings_html": "您正在节省{{ price }}",
-      "return_to_shop": "返回商店"
+      "savings_html": "您正在节省{{ price }}"
     },
     "label": {
       "product": "产品",
@@ -262,7 +260,7 @@
       "clear_all": "清除所有",
       "empty": "未找到任何产品",
       "from": "从",
-      "filter_and_sort": "过滤/排序",
+      "filter_and_sort": "过滤\/排序",
       "filter_by_label": "按条件筛选",
       "filter_button": "筛选",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "按条件排序",
       "title": "集合",
       "to": "至",
-      "use_fewer_filters_html": "使用较少筛选条件或<a class=\"{{ class }}\" href=\"{{ link }}\">清除全部</a>"
+      "use_fewer_filters_html": "使用较少筛选条件或<a class=\"{{ class }}\" href=\"{{ link }}\">清除全部<\/a>"
     },
     "events_calendar": {
       "tbc_text": "待定"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "查找该地址时出错",
       "address_no_results": "未找到该地址的结果",
-      "address_query_limit_html": "您已超过 Google API 使用限制。考虑升级到<a href=\"https://developers.google.com/maps/premium/usage-limits\">高级套餐</a>。",
+      "address_query_limit_html": "您已超过 Google API 使用限制。考虑升级到<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">高级套餐<\/a>。",
       "auth_error_html": "对您的 Google 地图 API 密钥进行身份验证时出现问题。"
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "城市",
       "country": "国家",
       "province": "省份",
-      "zip": "邮政/邮编",
+      "zip": "邮政\/邮编",
       "phone": "电话",
       "set_default": "设为默认地址",
       "add": "添加地址",
@@ -422,7 +420,7 @@
       "add_product": "添加产品",
       "product_title": "产品标题",
       "product_vendor": "供应商",
-      "no_collections_html": "您还没有要显示的集合。请<a href=\"/admin/custom_collections\">添加一些集合</a>与默认首页配套使用。",
+      "no_collections_html": "您还没有要显示的集合。请<a href=\"\/admin\/custom_collections\">添加一些集合<\/a>与默认首页配套使用。",
       "add_collection": "添加集合",
       "collection_title": "集合标题",
       "no_content": "此部分当前没有任何内容。使用侧边栏添加内容到此部分。"
@@ -472,8 +470,8 @@
       "giftwrap_note": "礼品留言",
       "giftwrap_note_placeholder": "在此处添加您的礼品留言",
       "from_text_html": "从 {{ price }} 起",
-      "file_upload_html": "拖放或<a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览</a>要上传的文件",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览</a>要上传的文件"
+      "file_upload_html": "拖放或<a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览<\/a>要上传的文件",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览<\/a>要上传的文件"
     },
     "product": {
       "sold_out": "售罄",
@@ -497,14 +495,14 @@
       "category": "类别",
       "type": "类型",
       "include_taxes": "含税。",
-      "shipping_policy_html": "<a href=\"{{ link }}\">在结账时计算运费</a>",
+      "shipping_policy_html": "<a href=\"{{ link }}\">在结账时计算运费<\/a>",
       "quote": "引用",
       "preorder_today": "立即预订",
       "in_stock": "有货",
       "low_stock": "库存紧张",
       "out_of_stock": "缺货",
       "stock_left": "剩余",
-      "out_of_stock_html": "点击<a href=\"#\"><strong>这里</strong></a>以在{{ product }} - {{ variant }} 有货时通过电子邮件通知您。",
+      "out_of_stock_html": "点击<a href=\"#\"><strong>这里<\/strong><\/a>以在{{ product }} - {{ variant }} 有货时通过电子邮件通知您。",
       "wrong_email": "请提供有效的电子邮件地址。",
       "out_of_stock_success": "谢谢！我们会在此产品有货时通知您！",
       "read_more_html": "阅读更多",
@@ -513,7 +511,7 @@
       "view_in_space_label": "在您的空间中查看，加载增强现实窗口中的项目",
       "video_thumbnail_alt": "在画廊查看器中加载并播放视频，{{ imageAlt }}",
       "model_thumbnail_alt": "在画廊查看器中加载3D模型，{{ imageAlt }}",
-      "reviews_rating": "评价 - {{ value }} / {{ max }} 星",
+      "reviews_rating": "评价 - {{ value }} \/ {{ max }} 星",
       "reviews": "评价",
       "review": "评论",
       "no_reviews": "暂无评价"
@@ -564,9 +562,9 @@
       "password": "使用密码进入商店",
       "enter_password": "输入密码",
       "store_owner": "您是店主吗？",
-      "store_owner_html": "<a href=\"/admin\">在此登录</a>",
+      "store_owner_html": "<a href=\"\/admin\">在此登录<\/a>",
       "continue": "继续",
-      "powered_by_html": "本商店由<a href=\"http://www.shopify.com\">Shopify</a>提供技术支持"
+      "powered_by_html": "本商店由<a href=\"http:\/\/www.shopify.com\">Shopify<\/a>提供技术支持"
     }
   }
 }

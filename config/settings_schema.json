@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Momentum",
-    "theme_author": "Eight",
-    "theme_version": "6.4.0",
-    "theme_documentation_url": "https://support.eightthemes.com/hc/en-us",
-    "theme_support_url": "https://support.eightthemes.com/hc/en-us/requests/new"
+    "theme_name": "Floor",
+    "theme_author": "Kodzyn",
+    "theme_version": "1.0",
+    "theme_documentation_url": "https:\/\/kodzyn.com",
+    "theme_support_url": "https:\/\/kodzyn.com"
   },
   {
     "name": "t:settings_schema.Colors.name",
@@ -220,25 +220,6 @@
         "id": "cart-drawer-text",
         "label": "t:all.Text",
         "default": "#242424"
-      },
-      {
-        "type": "checkbox",
-        "id": "drawer--override_button_colors",
-        "label": "t:all.Button_color_override",
-        "default": false,
-        "info": "t:all.Button_color_override_info"
-      },
-      {
-        "type": "color",
-        "id": "drawer--button_background_color",
-        "label": "t:all.Primary_color",
-        "default": "#E68819"
-      },
-      {
-        "type": "color",
-        "id": "drawer--button_text_color",
-        "label": "t:all.Secondary_color",
-        "default": "#ffffff"
       }
     ]
   },
@@ -581,7 +562,7 @@
       {
         "type": "checkbox",
         "id": "cart_vendor_enable",
-        "label": "t:all.Show_vendor",
+        "label": "t:settings_schema.Cart.settings.cart_vendor_enable.label",
         "default": false
       },
       {
@@ -602,44 +583,6 @@
         "label": "t:settings_schema.Cart.settings.enable-additional-checkout-buttons.label",
         "info": "t:settings_schema.Cart.settings.enable-additional-checkout-buttons.info",
         "default": true
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.Cart.settings.product_recommendations.header"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_cart_recommendations",
-        "label": "t:settings_schema.Cart.settings.product_recommendations.show_cart_recommendations.label",
-        "default": true,
-        "info": "t:settings_schema.Cart.settings.product_recommendations.show_cart_recommendations.info"
-      },
-      {
-        "type": "inline_richtext",
-        "id": "cart_recommendations_heading",
-        "label": "t:all.Heading",
-        "default": "Don't forget these..."
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.Cart.settings.empty_cart.header"
-      },
-      {
-        "type": "textarea",
-        "id": "empty_cart_message",
-        "label": "t:settings_schema.Cart.settings.empty_cart.empty_cart_message",
-        "default": "Your cart is currently empty."
-      },
-      {
-        "type": "collection_list",
-        "id": "empty_cart_collections",
-        "label": "t:settings_schema.Cart.settings.empty_cart.empty_cart_collections",
-        "limit": 4
-      },
-      {
-        "type": "collection",
-        "id": "empty_cart_products",
-        "label": "t:settings_schema.Cart.settings.empty_cart.empty_cart_products"
       }
     ]
   },
@@ -1298,7 +1241,7 @@
         "type": "richtext",
         "id": "pop-up-text-description-text",
         "label": "t:settings_schema.Popup.settings.pop-up-text-description-text.label",
-        "default": "<p>Describe the benefits of your newsletter</p>"
+        "default": "<p>Describe the benefits of your newsletter<\/p>"
       },
       {
         "type": "checkbox",
@@ -1461,7 +1404,7 @@
         "type": "richtext",
         "id": "verification-pop-up__description",
         "label": "t:all.Verification_question",
-        "default": "<p>You must be at least 21 years old to enter this store.</p><p>Are you over 21 years of age?</p>"
+        "default": "<p>You must be at least 21 years old to enter this store.<\/p><p>Are you over 21 years of age?<\/p>"
       },
       {
         "type": "text",
@@ -1490,7 +1433,7 @@
         "type": "richtext",
         "id": "deny__description",
         "label": "t:all.Text",
-        "default": "<p>It looks like you're not old enough to shop with us, come back when you're 21 or older.</p>"
+        "default": "<p>It looks like you're not old enough to shop with us, come back when you're 21 or older.<\/p>"
       },
       {
         "type": "text",

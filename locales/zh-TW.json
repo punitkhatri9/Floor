@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "快完成了...",
-      "no_products_html": "您的首頁集合中沒有產品。此占位符將顯示，直到您<a href=\"/admin/collections?tutorial=Frontpage\">添加產品至此集合</a>。",
+      "no_products_html": "您的首頁集合中沒有產品。此占位符將顯示，直到您<a href=\"\/admin\/collections?tutorial=Frontpage\">添加產品至此集合<\/a>。",
       "add_product": "添加產品",
       "product_title": "產品名稱",
       "product_description": "此區域用於描述您的產品的詳細信息。向顧客介紹產品的外觀、質地和風格。添加關於顏色、使用的材料、尺寸和生產地的詳細資訊。",
-      "no_collections_html": "您沒有要在這裡展示的任何收藏。<a href=\"/admin/custom_collections\">添加一些收藏</a>以配合默認的首頁。",
+      "no_collections_html": "您沒有要在這裡展示的任何收藏。<a href=\"\/admin\/custom_collections\">添加一些收藏<\/a>以配合默認的首頁。",
       "add_collection": "添加收藏",
       "collection_title": "收藏名稱",
       "blog_title": "您的文章標題",
@@ -76,10 +85,10 @@
       "return_text": "返回"
     },
     "localization": {
-      "country_label": "國家/地區",
+      "country_label": "國家\/地區",
       "language_label": "語言",
       "update_language": "更新語言",
-      "update_country": "更新國家/地區"
+      "update_country": "更新國家\/地區"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "購物車",
       "remove": "移除",
-      "note": "订单备注",
-      "add_note": "添加订单备注",
-      "edit_note": "编辑订单备注",
-      "save_note": "保存订单备注",
-      "add_gift_note": "添加礼物留言",
-      "edit_gift_note": "编辑礼物讯息",
-      "save_gift_note": "保存礼品讯息",
-      "save": "节省",
+      "note": "賣家特殊備註",
       "see_more": "查看更多",
       "subtotal": "小計",
-      "regular_subtotal": "常规小计",
-      "sale_subtotal": "销售小计",
       "taxes_and_shipping_at_checkout": "稅金和運費將在結帳時計算",
-      "taxes_and_shipping_policy_at_checkout_html": "稅金和<a href=\"{{ link }}\">運費</a>將在結帳時計算",
+      "taxes_and_shipping_policy_at_checkout_html": "稅金和<a href=\"{{ link }}\">運費<\/a>將在結帳時計算",
       "taxes_included_but_shipping_at_checkout": "已包含稅金，運費將在結帳時計算",
-      "taxes_included_and_shipping_policy_html": "已包含稅金。運費將在<a href=\"{{ link }}\">結帳</a>時計算。",
+      "taxes_included_and_shipping_policy_html": "已包含稅金。運費將在<a href=\"{{ link }}\">結帳<\/a>時計算。",
       "update": "更新購物車",
       "checkout": "結帳",
       "empty": "您的購物車目前是空的。",
       "close_cart": "關閉購物車",
-      "view_cart": "查看购物车",
-      "savings_html": "您正在節省{{ price }}",
-      "return_to_shop": "返回商店"
+      "savings_html": "您正在節省{{ price }}"
     },
     "label": {
       "product": "產品",
@@ -262,7 +260,7 @@
       "clear_all": "全部清除",
       "empty": "未找到產品",
       "from": "從",
-      "filter_and_sort": "过滤/排序",
+      "filter_and_sort": "过滤\/排序",
       "filter_by_label": "篩選方式",
       "filter_button": "篩選",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "排序方式",
       "title": "收藏",
       "to": "至",
-      "use_fewer_filters_html": "使用更少的篩選或<a class=\"{{ class }}\" href=\"{{ link }}\">全部清除</a>"
+      "use_fewer_filters_html": "使用更少的篩選或<a class=\"{{ class }}\" href=\"{{ link }}\">全部清除<\/a>"
     },
     "events_calendar": {
       "tbc_text": "待定"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "尋找此地址時發生錯誤",
       "address_no_results": "此地址無結果",
-      "address_query_limit_html": "您已超出 Google API 使用量限制。請考慮升級為<a href=\"https://developers.google.com/maps/premium/usage-limits\">付費方案</a>。",
+      "address_query_limit_html": "您已超出 Google API 使用量限制。請考慮升級為<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">付費方案<\/a>。",
       "auth_error_html": "驗證 Google 地圖 API 金鑰時發生問題。"
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "城市",
       "country": "國家",
       "province": "省份",
-      "zip": "郵政/郵遞區號",
+      "zip": "郵政\/郵遞區號",
       "phone": "電話",
       "set_default": "設為預設地址",
       "add": "新增地址",
@@ -422,7 +420,7 @@
       "add_product": "添加產品",
       "product_title": "產品名稱",
       "product_vendor": "供應商",
-      "no_collections_html": "您沒有要在這裡展示的任何收藏。<a href=\"/admin/custom_collections\">添加一些收藏</a>以配合默認的首頁。",
+      "no_collections_html": "您沒有要在這裡展示的任何收藏。<a href=\"\/admin\/custom_collections\">添加一些收藏<\/a>以配合默認的首頁。",
       "add_collection": "添加收藏",
       "collection_title": "收藏名稱",
       "no_content": "此部分目前不包含任何內容。使用側欄添加內容到此部分。"
@@ -472,8 +470,8 @@
       "giftwrap_note": "禮品留言",
       "giftwrap_note_placeholder": "在這裡加入您的禮品留言",
       "from_text_html": "從 {{ price }} 開始",
-      "file_upload_html": "拖放或<a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览</a>要上传的文件",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览</a>要上传的文件"
+      "file_upload_html": "拖放或<a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览<\/a>要上传的文件",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">浏览<\/a>要上传的文件"
     },
     "product": {
       "sold_out": "售罄",
@@ -497,14 +495,14 @@
       "category": "分類",
       "type": "類型",
       "include_taxes": "已含稅。",
-      "shipping_policy_html": "<a href=\"{{ link }}\">運費</a>將在結帳時計算。",
+      "shipping_policy_html": "<a href=\"{{ link }}\">運費<\/a>將在結帳時計算。",
       "quote": "報價",
       "preorder_today": "立即预订",
       "in_stock": "現貨",
       "low_stock": "庫存不足",
       "out_of_stock": "缺貨",
       "stock_left": "庫存剩餘",
-      "out_of_stock_html": "單擊<a href=\"#\"><strong>這裡</strong></a>以在{{ product }} - {{ variant }} 可用時通過電子郵件通知您。",
+      "out_of_stock_html": "單擊<a href=\"#\"><strong>這裡<\/strong><\/a>以在{{ product }} - {{ variant }} 可用時通過電子郵件通知您。",
       "wrong_email": "請提供有效的電子郵件地址。",
       "out_of_stock_success": "謝謝！我們將在此產品可用時通知您！",
       "read_more_html": "閱讀更多",
@@ -513,7 +511,7 @@
       "view_in_space_label": "在您的空間中查看，將項目加載到擴增實境視窗中",
       "video_thumbnail_alt": "在畫廊查看器中加載並播放視頻，{{ imageAlt }}",
       "model_thumbnail_alt": "在畫廊查看器中加載3D模型，{{ imageAlt }}",
-      "reviews_rating": "評論評分 - {{ value }} / {{ max }} 顆星",
+      "reviews_rating": "評論評分 - {{ value }} \/ {{ max }} 顆星",
       "reviews": "評論",
       "review": "評論",
       "no_reviews": "無評論"
@@ -564,9 +562,9 @@
       "password": "輸入密碼進入商店",
       "enter_password": "输入密码",
       "store_owner": "您是商店擁有者嗎？",
-      "store_owner_html": "<a href=\"/admin\">在這裡登入</a>",
+      "store_owner_html": "<a href=\"\/admin\">在這裡登入<\/a>",
       "continue": "繼續",
-      "powered_by_html": "本商店將由 <a href=\"http://www.shopify.com\">Shopify</a> 提供技術支持"
+      "powered_by_html": "本商店將由 <a href=\"http:\/\/www.shopify.com\">Shopify<\/a> 提供技術支持"
     }
   }
 }

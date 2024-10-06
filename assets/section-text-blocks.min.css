@@ -1,1 +1,126 @@
-.text-advert-section{text-align:center;min-height:80px}.text-advert-section .wrapper-padded{width:100%}@media screen and (min-width:481px){.text-advert-section{display:flex;flex-wrap:wrap}}@media screen and (min-width:768px){.text-advert-section{min-height:auto}}.text-advert-section .grid__item{margin-top:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:40px}@media screen and (min-width:481px){.text-advert-section .grid__item:not(:first-child){padding-left:15px}.text-advert-section .grid__item:not(:last-child){padding-right:15px}}@media (min-width:768px){.text-advert-section .grid__item{justify-content:start;min-height:auto}}body .text-advert-section .grid__item{margin-bottom:20px!important}.text-advert-section .grid__item:first-child{border-left:0!important}.text-advert-section .grid__item span{width:100%;display:inline-block;padding:0}.text-advert-section .grid__item .text-advert-section--header{padding:0 10px}.text-advert-section .grid__item .text-advert-section--sub-header{padding:0 10px 0 10px;margin:0}.text-advert-section .grid__item a{display:block;color:inherit}@media screen and (max-width:480px){.text-advert-section .swiper-wrapper{height:auto!important;display:flex;align-content:center;align-items:center}}@media screen and (min-width:768px){.color-scheme--white .text-advert-section .grid__item{border-left:1px solid var(--border-color)}.color-scheme--light .text-advert-section .grid__item{border-left:1px solid var(--color-scheme-light-text-transparent25)}.color-scheme--accent .text-advert-section .grid__item{border-left:1px solid var(--color-scheme-feature-text-transparent25)}.color-scheme--dark .text-advert-section .grid__item{border-left:1px solid var(--color-scheme-dark-text-transparent25)}}
+.promotion-block-section {
+    text-align: center;
+    min-height: 80px;
+}
+
+.promotion-block-section .grid {
+    display: flex;
+    justify-content: center;
+}
+
+.promotion-block-section .grid__item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    width: 100%; /* Full width on mobile */
+}
+
+.promotion-block-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.promotion-block-icon {
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.promotion-block-content {
+    text-align: left;
+}
+
+/* iPad Mini and similar tablet sizes */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .promotion-block-section .grid {
+        flex-direction: row;
+    }
+    
+    .promotion-block-section .grid__item {
+        width: 33.33%; /* Three items per row */
+        padding: 0 10px;
+    }
+    
+    .promotion-block-item {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .promotion-block-icon {
+        margin-right: 10px;
+    }
+    
+    .promotion-block-content {
+        text-align: left;
+    }
+}
+
+/* Larger screens */
+@media screen and (min-width: 1025px) {
+    .promotion-block-section .grid__item {
+        width: auto;
+    }
+    
+    .promotion-block-section .grid__item:not(:first-child) {
+        padding-left: 15px;
+    }
+
+    .promotion-block-section .grid__item:not(:last-child) {
+        padding-right: 15px;
+    }
+    
+    .color-scheme--white .promotion-block-section .grid__item {
+        border-left: 1px solid var(--border-color);
+    }
+
+    .color-scheme--light .promotion-block-section .grid__item {
+        border-left: 1px solid var(--color-scheme-light-text-transparent25);
+    }
+
+    .color-scheme--accent .promotion-block-section .grid__item {
+        border-left: 1px solid var(--color-scheme-feature-text-transparent25);
+    }
+
+    .color-scheme--dark .promotion-block-section .grid__item {
+        border-left: 1px solid var(--color-scheme-dark-text-transparent25);
+    }
+}
+
+body .promotion-block-section .grid__item {
+    margin-bottom: 20px !important;
+}
+
+.promotion-block-section .grid__item:first-child {
+    border-left: 0 !important;
+}
+
+.promotion-block-section .grid__item .promotion-block-section--header {
+    padding: 0 10px;
+}
+
+.promotion-block-section .grid__item .promotion-block-section--sub-header {
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+
+.promotion-block-section .grid__item a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+
+@media screen and (max-width:480px) {
+    .promotion-block-section .swiper-wrapper {
+        height: auto !important;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+/* Other existing styles... */

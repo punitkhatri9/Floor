@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Väriteemat"
         },
         "header-35": {
-          "content": "Laatikot"
+          "content": "Ostoskorin vetolaatikko"
         },
         "header-38": {
           "content": "Alatunniste"
@@ -117,28 +126,18 @@
             "go_to_or_open_cart": "Mene avaa ostoskori"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Näytä tuotteen myyjä"
+        },
         "cart_notes_enable": {
-          "label": "Näytä tilausilmoitus"
+          "label": "Ota käyttöön ostoskorin huomiot"
         },
         "giftwrap_gift_note": {
           "label": "Ota käyttöön lahjaviesti"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Näytä dynaamiset kassapainikkeet ostoskorisivulla",
-          "info": "[Lisätietoja](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Tuotesuositukset",
-          "show_cart_recommendations": {
-            "label": "Näytä dynaamiset suositukset",
-            "info": "Dynaamiset suositukset perustuvat ostoskorissa oleviin tuotteisiin. He käyttävät tilaus- ja tuotetietoja muuttaakseen ja parantaakseen ajan myötä. [Lisätietoja](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Tyhjä kori",
-          "empty_cart_message": "Viesti",
-          "empty_cart_collections": "Ehdotetut kokoelmat",
-          "empty_cart_products": "Tuotesuositukset"
+          "label": "Ota käyttöön dynaamiset kassapainikkeet",
+          "info": "[Lisätietoja](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Näyttää tuotteesi toisen kuvan leijuttaessa"
         },
         "badges": {
-          "info": "Lisää mukautettuja merkkejä käyttämällä tuotetunnisteita. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Lisää mukautettuja merkkejä käyttämällä tuotetunnisteita. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Merkit",
           "show_badges": "Näytä tunnukset"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Näytä tähtiarvostelu",
           "show_if_no_reviews": "Näytä, jos arvostelua ei ole",
-          "info": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Näytä tähtiarvosteluina...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Swatchit",
-      "info": "Värimalleja voidaan luoda käyttämällä Luokka-metakenttiä tai Varianttikuvia. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Värimalleja voidaan luoda käyttämällä Luokka-metakenttiä tai Varianttikuvia. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Swatch-tyyli",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Näytä vaihtoehtokuva",
-          "info": "Jos haluat käyttää mallikuvia, käytä pilkuilla erotettua luetteloa vaihtoehtojen nimillä, joille haluat luoda värimalleja (esim. \"Materiaali, väri, maku, ketjun pituus\"). [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "Jos haluat käyttää mallikuvia, käytä pilkuilla erotettua luetteloa vaihtoehtojen nimillä, joille haluat luoda värimalleja (esim. \"Materiaali, väri, maku, ketjun pituus\"). [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Jakaminen"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Ota zoom-efekti käyttöön",
-          "info": "Ota käyttöön hienovarainen zoom-efekti valituille etusivun kuville niiden ensimmäisen lataamisen yhteydessä. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Ota käyttöön hienovarainen zoom-efekti valituille etusivun kuville niiden ensimmäisen lataamisen yhteydessä. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Teksti",
-      "name": "Akkordioni/Kysymykset ja vastaukset",
+      "name": "Akkordioni\/Kysymykset ja vastaukset",
       "blocks": {
         "tab_content": {
           "name": "Välilehden sisältö"
         }
       },
       "presets": {
-        "name": "Akkordioni/Kysymykset ja vastaukset"
+        "name": "Akkordioni\/Kysymykset ja vastaukset"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Säiliön leveys",
       "name": "Mukautettu HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Mukautettu Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Kuvan päällä leijuvan kuvan",
@@ -613,7 +614,8 @@
           "label": "Tee osion reunat samanlaisiksi kuin teemassa"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Sovellukset"
       }
@@ -665,14 +667,15 @@
       "name": "Navigointibanneri",
       "settings": {
         "navigation": {
-          "paragraph": "Näytä valikko (muokattu kohdassa Verkkokauppa > Navigointi > Valikot) tai kokoelmaluettelo. Käytä metakenttiä näyttääksesi tietyt kokoelmaluettelot sijainnin perusteella. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Näytä valikko (muokattu kohdassa Verkkokauppa > Navigointi > Valikot) tai kokoelmaluettelo. Käytä metakenttiä näyttääksesi tietyt kokoelmaluettelot sijainnin perusteella. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Navigoinnin kohdistus",
           "info": "Kun tyyli on asetettu ruudukkoon"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Navigointibanneri"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Tili",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Aktivoi tili",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Osoitteet",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Kirjaudu sisään",
       "settings": {
         "enable_shop_login_button": "Ota käyttöön Kirjaudu sisään Shopilla"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Tilaus",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Rekisteröidy",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Nollaa salasana",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Teksti",
@@ -1013,7 +1029,8 @@
           "label": "Keskitä sisältö työpöydällä"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Otsikko",
@@ -1051,7 +1068,7 @@
           "name": "Seuraa kaupassa",
           "settings": {
             "paragraph-0": {
-              "content": "Näytä Seuraa-painike verkkokaupassasi Shop-sovelluksessa. [Lisätietoja](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Näytä Seuraa-painike verkkokaupassasi Shop-sovelluksessa. [Lisätietoja](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Otsikkokuva"
           },
-          "paragraph": "Voit myös näyttää tämän kuvan \"Lahjakorttikuitti\"- ja \"Uusi lahjakortti\" -sähköposti-ilmoituksissa. [Lisätietoja](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Voit myös näyttää tämän kuvan \"Lahjakorttikuitti\"- ja \"Uusi lahjakortti\" -sähköposti-ilmoituksissa. [Lisätietoja](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Lahjakortin kuva",
             "info": "900 x 600 pikseliä suositellaan"
@@ -1162,7 +1179,7 @@
           "name": "Mega-valikko",
           "settings": {
             "mega-menu": {
-              "info": "Anna olemassa oleva valikkokohta ottaaksesi käyttöön avattavan mega-valikon. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Anna olemassa oleva valikkokohta ottaaksesi käyttöön avattavan mega-valikon. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Promo yksi"
@@ -1223,7 +1240,8 @@
           "info": "Parallaxia ei näy, kun 'Osion korkeus' on asetettu 'Alkuperäiseksi'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Kuva tekstikerroksella"
       }
@@ -1238,7 +1256,8 @@
           "label": "Peitä sisältö kuvalla"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Kuva tekstillä"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Uutiskirje",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Akkordion sisältö",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Näytä lahjapaketointi",
-          "info": "[Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) lahjapaketoinnista"
+          "info": "[Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) lahjapaketoinnista"
         },
         "paragraph-8": {
           "content": "Valitse lahjapaketointituote Teeman asetukset > Tuote-osiossa"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Kartta",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google Maps API -avain",
-          "info": "Sinun on [rekisteröitävä Google Maps API -avain](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) kartan näyttämiseksi"
+          "info": "Sinun on [rekisteröitävä Google Maps API -avain](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) kartan näyttämiseksi"
         },
         "button_text": {
           "label": "Karttalinkin nimi"
@@ -1496,7 +1519,8 @@
           "info": "Näytetään, jos karttaa ei ladata"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Kartta"
       }
@@ -1511,7 +1535,8 @@
           "label": "Näytä päivämäärä"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Blogisivut",
@@ -1523,7 +1548,8 @@
           "label": "Näytä 'Viimeisimmät artikkelit'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Fontti",
@@ -1627,7 +1653,7 @@
       "name": "Salasanasivu",
       "settings": {
         "paragraph-13": {
-          "content": "[Muokkaa salasanasivun viestiä Shopify-asetuksissasi](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Muokkaa salasanasivun viestiä Shopify-asetuksissasi](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Muokkaa sosiaalisia asetuksia ja tilejä Yleisasetukset-osiossa"
@@ -1636,7 +1662,8 @@
           "label": "Näytä uutiskirjalle tilausmahdollisuus"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Tuotekuvaus",
@@ -1645,7 +1672,8 @@
           "label": "Ota käyttöön \"lue lisää\" kuvausta varten (poistettu käytöstä)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Nappilinkki",
@@ -1658,7 +1686,7 @@
           "label": "Pystysuuntainen kohdistus"
         },
         "image_or_video": {
-          "label": "Kuva/video",
+          "label": "Kuva\/video",
           "maximum_width": "Suurin leveys"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Tuotesuositukset",
       "settings": {
         "paragraph-0": {
-          "content": "Dynaamiset suositukset käyttävät tilaus- ja tuotetietoja muuttuakseen ja parantuakseen ajan myötä. [Lue lisää](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynaamiset suositukset käyttävät tilaus- ja tuotetietoja muuttuakseen ja parantuakseen ajan myötä. [Lue lisää](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Ota kiinnitettävä sisältö käyttöön työpöydällä"
         },
         "image_size": {
-          "info": "Suositeltu vähimmäisleveys 950 pikseliä. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Suositeltu vähimmäisleveys 950 pikseliä. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Toissijaisen median näyttö",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Ennakkotilaus",
-          "info_text": "Lisää \"Ennakkotilaus\"-tagi mihin tahansa tuotteeseen asettaaksesi Osta-painikkeen sanamuodon \"Ennakkotilaa\". [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Lisää \"Ennakkotilaus\"-tagi mihin tahansa tuotteeseen asettaaksesi Osta-painikkeen sanamuodon \"Ennakkotilaa\". [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Säädä tilaa asennettujen sovelluslohkojesi alla, jotka näkyvät tuotemallissa"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "Voit luoda värimalleja siirtymällä kohtaan Teema-asetukset > Värimallit.",
-              "swatch_info": "Visuaalisia värimalleja voidaan luoda käyttämällä luokan metakenttiä tai vaihtoehtokuvia. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Visuaalisia värimalleja voidaan luoda käyttämällä luokan metakenttiä tai vaihtoehtokuvia. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Vaihda variantti pikakuvakkeen perusteella"
@@ -1780,13 +1808,13 @@
           "name": "Liittyvät tuotteet",
           "settings": {
             "info": {
-              "content": "Jos olet Plus-kauppias, suosittelemme käyttämään Yhdistetyt listaukset -sovellusta tähän toimintoon. [Lisätietoja](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Jos olet Plus-kauppias, suosittelemme käyttämään Yhdistetyt listaukset -sovellusta tähän toimintoon. [Lisätietoja](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Värinäytteiden koko"
             },
             "paragraph-4": {
-              "content": "Suosittelemme metakenttien käyttöä. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Suosittelemme metakenttien käyttöä. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Lahjapakkaus",
           "settings": {
             "paragraph-0": {
-              "content": "Valitse lahjapakkaustuote Teeman asetuksissa > Tuote. [Lue lisää](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Valitse lahjapakkaustuote Teeman asetuksissa > Tuote. [Lue lisää](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Näytä vastaanottajatiedot lahjakorttituotteille",
-              "info": "Lahjakorttituotteet voidaan valinnaisesti lähettää suoraan vastaanottajalle henkilökohtaisella viestillä. [Lue lisää](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Lahjakorttituotteet voidaan valinnaisesti lähettää suoraan vastaanottajalle henkilökohtaisella viestillä. [Lue lisää](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Nouto myymälästä",
           "settings": {
             "paragraph-0": {
-              "content": "Sijaintien on oltava määritetty, jotta näyttö on mahdollista. [Lue lisää](https://help.shopify.com/en/manual/locations)"
+              "content": "Sijaintien on oltava määritetty, jotta näyttö on mahdollista. [Lue lisää](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Luottamusmerkki",
-              "info": "Suositeltu koko 100 x 300px. [Lue lisää](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Suositeltu koko 100 x 300px. [Lue lisää](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Liitännäistuotteet",
           "settings": {
             "paragraph-0": {
-              "content": "Valitse liitännäistuotteet asentamalla Haku ja löytäminen -sovellus. [Lue lisää](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Valitse liitännäistuotteet asentamalla Haku ja löytäminen -sovellus. [Lue lisää](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Näytettävien tuotteiden määrä"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Valintaruutu",
             "paragraph": {
-              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Edellytetään",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Pudotusvalikko",
             "paragraph": {
-              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -valintaruutu-ja-pudotusvalikosta)"
+              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -valintaruutu-ja-pudotusvalikosta)"
             },
             "required": {
               "label": "Edellytetään",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Tiedoston lataus",
             "paragraph": {
-              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Edellytetään",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Radiopainikkeet",
             "paragraph": {
-              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Edellytetään",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Tekstikenttä",
             "paragraph": {
-              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kerää ostoskoriin lisätyn tuotteen mukautustiedot. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Edellytetään",
@@ -1994,7 +2022,8 @@
           "label": "Näytä mallitilkkusuodattimen tarrat"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Tekijä",
@@ -2059,7 +2088,7 @@
         "name": "Asiakasarvostelut"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Linkki",
       "name": "Teksti-ilmoitukset",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Alaotsikon koko"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Videoidoli"
       }
@@ -2106,7 +2136,8 @@
           "info": "Ei näy, jos automaattitoisto on käytössä."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Teksti",
@@ -2142,7 +2173,7 @@
     "Heading": "Otsikko",
     "Icon_style": "Kuvakkeiden tyyli",
     "Images": "Kuvat",
-    "Plus_minus": "Plus/Miinus",
+    "Plus_minus": "Plus\/Miinus",
     "Caret": "Vekki",
     "Text": "Teksti",
     "Custom_HTML": "Mukautettu HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Poista välimatka",
     "Full_width": "Täysi leveys",
     "Content_width": "Sisällön leveys",
-    "1_2_width": "1/2 leveys",
-    "1_3_width": "1/3 leveys",
-    "2_3_width": "2/3 leveys",
-    "1_4_width": "1/4 leveys",
-    "3_4_width": "3/4 leveys",
+    "1_2_width": "1\/2 leveys",
+    "1_3_width": "1\/3 leveys",
+    "2_3_width": "2\/3 leveys",
+    "1_4_width": "1\/4 leveys",
+    "3_4_width": "3\/4 leveys",
     "Extra_small": "Erittäin pieni",
     "Extra_large": "Erittäin suuri",
     "Top": "Yläosa",
@@ -2246,10 +2277,10 @@
     "Overlay": "Peitto",
     "A_Shopify_hosted_video": "Shopifyn isännöimä video",
     "Embed_video_from_URL": "Upota video URL-osoitteesta",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Hyväksyy YouTube- ja Vimeo-videot. Video toistetaan mykistettynä, ja jotkut laitteet saattavat estää automaattitoiston. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Hyväksyy YouTube- ja Vimeo-videot. Video toistetaan mykistettynä, ja jotkut laitteet saattavat estää automaattitoiston. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Mobiilivideo",
     "A_Shopify_hosted_video_optional": "Shopifyn isännöimä video (valinnainen)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Hyväksyy YouTube- ja Vimeo-videot. [Lisätietoja](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Hyväksyy YouTube- ja Vimeo-videot. [Lisätietoja](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Tekstin kohdistus",
     "Alignment": "Tasaus",
     "Countdown_timer": "Vastamittari",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "Suositeltu koko 1400 x 1400px",
     "Menu": "Valikko",
     "Footer_text": "Alatunnisteen teksti",
-    "Country_region_selector": "Maa/aluevalitsin",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Lisätäksesi maan/alueen, mene [markkinoiden asetuksiisi.](/admin/settings/markets)",
-    "Enable_country_region_selector": "Ota maa/aluevalitsin käyttöön",
+    "Country_region_selector": "Maa\/aluevalitsin",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Lisätäksesi maan\/alueen, mene [markkinoiden asetuksiisi.](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Ota maa\/aluevalitsin käyttöön",
     "Language_selector": "Kielen valitsin",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Lisätäksesi kielen, mene [kielen asetuksiisi.](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Lisätäksesi kielen, mene [kielen asetuksiisi.](\/admin\/settings\/languages)",
     "Enable_language_selector": "Ota kielen valitsin käyttöön",
     "Newsletter": "Uutiskirje",
     "Header": "Ylätunniste",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Piilota loppuunmyydyt variaatiot",
     "Show_vendor": "Näytä valmistaja",
     "Show_dynamic_checkout_button": "Näytä dynaaminen kassapainike",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Antaa asiakkaiden suorittaa maksu suoraan tutulla maksutavalla. [Lisätietoja](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Antaa asiakkaiden suorittaa maksu suoraan tutulla maksutavalla. [Lisätietoja](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Media",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Lisätietoja [mediatyypeistä](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Lisätietoja [mediatyypeistä](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Ota videon toistolinkous käyttöön",
     "Product_rating": "Tuotearvostelu",
     "Label": "Tunniste",
     "Rating": "Arvosana",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Arvosanan näyttämiseksi lisää [tuotearvostelun metakenttä](/admin/metafields/product)",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Arvosanan näyttämiseksi lisää [tuotearvostelun metakenttä](\/admin\/metafields\/product)",
     "Full_icon": "Täysi kuvake",
     "Empty_icon": "Tyhjä kuvake",
     "Maximum": "Maksimi",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Valitse maksimi, joka vastaa tuotearvostelun metakentän [asteikon maksimia](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Valitse maksimi, joka vastaa tuotearvostelun metakentän [asteikon maksimia](\/admin\/metafields\/product)",
     "Image_with_offers": "Kuva tarjouksilla",
     "Link_hover_border_color": "Linkin leijutuksen reunaväri",
     "Text_with_icon": "Teksti kuvakkeella",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Työpöydän sijainti",
     "Top_bar": "Ylätanko",
     "Enable_filtering": "Ota suodatus käyttöön",
-    "Customize_filters_admin_menus": "[Mukauta suodattimia](/admin/menus)",
+    "Customize_filters_admin_menus": "[Mukauta suodattimia](\/admin\/menus)",
     "Enable_sorting": "Ota lajittelu käyttöön",
     "2000_x_800px_recommended": "Suositeltu koko 2000 x 800px",
     "Required_to_show_the_button": "Painikkeen näyttämiseksi vaaditaan",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Taitettavat välilehdet",
     "Custom_icon": "Mukautettu kuvake",
     "Aspect_ratio_of_1_1_recommended": "Kuvan kuvasuhteen 1:1 suositellaan",
-    "Open_Close_icon_style": "Avaa/Sulje kuvakkeen tyyli",
+    "Open_Close_icon_style": "Avaa\/Sulje kuvakkeen tyyli",
     "Page": "Sivu",
     "Page_content": "Sivun sisältö",
     "Image_style": "Kuvan tyyli",

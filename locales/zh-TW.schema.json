@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "顏色方案"
         },
         "header-35": {
-          "content": "抽屉"
+          "content": "購物車抽屜"
         },
         "header-38": {
           "content": "頁腳"
@@ -114,31 +123,21 @@
           "label": "添加項目到購物車時…",
           "options": {
             "show_added_message": "顯示'已添加'消息",
-            "go_to_or_open_cart": "前往/開啟購物車"
+            "go_to_or_open_cart": "前往\/開啟購物車"
           }
         },
+        "cart_vendor_enable": {
+          "label": "顯示產品供應商"
+        },
         "cart_notes_enable": {
-          "label": "显示订单备注"
+          "label": "啟用購物車備註"
         },
         "giftwrap_gift_note": {
           "label": "啟用禮品留言"
         },
         "enable-additional-checkout-buttons": {
-          "label": "在购物车页面上显示动态结帐按钮",
-          "info": "[了解更多](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "产品推荐",
-          "show_cart_recommendations": {
-            "label": "显示动态推荐",
-            "info": "动态推荐基于购物车中的产品。它们使用订单和产品信息来随时间变化和改进。[了解详情](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "清空购物车",
-          "empty_cart_message": "信息",
-          "empty_cart_collections": "推荐合集",
-          "empty_cart_products": "产品推荐"
+          "label": "啟用動態結帳按鈕",
+          "info": "[了解更多](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "懸停顯示產品的第二張圖片"
         },
         "badges": {
-          "info": "使用產品標籤添加自定義徽章。[了解更多](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "使用產品標籤添加自定義徽章。[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "徽章",
           "show_badges": "顯示徽章"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "顯示星級評分",
           "show_if_no_reviews": "如果沒有評分，則顯示",
-          "info": "要顯示評分，請新增產品評論應用程式。[了解更多](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "要顯示評分，請新增產品評論應用程式。[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "將星級評分顯示為...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "色板",
-      "info": "可以使用类别元字段或变体图像创建色板。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches）",
+      "info": "可以使用类别元字段或变体图像创建色板。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches）",
       "settings": {
         "swatch_style": {
           "name": "斯沃琪风格",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "显示选项的变体图像",
-          "info": "要将变体图像用于色板，请使用逗号分隔列表，其中包含要为其创建色板的选项名称（例如“材质、颜色、风味、链长”）。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ）"
+          "info": "要将变体图像用于色板，请使用逗号分隔列表，其中包含要为其创建色板的选项名称（例如“材质、颜色、风味、链长”）。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ）"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "分享"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "啟用縮放效果",
-          "info": "在首頁的選定圖像首次加載時啟用微妙的縮放效果。[了解更多](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "在首頁的選定圖像首次加載時啟用微妙的縮放效果。[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "文字",
-      "name": "折疊/常見問題",
+      "name": "折疊\/常見問題",
       "blocks": {
         "tab_content": {
           "name": "標籤內容"
         }
       },
       "presets": {
-        "name": "折疊/常見問題"
+        "name": "折疊\/常見問題"
       }
     },
     "advanced-layout--custom-html": {
       "label": "容器寬度",
       "name": "自訂HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "自訂液態",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "懸停圖像",
@@ -613,7 +614,8 @@
           "label": "使區段邊距與主題相同"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "應用程式"
       }
@@ -665,14 +667,15 @@
       "name": "導航橫幅",
       "settings": {
         "navigation": {
-          "paragraph": "显示菜单（在在线商店 > 导航 > 菜单中编辑）或收藏夹列表。使用元字段根据位置显示特定的收藏夹列表。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section）"
+          "paragraph": "显示菜单（在在线商店 > 导航 > 菜单中编辑）或收藏夹列表。使用元字段根据位置显示特定的收藏夹列表。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section）"
         },
         "navigation_position": {
           "label": "導航對齊",
           "info": "当样式设置为“网格”时"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "導航橫幅"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "帳戶",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "啟用帳戶",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "地址",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "登入",
       "settings": {
         "enable_shop_login_button": "启用使用商店登录"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "訂單",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "註冊",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "重設密碼",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "文字",
@@ -1013,7 +1029,8 @@
           "label": "在桌面上置中內容"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "標題",
@@ -1051,7 +1068,7 @@
           "name": "在商店上關注",
           "settings": {
             "paragraph-0": {
-              "content": "在 Shop 應用程式上顯示關注按鈕。[了解更多](https://help.shopify.com/zh/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "在 Shop 應用程式上顯示關注按鈕。[了解更多](https:\/\/help.shopify.com\/zh\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "标题图片"
           },
-          "paragraph": "您还可以在“礼品卡收据”和“新礼品卡”电子邮件通知中显示此图片。[了解更多]（https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4）",
+          "paragraph": "您还可以在“礼品卡收据”和“新礼品卡”电子邮件通知中显示此图片。[了解更多]（https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4）",
           "gift_card_image": {
             "label": "礼品卡图片",
             "info": "建议使用 900 x 600px"
@@ -1162,7 +1179,7 @@
           "name": "巨型選單",
           "settings": {
             "mega-menu": {
-              "info": "输入现有菜单项以应用超级菜单下拉菜单。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu）"
+              "info": "输入现有菜单项以应用超级菜单下拉菜单。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu）"
             },
             "header-1": {
               "content": "促銷一"
@@ -1223,7 +1240,8 @@
           "info": "當 '區段高度' 設定為 '原始' 時，視差效果將不可見"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "圖像與文字覆蓋"
       }
@@ -1238,7 +1256,8 @@
           "label": "覆蓋圖像上的內容"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "圖像與文字"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "訂閱電子報",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "手風琴內容",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "顯示禮品包裝",
-          "info": "[了解更多](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)關於禮品包裝"
+          "info": "[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)關於禮品包裝"
         },
         "paragraph-8": {
           "content": "在主題設定 > 產品中選擇一個禮品包裝產品"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "地圖",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google 地圖 API 金鑰",
-          "info": "您需要[註冊 Google 地圖 API 金鑰](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key)來顯示地圖"
+          "info": "您需要[註冊 Google 地圖 API 金鑰](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key)來顯示地圖"
         },
         "button_text": {
           "label": "地圖連結標籤"
@@ -1496,7 +1519,8 @@
           "info": "如果地圖未加載，則顯示此背景圖像"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "地圖"
       }
@@ -1511,7 +1535,8 @@
           "label": "顯示日期"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "部落格頁面",
@@ -1523,7 +1548,8 @@
           "label": "顯示 '最近的文章'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "字型",
@@ -1627,7 +1653,7 @@
       "name": "密碼頁面",
       "settings": {
         "paragraph-13": {
-          "content": "[在Shopify設定中編輯您的密碼頁面消息](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[在Shopify設定中編輯您的密碼頁面消息](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "在一般設定中編輯您的社交設置和帳戶"
@@ -1636,7 +1662,8 @@
           "label": "顯示訂閱通訊"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "商品描述",
@@ -1645,7 +1672,8 @@
           "label": "启用“阅读更多”描述（已弃用）"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "按鈕連結",
@@ -1658,7 +1686,7 @@
           "label": "垂直對齊"
         },
         "image_or_video": {
-          "label": "图片/视频",
+          "label": "图片\/视频",
           "maximum_width": "最大宽度"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "商品推薦",
       "settings": {
         "paragraph-0": {
-          "content": "動態推薦使用訂單和商品資訊隨時間變化和改進。 [瞭解更多](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "動態推薦使用訂單和商品資訊隨時間變化和改進。 [瞭解更多](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "在桌面版啟用粘性內容"
         },
         "image_size": {
-          "info": "建议最小宽度为 950px。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images）"
+          "info": "建议最小宽度为 950px。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images）"
         },
         "image-display": {
           "label": "次要媒體顯示",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "预购",
-          "info_text": "为任意产品添加“预订”标签，即可将购买按钮文字设置为“预订”。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product）"
+          "info_text": "为任意产品添加“预订”标签，即可将购买按钮文字设置为“预订”。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product）"
         },
         "app_margin_bottom": {
           "info": "控制在商品表單中顯示的已安裝應用程式區塊下方的間距"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "要创建样本，请转到“主题设置 > 样本”。",
-              "swatch_info": "可以使用类别元字段或变体图像创建视觉样本。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches）"
+              "swatch_info": "可以使用类别元字段或变体图像创建视觉样本。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches）"
             },
             "thumbnail_changes_variant": {
               "label": "根據縮略圖更改變體"
@@ -1780,13 +1808,13 @@
           "name": "關聯商品",
           "settings": {
             "info": {
-              "content": "如果您是 Plus 商家，我们建议您使用 Combined Listings 应用程序来实现此功能。[了解更多](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "如果您是 Plus 商家，我们建议您使用 Combined Listings 应用程序来实现此功能。[了解更多](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "色卡尺寸"
             },
             "paragraph-4": {
-              "content": "我们建议使用元字段。[了解更多]（https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products）"
+              "content": "我们建议使用元字段。[了解更多]（https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products）"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "禮物包裝",
           "settings": {
             "paragraph-0": {
-              "content": "在主題設定 > 商品中選擇禮物包裝商品。[了解更多](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)"
+              "content": "在主題設定 > 商品中選擇禮物包裝商品。[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)"
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "顯示禮物卡產品的收件人信息表單",
-              "info": "禮物卡產品可以選擇直接發送給收件人，附上個人信息。[了解更多](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "禮物卡產品可以選擇直接發送給收件人，附上個人信息。[了解更多](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "門店自取",
           "settings": {
             "paragraph-0": {
-              "content": "必須設定門店位置才能啟用顯示。[了解更多](https://help.shopify.com/en/manual/locations)"
+              "content": "必須設定門店位置才能啟用顯示。[了解更多](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "信任徽章",
-              "info": "建議尺寸為 100 x 300 像素。[了解更多](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "建議尺寸為 100 x 300 像素。[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "相關商品",
           "settings": {
             "paragraph-0": {
-              "content": "若要選擇相關商品，請添加「搜尋與發現」應用程式。[了解更多](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "若要選擇相關商品，請添加「搜尋與發現」應用程式。[了解更多](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "要顯示的商品數量"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "复选框",
             "paragraph": {
-              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必需的",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "下拉列表",
             "paragraph": {
-              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必需的",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "文件上传",
             "paragraph": {
-              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必需的",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "单选按钮",
             "paragraph": {
-              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必需的",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "文本字段",
             "paragraph": {
-              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "收集已添加到购物车的商品的自定义信息。[了解详情](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必需的",
@@ -1994,7 +2022,8 @@
           "label": "顯示樣本過濾器標籤"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "作者",
@@ -2059,7 +2088,7 @@
         "name": "評價"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "連結",
       "name": "文本廣告",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "副標題大小"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "視頻英雄"
       }
@@ -2106,7 +2136,8 @@
           "info": "如果啟用自動播放，將不顯示圖像。"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "文本",
@@ -2142,7 +2173,7 @@
     "Heading": "標題",
     "Icon_style": "圖示風格",
     "Images": "图片",
-    "Plus_minus": "加號/減號",
+    "Plus_minus": "加號\/減號",
     "Caret": "插入符號",
     "Text": "文本",
     "Custom_HTML": "自訂HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "移除間距",
     "Full_width": "全寬",
     "Content_width": "內容寬度",
-    "1_2_width": "1/2 寬度",
-    "1_3_width": "1/3 寬度",
-    "2_3_width": "2/3 寬度",
-    "1_4_width": "1/4 寬度",
-    "3_4_width": "3/4 寬度",
+    "1_2_width": "1\/2 寬度",
+    "1_3_width": "1\/3 寬度",
+    "2_3_width": "2\/3 寬度",
+    "1_4_width": "1\/4 寬度",
+    "3_4_width": "3\/4 寬度",
     "Extra_small": "特小",
     "Extra_large": "特大",
     "Top": "頂部",
@@ -2246,10 +2277,10 @@
     "Overlay": "覆蓋",
     "A_Shopify_hosted_video": "Shopify主機的視頻",
     "Embed_video_from_URL": "從URL嵌入視頻",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "支援YouTube和Vimeo。視頻將靜音，部分設備可能阻止自動播放。[了解更多](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "支援YouTube和Vimeo。視頻將靜音，部分設備可能阻止自動播放。[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "手機視頻",
     "A_Shopify_hosted_video_optional": "Shopify主機的視頻（選填）",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "支援YouTube和Vimeo。[了解更多](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "支援YouTube和Vimeo。[了解更多](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "文本對齊",
     "Alignment": "结盟",
     "Countdown_timer": "倒數計時器",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "建議尺寸為1400 x 1400像素",
     "Menu": "選單",
     "Footer_text": "頁尾文字",
-    "Country_region_selector": "國家/地區選擇器",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "要新增國家/地區，前往您的[市場設定](/admin/settings/markets)",
-    "Enable_country_region_selector": "啟用國家/地區選擇器",
+    "Country_region_selector": "國家\/地區選擇器",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "要新增國家\/地區，前往您的[市場設定](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "啟用國家\/地區選擇器",
     "Language_selector": "語言選擇器",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "要新增語言，前往您的[語言設定](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "要新增語言，前往您的[語言設定](\/admin\/settings\/languages)",
     "Enable_language_selector": "啟用語言選擇器",
     "Newsletter": "電子報",
     "Header": "標頭",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "隱藏無庫存變體",
     "Show_vendor": "顯示供應商",
     "Show_dynamic_checkout_button": "顯示動態結帳按鈕",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "讓客戶使用熟悉的支付方式直接結帳。[了解更多](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "讓客戶使用熟悉的支付方式直接結帳。[了解更多](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "媒體",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "深入了解[媒體類型](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "深入了解[媒體類型](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "啟用視頻循環播放",
     "Product_rating": "產品評分",
     "Label": "標籤",
     "Rating": "評分",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "要顯示評分，請添加[產品評分元字段](/admin/metafields/product)",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "要顯示評分，請添加[產品評分元字段](\/admin\/metafields\/product)",
     "Full_icon": "完整圖示",
     "Empty_icon": "空圖示",
     "Maximum": "最大值",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "選擇與評分元字段的[最大刻度相等](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "選擇與評分元字段的[最大刻度相等](\/admin\/metafields\/product)",
     "Image_with_offers": "帶優惠的圖像",
     "Link_hover_border_color": "連結懸停邊框顏色",
     "Text_with_icon": "帶圖示的文字",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "桌面位置",
     "Top_bar": "頂欄",
     "Enable_filtering": "啟用篩選",
-    "Customize_filters_admin_menus": "[自定義篩選](/admin/menus)",
+    "Customize_filters_admin_menus": "[自定義篩選](\/admin\/menus)",
     "Enable_sorting": "啟用排序",
     "2000_x_800px_recommended": "建議尺寸2000 x 800像素",
     "Required_to_show_the_button": "必填以顯示按鈕",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "可折叠标签",
     "Custom_icon": "自定義圖示",
     "Aspect_ratio_of_1_1_recommended": "建議1:1的寬高比",
-    "Open_Close_icon_style": "展開/關閉圖示風格",
+    "Open_Close_icon_style": "展開\/關閉圖示風格",
     "Page": "页",
     "Page_content": "頁面內容",
     "Image_style": "圖像風格",

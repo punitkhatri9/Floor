@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Skema Warna"
         },
         "header-35": {
-          "content": "Laci"
+          "content": "Laci Keranjang"
         },
         "header-38": {
           "content": "Footer"
@@ -114,31 +123,21 @@
           "label": "Ketika menambahkan barang ke keranjang…",
           "options": {
             "show_added_message": "Tampilkan pesan 'Ditambahkan'",
-            "go_to_or_open_cart": "Pergi ke/buka keranjang"
+            "go_to_or_open_cart": "Pergi ke\/buka keranjang"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Tampilkan Vendor Produk"
+        },
         "cart_notes_enable": {
-          "label": "Tampilkan catatan pesanan"
+          "label": "Aktifkan Catatan Keranjang"
         },
         "giftwrap_gift_note": {
           "label": "Aktifkan Pesan Hadiah"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Tampilkan tombol checkout dinamis di halaman keranjang",
-          "info": "[Pelajari selengkapnya](https://help.shopify.com/id/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Rekomendasi produk",
-          "show_cart_recommendations": {
-            "label": "Tampilkan rekomendasi dinamis",
-            "info": "Rekomendasi dinamis didasarkan pada produk di keranjang. Rekomendasi ini menggunakan informasi pesanan dan produk untuk berubah dan ditingkatkan dari waktu ke waktu. [Pelajari lebih lanjut](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Keranjang kosong",
-          "empty_cart_message": "Pesan",
-          "empty_cart_collections": "Koleksi yang disarankan",
-          "empty_cart_products": "Rekomendasi produk"
+          "label": "Aktifkan Tombol Checkout Dinamis",
+          "info": "[Pelajari selengkapnya](https:\/\/help.shopify.com\/id\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Menampilkan gambar kedua produk Anda saat diarahkan"
         },
         "badges": {
-          "info": "Tambahkan lencana kustom menggunakan tag produk. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Tambahkan lencana kustom menggunakan tag produk. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Lencana",
           "show_badges": "Tampilkan Badge"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Tampilkan peringkat bintang",
           "show_if_no_reviews": "Tampilkan jika tidak ada penilaian",
-          "info": "Untuk menampilkan peringkat, tambahkan aplikasi ulasan produk. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "Untuk menampilkan peringkat, tambahkan aplikasi ulasan produk. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Tampilkan peringkat bintang sebagai...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Contoh Gambar",
-      "info": "Swatch dapat dibuat menggunakan metafield Kategori atau gambar Varian. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Swatch dapat dibuat menggunakan metafield Kategori atau gambar Varian. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Gaya contoh",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Tampilkan gambar varian untuk pilihan",
-          "info": "Untuk menggunakan gambar varian untuk sampel, gunakan daftar yang dipisahkan koma dengan nama Opsi yang ingin Anda buat sampelnya (misalnya 'Bahan, Warna, Rasa, Panjang Rantai'). [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "Untuk menggunakan gambar varian untuk sampel, gunakan daftar yang dipisahkan koma dengan nama Opsi yang ingin Anda buat sampelnya (misalnya 'Bahan, Warna, Rasa, Panjang Rantai'). [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Berbagi"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Aktifkan efek zoom",
-          "info": "Aktifkan efek zoom ringan pada gambar halaman beranda yang dipilih saat pertama kali dimuat. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Aktifkan efek zoom ringan pada gambar halaman beranda yang dipilih saat pertama kali dimuat. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Teks",
-      "name": "Accordion/FAQ",
+      "name": "Accordion\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "Isi Tab"
         }
       },
       "presets": {
-        "name": "Accordion/FAQ"
+        "name": "Accordion\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Lebar Kontainer",
       "name": "HTML Kustom",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Liquid Kustom",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Gambar Hover",
@@ -613,7 +614,8 @@
           "label": "Sesuaikan margin bagian sama dengan tema"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Aplikasi"
       }
@@ -665,14 +667,15 @@
       "name": "Banner Navigasi",
       "settings": {
         "navigation": {
-          "paragraph": "Menampilkan Menu (diedit di Toko online > Navigasi > Menu) atau daftar Koleksi. Gunakan metafield untuk menampilkan daftar Koleksi tertentu berdasarkan lokasi. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Menampilkan Menu (diedit di Toko online > Navigasi > Menu) atau daftar Koleksi. Gunakan metafield untuk menampilkan daftar Koleksi tertentu berdasarkan lokasi. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Pengaturan Navigasi",
           "info": "Ketika Gaya diatur ke 'Grid'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Banner Navigasi"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Akun",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Aktivasi Akun",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Alamat",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Masuk",
       "settings": {
         "enable_shop_login_button": "Aktifkan Masuk dengan Toko"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Pesanan",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Daftar",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Reset Kata Sandi",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Teks",
@@ -1013,7 +1029,8 @@
           "label": "Tengahkan Konten pada Desktop"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Judul",
@@ -1051,7 +1068,7 @@
           "name": "Ikuti di Toko",
           "settings": {
             "paragraph-0": {
-              "content": "Tampilkan tombol Ikuti untuk etalase Anda di aplikasi Toko. [Pelajari lebih lanjut](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Tampilkan tombol Ikuti untuk etalase Anda di aplikasi Toko. [Pelajari lebih lanjut](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Gambar tajuk"
           },
-          "paragraph": "Anda juga dapat menampilkan gambar ini pada notifikasi email ‘Tanda terima kartu hadiah’ dan ‘Kartu hadiah baru’. [Pelajari selengkapnya](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Anda juga dapat menampilkan gambar ini pada notifikasi email ‘Tanda terima kartu hadiah’ dan ‘Kartu hadiah baru’. [Pelajari selengkapnya](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Gambar kartu hadiah",
             "info": "Disarankan 900 x 600 piksel"
@@ -1162,7 +1179,7 @@
           "name": "Mega Menu",
           "settings": {
             "mega-menu": {
-              "info": "Masukkan item menu yang ada untuk menerapkan dropdown menu mega. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Masukkan item menu yang ada untuk menerapkan dropdown menu mega. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Promosi satu"
@@ -1223,7 +1240,8 @@
           "info": "Paralaks tidak akan terlihat ketika 'Tinggi Bagian' diatur ke 'Asli'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Gambar dengan Overlay Teks"
       }
@@ -1238,7 +1256,8 @@
           "label": "Tumpang Tindih Konten pada Gambar"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Gambar dengan Teks"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Berita",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Konten Aksordion",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Tampilkan Bungkus Hadiah",
-          "info": "[Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) tentang bungkus hadiah"
+          "info": "[Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) tentang bungkus hadiah"
         },
         "paragraph-8": {
           "content": "Pilih produk bungkus hadiah di Pengaturan Tema > Produk"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Peta",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Kunci API Google Maps",
-          "info": "Anda perlu [mendaftar Kunci API Google Maps](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) untuk menampilkan peta"
+          "info": "Anda perlu [mendaftar Kunci API Google Maps](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) untuk menampilkan peta"
         },
         "button_text": {
           "label": "Label Tautan Peta"
@@ -1496,7 +1519,8 @@
           "info": "Ditampilkan jika peta tidak dimuat"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Peta"
       }
@@ -1511,7 +1535,8 @@
           "label": "Tampilkan tanggal"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Halaman Blog",
@@ -1523,7 +1548,8 @@
           "label": "Tampilkan 'Artikel Terbaru'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Font",
@@ -1627,7 +1653,7 @@
       "name": "Halaman Kata Sandi",
       "settings": {
         "paragraph-13": {
-          "content": "[Edit pesan halaman kata sandi Anda di pengaturan Shopify Anda](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Edit pesan halaman kata sandi Anda di pengaturan Shopify Anda](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Edit pengaturan sosial dan akun Anda di Pengaturan Umum"
@@ -1636,7 +1662,8 @@
           "label": "Tampilkan langganan newsletter"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Deskripsi Produk",
@@ -1645,7 +1672,8 @@
           "label": "Aktifkan 'baca selengkapnya' untuk deskripsi (tidak digunakan lagi)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Tautan Tombol",
@@ -1658,7 +1686,7 @@
           "label": "Penyelarasan Vertikal"
         },
         "image_or_video": {
-          "label": "Gambar/video",
+          "label": "Gambar\/video",
           "maximum_width": "Lebar maksimum"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Rekomendasi Produk",
       "settings": {
         "paragraph-0": {
-          "content": "Rekomendasi dinamis menggunakan informasi pesanan dan produk untuk berubah dan meningkat dari waktu ke waktu. [Pelajari lebih lanjut](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Rekomendasi dinamis menggunakan informasi pesanan dan produk untuk berubah dan meningkat dari waktu ke waktu. [Pelajari lebih lanjut](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Aktifkan Konten Terpaku pada Desktop"
         },
         "image_size": {
-          "info": "Lebar minimum yang disarankan adalah 950 piksel. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Lebar minimum yang disarankan adalah 950 piksel. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Tampilan Media Sekunder",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Pesan terlebih dahulu",
-          "info_text": "Tambahkan tag 'Preorder' ke produk apa pun untuk menyetel kata-kata tombol Beli ke 'Preorder'. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Tambahkan tag 'Preorder' ke produk apa pun untuk menyetel kata-kata tombol Beli ke 'Preorder'. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Kendalikan jarak di bawah blok aplikasi yang terpasang dalam formulir produk"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "Untuk membuat contoh warna, masuk ke ‘Pengaturan tema > Contoh warna’.",
-              "swatch_info": "Contoh visual dapat dibuat menggunakan metafield Kategori atau gambar Varian. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Contoh visual dapat dibuat menggunakan metafield Kategori atau gambar Varian. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Ubah Variabel berdasarkan Miniatur"
@@ -1780,13 +1808,13 @@
           "name": "Produk Terkait",
           "settings": {
             "info": {
-              "content": "Jika Anda pedagang Plus, sebaiknya gunakan aplikasi Daftar Gabungan untuk fungsi ini. [Pelajari lebih lanjut](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Jika Anda pedagang Plus, sebaiknya gunakan aplikasi Daftar Gabungan untuk fungsi ini. [Pelajari lebih lanjut](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Ukuran Swatches"
             },
             "paragraph-4": {
-              "content": "Kami merekomendasikan penggunaan metafield. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Kami merekomendasikan penggunaan metafield. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Pembungkus Hadiah",
           "settings": {
             "paragraph-0": {
-              "content": "Pilih produk pembungkus hadiah di Pengaturan Tema > Produk. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Pilih produk pembungkus hadiah di Pengaturan Tema > Produk. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Tampilkan Formulir Informasi Penerima untuk Produk Kartu Hadiah",
-              "info": "Produk kartu hadiah dapat secara opsional dikirim langsung ke penerima bersama dengan pesan pribadi. [Pelajari lebih lanjut](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Produk kartu hadiah dapat secara opsional dikirim langsung ke penerima bersama dengan pesan pribadi. [Pelajari lebih lanjut](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Pengambilan Lokal",
           "settings": {
             "paragraph-0": {
-              "content": "Lokasi harus diatur untuk mengaktifkan tampilan. [Pelajari lebih lanjut](https://help.shopify.com/en/manual/locations)"
+              "content": "Lokasi harus diatur untuk mengaktifkan tampilan. [Pelajari lebih lanjut](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Lambang Kepercayaan",
-              "info": "Disarankan ukuran 100 x 300px. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Disarankan ukuran 100 x 300px. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Produk Pelengkap",
           "settings": {
             "paragraph-0": {
-              "content": "Untuk memilih produk pelengkap, tambahkan aplikasi Pencarian & Temuan. [Pelajari lebih lanjut](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Untuk memilih produk pelengkap, tambahkan aplikasi Pencarian & Temuan. [Pelajari lebih lanjut](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Produk yang Ditampilkan"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Kotak centang",
             "paragraph": {
-              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Diperlukan",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "tarik-turun",
             "paragraph": {
-              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Kotak centang-dan-Dropdown)"
+              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Kotak centang-dan-Dropdown)"
             },
             "required": {
               "label": "Diperlukan",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Unggah berkas",
             "paragraph": {
-              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Diperlukan",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Tombol radio",
             "paragraph": {
-              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Diperlukan",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Bidang teks",
             "paragraph": {
-              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Kumpulkan informasi penyesuaian untuk item yang ditambahkan ke keranjang. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Diperlukan",
@@ -1994,7 +2022,8 @@
           "label": "Tampilkan label filter contoh"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Penulis",
@@ -2059,7 +2088,7 @@
         "name": "Testimoni"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Tautan",
       "name": "Iklan Teks",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Ukuran Subjudul"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Video Hero"
       }
@@ -2106,7 +2136,8 @@
           "info": "Tidak akan ditampilkan jika otomatis putar diaktifkan."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Teks",
@@ -2142,7 +2173,7 @@
     "Heading": "Judul",
     "Icon_style": "Gaya Ikon",
     "Images": "Gambar",
-    "Plus_minus": "Plus/minus",
+    "Plus_minus": "Plus\/minus",
     "Caret": "Tanda Caret",
     "Text": "Teks",
     "Custom_HTML": "HTML Kustom",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Hapus Spasi",
     "Full_width": "Lebar Penuh",
     "Content_width": "Lebar Konten",
-    "1_2_width": "Lebar 1/2",
-    "1_3_width": "Lebar 1/3",
-    "2_3_width": "Lebar 2/3",
-    "1_4_width": "Lebar 1/4",
-    "3_4_width": "Lebar 3/4",
+    "1_2_width": "Lebar 1\/2",
+    "1_3_width": "Lebar 1\/3",
+    "2_3_width": "Lebar 2\/3",
+    "1_4_width": "Lebar 1\/4",
+    "3_4_width": "Lebar 3\/4",
     "Extra_small": "Sangat Kecil",
     "Extra_large": "Sangat Besar",
     "Top": "Atas",
@@ -2246,10 +2277,10 @@
     "Overlay": "Lapisan",
     "A_Shopify_hosted_video": "Video yang Di-host oleh Shopify",
     "Embed_video_from_URL": "Sematkan Video dari URL",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Menerima YouTube dan Vimeo. Video akan dibisukan dan beberapa perangkat mungkin mencegah putar otomatis. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Menerima YouTube dan Vimeo. Video akan dibisukan dan beberapa perangkat mungkin mencegah putar otomatis. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Video Ponsel",
     "A_Shopify_hosted_video_optional": "Video yang Di-host oleh Shopify (opsional)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Menerima YouTube dan Vimeo. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Menerima YouTube dan Vimeo. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Perataan Teks",
     "Alignment": "Penyelarasan",
     "Countdown_timer": "Penghitung Mundur",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "Disarankan 1400 x 1400px",
     "Menu": "Menu",
     "Footer_text": "Teks Footer",
-    "Country_region_selector": "Pemilih Negara/Wilayah",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Untuk menambahkan negara/wilayah, pergi ke [pengaturan pasar Anda.](/admin/settings/markets)",
-    "Enable_country_region_selector": "Aktifkan pemilih negara/wilayah",
+    "Country_region_selector": "Pemilih Negara\/Wilayah",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Untuk menambahkan negara\/wilayah, pergi ke [pengaturan pasar Anda.](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Aktifkan pemilih negara\/wilayah",
     "Language_selector": "Pemilih Bahasa",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Untuk menambahkan bahasa, pergi ke [pengaturan bahasa Anda.](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Untuk menambahkan bahasa, pergi ke [pengaturan bahasa Anda.](\/admin\/settings\/languages)",
     "Enable_language_selector": "Aktifkan pemilih bahasa",
     "Newsletter": "Buletin",
     "Header": "Header",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Sembunyikan Varian yang Tidak Tersedia",
     "Show_vendor": "Tampilkan Pemasok",
     "Show_dynamic_checkout_button": "Tampilkan Tombol Checkout Dinamis",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Memungkinkan pelanggan untuk checkout langsung menggunakan metode pembayaran yang dikenal. [Pelajari lebih lanjut](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Memungkinkan pelanggan untuk checkout langsung menggunakan metode pembayaran yang dikenal. [Pelajari lebih lanjut](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Media",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Pelajari lebih lanjut tentang [jenis media](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Pelajari lebih lanjut tentang [jenis media](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Aktifkan Pengulangan Video",
     "Product_rating": "Rating Produk",
     "Label": "Label",
     "Rating": "Rating",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Untuk menampilkan rating, tambahkan [metafield rating produk](/admin/metafields/product)",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Untuk menampilkan rating, tambahkan [metafield rating produk](\/admin\/metafields\/product)",
     "Full_icon": "Ikon Penuh",
     "Empty_icon": "Ikon Kosong",
     "Maximum": "Maksimum",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Pilih maksimum yang sama dengan [maksimum skala metafield rating](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Pilih maksimum yang sama dengan [maksimum skala metafield rating](\/admin\/metafields\/product)",
     "Image_with_offers": "Gambar dengan Penawaran",
     "Link_hover_border_color": "Warna Batas Saat Hover pada Tautan",
     "Text_with_icon": "Teks dengan Ikon",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Posisi Desktop",
     "Top_bar": "Bar Atas",
     "Enable_filtering": "Aktifkan Penyaringan",
-    "Customize_filters_admin_menus": "[Sesuaikan penyaringan](/admin/menus)",
+    "Customize_filters_admin_menus": "[Sesuaikan penyaringan](\/admin\/menus)",
     "Enable_sorting": "Aktifkan Pengurutan",
     "2000_x_800px_recommended": "Direkomendasikan 2000 x 800px",
     "Required_to_show_the_button": "Diperlukan untuk menampilkan tombol",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Tab yang bisa dilipat",
     "Custom_icon": "Ikon Kustom",
     "Aspect_ratio_of_1_1_recommended": "Rasio aspek 1:1 direkomendasikan",
-    "Open_Close_icon_style": "Gaya Ikon Buka/Tutup",
+    "Open_Close_icon_style": "Gaya Ikon Buka\/Tutup",
     "Page": "Halaman",
     "Page_content": "Konten Halaman",
     "Image_style": "Gaya Gambar",

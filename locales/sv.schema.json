@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Färgscheman"
         },
         "header-35": {
-          "content": "Lådor"
+          "content": "Varukorgens låda"
         },
         "header-38": {
           "content": "Sidfot"
@@ -114,31 +123,21 @@
           "label": "När du lägger till en artikel i kundvagnen…",
           "options": {
             "show_added_message": "Visa 'Tillagd' meddelande",
-            "go_to_or_open_cart": "Gå till/öppna kundvagnen"
+            "go_to_or_open_cart": "Gå till\/öppna kundvagnen"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Visa produktleverantör"
+        },
         "cart_notes_enable": {
-          "label": "Visa orderanteckning"
+          "label": "Aktivera varukorgsanteckningar"
         },
         "giftwrap_gift_note": {
           "label": "Aktivera gåvomeddelande"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Visa dynamiska kassaknappar på kundvagnssidan",
-          "info": "[Läs mer](https://help.shopify.com/sv/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Produktrekommendationer",
-          "show_cart_recommendations": {
-            "label": "Visa dynamiska rekommendationer",
-            "info": "Dynamiska rekommendationer baseras på produkterna i varukorgen. De använder order- och produktinformation för att förändra och förbättra över tid. [Läs mer](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Tom vagn",
-          "empty_cart_message": "Meddelande",
-          "empty_cart_collections": "Föreslagna samlingar",
-          "empty_cart_products": "Produktrekommendationer"
+          "label": "Aktivera dynamiska kassaknappar",
+          "info": "[Läs mer](https:\/\/help.shopify.com\/sv\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Visar din produkts andra bild vid hover"
         },
         "badges": {
-          "info": "Lägg till anpassade märken med hjälp av produktetiketter. [Lär dig mer](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Lägg till anpassade märken med hjälp av produktetiketter. [Lär dig mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Märken",
           "show_badges": "Visa märken"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Visa stjärnbetyg",
           "show_if_no_reviews": "Visa om det inte finns något betyg",
-          "info": "För att visa ett betyg, lägg till en app för produktrecensioner. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "För att visa ett betyg, lägg till en app för produktrecensioner. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Visa stjärnbetyg som...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Swatches",
-      "info": "Swatches kan skapas med hjälp av kategorimetafält eller variantbilder. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Swatches kan skapas med hjälp av kategorimetafält eller variantbilder. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Swatch-stil",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Visa variantbild för alternativ",
-          "info": "För att använda variantbilder för färgrutor använd en kommaseparerad lista med de alternativnamn du vill skapa färgrutor för (t.ex. \"Material, Färg, Smak, Kedjelängd\"). [Läs mer](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "För att använda variantbilder för färgrutor använd en kommaseparerad lista med de alternativnamn du vill skapa färgrutor för (t.ex. \"Material, Färg, Smak, Kedjelängd\"). [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Dela"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Aktivera zoom-effekt",
-          "info": "Aktivera en subtil zoom-effekt på utvalda bilder på startsidan när de först laddas. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Aktivera en subtil zoom-effekt på utvalda bilder på startsidan när de först laddas. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Text",
-      "name": "Accordion/FAQ",
+      "name": "Accordion\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "Flikinnehåll"
         }
       },
       "presets": {
-        "name": "Accordion/FAQ"
+        "name": "Accordion\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Behållarens bredd",
       "name": "Anpassad HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Anpassad Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Hoverbild",
@@ -613,7 +614,8 @@
           "label": "Gör avsnittsmarginaler lika som i temat"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Tillämpningar"
       }
@@ -665,14 +667,15 @@
       "name": "Navigeringsbanner",
       "settings": {
         "navigation": {
-          "paragraph": "Visa en meny (redigerad i Onlinebutik > Navigation > Menyer) eller en samlingslista. Använd metafält för att visa specifika samlingslistor baserat på platsen. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Visa en meny (redigerad i Onlinebutik > Navigation > Menyer) eller en samlingslista. Använd metafält för att visa specifika samlingslistor baserat på platsen. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Navigeringsjustering",
           "info": "När stil är inställd på 'Grid'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Navigeringsbanner"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Konto",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Aktivera konto",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Adresser",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Logga in",
       "settings": {
         "enable_shop_login_button": "Aktivera Logga in med Shop"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Order",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Registrera",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Återställ lösenord",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Text",
@@ -1013,7 +1029,8 @@
           "label": "Centrera innehållet på skrivbordet"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Rubrik",
@@ -1051,7 +1068,7 @@
           "name": "Följ på Shop",
           "settings": {
             "paragraph-0": {
-              "content": "Visa en följ-knapp för din butik i Shop-appen. [Läs mer](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Visa en följ-knapp för din butik i Shop-appen. [Läs mer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Rubrikbild"
           },
-          "paragraph": "Du kan också visa den här bilden på e-postmeddelanden \"Kvitto på presentkort\" och \"Nytt presentkort\". [Läs mer](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Du kan också visa den här bilden på e-postmeddelanden \"Kvitto på presentkort\" och \"Nytt presentkort\". [Läs mer](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Presentkort bild",
             "info": "900 x 600 px rekommenderas"
@@ -1162,7 +1179,7 @@
           "name": "Mega-meny",
           "settings": {
             "mega-menu": {
-              "info": "Ange ett befintligt menyalternativ för att tillämpa en megameny-rullgardinsmeny. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Ange ett befintligt menyalternativ för att tillämpa en megameny-rullgardinsmeny. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Kampanj ett"
@@ -1223,7 +1240,8 @@
           "info": "Parallax kommer inte att vara synligt när 'Sektionshöjd' är inställd på 'Original'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Bild med textöverlag"
       }
@@ -1238,7 +1256,8 @@
           "label": "Överlagra innehåll på bilden"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Bild med text"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Nyhetsbrev",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Accordioninnehåll",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Visa presentinslagning",
-          "info": "[Läs mer](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) om presentinslagning"
+          "info": "[Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) om presentinslagning"
         },
         "paragraph-8": {
           "content": "Välj en produkt för presentinslagning i Temainställningar > Produkt"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Karta",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google Maps API-nyckel",
-          "info": "Du måste [registrera en Google Maps API-nyckel](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) för att visa kartan"
+          "info": "Du måste [registrera en Google Maps API-nyckel](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) för att visa kartan"
         },
         "button_text": {
           "label": "Kartlänksetikett"
@@ -1496,7 +1519,8 @@
           "info": "Visas om kartan inte laddas"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Karta"
       }
@@ -1511,7 +1535,8 @@
           "label": "Visa datum"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Bloggsidor",
@@ -1523,7 +1548,8 @@
           "label": "Visa 'Senaste artiklar'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Typsnitt",
@@ -1627,7 +1653,7 @@
       "name": "Lösenordssida",
       "settings": {
         "paragraph-13": {
-          "content": "[Redigera ditt meddelande på lösenordssidan i dina Shopify-inställningar](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Redigera ditt meddelande på lösenordssidan i dina Shopify-inställningar](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Redigera dina sociala inställningar och konton i Allmänna inställningar"
@@ -1636,7 +1662,8 @@
           "label": "Visa nyhetsbrevsanmälan"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Produktbeskrivning",
@@ -1645,7 +1672,8 @@
           "label": "Aktivera \"läs mer\" för beskrivning (utfasad)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Knapp-länk",
@@ -1658,7 +1686,7 @@
           "label": "Vertikal justering"
         },
         "image_or_video": {
-          "label": "Bild/video",
+          "label": "Bild\/video",
           "maximum_width": "Maximal bredd"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Produktrekommendationer",
       "settings": {
         "paragraph-0": {
-          "content": "Dynamiska rekommendationer använder order- och produktinformation för att ändras och förbättras över tid. [Läs mer](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamiska rekommendationer använder order- och produktinformation för att ändras och förbättras över tid. [Läs mer](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Aktivera klistrigt innehåll på skrivbordet"
         },
         "image_size": {
-          "info": "Rekommenderad minsta bredd på 950px. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Rekommenderad minsta bredd på 950px. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Sekundär mediavisning",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Förboka",
-          "info_text": "Lägg till en tagg \"Förbeställ\" till valfri produkt för att ställa in köpknappens ordalydelse till \"Förbeställning\". [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Lägg till en tagg \"Förbeställ\" till valfri produkt för att ställa in köpknappens ordalydelse till \"Förbeställning\". [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Kontrollerar avståndet under dina installerade appblock som visas i produktformuläret"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "För att skapa färgrutor, gå till \"Temainställningar > Färgrutor\".",
-              "swatch_info": "Visuella färgrutor kan skapas med hjälp av kategorimetafält eller variantbilder. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Visuella färgrutor kan skapas med hjälp av kategorimetafält eller variantbilder. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Byt variant baserat på miniatyren"
@@ -1780,13 +1808,13 @@
           "name": "Länkade produkter",
           "settings": {
             "info": {
-              "content": "Om du är en Plus-handlare rekommenderar vi att du använder appen Combined Listings för den här funktionen. [Läs mer](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Om du är en Plus-handlare rekommenderar vi att du använder appen Combined Listings för den här funktionen. [Läs mer](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Swatch-storlek"
             },
             "paragraph-4": {
-              "content": "Vi rekommenderar att du använder metafält. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Vi rekommenderar att du använder metafält. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Presentinslagning",
           "settings": {
             "paragraph-0": {
-              "content": "Välj en produkt för presentinslagning i Temainställningar > Produkt. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Välj en produkt för presentinslagning i Temainställningar > Produkt. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Visa formulär för mottagarinformation för presentkortsprodukter",
-              "info": "Presentkortsprodukter kan valfritt skickas direkt till mottagaren tillsammans med ett personligt meddelande. [Läs mer](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Presentkortsprodukter kan valfritt skickas direkt till mottagaren tillsammans med ett personligt meddelande. [Läs mer](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Hämta i butik",
           "settings": {
             "paragraph-0": {
-              "content": "Lokationer måste vara inställda för att möjliggöra visning. [Läs mer](https://help.shopify.com/en/manual/locations)"
+              "content": "Lokationer måste vara inställda för att möjliggöra visning. [Läs mer](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Förtroendemärke",
-              "info": "Rekommenderad storlek 100 x 300 px. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Rekommenderad storlek 100 x 300 px. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Kompletterande produkter",
           "settings": {
             "paragraph-0": {
-              "content": "För att välja kompletterande produkter, lägg till appen Sök och Upptäck. [Läs mer](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "För att välja kompletterande produkter, lägg till appen Sök och Upptäck. [Läs mer](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Produkter att visa"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Kryssruta",
             "paragraph": {
-              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Nödvändig",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Dropdown",
             "paragraph": {
-              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Checkbox-och-rullgardinsmenyer)"
+              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Checkbox-och-rullgardinsmenyer)"
             },
             "required": {
               "label": "Nödvändig",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Filuppladdning",
             "paragraph": {
-              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Nödvändig",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Radioknappar",
             "paragraph": {
-              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Nödvändig",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Textfält",
             "paragraph": {
-              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Samla anpassningsinformation för en vara som lagts till i kundvagnen. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Nödvändig",
@@ -1994,7 +2022,8 @@
           "label": "Visa etiketter för swatchfilter"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Författare",
@@ -2059,7 +2088,7 @@
         "name": "Omdömen"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Länk",
       "name": "Textannonser",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Underrubrikens storlek"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Videohjälte"
       }
@@ -2106,7 +2136,8 @@
           "info": "Visas inte om autouppspelning är aktiverad."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Text",
@@ -2142,7 +2173,7 @@
     "Heading": "Rubrik",
     "Icon_style": "Ikonstil",
     "Images": "Bilder",
-    "Plus_minus": "Plus/minus",
+    "Plus_minus": "Plus\/minus",
     "Caret": "Caret",
     "Text": "Text",
     "Custom_HTML": "Anpassad HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Ta bort mellanrum",
     "Full_width": "Full bredd",
     "Content_width": "Innehållsbredd",
-    "1_2_width": "1/2 bredd",
-    "1_3_width": "1/3 bredd",
-    "2_3_width": "2/3 bredd",
-    "1_4_width": "1/4 bredd",
-    "3_4_width": "3/4 bredd",
+    "1_2_width": "1\/2 bredd",
+    "1_3_width": "1\/3 bredd",
+    "2_3_width": "2\/3 bredd",
+    "1_4_width": "1\/4 bredd",
+    "3_4_width": "3\/4 bredd",
     "Extra_small": "Extra liten",
     "Extra_large": "Extra stor",
     "Top": "Topp",
@@ -2246,10 +2277,10 @@
     "Overlay": "Överlagring",
     "A_Shopify_hosted_video": "En Shopify-videovärd",
     "Embed_video_from_URL": "Bädda in video från URL",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepterar YouTube och Vimeo. Videon kommer att vara tyst och vissa enheter kan förhindra autouppspelning. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepterar YouTube och Vimeo. Videon kommer att vara tyst och vissa enheter kan förhindra autouppspelning. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Mobilvideo",
     "A_Shopify_hosted_video_optional": "En Shopify-videovärd (valfritt)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepterar YouTube och Vimeo. [Läs mer](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepterar YouTube och Vimeo. [Läs mer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Textjustering",
     "Alignment": "Inriktning",
     "Countdown_timer": "Nedräkning",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "1400 x 1400px rekommenderas",
     "Menu": "Meny",
     "Footer_text": "Text i sidfoten",
-    "Country_region_selector": "Lands-/regionväljare",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "För att lägga till ett land/region, gå till dina [marknadsinställningar.](/admin/settings/markets)",
-    "Enable_country_region_selector": "Aktivera lands-/regionväljaren",
+    "Country_region_selector": "Lands-\/regionväljare",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "För att lägga till ett land\/region, gå till dina [marknadsinställningar.](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Aktivera lands-\/regionväljaren",
     "Language_selector": "Språkväljare",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "För att lägga till ett språk, gå till dina [språkinställningar.](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "För att lägga till ett språk, gå till dina [språkinställningar.](\/admin\/settings\/languages)",
     "Enable_language_selector": "Aktivera språkväljaren",
     "Newsletter": "Nyhetsbrev",
     "Header": "Rubrik",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Dölj varianter som är slut i lager",
     "Show_vendor": "Visa leverantör",
     "Show_dynamic_checkout_button": "Visa dynamisk kassaknapp",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Låter kunder checka ut direkt med en bekant betalningsmetod. [Läs mer](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Låter kunder checka ut direkt med en bekant betalningsmetod. [Läs mer](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Media",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Läs mer om [mediatyper](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Läs mer om [mediatyper](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Aktivera videolooping",
     "Product_rating": "Produktbetyg",
     "Label": "Etikett",
     "Rating": "Betyg",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "För att visa ett betyg, lägg till ett [produktbetygsmetafält](/admin/metafields/product)",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "För att visa ett betyg, lägg till ett [produktbetygsmetafält](\/admin\/metafields\/product)",
     "Full_icon": "Full ikon",
     "Empty_icon": "Tom ikon",
     "Maximum": "Maximalt",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Välj en maximalt lika med betygsmetafältets [skalans maximala värde](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Välj en maximalt lika med betygsmetafältets [skalans maximala värde](\/admin\/metafields\/product)",
     "Image_with_offers": "Bild med erbjudanden",
     "Link_hover_border_color": "Färg för länkhovrande vid pekning",
     "Text_with_icon": "Text med ikon",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Position på skrivbord",
     "Top_bar": "Översta fältet",
     "Enable_filtering": "Aktivera filtrering",
-    "Customize_filters_admin_menus": "[Anpassa filter](/admin/menus)",
+    "Customize_filters_admin_menus": "[Anpassa filter](\/admin\/menus)",
     "Enable_sorting": "Aktivera sortering",
     "2000_x_800px_recommended": "2000 x 800px rekommenderas",
     "Required_to_show_the_button": "Krävs för att visa knappen",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Hopfällbara flikar",
     "Custom_icon": "Anpassad ikon",
     "Aspect_ratio_of_1_1_recommended": "Rekommenderad bildaspektratio 1:1",
-    "Open_Close_icon_style": "Stil på öppna/stänga-ikonen",
+    "Open_Close_icon_style": "Stil på öppna\/stänga-ikonen",
     "Page": "Sida",
     "Page_content": "Sidoinnehåll",
     "Image_style": "Bildstil",

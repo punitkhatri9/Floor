@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "색상 계획"
         },
         "header-35": {
-          "content": "서랍"
+          "content": "장바구니 서랍"
         },
         "header-38": {
           "content": "푸터"
@@ -114,31 +123,21 @@
           "label": "장바구니에 항목을 추가할 때…",
           "options": {
             "show_added_message": "'추가됨' 메시지 표시",
-            "go_to_or_open_cart": "장바구니로 이동/열기"
+            "go_to_or_open_cart": "장바구니로 이동\/열기"
           }
         },
+        "cart_vendor_enable": {
+          "label": "상품 판매자 표시"
+        },
         "cart_notes_enable": {
-          "label": "주문 메모 보기"
+          "label": "장바구니 메모 활성화"
         },
         "giftwrap_gift_note": {
           "label": "선물 메시지 활성화"
         },
         "enable-additional-checkout-buttons": {
-          "label": "장바구니 페이지에 동적 체크아웃 버튼 표시",
-          "info": "[더 알아보기](https://help.shopify.com/ko/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "제품 추천",
-          "show_cart_recommendations": {
-            "label": "동적 추천 표시",
-            "info": "동적 추천은 카트에 있는 제품을 기반으로 합니다. 주문 및 제품 정보를 사용하여 시간이 지남에 따라 변경하고 개선합니다. [자세히 알아보기](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "장바구니 비우기",
-          "empty_cart_message": "메시지",
-          "empty_cart_collections": "제안된 컬렉션",
-          "empty_cart_products": "제품 추천"
+          "label": "다이내믹 체크아웃 버튼 활성화",
+          "info": "[더 알아보기](https:\/\/help.shopify.com\/ko\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "마우스를 올렸을 때 제품의 두 번째 이미지를 보여줍니다"
         },
         "badges": {
-          "info": "제품 태그를 사용하여 사용자 정의 배지를 추가하십시오. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "제품 태그를 사용하여 사용자 정의 배지를 추가하십시오. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "배지",
           "show_badges": "뱃지 표시"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "별점 표시",
           "show_if_no_reviews": "평가가 없는 경우 표시",
-          "info": "평가를 표시하려면 제품 리뷰 앱을 추가하세요. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "평가를 표시하려면 제품 리뷰 앱을 추가하세요. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "별점을 다음과 같이 표시...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "견본",
-      "info": "스와치는 카테고리 메타필드 또는 변형 이미지를 사용하여 만들 수 있습니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "스와치는 카테고리 메타필드 또는 변형 이미지를 사용하여 만들 수 있습니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "스와치 스타일",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "옵션에 대한 변형 이미지 표시",
-          "info": "스와치에 변형 이미지를 사용하려면 스와치를 만들려는 옵션 이름을 쉼표로 구분된 목록으로 사용하세요(예: 'Material,Color,Flavour,Chain-length'). [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "스와치에 변형 이미지를 사용하려면 스와치를 만들려는 옵션 이름을 쉼표로 구분된 목록으로 사용하세요(예: 'Material,Color,Flavour,Chain-length'). [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "공유"
@@ -463,11 +462,11 @@
         },
         "page_fade_enabled": {
           "label": "페이지 페이드 전환 활성화",
-          "info": "로드 시 페이지가 페이드 인/아웃되도록 허용합니다."
+          "info": "로드 시 페이지가 페이드 인\/아웃되도록 허용합니다."
         },
         "ken_burns_enabled": {
           "label": "줌 효과 활성화",
-          "info": "선택한 홈페이지 이미지에 미묘한 줌 효과를 활성화합니다. [더 알아보기](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "선택한 홈페이지 이미지에 미묘한 줌 효과를 활성화합니다. [더 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "텍스트",
-      "name": "아코디언/FAQ",
+      "name": "아코디언\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "탭 콘텐츠"
         }
       },
       "presets": {
-        "name": "아코디언/FAQ"
+        "name": "아코디언\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "컨테이너 너비",
       "name": "사용자 정의 HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "사용자 정의 리퀴드",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "호버 이미지",
@@ -613,7 +614,8 @@
           "label": "섹션 여백을 테마와 동일하게 만듭니다."
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "앱"
       }
@@ -665,14 +667,15 @@
       "name": "내비게이션 배너",
       "settings": {
         "navigation": {
-          "paragraph": "메뉴(온라인 스토어 > 내비게이션 > 메뉴에서 편집) 또는 컬렉션 목록을 표시합니다. 위치에 따라 특정 컬렉션 목록을 표시하려면 메타필드를 사용하세요. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "메뉴(온라인 스토어 > 내비게이션 > 메뉴에서 편집) 또는 컬렉션 목록을 표시합니다. 위치에 따라 특정 컬렉션 목록을 표시하려면 메타필드를 사용하세요. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "내비게이션 정렬",
           "info": "스타일을 '그리드'로 설정한 경우"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "내비게이션 배너"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "계정",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "계정 활성화",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "주소",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "로그인",
       "settings": {
         "enable_shop_login_button": "Shop으로 로그인 활성화"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "주문",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "등록",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "비밀번호 재설정",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "텍스트",
@@ -1013,7 +1029,8 @@
           "label": "데스크톱에서 콘텐츠 가운데 정렬"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "헤딩",
@@ -1051,7 +1068,7 @@
           "name": "쇼핑 앱에서 팔로우",
           "settings": {
             "paragraph-0": {
-              "content": "Shop 앱에서 storefront를 위한 팔로우 버튼을 표시하세요. [자세히 알아보기](https://help.shopify.com/ko/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Shop 앱에서 storefront를 위한 팔로우 버튼을 표시하세요. [자세히 알아보기](https:\/\/help.shopify.com\/ko\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "헤더 이미지"
           },
-          "paragraph": "또한 이 이미지를 '기프트 카드 영수증' 및 '신규 기프트 카드' 이메일 알림에 표시할 수 있습니다. [자세히 알아보기](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "또한 이 이미지를 '기프트 카드 영수증' 및 '신규 기프트 카드' 이메일 알림에 표시할 수 있습니다. [자세히 알아보기](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "기프트 카드 이미지",
             "info": "900 x 600px 권장"
@@ -1162,7 +1179,7 @@
           "name": "메가 메뉴",
           "settings": {
             "mega-menu": {
-              "info": "메가 메뉴 드롭다운을 적용하려면 기존 메뉴 항목을 입력하세요. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "메가 메뉴 드롭다운을 적용하려면 기존 메뉴 항목을 입력하세요. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "프로모션 1"
@@ -1223,7 +1240,8 @@
           "info": "섹션 높이가 '원본'으로 설정되어 있을 때는 패럴랙스가 보이지 않습니다."
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "텍스트 오버레이 이미지"
       }
@@ -1238,7 +1256,8 @@
           "label": "이미지 위에 콘텐츠 오버레이"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "텍스트 이미지"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "뉴스레터",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "아코디언 내용",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "선물 포장 표시",
-          "info": "선물 포장에 대한 자세한 정보는 여기를 참조하세요: [더 알아보기](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)"
+          "info": "선물 포장에 대한 자세한 정보는 여기를 참조하세요: [더 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)"
         },
         "paragraph-8": {
           "content": "테마 설정 > 제품에서 선물 포장 제품을 선택하세요."
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "지도",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google 지도 API 키",
-          "info": "지도를 표시하려면 [Google 지도 API 키를 등록](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key)해야 합니다."
+          "info": "지도를 표시하려면 [Google 지도 API 키를 등록](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key)해야 합니다."
         },
         "button_text": {
           "label": "지도 링크 레이블"
@@ -1496,7 +1519,8 @@
           "info": "지도가 로드되지 않는 경우에 표시됩니다."
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "지도"
       }
@@ -1511,7 +1535,8 @@
           "label": "날짜 표시"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "블로그 페이지",
@@ -1523,7 +1548,8 @@
           "label": "최근 글 표시"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "글꼴",
@@ -1627,7 +1653,7 @@
       "name": "비밀번호 페이지",
       "settings": {
         "paragraph-13": {
-          "content": "[Shopify 설정에서 비밀번호 페이지 메시지 편집](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Shopify 설정에서 비밀번호 페이지 메시지 편집](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "일반 설정에서 소셜 설정과 계정을 편집하세요."
@@ -1636,7 +1662,8 @@
           "label": "뉴스레터 가입 표시"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "상품 설명",
@@ -1645,7 +1672,8 @@
           "label": "설명에 '자세히 보기' 활성화(지원 중단됨)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "버튼 링크",
@@ -1658,7 +1686,7 @@
           "label": "수직 정렬"
         },
         "image_or_video": {
-          "label": "이미지/비디오",
+          "label": "이미지\/비디오",
           "maximum_width": "최대 너비"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "상품 추천",
       "settings": {
         "paragraph-0": {
-          "content": "동적 추천은 주문 및 제품 정보를 사용하여 시간이 지남에 따라 변경 및 개선됩니다. [더 알아보기](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "동적 추천은 주문 및 제품 정보를 사용하여 시간이 지남에 따라 변경 및 개선됩니다. [더 알아보기](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "데스크탑에서 고정 콘텐츠 활성화"
         },
         "image_size": {
-          "info": "최소 너비 950px을 권장합니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "최소 너비 950px을 권장합니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "보조 미디어 표시",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "선주문",
-          "info_text": "구매 버튼 문구를 '선주문'으로 설정하려면 제품에 '선주문' 태그를 추가하세요. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "구매 버튼 문구를 '선주문'으로 설정하려면 제품에 '선주문' 태그를 추가하세요. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "제품 양식에 표시되는 설치된 앱 블록 아래의 간격을 제어합니다."
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "견본을 만들려면 '테마 설정 > 견본'으로 이동하세요.",
-              "swatch_info": "시각적 견본은 카테고리 메타필드 또는 변형 이미지를 사용하여 만들 수 있습니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "시각적 견본은 카테고리 메타필드 또는 변형 이미지를 사용하여 만들 수 있습니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "섬네일을 기반으로 옵션 변경"
@@ -1780,13 +1808,13 @@
           "name": "연결된 제품",
           "settings": {
             "info": {
-              "content": "Plus 판매자인 경우 이 기능을 위해 결합 목록 앱을 사용하는 것이 좋습니다. [자세히 알아보기](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Plus 판매자인 경우 이 기능을 위해 결합 목록 앱을 사용하는 것이 좋습니다. [자세히 알아보기](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "스와치 크기"
             },
             "paragraph-4": {
-              "content": "메타필드를 사용하는 것이 좋습니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "메타필드를 사용하는 것이 좋습니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "선물 포장",
           "settings": {
             "paragraph-0": {
-              "content": "테마 설정 > 제품에서 선물 포장 제품을 선택하세요. [더 알아보기](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "테마 설정 > 제품에서 선물 포장 제품을 선택하세요. [더 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "기프트 카드 제품에 대한 수령자 정보 양식 표시",
-              "info": "기프트 카드 제품은 선택 사항으로 수령자에게 개인 메시지와 함께 직접 전송할 수 있습니다. [더 알아보기](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "기프트 카드 제품은 선택 사항으로 수령자에게 개인 메시지와 함께 직접 전송할 수 있습니다. [더 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "매장 픽업",
           "settings": {
             "paragraph-0": {
-              "content": "표시하려면 위치를 설정해야 합니다. [더 알아보기](https://help.shopify.com/en/manual/locations)"
+              "content": "표시하려면 위치를 설정해야 합니다. [더 알아보기](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "신뢰 뱃지",
-              "info": "권장 크기는 100 x 300px입니다. [더 알아보기](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "권장 크기는 100 x 300px입니다. [더 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "보완 제품",
           "settings": {
             "paragraph-0": {
-              "content": "보완 제품을 선택하려면 검색 및 탐색 앱을 추가하세요. [더 알아보기](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "보완 제품을 선택하려면 검색 및 탐색 앱을 추가하세요. [더 알아보기](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "표시할 제품 수"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "체크박스",
             "paragraph": {
-              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "필수의",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "드롭다운",
             "paragraph": {
-              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -체크박스 앤 드롭다운)"
+              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -체크박스 앤 드롭다운)"
             },
             "required": {
               "label": "필수의",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "파일 업로드",
             "paragraph": {
-              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "필수의",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "라디오 버튼",
             "paragraph": {
-              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "필수의",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "텍스트 필드",
             "paragraph": {
-              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "장바구니에 추가된 품목에 대한 맞춤 정보를 수집합니다. [자세히 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "필수의",
@@ -1994,7 +2022,8 @@
           "label": "견본 필터 라벨 표시"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "작성자",
@@ -2059,7 +2088,7 @@
         "name": "평가"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "링크",
       "name": "텍스트 광고",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "부제목 크기"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "비디오 히어로"
       }
@@ -2106,7 +2136,8 @@
           "info": "자동 재생이 활성화되어 있지 않은 경우에만 표시됩니다."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "텍스트",
@@ -2142,7 +2173,7 @@
     "Heading": "제목",
     "Icon_style": "아이콘 스타일",
     "Images": "이미지",
-    "Plus_minus": "플러스/마이너스",
+    "Plus_minus": "플러스\/마이너스",
     "Caret": "캐럿",
     "Text": "텍스트",
     "Custom_HTML": "사용자 정의 HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "간격 제거",
     "Full_width": "전체 너비",
     "Content_width": "컨텐츠 너비",
-    "1_2_width": "1/2 너비",
-    "1_3_width": "1/3 너비",
-    "2_3_width": "2/3 너비",
-    "1_4_width": "1/4 너비",
-    "3_4_width": "3/4 너비",
+    "1_2_width": "1\/2 너비",
+    "1_3_width": "1\/3 너비",
+    "2_3_width": "2\/3 너비",
+    "1_4_width": "1\/4 너비",
+    "3_4_width": "3\/4 너비",
     "Extra_small": "추가 작음",
     "Extra_large": "추가 큼",
     "Top": "상단",
@@ -2246,10 +2277,10 @@
     "Overlay": "오버레이",
     "A_Shopify_hosted_video": "Shopify 호스팅 비디오",
     "Embed_video_from_URL": "URL에서 비디오 삽입",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube 및 Vimeo를 지원합니다. 비디오는 음소거되며 일부 기기에서 자동 재생이 방지될 수 있습니다. [더 알아보기](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube 및 Vimeo를 지원합니다. 비디오는 음소거되며 일부 기기에서 자동 재생이 방지될 수 있습니다. [더 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "모바일 비디오",
     "A_Shopify_hosted_video_optional": "Shopify 호스팅 비디오 (선택사항)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube 및 Vimeo를 지원합니다. [더 알아보기](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTube 및 Vimeo를 지원합니다. [더 알아보기](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "텍스트 정렬",
     "Alignment": "조정",
     "Countdown_timer": "카운트다운 타이머",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "1400 x 1400px 권장",
     "Menu": "메뉴",
     "Footer_text": "푸터 텍스트",
-    "Country_region_selector": "국가/지역 선택기",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "국가/지역을 추가하려면 [마켓 설정](/admin/settings/markets)으로 이동하십시오.",
-    "Enable_country_region_selector": "국가/지역 선택기 활성화",
+    "Country_region_selector": "국가\/지역 선택기",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "국가\/지역을 추가하려면 [마켓 설정](\/admin\/settings\/markets)으로 이동하십시오.",
+    "Enable_country_region_selector": "국가\/지역 선택기 활성화",
     "Language_selector": "언어 선택기",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "언어를 추가하려면 [언어 설정](/admin/settings/languages)으로 이동하십시오.",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "언어를 추가하려면 [언어 설정](\/admin\/settings\/languages)으로 이동하십시오.",
     "Enable_language_selector": "언어 선택기 활성화",
     "Newsletter": "뉴스레터",
     "Header": "헤더",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "품절된 변형 숨기기",
     "Show_vendor": "공급업체 표시",
     "Show_dynamic_checkout_button": "다이내믹 체크아웃 버튼 표시",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "고객이 익숙한 결제 방법을 사용하여 직접 체크아웃할 수 있게 합니다. [더 알아보기](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "고객이 익숙한 결제 방법을 사용하여 직접 체크아웃할 수 있게 합니다. [더 알아보기](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "미디어",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "미디어 유형에 대한 [더 많은 정보](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "미디어 유형에 대한 [더 많은 정보](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "비디오 루핑 활성화",
     "Product_rating": "제품 평점",
     "Label": "레이블",
     "Rating": "평점",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "평점을 표시하려면 [제품 평점 메타필드](/admin/metafields/product)를 추가하십시오.",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "평점을 표시하려면 [제품 평점 메타필드](\/admin\/metafields\/product)를 추가하십시오.",
     "Full_icon": "전체 아이콘",
     "Empty_icon": "빈 아이콘",
     "Maximum": "최대값",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "평점 메타필드의 [스케일 최대값](/admin/metafields/product)과 동일한 값을 선택하십시오.",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "평점 메타필드의 [스케일 최대값](\/admin\/metafields\/product)과 동일한 값을 선택하십시오.",
     "Image_with_offers": "제안과 함께 이미지",
     "Link_hover_border_color": "링크 호버 테두리 색상",
     "Text_with_icon": "아이콘과 함께 텍스트",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "데스크톱 위치",
     "Top_bar": "상단 바",
     "Enable_filtering": "필터링 활성화",
-    "Customize_filters_admin_menus": "[필터를 사용자 정의](/admin/menus)",
+    "Customize_filters_admin_menus": "[필터를 사용자 정의](\/admin\/menus)",
     "Enable_sorting": "정렬 활성화",
     "2000_x_800px_recommended": "2000 x 800px 권장",
     "Required_to_show_the_button": "버튼을 표시하려면 필요함",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "축소 가능한 탭",
     "Custom_icon": "사용자 정의 아이콘",
     "Aspect_ratio_of_1_1_recommended": "1:1 권장 종횡비",
-    "Open_Close_icon_style": "열기/닫기 아이콘 스타일",
+    "Open_Close_icon_style": "열기\/닫기 아이콘 스타일",
     "Page": "페이지",
     "Page_content": "페이지 내용",
     "Image_style": "이미지 스타일",

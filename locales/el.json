@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Σχεδόν έτοιμο...",
-      "no_products_html": "Δεν έχετε προϊόντα στη συλλογή της αρχικής σας σελίδας. Αυτό το υποκατάστατο θα εμφανιστεί μέχρι να <a href=\"/admin/collections?tutorial=Frontpage\">προσθέσετε ένα προϊόν σε αυτήν τη συλλογή</a>.",
+      "no_products_html": "Δεν έχετε προϊόντα στη συλλογή της αρχικής σας σελίδας. Αυτό το υποκατάστατο θα εμφανιστεί μέχρι να <a href=\"\/admin\/collections?tutorial=Frontpage\">προσθέσετε ένα προϊόν σε αυτήν τη συλλογή<\/a>.",
       "add_product": "Προσθήκη προϊόντος",
       "product_title": "Τίτλος προϊόντος",
       "product_description": "Αυτός ο χώρος χρησιμοποιείται για την περιγραφή των λεπτομερειών του προϊόντος σας. Ενημερώστε τους πελάτες για την εμφάνιση, την υφή και το στιλ του προϊόντος σας. Προσθέστε λεπτομέρειες σχετικά με το χρώμα, τα υλικά που χρησιμοποιήθηκαν, το μέγεθος και τον τόπο κατασκευής.",
-      "no_collections_html": "Δεν έχετε καμία συλλογή να εμφανίσετε εδώ. <a href=\"/admin/custom_collections\">Προσθέστε μερικές συλλογές</a> για να συνοδεύσετε την προεπιλεγμένη αρχική σελίδα.",
+      "no_collections_html": "Δεν έχετε καμία συλλογή να εμφανίσετε εδώ. <a href=\"\/admin\/custom_collections\">Προσθέστε μερικές συλλογές<\/a> για να συνοδεύσετε την προεπιλεγμένη αρχική σελίδα.",
       "add_collection": "Προσθήκη συλλογής",
       "collection_title": "Τίτλος συλλογής",
       "blog_title": "Τίτλος ανάρτησής σας",
@@ -76,10 +85,10 @@
       "return_text": "Πίσω"
     },
     "localization": {
-      "country_label": "Χώρα/περιοχή",
+      "country_label": "Χώρα\/περιοχή",
       "language_label": "Γλώσσα",
       "update_language": "Ενημέρωση γλώσσας",
-      "update_country": "Ενημέρωση χώρας/περιοχής"
+      "update_country": "Ενημέρωση χώρας\/περιοχής"
     },
     "accessibility": {
       "back_to_top": {
@@ -146,7 +155,7 @@
   },
   "blogs": {
     "article": {
-      "author_on_date_html": "Δημοσιεύθηκε από τον/την {{ author }} στις {{ date }}",
+      "author_on_date_html": "Δημοσιεύθηκε από τον\/την {{ author }} στις {{ date }}",
       "older_post": "Παλαιότερη ανάρτηση",
       "newer_post": "Νεότερη ανάρτηση",
       "tags": "Ετικέτες",
@@ -176,29 +185,18 @@
     "general": {
       "title": "Καλάθι αγορών",
       "remove": "Αφαίρεση",
-      "note": "Σημείωση παραγγελίας",
-      "add_note": "Προσθήκη σημείωσης παραγγελίας",
-      "edit_note": "Επεξεργασία σημείωσης παραγγελίας",
-      "save_note": "Αποθήκευση σημείωσης παραγγελίας",
-      "add_gift_note": "Προσθήκη μηνύματος δώρου",
-      "edit_gift_note": "Επεξεργασία μηνύματος δώρου",
-      "save_gift_note": "Αποθήκευση μηνύματος δώρου",
-      "save": "Εκτός",
+      "note": "Ειδικές οδηγίες για τον πωλητή",
       "see_more": "Δείτε περισσότερα",
       "subtotal": "Μερικό σύνολο",
-      "regular_subtotal": "Κανονικό υποσύνολο",
-      "sale_subtotal": "Μερικό σύνολο εκπτώσεων",
       "taxes_and_shipping_at_checkout": "Φόροι και αποστολή υπολογίζονται κατά την ολοκλήρωση της αγοράς",
-      "taxes_and_shipping_policy_at_checkout_html": "Οι φόροι και η <a href=\"{{ link }}\">αποστολή</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς",
+      "taxes_and_shipping_policy_at_checkout_html": "Οι φόροι και η <a href=\"{{ link }}\">αποστολή<\/a> υπολογίζονται κατά την ολοκλήρωση της αγοράς",
       "taxes_included_but_shipping_at_checkout": "Φόρος συμπεριλαμβάνεται και η αποστολή υπολογίζεται κατά την ολοκλήρωση της αγοράς",
-      "taxes_included_and_shipping_policy_html": "Φόρος συμπεριλαμβάνεται. Η <a href=\"{{ link }}\">αποστολή</a> υπολογίζεται κατά την ολοκλήρωση της αγοράς.",
+      "taxes_included_and_shipping_policy_html": "Φόρος συμπεριλαμβάνεται. Η <a href=\"{{ link }}\">αποστολή<\/a> υπολογίζεται κατά την ολοκλήρωση της αγοράς.",
       "update": "Ενημέρωση καλαθιού",
       "checkout": "Ολοκλήρωση αγοράς",
       "empty": "Το καλάθι αγορών σας είναι αυτή τη στιγμή άδειο.",
       "close_cart": "Κλείσιμο καλαθιού",
-      "view_cart": "Προβολή καλαθιού",
-      "savings_html": "Εξοικονομείτε {{ price }}",
-      "return_to_shop": "Επιστροφή στο κατάστημα"
+      "savings_html": "Εξοικονομείτε {{ price }}"
     },
     "label": {
       "product": "Προϊόν",
@@ -262,7 +260,7 @@
       "clear_all": "Εκκαθάριση όλων",
       "empty": "Δεν βρέθηκαν προϊόντα",
       "from": "Από",
-      "filter_and_sort": "Φίλτρο/Ταξινόμηση",
+      "filter_and_sort": "Φίλτρο\/Ταξινόμηση",
       "filter_by_label": "Φιλτράρισμα με βάση",
       "filter_button": "Φιλτράρισμα",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Ταξινόμηση κατά",
       "title": "Συλλογή",
       "to": "Σε",
-      "use_fewer_filters_html": "Χρησιμοποιήστε λιγότερα φίλτρα ή <a class=\"{{ class }}\" href=\"{{ link }}\">καθαρίστε όλα</a>"
+      "use_fewer_filters_html": "Χρησιμοποιήστε λιγότερα φίλτρα ή <a class=\"{{ class }}\" href=\"{{ link }}\">καθαρίστε όλα<\/a>"
     },
     "events_calendar": {
       "tbc_text": "ΕΠΕ"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Σφάλμα κατά την αναζήτηση της συγκεκριμένης διεύθυνσης",
       "address_no_results": "Δεν υπάρχουν αποτελέσματα για αυτήν τη διεύθυνση",
-      "address_query_limit_html": "Ξεπεράσατε το όριο χρήσης του Google API. Σκεφτείτε το ενδεχόμενο να κάνετε αναβάθμιση σε ένα <a href=\"https://developers.google.com/maps/premium/usage-limits\">Πρόγραμμα Premium</a>.",
+      "address_query_limit_html": "Ξεπεράσατε το όριο χρήσης του Google API. Σκεφτείτε το ενδεχόμενο να κάνετε αναβάθμιση σε ένα <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Πρόγραμμα Premium<\/a>.",
       "auth_error_html": "Παρουσιάστηκε πρόβλημα κατά τον έλεγχο ταυτότητας του κλειδιού API των Χαρτών Google."
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "Πόλη",
       "country": "Χώρα",
       "province": "Επαρχία",
-      "zip": "Ταχυδρομικός/Ταχυδρομικός κωδικός",
+      "zip": "Ταχυδρομικός\/Ταχυδρομικός κωδικός",
       "phone": "Τηλέφωνο",
       "set_default": "Ορισμός ως προεπιλεγμένη διεύθυνση",
       "add": "Προσθήκη διεύθυνσης",
@@ -422,7 +420,7 @@
       "add_product": "Προσθήκη προϊόντος",
       "product_title": "Τίτλος προϊόντος",
       "product_vendor": "Προμηθευτής",
-      "no_collections_html": "Δεν έχετε καμία συλλογή να εμφανίσετε εδώ. <a href=\"/admin/custom_collections\">Προσθέστε μερικές συλλογές</a> για να συνοδεύσετε την προεπιλεγμένη συλλογή της αρχικής σελίδας.",
+      "no_collections_html": "Δεν έχετε καμία συλλογή να εμφανίσετε εδώ. <a href=\"\/admin\/custom_collections\">Προσθέστε μερικές συλλογές<\/a> για να συνοδεύσετε την προεπιλεγμένη συλλογή της αρχικής σελίδας.",
       "add_collection": "Προσθήκη συλλογής",
       "collection_title": "Τίτλος συλλογής",
       "no_content": "Αυτή η ενότητα δεν περιλαμβάνει προς το παρόν περιεχόμενο. Προσθέστε περιεχόμενο σε αυτήν την ενότητα μέσω της πλευρικής μπάρας."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Μήνυμα δώρου",
       "giftwrap_note_placeholder": "Προσθέστε το μήνυμα δώρου σας εδώ",
       "from_text_html": "Από {{ price }}",
-      "file_upload_html": "Σύρετε και αποθέστε ή <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">περιηγηθείτε</a> στα αρχεία για μεταφόρτωση",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Περιηγηθείτε</a> στα αρχεία για μεταφόρτωση"
+      "file_upload_html": "Σύρετε και αποθέστε ή <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">περιηγηθείτε<\/a> στα αρχεία για μεταφόρτωση",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Περιηγηθείτε<\/a> στα αρχεία για μεταφόρτωση"
     },
     "product": {
       "sold_out": "Εξαντλήθηκε",
@@ -497,14 +495,14 @@
       "category": "Κατηγορία",
       "type": "Τύπος",
       "include_taxes": "Φόρος συμπεριλαμβανομένος.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Αποστολή</a> υπολογίζεται κατά την ολοκλήρωση της παραγγελίας.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Αποστολή<\/a> υπολογίζεται κατά την ολοκλήρωση της παραγγελίας.",
       "quote": "Προσφορά",
       "preorder_today": "Προπαραγγελία σήμερα",
       "in_stock": "Σε απόθεμα",
       "low_stock": "Λίγα διαθέσιμα",
       "out_of_stock": "Εξαντλήθηκε",
       "stock_left": "απομένουν",
-      "out_of_stock_html": "Κάντε <a href=\"#\"><strong>κλικ εδώ</strong></a> για να ενημερωθείτε μέσω email όταν το {{ product }} - {{ variant }} είναι διαθέσιμο.",
+      "out_of_stock_html": "Κάντε <a href=\"#\"><strong>κλικ εδώ<\/strong><\/a> για να ενημερωθείτε μέσω email όταν το {{ product }} - {{ variant }} είναι διαθέσιμο.",
       "wrong_email": "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.",
       "out_of_stock_success": "Ευχαριστούμε! Θα σας ενημερώσουμε όταν αυτό το προϊόν γίνει διαθέσιμο!",
       "read_more_html": "Διαβάστε περισσότερα",
@@ -564,9 +562,9 @@
       "password": "Εισαγωγή στο κατάστημα με κωδικό πρόσβασης",
       "enter_password": "Εισαγάγετε κωδικό πρόσβασης",
       "store_owner": "Είστε ο ιδιοκτήτης του καταστήματος;",
-      "store_owner_html": "<a href=\"/admin\">Συνδεθείτε εδώ</a>",
+      "store_owner_html": "<a href=\"\/admin\">Συνδεθείτε εδώ<\/a>",
       "continue": "Συνέχεια",
-      "powered_by_html": "Αυτό το κατάστημα θα λειτουργεί με τη βοήθεια της <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Αυτό το κατάστημα θα λειτουργεί με τη βοήθεια της <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

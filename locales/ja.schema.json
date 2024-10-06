@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "カラースキーム"
         },
         "header-35": {
-          "content": "引き出し"
+          "content": "カート引き出し"
         },
         "header-38": {
           "content": "フッター"
@@ -114,31 +123,21 @@
           "label": "カートに商品を追加する際…",
           "options": {
             "show_added_message": "'追加済み'のメッセージを表示",
-            "go_to_or_open_cart": "カートに行く/開く"
+            "go_to_or_open_cart": "カートに行く\/開く"
           }
         },
+        "cart_vendor_enable": {
+          "label": "商品ベンダー表示"
+        },
         "cart_notes_enable": {
-          "label": "注文メモを表示"
+          "label": "カートノート有効化"
         },
         "giftwrap_gift_note": {
           "label": "ギフトメッセージ有効化"
         },
         "enable-additional-checkout-buttons": {
-          "label": "カートページに動的なチェックアウトボタンを表示する",
-          "info": "[詳細](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "製品の推奨事項",
-          "show_cart_recommendations": {
-            "label": "動的な推奨事項を表示する",
-            "info": "動的なおすすめはカート内の商品に基づいています。注文と商品の情報を使用して、時間の経過とともに変更および改善されます。[詳細](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "カートを空にする",
-          "empty_cart_message": "メッセージ",
-          "empty_cart_collections": "おすすめのコレクション",
-          "empty_cart_products": "製品の推奨事項"
+          "label": "ダイナミックチェックアウトボタン有効化",
+          "info": "[詳細](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "ホバー時に製品の第2画像を表示します"
         },
         "badges": {
-          "info": "Tambahkan lencana kustom menggunakan tag produk. [Pelajari lebih lanjut](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Tambahkan lencana kustom menggunakan tag produk. [Pelajari lebih lanjut](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "バッジ",
           "show_badges": "バッジ表示"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "星評価を表示",
           "show_if_no_reviews": "評価がない場合に表示",
-          "info": "評価を表示するには、商品レビューアプリを追加してください。 [詳しくはこちら](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "評価を表示するには、商品レビューアプリを追加してください。 [詳しくはこちら](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "星評価を以下のように表示...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "スウォッチ",
-      "info": "スウォッチは、カテゴリー メタフィールドまたはバリアント画像を使用して作成できます。[詳細](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "スウォッチは、カテゴリー メタフィールドまたはバリアント画像を使用して作成できます。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "スウォッチスタイル",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "オプションのバリエーション画像を表示",
-          "info": "スウォッチにバリエーション画像を使用するには、スウォッチを作成するオプション名をコンマで区切ったリストを使用します (例: 'Material,Color,Flavour,Chain-length')。[詳細](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "スウォッチにバリエーション画像を使用するには、スウォッチを作成するオプション名をコンマで区切ったリストを使用します (例: 'Material,Color,Flavour,Chain-length')。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "共有"
@@ -463,11 +462,11 @@
         },
         "page_fade_enabled": {
           "label": "ページフェードトランジション有効化",
-          "info": "ページの読み込み時にフェードイン/フェードアウトを許可"
+          "info": "ページの読み込み時にフェードイン\/フェードアウトを許可"
         },
         "ken_burns_enabled": {
           "label": "ズームエフェクト有効化",
-          "info": "選択したホームページ画像の最初の読み込み時に微妙なズームエフェクトを有効化。[詳細](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "選択したホームページ画像の最初の読み込み時に微妙なズームエフェクトを有効化。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "テキスト",
-      "name": "アコーディオン/FAQ",
+      "name": "アコーディオン\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "タブの内容"
         }
       },
       "presets": {
-        "name": "アコーディオン/FAQ"
+        "name": "アコーディオン\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "コンテナの幅",
       "name": "カスタムHTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "カスタムリキッド",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "ホバー画像",
@@ -613,7 +614,8 @@
           "label": "セクションの余白をテーマと同じにする"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "アプリ"
       }
@@ -665,14 +667,15 @@
       "name": "ナビゲーションバナー",
       "settings": {
         "navigation": {
-          "paragraph": "メニュー（オンラインストア > ナビゲーション > メニューで編集）またはコレクション リストを表示します。メタフィールドを使用して、場所に基づいて特定のコレクション リストを表示します。[詳細](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "メニュー（オンラインストア > ナビゲーション > メニューで編集）またはコレクション リストを表示します。メタフィールドを使用して、場所に基づいて特定のコレクション リストを表示します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "ナビゲーションの配置",
           "info": "スタイルが「グリッド」に設定されている場合"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "ナビゲーションバナー"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "アカウント",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "アカウントを有効にする",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "アドレス",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "ログイン",
       "settings": {
         "enable_shop_login_button": "Shopでサインインを有効にする"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "注文",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "新規登録",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "パスワードリセット",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "テキスト",
@@ -1013,7 +1029,8 @@
           "label": "デスクトップでコンテンツを中央揃え"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "見出し",
@@ -1051,7 +1068,7 @@
           "name": "Shopでフォロー",
           "settings": {
             "paragraph-0": {
-              "content": "Shopアプリでストアフロントのフォローボタンを表示します。[詳細](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Shopアプリでストアフロントのフォローボタンを表示します。[詳細](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "ヘッダー画像"
           },
-          "paragraph": "この画像は、「ギフトカードの領収書」や「新しいギフトカード」のメール通知にも表示できます。[詳細](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "この画像は、「ギフトカードの領収書」や「新しいギフトカード」のメール通知にも表示できます。[詳細](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "ギフトカード画像",
             "info": "900 x 600ピクセルを推奨"
@@ -1162,7 +1179,7 @@
           "name": "メガメニュー",
           "settings": {
             "mega-menu": {
-              "info": "既存のメニュー項目を入力して、メガメニューのドロップダウンを適用します。[詳細](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "既存のメニュー項目を入力して、メガメニューのドロップダウンを適用します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "プロモーション1"
@@ -1223,7 +1240,8 @@
           "info": "セクションの高さが「オリジナル」に設定されている場合、パララックスは表示されません"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "テキストオーバーレイ画像"
       }
@@ -1238,7 +1256,8 @@
           "label": "画像の上にコンテンツをオーバーレイ"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "テキスト付き画像"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "ニュースレター",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "アコーディオンのコンテンツ",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "ギフト包装を表示",
-          "info": "[ギフト包装についての詳細](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)"
+          "info": "[ギフト包装についての詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)"
         },
         "paragraph-8": {
           "content": "テーマ設定 > 商品 でギフト包装商品を選択"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "マップ",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google マップ API キー",
-          "info": "マップを表示するには [Google マップ API キー](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) を登録する必要があります"
+          "info": "マップを表示するには [Google マップ API キー](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) を登録する必要があります"
         },
         "button_text": {
           "label": "マップへのリンクラベル"
@@ -1496,7 +1519,8 @@
           "info": "マップが読み込まれていない場合に表示されます"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "マップ"
       }
@@ -1511,7 +1535,8 @@
           "label": "日付を表示"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "ブログページ",
@@ -1523,7 +1548,8 @@
           "label": "「最新の記事」を表示"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "フォント",
@@ -1627,7 +1653,7 @@
       "name": "パスワードページ",
       "settings": {
         "paragraph-13": {
-          "content": "[Shopifyの設定でパスワードページメッセージを編集](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Shopifyの設定でパスワードページメッセージを編集](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "ソーシャルメディア設定とアカウントを一般設定で編集"
@@ -1636,7 +1662,8 @@
           "label": "ニュースレターサインアップを表示"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "商品説明",
@@ -1645,7 +1672,8 @@
           "label": "説明の「続きを読む」を有効にする（非推奨）"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "ボタンリンク",
@@ -1658,7 +1686,7 @@
           "label": "垂直配置"
         },
         "image_or_video": {
-          "label": "画像/動画",
+          "label": "画像\/動画",
           "maximum_width": "最大幅"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "商品のおすすめ",
       "settings": {
         "paragraph-0": {
-          "content": "ダイナミックなおすすめは注文と商品情報を利用して時間とともに変化し、向上します。 [詳細を見る](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "ダイナミックなおすすめは注文と商品情報を利用して時間とともに変化し、向上します。 [詳細を見る](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "デスクトップで固定コンテンツを有効にする"
         },
         "image_size": {
-          "info": "推奨最小幅は 950 ピクセルです。[詳細](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "推奨最小幅は 950 ピクセルです。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "セカンダリメディア表示",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "予約注文",
-          "info_text": "購入ボタンの文言を「予約注文」に設定するには、任意の製品に「予約注文」のタグを追加します。[詳細](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "購入ボタンの文言を「予約注文」に設定するには、任意の製品に「予約注文」のタグを追加します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "商品フォームに表示されるインストール済みのアプリブロックの下のスペーシングを制御します"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "スウォッチを作成するには、「テーマ設定 > スウォッチ」に移動します。",
-              "swatch_info": "ビジュアルスウォッチは、カテゴリメタフィールドまたはバリアント画像を使用して作成できます。[詳細](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "ビジュアルスウォッチは、カテゴリメタフィールドまたはバリアント画像を使用して作成できます。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "サムネイルに基づいてバリアントを変更"
@@ -1780,13 +1808,13 @@
           "name": "関連商品",
           "settings": {
             "info": {
-              "content": "Plus 加盟店の場合は、この機能を利用するために Combined Listings アプリを使用することをお勧めします。[詳細](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Plus 加盟店の場合は、この機能を利用するために Combined Listings アプリを使用することをお勧めします。[詳細](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "スウォッチのサイズ"
             },
             "paragraph-4": {
-              "content": "メタフィールドの使用をお勧めします。[詳細](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "メタフィールドの使用をお勧めします。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "ギフトラップ",
           "settings": {
             "paragraph-0": {
-              "content": "テーマ設定 > 商品でギフトラップ商品を選択します。[詳細はこちら](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)。"
+              "content": "テーマ設定 > 商品でギフトラップ商品を選択します。[詳細はこちら](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)。"
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "ギフトカード商品の受取人情報フォームを表示",
-              "info": "ギフトカード商品はオプションで受取人に送付し、パーソナルメッセージとともに送ることができます。[詳細はこちら](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "ギフトカード商品はオプションで受取人に送付し、パーソナルメッセージとともに送ることができます。[詳細はこちら](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "店舗引き取り",
           "settings": {
             "paragraph-0": {
-              "content": "表示するには場所を設定する必要があります。[詳細はこちら](https://help.shopify.com/en/manual/locations)"
+              "content": "表示するには場所を設定する必要があります。[詳細はこちら](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "信頼バッジ",
-              "info": "推奨：100 x 300px。[詳細はこちら](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "推奨：100 x 300px。[詳細はこちら](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "補完商品",
           "settings": {
             "paragraph-0": {
-              "content": "補完商品を選択するには、Search & Discoveryアプリを追加します。[詳細はこちら](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "補完商品を選択するには、Search & Discoveryアプリを追加します。[詳細はこちら](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "表示する商品数"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "チェックボックス",
             "paragraph": {
-              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必須",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "落ちる",
             "paragraph": {
-              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必須",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "ファイルのアップロード",
             "paragraph": {
-              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必須",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "ラジオボタン",
             "paragraph": {
-              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必須",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "テキストフィールド",
             "paragraph": {
-              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "カートに追加されたアイテムのカスタマイズ情報を収集します。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "必須",
@@ -1994,7 +2022,8 @@
           "label": "スウォッチフィルターのラベルを表示"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "著者",
@@ -2059,7 +2088,7 @@
         "name": "お客様の声"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "リンク",
       "name": "テキスト広告",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "サブヘッディングのサイズ"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "ビデオヒーロー"
       }
@@ -2106,7 +2136,8 @@
           "info": "オートプレイが有効な場合には表示されません。"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "テキスト",
@@ -2142,7 +2173,7 @@
     "Heading": "見出し",
     "Icon_style": "アイコンスタイル",
     "Images": "画像",
-    "Plus_minus": "プラス/マイナス",
+    "Plus_minus": "プラス\/マイナス",
     "Caret": "キャレット",
     "Text": "テキスト",
     "Custom_HTML": "カスタムHTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "間隔を削除",
     "Full_width": "フル幅",
     "Content_width": "コンテンツ幅",
-    "1_2_width": "1/2 幅",
-    "1_3_width": "1/3 幅",
-    "2_3_width": "2/3 幅",
-    "1_4_width": "1/4 幅",
-    "3_4_width": "3/4 幅",
+    "1_2_width": "1\/2 幅",
+    "1_3_width": "1\/3 幅",
+    "2_3_width": "2\/3 幅",
+    "1_4_width": "1\/4 幅",
+    "3_4_width": "3\/4 幅",
     "Extra_small": "特小",
     "Extra_large": "特大",
     "Top": "トップ",
@@ -2246,10 +2277,10 @@
     "Overlay": "オーバーレイ",
     "A_Shopify_hosted_video": "Shopifyホストのビデオ",
     "Embed_video_from_URL": "URLからビデオを埋め込む",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTubeおよびVimeoを受け入れます。ビデオはミュートになり、一部のデバイスでは自動再生が制限される場合があります。[詳細](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTubeおよびVimeoを受け入れます。ビデオはミュートになり、一部のデバイスでは自動再生が制限される場合があります。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "モバイルビデオ",
     "A_Shopify_hosted_video_optional": "Shopifyホストのビデオ（オプション）",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTubeおよびVimeoを受け入れます。[詳細](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "YouTubeおよびVimeoを受け入れます。[詳細](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "テキストの配置",
     "Alignment": "アライメント",
     "Countdown_timer": "カウントダウンタイマー",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "1400 x 1400px が推奨されます",
     "Menu": "メニュー",
     "Footer_text": "フッターテキスト",
-    "Country_region_selector": "国/地域セレクター",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "国/地域を追加するには、[マーケット設定に移動](/admin/settings/markets)してください。",
-    "Enable_country_region_selector": "国/地域セレクターを有効にする",
+    "Country_region_selector": "国\/地域セレクター",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "国\/地域を追加するには、[マーケット設定に移動](\/admin\/settings\/markets)してください。",
+    "Enable_country_region_selector": "国\/地域セレクターを有効にする",
     "Language_selector": "言語セレクター",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "言語を追加するには、[言語設定に移動](/admin/settings/languages)してください。",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "言語を追加するには、[言語設定に移動](\/admin\/settings\/languages)してください。",
     "Enable_language_selector": "言語セレクターを有効にする",
     "Newsletter": "ニュースレター",
     "Header": "ヘッダー",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "在庫切れのバリアントを非表示",
     "Show_vendor": "ベンダーを表示",
     "Show_dynamic_checkout_button": "ダイナミックチェックアウトボタンを表示",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "顧客が馴染みのある支払い方法を使用して直接チェックアウトできます。[詳細はこちら](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "顧客が馴染みのある支払い方法を使用して直接チェックアウトできます。[詳細はこちら](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "メディア",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "メディアタイプについて詳しく学ぶ [Learn more](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "メディアタイプについて詳しく学ぶ [Learn more](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "ビデオループを有効にする",
     "Product_rating": "商品評価",
     "Label": "ラベル",
     "Rating": "評価",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "評価を表示するには、[商品評価メタフィールドを追加](/admin/metafields/product)してください",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "評価を表示するには、[商品評価メタフィールドを追加](\/admin\/metafields\/product)してください",
     "Full_icon": "フルアイコン",
     "Empty_icon": "空アイコン",
     "Maximum": "最大",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "評価メタフィールドの[スケールの最大値](/admin/metafields/product)に等しい最大値を選択してください",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "評価メタフィールドの[スケールの最大値](\/admin\/metafields\/product)に等しい最大値を選択してください",
     "Image_with_offers": "オファー付き画像",
     "Link_hover_border_color": "リンクホバーボーダーカラー",
     "Text_with_icon": "アイコン付きテキスト",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "デスクトップ位置",
     "Top_bar": "トップバー",
     "Enable_filtering": "フィルタリングを有効にする",
-    "Customize_filters_admin_menus": "[フィルタのカスタマイズ](/admin/menus)",
+    "Customize_filters_admin_menus": "[フィルタのカスタマイズ](\/admin\/menus)",
     "Enable_sorting": "ソーティングを有効にする",
     "2000_x_800px_recommended": "2000 x 800px が推奨されます",
     "Required_to_show_the_button": "ボタンを表示するために必要",

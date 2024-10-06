@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Почти готово...",
-      "no_products_html": "У вас нет товаров на главной странице. Здесь будет отображаться заглушка, пока вы не <a href=\"/admin/collections?tutorial=Frontpage\">добавите товар в эту коллекцию</a>.",
+      "no_products_html": "У вас нет товаров на главной странице. Здесь будет отображаться заглушка, пока вы не <a href=\"\/admin\/collections?tutorial=Frontpage\">добавите товар в эту коллекцию<\/a>.",
       "add_product": "Добавить товар",
       "product_title": "Название товара",
       "product_description": "Это место предназначено для описания деталей вашего товара. Расскажите клиентам о внешнем виде, ощущениях и стиле вашего товара. Добавьте информацию о цвете, используемых материалах, размере и месте производства.",
-      "no_collections_html": "У вас нет коллекций для отображения здесь. <a href=\"/admin/custom_collections\">Добавьте несколько коллекций</a> к стандартной главной странице.",
+      "no_collections_html": "У вас нет коллекций для отображения здесь. <a href=\"\/admin\/custom_collections\">Добавьте несколько коллекций<\/a> к стандартной главной странице.",
       "add_collection": "Добавить коллекцию",
       "collection_title": "Название коллекции",
       "blog_title": "Название вашей записи",
@@ -76,10 +85,10 @@
       "return_text": "Назад"
     },
     "localization": {
-      "country_label": "Страна/регион",
+      "country_label": "Страна\/регион",
       "language_label": "Язык",
       "update_language": "Обновить язык",
-      "update_country": "Обновить страну/регион"
+      "update_country": "Обновить страну\/регион"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Корзина",
       "remove": "Удалить",
-      "note": "Примечание к заказу",
-      "add_note": "Добавить примечание к заказу",
-      "edit_note": "Редактировать примечание к заказу",
-      "save_note": "Сохранить примечание к заказу",
-      "add_gift_note": "Добавить сообщение о подарке",
-      "edit_gift_note": "Изменить сообщение о подарке",
-      "save_gift_note": "Сохранить сообщение о подарке",
-      "save": "Сохранять",
+      "note": "Специальные инструкции для продавца",
       "see_more": "Подробнее",
       "subtotal": "Итого",
-      "regular_subtotal": "Регулярный промежуточный итог",
-      "sale_subtotal": "Промежуточный итог продаж",
       "taxes_and_shipping_at_checkout": "Налоги и доставка рассчитываются при оформлении заказа",
-      "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\">доставка</a> рассчитываются при оформлении заказа",
+      "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\">доставка<\/a> рассчитываются при оформлении заказа",
       "taxes_included_but_shipping_at_checkout": "Налог включен, доставка рассчитывается при оформлении заказа",
-      "taxes_included_and_shipping_policy_html": "Налог включен. <a href=\"{{ link }}\">Доставка</a> рассчитывается при оформлении заказа.",
+      "taxes_included_and_shipping_policy_html": "Налог включен. <a href=\"{{ link }}\">Доставка<\/a> рассчитывается при оформлении заказа.",
       "update": "Обновить корзину",
       "checkout": "Оформить заказ",
       "empty": "Ваша корзина в настоящее время пуста.",
       "close_cart": "Закрыть корзину",
-      "view_cart": "Просмотреть корзину",
-      "savings_html": "Вы экономите {{ price }}",
-      "return_to_shop": "Вернуться в магазин"
+      "savings_html": "Вы экономите {{ price }}"
     },
     "label": {
       "product": "Товар",
@@ -262,7 +260,7 @@
       "clear_all": "Очистить все",
       "empty": "Товары не найдены",
       "from": "От",
-      "filter_and_sort": "Фильтр/Сортировка",
+      "filter_and_sort": "Фильтр\/Сортировка",
       "filter_by_label": "Фильтровать по",
       "filter_button": "Фильтр",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Сортировать по",
       "title": "Коллекция",
       "to": "До",
-      "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">очистьте все</a>"
+      "use_fewer_filters_html": "Используйте меньше фильтров или <a class=\"{{ class }}\" href=\"{{ link }}\">очистьте все<\/a>"
     },
     "events_calendar": {
       "tbc_text": "Ожидается"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Не удалось найти этот адрес",
       "address_no_results": "Нет результатов для этого адреса",
-      "address_query_limit_html": "Вы превысили ограничение использования Google API. Рассмотрите переход на план уровня <a href=\"https://developers.google.com/maps/premium/usage-limits\">Премиум</a>.",
+      "address_query_limit_html": "Вы превысили ограничение использования Google API. Рассмотрите переход на план уровня <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Премиум<\/a>.",
       "auth_error_html": "Не удалось проверить ваш ключ API для Google Карт."
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "Город",
       "country": "Страна",
       "province": "Регион",
-      "zip": "Почтовый/Почтовый код",
+      "zip": "Почтовый\/Почтовый код",
       "phone": "Телефон",
       "set_default": "Установить как адрес по умолчанию",
       "add": "Добавить адрес",
@@ -422,7 +420,7 @@
       "add_product": "Добавить товар",
       "product_title": "Наименование товара",
       "product_vendor": "Производитель",
-      "no_collections_html": "У вас нет никаких коллекций для отображения здесь. <a href=\"/admin/custom_collections\">Добавьте некоторые коллекции</a> к стандартной главной странице.",
+      "no_collections_html": "У вас нет никаких коллекций для отображения здесь. <a href=\"\/admin\/custom_collections\">Добавьте некоторые коллекции<\/a> к стандартной главной странице.",
       "add_collection": "Добавить коллекцию",
       "collection_title": "Наименование коллекции",
       "no_content": "В данном разделе в настоящее время отсутствует контент. Добавьте контент в этот раздел, используя боковую панель."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Подарочное сообщение",
       "giftwrap_note_placeholder": "Добавьте ваше подарочное сообщение здесь",
       "from_text_html": "От {{ price }}",
-      "file_upload_html": "Перетаскивайте или <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">просматривайте</a> файлы для загрузки",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Найдите</a> файлы для загрузки"
+      "file_upload_html": "Перетаскивайте или <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">просматривайте<\/a> файлы для загрузки",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Найдите<\/a> файлы для загрузки"
     },
     "product": {
       "sold_out": "Распродано",
@@ -497,14 +495,14 @@
       "category": "Категория",
       "type": "Тип",
       "include_taxes": "С учетом налогов.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Доставка</a> рассчитывается при оформлении заказа.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Доставка<\/a> рассчитывается при оформлении заказа.",
       "quote": "Цитата",
       "preorder_today": "Предзаказ сегодня",
       "in_stock": "В наличии",
       "low_stock": "Мало в наличии",
       "out_of_stock": "Нет в наличии",
       "stock_left": "осталось",
-      "out_of_stock_html": "Щелкните <a href=\"#\"><strong>здесь</strong></a>, чтобы получать уведомления по электронной почте о появлении товара {{ product }} - {{ variant }}.",
+      "out_of_stock_html": "Щелкните <a href=\"#\"><strong>здесь<\/strong><\/a>, чтобы получать уведомления по электронной почте о появлении товара {{ product }} - {{ variant }}.",
       "wrong_email": "Пожалуйста, укажите действительный адрес электронной почты.",
       "out_of_stock_success": "Спасибо! Мы уведомим вас, когда этот товар станет доступным!",
       "read_more_html": "Подробнее",
@@ -564,9 +562,9 @@
       "password": "Введите магазин, используя пароль",
       "enter_password": "Введите пароль",
       "store_owner": "Вы владелец магазина?",
-      "store_owner_html": "<a href=\"/admin\">Войти здесь</a>",
+      "store_owner_html": "<a href=\"\/admin\">Войти здесь<\/a>",
       "continue": "Продолжить",
-      "powered_by_html": "Этот магазин будет работать на платформе <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Этот магазин будет работать на платформе <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

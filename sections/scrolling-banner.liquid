@@ -1,7 +1,7 @@
 {{ 'section-scrolling-banner.min.css' | asset_url | stylesheet_tag }}
 
 {%- if section.blocks.size > 0 -%}
-  <div class="color-scheme--{{ section.settings.color_scheme }} wrapper-spacing--v{% if section.settings.show_fade %} show-fade{% endif %}" 
+  <div class="color-scheme--{{ section.settings.color_scheme }} wrapper-spacing--v" 
     data-wetheme-section-type="scrolling-banner" 
     data-wetheme-section-id="{{ section.id }}"
     style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
@@ -123,12 +123,6 @@
     },
     {
       "type": "checkbox",
-      "id": "show_fade",
-      "label": "t:all.show_fade",
-      "default": false
-    },
-    {
-      "type": "checkbox",
       "id": "borders",
       "label": "t:all.enable_borders",
       "default": false
@@ -175,7 +169,7 @@
       "max": 150,
       "step": 5,
       "unit": "t:all.px",
-      "default": 60
+      "default": 20
     },
     {
       "type": "range",
@@ -185,7 +179,7 @@
       "max": 150,
       "step": 5,
       "unit": "t:all.px",
-      "default": 60
+      "default": 20
     },
     {
       "type": "range",
@@ -518,7 +512,7 @@
           "type": "text"
         },
         {
-          "type": "image"
+          "type": "icon"
         }
       ]
     }

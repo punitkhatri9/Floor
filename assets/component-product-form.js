@@ -139,7 +139,7 @@ class ProductForm extends HTMLElement {
 
   giftWrapEnabled() {
     /* ===== Determine if the gift wrap product is enabled ===== */
-    return !!this.productInformation.querySelector('[name="properties[Gift wrap]"]')?.checked && this.giftWrapProductId !== '';
+    return !!this.form.querySelector('[name="properties[Gift wrap]"]') && this.giftWrapProductId !== '';
   }
 
   async addItemsToCart() {
@@ -161,13 +161,7 @@ class ProductForm extends HTMLElement {
   async addProductToCart(url, config) {
     /* ===== Add the product to the cart ===== */
     const response = await fetch(url, config);
-    if (response.ok) {
-      // Update cart drawer
-      if (this.cartType === 'drawer') {
-        const responseJson = await response.json();
-        this.updateCartDrawer(responseJson);
-      }
-    } else {
+    if (!response.ok) {
       console.error(`Error adding item to cart: ${response.description || response.statusText}`);
     }
     return response;
@@ -176,18 +170,11 @@ class ProductForm extends HTMLElement {
   additionalProductConfig(productId, quantity) {
     /* ===== Create the configuration object for the additional product(s) to be added to the cart ===== */
     const additionalItemPayload = { items: [{ id: productId, quantity: quantity }] };
-    if (this.cartType === 'drawer') {
-      additionalItemPayload['sections'] = 'cart-drawer';
-    }
     return {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify(additionalItemPayload)
     };
-  }
-
-  updateCartDrawer(responseJson) {
-    eventBus.emit('update:cart:drawer', responseJson);
   }
 
   async getCart() {
@@ -203,7 +190,8 @@ class ProductForm extends HTMLElement {
   updateCartCountIndicator() {
     /* ===== Update the cart count indicator ===== */
     if (!this.cartCountIndicator) return;
-    this.getCart().then(cart => window.wetheme.updateCartCount(cart));
+    this.getCart().then(cart => this.cartCountIndicator.textContent = cart.item_count);
+    if (this.cartCountIndicator.classList.contains('hide')) this.cartCountIndicator.classList.remove('hide');
   }
 
   fetchConfigWithBody() {
@@ -211,16 +199,8 @@ class ProductForm extends HTMLElement {
     const config = this.fetchConfig('javascript');
     config.headers['X-Requested-With'] = 'XMLHttpRequest';
     delete config.headers['Content-Type'];
-    config.body = this.addSectionsParam(new FormData(this.form));
+    config.body = new FormData(this.form);
     return config;
-  }
-
-  addSectionsParam(formData) {
-    /* ===== Add the sections parameter to the form data for cart drawer rendering ===== */
-    if (this.cartType === 'drawer') {
-      formData.append('sections', 'cart-drawer');
-    }
-    return formData;
   }
 
   processResponse(response) {
@@ -231,7 +211,6 @@ class ProductForm extends HTMLElement {
 
     // Handle the case where the product is out of stock
     if (response.status === 422) {
-      window.eventBus.emit('render:cart:drawer');
       this.hideLoadingState();
       if (this.qtyErrorMessage) this.qtyErrorMessage.classList.remove('hidden');
     }
@@ -242,9 +221,13 @@ class ProductForm extends HTMLElement {
     this.enableBlankInputs();
   }
 
-  openCartDrawer() {
-    /* ===== Open the cart drawer ===== */
-    eventBus.emit('open:cart:drawer', { scrollToTop: true });
+  toggleCartDrawer() {
+    /* ===== Toggle the cart drawer open or closed ===== */
+    this.getCart().then(cart => {
+      eventBus.emit('toggle:right:drawer', { type: 'cart', forceOpen: true, params: { cart } });
+    }).catch(error => {
+      console.error(`Error fetching cart: ${error}`);
+    });
   }
 
   showLoadingState() {
@@ -273,9 +256,8 @@ class ProductForm extends HTMLElement {
     } else if (this.cartType === 'drawer' && this.cartAction === 'go_to_or_open_cart') {
       // Open the cart drawer 
       this.toggleAddToCartText(true);
-      this.openCartDrawer();
+      this.toggleCartDrawer();
       this.toggleAddButton(false);
-      this.updateCartCountIndicator();
     } else {
       // Redirect to the cart page
       this.toggleAddToCartText(true);

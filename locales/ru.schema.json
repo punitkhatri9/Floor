@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Цветовые схемы"
         },
         "header-35": {
-          "content": "Ящики"
+          "content": "Выдвижная корзина"
         },
         "header-38": {
           "content": "Подвал"
@@ -114,31 +123,21 @@
           "label": "При добавлении товара в корзину…",
           "options": {
             "show_added_message": "Показать сообщение 'Добавлено'",
-            "go_to_or_open_cart": "Перейти в/открыть корзину"
+            "go_to_or_open_cart": "Перейти в\/открыть корзину"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Показать производителя товара"
+        },
         "cart_notes_enable": {
-          "label": "Показать примечание к заказу"
+          "label": "Включить заметки к заказу"
         },
         "giftwrap_gift_note": {
           "label": "Включить сообщение с подарком"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Показывать динамические кнопки оформления заказа на странице корзины",
-          "info": "[Узнать больше](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Рекомендации по продукту",
-          "show_cart_recommendations": {
-            "label": "Показать динамические рекомендации",
-            "info": "Динамические рекомендации основаны на продуктах в корзине. Они используют информацию о заказе и продукте, чтобы изменяться и улучшаться с течением времени. [Узнать больше](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Пустая корзина",
-          "empty_cart_message": "Сообщение",
-          "empty_cart_collections": "Предлагаемые коллекции",
-          "empty_cart_products": "Рекомендации по продукту"
+          "label": "Включить кнопки динамической оплаты",
+          "info": "[Узнать больше](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Показывает второе изображение вашего продукта при наведении"
         },
         "badges": {
-          "info": "Добавьте пользовательские значки с помощью тегов продукта. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Добавьте пользовательские значки с помощью тегов продукта. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Значки",
           "show_badges": "Показать значки"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Показать рейтинг звезд",
           "show_if_no_reviews": "Показать, если нет оценки",
-          "info": "Чтобы отобразить рейтинг, добавьте приложение для отзывов о продуктах. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "Чтобы отобразить рейтинг, добавьте приложение для отзывов о продуктах. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Показать рейтинг звездами как...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Образцы",
-      "info": "Образцы можно создавать с помощью метаполей категории или изображений вариантов. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Образцы можно создавать с помощью метаполей категории или изображений вариантов. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Образец стиля",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Показать вариант изображения для опций",
-          "info": "Чтобы использовать изображения вариантов для образцов, используйте список, разделенный запятыми, с именами параметров, для которых вы хотите создать образцы (например, «Материал,Цвет,Вкус,Длина цепочки»). [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "Чтобы использовать изображения вариантов для образцов, используйте список, разделенный запятыми, с именами параметров, для которых вы хотите создать образцы (например, «Материал,Цвет,Вкус,Длина цепочки»). [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Поделиться"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Включить эффект масштабирования",
-          "info": "Включить слегка зумирующий эффект на выбранных изображениях главной страницы при первой загрузке. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Включить слегка зумирующий эффект на выбранных изображениях главной страницы при первой загрузке. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Текст",
-      "name": "Аккордеон/FAQ",
+      "name": "Аккордеон\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "Содержание вкладки"
         }
       },
       "presets": {
-        "name": "Аккордеон/FAQ"
+        "name": "Аккордеон\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Ширина контейнера",
       "name": "Пользовательский HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Пользовательский Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Изображение при наведении",
@@ -613,7 +614,8 @@
           "label": "Сделать отступы секции такими же, как в теме"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Приложения"
       }
@@ -665,14 +667,15 @@
       "name": "Баннер навигации",
       "settings": {
         "navigation": {
-          "paragraph": "Отображение меню (редактируется в Интернет-магазине > Навигация > Меню) или списка коллекций. Используйте метаполя для отображения конкретных списков коллекций в зависимости от местоположения. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Отображение меню (редактируется в Интернет-магазине > Навигация > Меню) или списка коллекций. Используйте метаполя для отображения конкретных списков коллекций в зависимости от местоположения. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Выравнивание навигации",
           "info": "Когда для стиля установлено значение «Сетка»"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Баннер навигации"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Аккаунт",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Активация аккаунта",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Адреса",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Вход",
       "settings": {
         "enable_shop_login_button": "Включить вход через магазин"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Заказ",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Регистрация",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Сброс пароля",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Текст",
@@ -1013,7 +1029,8 @@
           "label": "Центрировать контент на рабочем столе"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Заголовок",
@@ -1051,7 +1068,7 @@
           "name": "Подписаться на магазин",
           "settings": {
             "paragraph-0": {
-              "content": "Показать кнопку 'Подписаться' для вашего магазина в приложении Shop. [Узнать больше](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Показать кнопку 'Подписаться' для вашего магазина в приложении Shop. [Узнать больше](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Изображение заголовка"
           },
-          "paragraph": "Вы также можете показывать это изображение в уведомлениях по электронной почте «Получение подарочной карты» и «Новая подарочная карта». [Узнать больше](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Вы также можете показывать это изображение в уведомлениях по электронной почте «Получение подарочной карты» и «Новая подарочная карта». [Узнать больше](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Изображение подарочной карты",
             "info": "рекомендуется 900 x 600 пикселей"
@@ -1162,7 +1179,7 @@
           "name": "Мега-меню",
           "settings": {
             "mega-menu": {
-              "info": "Введите существующий пункт меню, чтобы применить раскрывающееся меню мегаменю. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Введите существующий пункт меню, чтобы применить раскрывающееся меню мегаменю. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Акция 1"
@@ -1223,7 +1240,8 @@
           "info": "Параллакс не будет виден, когда 'Высота секции' установлена как 'Оригинал'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Изображение с наложением текста"
       }
@@ -1238,7 +1256,8 @@
           "label": "Наложить содержимое на изображение"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Изображение с текстом"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Новостная рассылка",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Содержание аккордеона",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Показать упаковку в подарок",
-          "info": "[Узнать больше](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) о подарочной упаковке"
+          "info": "[Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) о подарочной упаковке"
         },
         "paragraph-8": {
           "content": "Выберите товар для подарочной упаковки в разделе 'Настройки темы' > 'Товар'"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Карта",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Ключ Google Maps API",
-          "info": "Вам потребуется [зарегистрировать ключ Google Maps API](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) для отображения карты"
+          "info": "Вам потребуется [зарегистрировать ключ Google Maps API](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) для отображения карты"
         },
         "button_text": {
           "label": "Текст ссылки на карту"
@@ -1496,7 +1519,8 @@
           "info": "Отображается, если карта не загружена"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Карта"
       }
@@ -1511,7 +1535,8 @@
           "label": "Показать дату"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Страницы блога",
@@ -1523,7 +1548,8 @@
           "label": "Показать 'Последние статьи'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Шрифт",
@@ -1627,7 +1653,7 @@
       "name": "Страница ввода пароля",
       "settings": {
         "paragraph-13": {
-          "content": "[Отредактируйте сообщение на странице ввода пароля в настройках Shopify](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Отредактируйте сообщение на странице ввода пароля в настройках Shopify](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Отредактируйте настройки социальных сетей и аккаунты в Общих настройках"
@@ -1636,7 +1662,8 @@
           "label": "Показать подписку на новости"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Описание товара",
@@ -1645,7 +1672,8 @@
           "label": "Включить «читать дальше» для описания (устарело)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Ссылка на кнопку",
@@ -1658,7 +1686,7 @@
           "label": "Вертикальное выравнивание"
         },
         "image_or_video": {
-          "label": "Изображение/видео",
+          "label": "Изображение\/видео",
           "maximum_width": "Максимальная ширина"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Рекомендации по товарам",
       "settings": {
         "paragraph-0": {
-          "content": "Динамические рекомендации используют информацию о заказах и продуктах для изменения и улучшения со временем. [Узнайте больше](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Динамические рекомендации используют информацию о заказах и продуктах для изменения и улучшения со временем. [Узнайте больше](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Включить закрепление контента на компьютере"
         },
         "image_size": {
-          "info": "Рекомендуемая минимальная ширина 950 пикселей. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Рекомендуемая минимальная ширина 950 пикселей. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Отображение вторичных медиа",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Предварительный заказ",
-          "info_text": "Добавьте тег «Предварительный заказ» к любому товару, чтобы установить для кнопки «Купить» надпись «Предварительный заказ». [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Добавьте тег «Предварительный заказ» к любому товару, чтобы установить для кнопки «Купить» надпись «Предварительный заказ». [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Управление интервалом ниже установленных блоков приложений, отображаемых в форме товара"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "Чтобы создать образцы, перейдите в «Настройки темы > Образцы».",
-              "swatch_info": "Визуальные образцы можно создавать с помощью метаполей категории или изображений вариантов. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Визуальные образцы можно создавать с помощью метаполей категории или изображений вариантов. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Изменение варианта на основе миниатюры"
@@ -1780,13 +1808,13 @@
           "name": "Связанные товары",
           "settings": {
             "info": {
-              "content": "Если вы являетесь продавцом Plus, мы рекомендуем использовать приложение «Комбинированные листинги» для этой функции. [Подробнее](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Если вы являетесь продавцом Plus, мы рекомендуем использовать приложение «Комбинированные листинги» для этой функции. [Подробнее](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Размер образцов"
             },
             "paragraph-4": {
-              "content": "Мы рекомендуем использовать метаполя. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Мы рекомендуем использовать метаполя. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Упаковка в подарок",
           "settings": {
             "paragraph-0": {
-              "content": "Выберите товар упаковки в подарок в Настройках темы > Товар. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Выберите товар упаковки в подарок в Настройках темы > Товар. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Показать форму информации о получателе для товаров-подарков",
-              "info": "Товары-подарки можно отправить напрямую получателю вместе с личным сообщением. [Узнать больше](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Товары-подарки можно отправить напрямую получателю вместе с личным сообщением. [Узнать больше](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Самовывоз",
           "settings": {
             "paragraph-0": {
-              "content": "Для отображения необходимо настроить локации. [Узнать больше](https://help.shopify.com/en/manual/locations)"
+              "content": "Для отображения необходимо настроить локации. [Узнать больше](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Значок доверия",
-              "info": "Рекомендуется 100 x 300 пикселей. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Рекомендуется 100 x 300 пикселей. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Дополнительные товары",
           "settings": {
             "paragraph-0": {
-              "content": "Для выбора дополнительных товаров добавьте приложение Поиск и Подбор. [Узнать больше](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Для выбора дополнительных товаров добавьте приложение Поиск и Подбор. [Узнать больше](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Количество отображаемых товаров"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Флажок",
             "paragraph": {
-              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Необходимый",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Падать",
             "paragraph": {
-              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Флажок и раскрывающиеся списки)"
+              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Флажок и раскрывающиеся списки)"
             },
             "required": {
               "label": "Необходимый",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Загрузка файла",
             "paragraph": {
-              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Необходимый",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Радиокнопки",
             "paragraph": {
-              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Необходимый",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Текстовое поле",
             "paragraph": {
-              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Соберите информацию о настройке товара, добавленного в корзину. [Подробнее](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Необходимый",
@@ -1994,7 +2022,8 @@
           "label": "Показать метки фильтров образцов"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Автор",
@@ -2059,7 +2088,7 @@
         "name": "Отзывы"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Ссылка",
       "name": "Текстовая реклама",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Размер подзаголовка"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Видео-герой"
       }
@@ -2106,7 +2136,8 @@
           "info": "Не будет отображаться, если включена автовоспроизведение."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Текст",
@@ -2142,7 +2173,7 @@
     "Heading": "Заголовок",
     "Icon_style": "Стиль значков",
     "Images": "Изображения",
-    "Plus_minus": "Плюс/минус",
+    "Plus_minus": "Плюс\/минус",
     "Caret": "Указатель",
     "Text": "Текст",
     "Custom_HTML": "Пользовательский HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Убрать отступы",
     "Full_width": "На всю ширину",
     "Content_width": "Ширина содержимого",
-    "1_2_width": "1/2 ширины",
-    "1_3_width": "1/3 ширины",
-    "2_3_width": "2/3 ширины",
-    "1_4_width": "1/4 ширины",
-    "3_4_width": "3/4 ширины",
+    "1_2_width": "1\/2 ширины",
+    "1_3_width": "1\/3 ширины",
+    "2_3_width": "2\/3 ширины",
+    "1_4_width": "1\/4 ширины",
+    "3_4_width": "3\/4 ширины",
     "Extra_small": "Очень маленький",
     "Extra_large": "Очень большой",
     "Top": "Сверху",
@@ -2246,10 +2277,10 @@
     "Overlay": "Наложение",
     "A_Shopify_hosted_video": "Видео на Shopify",
     "Embed_video_from_URL": "Вставить видео с URL",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Поддерживает YouTube и Vimeo. Видео будет заглушено, и на некоторых устройствах может быть запрещено автовоспроизведение. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Поддерживает YouTube и Vimeo. Видео будет заглушено, и на некоторых устройствах может быть запрещено автовоспроизведение. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Мобильное видео",
     "A_Shopify_hosted_video_optional": "Видео на Shopify (по желанию)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Поддерживает YouTube и Vimeo. [Узнать больше](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Поддерживает YouTube и Vimeo. [Узнать больше](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Выравнивание текста",
     "Alignment": "Выравнивание",
     "Countdown_timer": "Обратный отсчет",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "Рекомендуется 1400 x 1400 пкс",
     "Menu": "Меню",
     "Footer_text": "Текст в подвале",
-    "Country_region_selector": "Выбор страны/региона",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Чтобы добавить страну/регион, перейдите в [настройки вашего рынка.](/admin/settings/markets)",
-    "Enable_country_region_selector": "Включить выбор страны/региона",
+    "Country_region_selector": "Выбор страны\/региона",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Чтобы добавить страну\/регион, перейдите в [настройки вашего рынка.](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Включить выбор страны\/региона",
     "Language_selector": "Выбор языка",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Чтобы добавить язык, перейдите в [настройки языка.](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Чтобы добавить язык, перейдите в [настройки языка.](\/admin\/settings\/languages)",
     "Enable_language_selector": "Включить выбор языка",
     "Newsletter": "Рассылка",
     "Header": "Шапка",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Скрыть варианты, которых нет в наличии",
     "Show_vendor": "Показать производителя",
     "Show_dynamic_checkout_button": "Показать кнопку динамической оплаты",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Позволяет клиентам оформить заказ непосредственно, используя знакомый метод оплаты. [Узнать больше](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Позволяет клиентам оформить заказ непосредственно, используя знакомый метод оплаты. [Узнать больше](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Медиа",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Узнать больше о [типах медиа](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Узнать больше о [типах медиа](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Включить повтор видео",
     "Product_rating": "Рейтинг продукта",
     "Label": "Метка",
     "Rating": "Рейтинг",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Чтобы отобразить рейтинг, добавьте [мета-поле рейтинга продукта](/admin/metafields/product)",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Чтобы отобразить рейтинг, добавьте [мета-поле рейтинга продукта](\/admin\/metafields\/product)",
     "Full_icon": "Полный значок",
     "Empty_icon": "Пустой значок",
     "Maximum": "Максимальный",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Выберите максимальное значение, равное максимальной шкале мета-поля рейтинга продукта. [/admin/metafields/product](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Выберите максимальное значение, равное максимальной шкале мета-поля рейтинга продукта. [\/admin\/metafields\/product](\/admin\/metafields\/product)",
     "Image_with_offers": "Изображение с предложениями",
     "Link_hover_border_color": "Цвет границы при наведении на ссылку",
     "Text_with_icon": "Текст с иконкой",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Позиция на рабочем столе",
     "Top_bar": "Верхняя панель",
     "Enable_filtering": "Включить фильтрацию",
-    "Customize_filters_admin_menus": "[Настроить фильтры](/admin/menus)",
+    "Customize_filters_admin_menus": "[Настроить фильтры](\/admin\/menus)",
     "Enable_sorting": "Включить сортировку",
     "2000_x_800px_recommended": "Рекомендуется 2000 x 800 пикселей",
     "Required_to_show_the_button": "Необходимо для отображения кнопки",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Складные вкладки",
     "Custom_icon": "Пользовательская иконка",
     "Aspect_ratio_of_1_1_recommended": "Рекомендуется соотношение сторон 1:1",
-    "Open_Close_icon_style": "Стиль иконки 'Открыть/Закрыть'",
+    "Open_Close_icon_style": "Стиль иконки 'Открыть\/Закрыть'",
     "Page": "Страница",
     "Page_content": "Содержание страницы",
     "Image_style": "Стиль изображения",

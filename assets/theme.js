@@ -24610,25 +24610,25 @@ class ThemeBase {
       return breakpoint;
     };
     /**
-     * Open/close right drawer
+     * Open/close right cart drawer
      *
-     * @param {'search' | 'shop-now' | 'page'} type
+     * @param {'cart' | 'search' | 'shop-now' | 'page'} type
      * @param {boolean | undefined} forceOpen
      * @param {object} params
      */
-    this.toggleRightDrawer = (type = 'search', forceOpen = undefined, params = {}) => {};
+    this.toggleRightDrawer = (type = 'cart', forceOpen = undefined, params = {}) => {};
     /**
-     * Open/close left drawer
+     * Open/close right cart drawer
      *
      * @param {boolean | undefined} forceOpen
      */
     this.toggleLeftDrawer = (forceOpen = undefined) => {};
     /**
-     * Update cart count after cart content was changed
+     * Update cart drawer after cart content was changed
      *
      * @param {import('theme-checker/dist/shopify').Cart} cart
      */
-    this.updateCartCount = cart => {};
+    this.updateCartDrawer = cart => {};
     /**
      * Load Youtube javascript API
      *
@@ -25186,9 +25186,7 @@ class Header extends Section_Section {
     };
     this.onCartButtonClick = e => {
       e.preventDefault();
-      window.eventBus.emit('open:cart:drawer', {
-        scrollToTop: false
-      });
+      this.theme.toggleRightDrawer('cart');
     };
     this.onMobileMenuButtonClick = e => {
       e.preventDefault();
@@ -25454,7 +25452,7 @@ class Hero extends Section_Section {
       }
     };
     this.kenBurns = new KenBurns(theme, element);
-    jquery_default()(".homepage-hero-text-advert-link").each((index, link) => {
+    jquery_default()(".homepage-hero-promotion-block-link").each((index, link) => {
       this.hoverEffect(jquery_default()(link));
     });
     jquery_default()('.homepage-hero-menu li').each((index, link) => {
@@ -30815,12 +30813,6 @@ class QuickAdd extends Component {
         // FIXME: error handling
         return false;
       }
-
-      // Update cart drawer
-      if (this.cartType == 'drawer') {
-        const responseJson = await response.json();
-        window.eventBus.emit('update:cart:drawer', responseJson);
-      }
       const languageParam = !this.languageUrl || this.languageUrl == '/' ? '' : this.languageUrl;
       const response2 = await window.fetch(`${languageParam}/cart?view=compare`);
       if (!response2.ok) {
@@ -30829,13 +30821,13 @@ class QuickAdd extends Component {
       }
       const cart = await response2.json();
       if (this.cartType == 'drawer' && this.cartAction == 'go_to_or_open_cart') {
-        window.eventBus.emit('open:cart:drawer', {
-          scrollToTop: true
+        this.theme.toggleRightDrawer('cart', true, {
+          cart: cart
         });
       } else {
         if (this.isDesktopQuickAdd) this.currentButton.innerHTML = this.translationsObject.translations.productAdded;
+        this.theme.updateCartDrawer(cart);
       }
-      this.theme.updateCartCount(cart);
       if (this.isDesktopQuickAdd) {
         setTimeout(() => {
           this.currentButton.innerHTML = this.translationsObject.translations.addToCart;
@@ -33934,7 +33926,7 @@ function vue_property_decorator_isPromise(obj) {
 }
 
 ;// CONCATENATED MODULE: ./src/javascripts/global/RightDrawer.js
-var _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3;
+var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3;
 function _initializerDefineProperty(e, i, r, l) { r && Object.defineProperty(e, i, { enumerable: r.enumerable, configurable: r.configurable, writable: r.writable, value: r.initializer ? r.initializer.call(l) : void 0 }); }
 function _applyDecoratedDescriptor(i, e, r, n, l) { var a = {}; return Object.keys(n).forEach(function (i) { a[i] = n[i]; }), a.enumerable = !!a.enumerable, a.configurable = !!a.configurable, ("value" in a || a.initializer) && (a.writable = !0), a = r.slice().reverse().reduce(function (r, n) { return n(i, e, r) || r; }, a), l && void 0 !== a.initializer && (a.value = a.initializer ? a.initializer.call(l) : void 0, a.initializer = void 0), void 0 === a.initializer ? (Object.defineProperty(i, e, a), null) : a; }
 function _initializerWarningHelper(r, e) { throw Error("Decorating class property failed. Please ensure that transform-class-properties is enabled and runs after the decorators transform."); }
@@ -33954,13 +33946,15 @@ let RightDrawer = (_dec = vue_class_component_esm({
   required: false
 }), _dec4 = Prop({
   required: false
-}), _dec5 = Watch('searchQuery'), _dec(_class = (_class2 = class RightDrawer extends vue_esm_Vue {
+}), _dec5 = Watch('giftNote'), _dec6 = Watch('searchQuery'), _dec(_class = (_class2 = class RightDrawer extends vue_esm_Vue {
   constructor(...args) {
     super(...args);
     /** @type {boolean} */
     this.isOpen = false;
-    /** @type {'search' | 'shop-now' | 'page'} */
-    this.type = 'search';
+    /** @type {'cart' | 'search' | 'shop-now' | 'page'} */
+    this.type = 'cart';
+    /** @type {import('theme-checker/dist/shopify').Cart | null} */
+    this.cart = null;
     /** @type {number | null} */
     this.lineQuantityUpdating = null;
     /** @type {string | null} */
@@ -33982,6 +33976,10 @@ let RightDrawer = (_dec = vue_class_component_esm({
     /** @type {number} */
     this.searchResultsNum = 0;
     /** @type {string} */
+    this.giftNote = '';
+    /** @type {boolean} */
+    this.updatingGiftNote = false;
+    /** @type {string} */
     _initializerDefineProperty(this, "searchUrl", _descriptor, this);
     /** @type {string} */
     _initializerDefineProperty(this, "isPredictive", _descriptor2, this);
@@ -33991,13 +33989,25 @@ let RightDrawer = (_dec = vue_class_component_esm({
   data() {
     return {
       isOpen: false,
-      type: 'search',
+      type: 'cart',
+      cart: null,
       lineQuantityUpdating: null,
       quickShopProductUrl: null,
       quickShopContent: '',
       searchQuery: '',
-      searchResults: []
+      searchResults: [],
+      giftNote: ''
     };
+  }
+  onGiftNoteChange() {
+    if (this.giftNoteChangeTimer) {
+      window.clearTimeout(this.giftNoteChangeTimer);
+    }
+    this.giftNoteChangeTimer = window.setTimeout(() => {
+      this.updatingGiftNote = true;
+      this.updateGiftNote();
+      this.giftNoteChangeTimer = null;
+    }, 1000);
   }
   onSearchChange() {
     if (this.isSearchPredictive) {
@@ -34025,15 +34035,14 @@ let RightDrawer = (_dec = vue_class_component_esm({
     return this.$root.theme;
   }
   mounted() {
+    this.cartAction = document.getElementById('PageContainer').dataset.cartAction;
     document.documentElement.addEventListener(TOGGLE_RIGHT_DRAWER_EVENT, this.handleToggle);
     // A custom event to toggle the right drawer from within web components
     window.eventBus.on('toggle:right:drawer', this.handleToggle);
-    window.eventBus.on('close:right:drawer', this.close);
   }
   beforeDestroy() {
     document.documentElement.removeEventListener(TOGGLE_RIGHT_DRAWER_EVENT, this.handleToggle);
     window.eventBus.off('toggle:right:drawer', this.handleToggle);
-    window.eventBus.on('close:right:drawer', this.close);
   }
   handleToggle(event) {
     const {
@@ -34053,6 +34062,14 @@ let RightDrawer = (_dec = vue_class_component_esm({
           this.getGenericPage(url);
         }
       }
+      if (params.cart) {
+        this.cart = params.cart;
+        // Populate gift note if it exists
+        if (params.cart.attributes.gift_note) {
+          this.giftNote = params.cart.attributes.gift_note;
+        }
+        this.theme.updateCartDrawer(params.cart);
+      }
     }
     this.toggle(type, forceOpen);
   }
@@ -34062,10 +34079,14 @@ let RightDrawer = (_dec = vue_class_component_esm({
     this.isOpen = false;
   }
   open() {
+    this.setSubtotal();
     document.body.classList.add('js-drawer-open');
     document.body.classList.add('js-drawer-open-right');
     this.isOpen = true;
-    if (this.type === 'search') {
+    if (this.type === 'cart' && (this.cart === null || this.cartAction === 'show_added_message')) {
+      this.fetchCart();
+      this.$nextTick(() => ( /** @type {HTMLElement} */this.$refs.drawerClose).focus());
+    } else if (this.type === 'search') {
       this.$nextTick(() => ( /** @type {HTMLElement} */this.$refs.searchText).focus());
     }
   }
@@ -34081,6 +34102,82 @@ let RightDrawer = (_dec = vue_class_component_esm({
       this.type = type;
       this.open();
     }
+  }
+  async fetchCart() {
+    try {
+      const languageParam = !this.languageUrl || this.languageUrl == '/' ? '' : this.languageUrl;
+      const response = await window.fetch(`${languageParam}/cart?view=compare`);
+      if (!response.ok) {
+        // FIXME error handling
+      }
+      const cart = await response.json();
+      this.cart = cart;
+      // Populate gift note if it exists
+      if (cart.attributes.gift_note) {
+        this.giftNote = cart.attributes.gift_note;
+      }
+      this.theme.updateCartDrawer(cart);
+    } catch (e) {
+      console.error('Unable to fetch cart: ', e);
+      // FIXME error handling
+    }
+  }
+  setSubtotal() {
+    setTimeout(function () {
+      //Show the sum of all the line item compare at prices before the subtotal in the drawer
+      let priceNoDiscount = document.querySelectorAll('.price-no--discount');
+      let lineItemPrices = document.querySelectorAll('.has--discount');
+      let lineItemComparePrices = document.querySelectorAll('.line-item__compare-at-price');
+      let copmarePriceDiv = /** @type {HTMLElement} */document.querySelector('.line__compare_price');
+      let cartTotal = /** @type {HTMLElement} */document.querySelector('.cart__total');
+      let cartTotalAmt = 0;
+      if (cartTotal) cartTotalAmt = parseFloat(cartTotal.innerHTML);
+      let totalWithDiscount;
+      if (!lineItemComparePrices || !lineItemPrices) return;
+      if (lineItemComparePrices.length > 0 && lineItemPrices.length > 0) {
+        //Get the sum of all compare at prices
+        let total = 0;
+        let compareSubtotal;
+        for (let num = 0; num < lineItemComparePrices.length; num++) {
+          const currentPrice = /** @type {HTMLElement} */lineItemComparePrices[num];
+          total += parseFloat(currentPrice.innerText);
+          compareSubtotal = total;
+        }
+
+        //Get the sum of discount prices
+        let count = 0;
+        let finalPriceTotal;
+        for (let amount = 0; amount < lineItemPrices.length; amount++) {
+          const currentTotalPrice = /** @type {HTMLElement} */lineItemPrices[amount];
+          count += parseFloat(currentTotalPrice.innerText);
+          finalPriceTotal = count;
+        }
+
+        //Get the sum of all line items that don't have discounts
+        let price = 0;
+        let totalPrice;
+        for (let amt = 0; amt < priceNoDiscount.length; amt++) {
+          const currFinalPrice = /** @type {HTMLElement} */priceNoDiscount[amt];
+          price += parseFloat(currFinalPrice.innerText);
+          totalPrice = price;
+        }
+        if (totalPrice > 0) {
+          totalWithDiscount = compareSubtotal + totalPrice;
+        } else {
+          totalWithDiscount = compareSubtotal;
+        }
+        if (copmarePriceDiv) {
+          const pageContainer = document.getElementById('PageContainer');
+          let showCurrencyCode = pageContainer.dataset.showCurrencyCode;
+          let currencyCode = pageContainer.dataset.currencyCode;
+          if (currencyCode && showCurrencyCode == 'true') {
+            copmarePriceDiv.innerHTML = `${this.wetheme.formatMoney(totalWithDiscount)} ${currencyCode}`;
+          } else {
+            copmarePriceDiv.innerHTML = this.wetheme.formatMoney(totalWithDiscount);
+          }
+        }
+      }
+    }, 1500);
   }
 
   /**
@@ -34151,6 +34248,113 @@ let RightDrawer = (_dec = vue_class_component_esm({
     const pageContent = await this.fetchPage(url);
     const target = /** @type {HTMLElement} */this.$refs.pageContent;
     target.appendChild(pageContent);
+  }
+  numDifference(a, b) {
+    if (a > b) {
+      return a - b;
+    } else {
+      return b - a;
+    }
+  }
+  get isGiftwrapEnabled() {
+    return this.theme.giftwrapProduct && this.theme.giftwrapEnabled;
+  }
+
+  /**
+   * Is a given Product object the selected giftwrap product?
+   *
+   * @param {object} item
+   */
+  isGiftwrapProduct(item) {
+    if (!this.isGiftwrapEnabled) return false;
+    return item.handle == this.theme.giftwrapProduct;
+  }
+
+  /**
+   * Remove giftwrap product when another product is removed
+   *
+   * @param {number} line 1-based index of a line
+   * @param {number} quantity new quantity
+   */
+  async updateGiftwrap(line, quantity) {
+    const thisProduct = this.cart.items[line - 1];
+    if (!this.isGiftwrapEnabled) return line;
+    if (thisProduct.properties) {
+      if (this.theme.translations.giftwrap_label in thisProduct.properties) {
+        // Find position of gift wrap item in the cart. Note this will break
+        // if you ever add additional properties to the gift wrap product
+        // such that it splits that product into > 1 cart line items.
+        const giftwrapIndex = this.cart.items.map(e => e.handle).indexOf(this.theme.giftwrapProduct);
+
+        // Continue only if gift wrap product is in the cart
+        if (giftwrapIndex > -1) {
+          let difference = this.numDifference(thisProduct.quantity, quantity);
+
+          // Quantity = quantity of current gift wrap product minus the quantity
+          // of the product being removed. There could be gift wrap for other
+          // items.
+          let newGiftwrapQuantity = 0;
+          if (quantity > thisProduct.quantity) {
+            newGiftwrapQuantity = this.cart.items[giftwrapIndex].quantity + difference;
+          } else if (quantity == 0) {
+            // If new quantity is zero, the associated product is being removed.
+            newGiftwrapQuantity = this.cart.items[giftwrapIndex].quantity - thisProduct.quantity;
+          } else {
+            newGiftwrapQuantity = this.cart.items[giftwrapIndex].quantity - difference;
+          }
+          const response = await window.fetch('/cart/change.js', {
+            method: 'POST',
+            credentials: 'same-origin',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              'line': giftwrapIndex + 1,
+              'quantity': newGiftwrapQuantity
+            })
+          });
+
+          // Line is always 1-based so do not go below 1.
+          if (newGiftwrapQuantity == 0 && line > 1) return line - 1;
+          return line;
+        }
+        return line;
+      }
+    }
+    return line;
+  }
+
+  /**
+   * Update quantity of an item in cart
+   *
+   * @param {number} line 1-based index of a line
+   * @param {number} quantity new quantity
+   */
+  async setQuantity(line, quantity) {
+    this.lineQuantityUpdating = line;
+    try {
+      // If item has gift wrap, change gift wrap quantity too.
+      line = await this.updateGiftwrap(line, quantity);
+      this.lineQuantityUpdating = line;
+      const response = await window.fetch('/cart/change.js', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          line,
+          quantity
+        })
+      });
+      const cart = await response.json();
+      this.cart = cart;
+      this.lineQuantityUpdating = null;
+    } catch (e) {
+      console.error('Unable to fetch cart: ', e);
+      // FIXME error handling
+    }
+    this.fetchCart();
   }
   onSearchSubmit() {
     window.location.href = this.searchPageUrlWithQuery;
@@ -34238,6 +34442,25 @@ let RightDrawer = (_dec = vue_class_component_esm({
     this.searching = false;
     this.searchGroups = Array.from(resultGroups.values());
   }
+  async updateGiftNote() {
+    const response = await window.fetch('/cart/update.js', {
+      method: 'POST',
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        attributes: {
+          'gift_note': this.giftNote
+        }
+      })
+    });
+    if (!response.ok) {
+      // FIXME error handling
+      console.log('Could not update gift note in cart drawer', response);
+    }
+    this.updatingGiftNote = false;
+  }
 }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "searchUrl", [_dec2], {
   configurable: true,
   enumerable: true,
@@ -34253,7 +34476,7 @@ let RightDrawer = (_dec = vue_class_component_esm({
   enumerable: true,
   writable: true,
   initializer: null
-}), _applyDecoratedDescriptor(_class2.prototype, "onSearchChange", [_dec5], Object.getOwnPropertyDescriptor(_class2.prototype, "onSearchChange"), _class2.prototype)), _class2)) || _class);
+}), _applyDecoratedDescriptor(_class2.prototype, "onGiftNoteChange", [_dec5], Object.getOwnPropertyDescriptor(_class2.prototype, "onGiftNoteChange"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "onSearchChange", [_dec6], Object.getOwnPropertyDescriptor(_class2.prototype, "onSearchChange"), _class2.prototype)), _class2)) || _class);
 /* harmony default export */ const global_RightDrawer = (RightDrawer);
 // EXTERNAL MODULE: ./node_modules/fancybox/dist/js/jquery.fancybox.js
 var jquery_fancybox = __webpack_require__(808);
@@ -34786,7 +35009,7 @@ class Theme extends ThemeBase {
       'template--search': SearchResults,
       'text--rich-text': RichText,
       'text--testimonials': Testimonails,
-      'text--text-adverts': TextAdverts,
+      'text--promotion-blocks': TextAdverts,
       'video--video-hero': VideoHero,
       'video--video': Section_Section,
       'interactive-menu': InteractiveMenu,
@@ -35192,7 +35415,6 @@ class Theme extends ThemeBase {
       if (e.keyCode == 27) {
         // escape key maps to keycode `27`
         this.closeDrawers();
-        window.eventBus.emit('close:all:drawers');
       }
     };
     this.handleAccordions = () => {
@@ -35351,7 +35573,7 @@ class Theme extends ThemeBase {
       const cerberusKey = 'f1957945-9048-438b-bd2c-0ed182340c65';
       return cerberusKey;
     };
-    this.toggleRightDrawer = (type = 'search', forceOpen = undefined, params = {}) => {
+    this.toggleRightDrawer = (type = 'cart', forceOpen = undefined, params = {}) => {
       const event = new CustomEvent(TOGGLE_RIGHT_DRAWER_EVENT, {
         detail: {
           type,
@@ -35369,7 +35591,7 @@ class Theme extends ThemeBase {
       });
       document.documentElement.dispatchEvent(event);
     };
-    this.updateCartCount = cart => {
+    this.updateCartDrawer = cart => {
       const event = new CustomEvent(CART_UPDATE_EVENT, {
         detail: {
           cart
@@ -35413,7 +35635,7 @@ class Theme extends ThemeBase {
     };
     this.closeDrawers = e => {
       this.toggleLeftDrawer(false);
-      this.toggleRightDrawer('search', false);
+      this.toggleRightDrawer('cart', false);
     };
     this.addBadges = (root, timeout) => {
       this.badge.add(root, timeout);
@@ -35488,6 +35710,10 @@ class Theme extends ThemeBase {
   load() {
     this.loadGlobal();
     this.breakpoint = this.getBreakpoint();
+    if (!document.body.classList.contains('password-page')) {
+      // this.drawer = new Drawer(this);
+      // this.cartDrawer = this.drawer.slideouts.right ? new CartDrawer(this, this.drawer.slideouts.right.menu) : null;
+    }
     this.popup = null;
     const popupEl = /** @type {HTMLElement} */document.querySelector('#popup');
     if (popupEl && window.location.pathname !== '/challenge') {

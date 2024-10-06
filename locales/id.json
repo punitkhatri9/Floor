@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Hampir selesai...",
-      "no_products_html": "Anda tidak memiliki produk di koleksi beranda Anda. Tempat ini akan muncul sampai Anda <a href=\"/admin/collections?tutorial=Frontpage\">menambahkan produk ke koleksi ini</a>.",
+      "no_products_html": "Anda tidak memiliki produk di koleksi beranda Anda. Tempat ini akan muncul sampai Anda <a href=\"\/admin\/collections?tutorial=Frontpage\">menambahkan produk ke koleksi ini<\/a>.",
       "add_product": "Tambahkan produk",
       "product_title": "Judul Produk",
       "product_description": "Area ini digunakan untuk menjelaskan detail produk Anda. Beritahu pelanggan tentang tampilan, tekstur, dan gaya produk Anda. Tambahkan detail tentang warna, bahan yang digunakan, ukuran, dan asal produk ini dibuat.",
-      "no_collections_html": "Anda tidak memiliki koleksi apa pun untuk ditampilkan di sini. <a href=\"/admin/custom_collections\">Tambahkan beberapa koleksi</a> untuk melengkapi beranda default.",
+      "no_collections_html": "Anda tidak memiliki koleksi apa pun untuk ditampilkan di sini. <a href=\"\/admin\/custom_collections\">Tambahkan beberapa koleksi<\/a> untuk melengkapi beranda default.",
       "add_collection": "Tambahkan koleksi",
       "collection_title": "Judul Koleksi",
       "blog_title": "Judul posting Anda",
@@ -76,10 +85,10 @@
       "return_text": "Kembali"
     },
     "localization": {
-      "country_label": "Negara/wilayah",
+      "country_label": "Negara\/wilayah",
       "language_label": "Bahasa",
       "update_language": "Perbarui bahasa",
-      "update_country": "Perbarui negara/wilayah"
+      "update_country": "Perbarui negara\/wilayah"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Keranjang belanja",
       "remove": "Hapus",
-      "note": "Catatan pesanan",
-      "add_note": "Tambahkan catatan pesanan",
-      "edit_note": "Edit catatan pesanan",
-      "save_note": "Simpan catatan pesanan",
-      "add_gift_note": "Tambahkan pesan hadiah",
-      "edit_gift_note": "Edit pesan hadiah",
-      "save_gift_note": "Simpan pesan hadiah",
-      "save": "Menyimpan",
+      "note": "Instruksi khusus untuk penjual",
       "see_more": "Lihat lebih banyak",
       "subtotal": "Subtotal",
-      "regular_subtotal": "Subtotal reguler",
-      "sale_subtotal": "Subtotal penjualan",
       "taxes_and_shipping_at_checkout": "Pajak dan pengiriman dihitung saat checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">pengiriman</a> dihitung saat checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">pengiriman<\/a> dihitung saat checkout",
       "taxes_included_but_shipping_at_checkout": "Pajak sudah termasuk dan pengiriman dihitung saat checkout",
-      "taxes_included_and_shipping_policy_html": "Pajak sudah termasuk. <a href=\"{{ link }}\">Pengiriman</a> dihitung saat checkout.",
+      "taxes_included_and_shipping_policy_html": "Pajak sudah termasuk. <a href=\"{{ link }}\">Pengiriman<\/a> dihitung saat checkout.",
       "update": "Perbarui keranjang",
       "checkout": "Check out",
       "empty": "Keranjang Anda saat ini kosong.",
       "close_cart": "Tutup keranjang",
-      "view_cart": "Lihat keranjang",
-      "savings_html": "Anda menghemat {{ price }}",
-      "return_to_shop": "Kembali ke toko"
+      "savings_html": "Anda menghemat {{ price }}"
     },
     "label": {
       "product": "Produk",
@@ -262,7 +260,7 @@
       "clear_all": "Hapus semua",
       "empty": "Tidak ditemukan produk",
       "from": "Dari",
-      "filter_and_sort": "Saring/Urutkan",
+      "filter_and_sort": "Saring\/Urutkan",
       "filter_by_label": "Filter berdasarkan",
       "filter_button": "Filter",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Urutkan berdasarkan",
       "title": "Koleksi",
       "to": "Hingga",
-      "use_fewer_filters_html": "Gunakan filter lebih sedikit atau <a class=\"{{ class }}\" href=\"{{ link }}\">hapus semua</a>"
+      "use_fewer_filters_html": "Gunakan filter lebih sedikit atau <a class=\"{{ class }}\" href=\"{{ link }}\">hapus semua<\/a>"
     },
     "events_calendar": {
       "tbc_text": "TBC"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Kesalahan saat mencari alamat",
       "address_no_results": "Tidak ada hasil untuk alamat tersebut",
-      "address_query_limit_html": "Kamu sudah melampaui batas penggunaan Google API. Silakan upgrade ke <a href=\"https://developers.google.com/maps/premium/usage-limits\">Paket Premium</a>.",
+      "address_query_limit_html": "Kamu sudah melampaui batas penggunaan Google API. Silakan upgrade ke <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Paket Premium<\/a>.",
       "auth_error_html": "Ada masalah saat mengautentikasi Tombol API Google Maps."
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "Tambahkan produk",
       "product_title": "Judul Produk",
       "product_vendor": "Vendor",
-      "no_collections_html": "Anda tidak memiliki koleksi apa pun untuk ditampilkan di sini. <a href=\"/admin/custom_collections\">Tambahkan beberapa koleksi</a> untuk melengkapi beranda default.",
+      "no_collections_html": "Anda tidak memiliki koleksi apa pun untuk ditampilkan di sini. <a href=\"\/admin\/custom_collections\">Tambahkan beberapa koleksi<\/a> untuk melengkapi beranda default.",
       "add_collection": "Tambahkan koleksi",
       "collection_title": "Judul Koleksi",
       "no_content": "Bagian ini saat ini tidak termasuk konten apa pun. Tambahkan konten ke bagian ini menggunakan sidebar."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Pesan Kado",
       "giftwrap_note_placeholder": "Tambahkan pesan kado Anda di sini",
       "from_text_html": "Dari {{ price }}",
-      "file_upload_html": "Seret dan lepas atau <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">jelajahi</a> file yang akan diunggah",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Telusuri</a> file untuk diunggah"
+      "file_upload_html": "Seret dan lepas atau <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">jelajahi<\/a> file yang akan diunggah",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Telusuri<\/a> file untuk diunggah"
     },
     "product": {
       "sold_out": "Habis Terjual",
@@ -497,14 +495,14 @@
       "category": "Kategori",
       "type": "Tipe",
       "include_taxes": "Pajak sudah termasuk.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Pengiriman</a> dihitung saat checkout.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Pengiriman<\/a> dihitung saat checkout.",
       "quote": "Kutipan",
       "preorder_today": "Pesan di muka hari ini",
       "in_stock": "Tersedia",
       "low_stock": "Stok Terbatas",
       "out_of_stock": "Stok Habis",
       "stock_left": "tersisa",
-      "out_of_stock_html": "Klik <a href=\"#\"><strong>di sini</strong></a> untuk diberitahu lewat email saat {{ product }} - {{ variant }} tersedia kembali.",
+      "out_of_stock_html": "Klik <a href=\"#\"><strong>di sini<\/strong><\/a> untuk diberitahu lewat email saat {{ product }} - {{ variant }} tersedia kembali.",
       "wrong_email": "Silakan berikan alamat email yang valid.",
       "out_of_stock_success": "Terima kasih! Kami akan memberi tahu Anda saat produk ini tersedia kembali!",
       "read_more_html": "Baca lebih lanjut",
@@ -564,9 +562,9 @@
       "password": "Masuk ke toko dengan kata sandi",
       "enter_password": "Masukkan kata sandi",
       "store_owner": "Apakah Anda pemilik toko?",
-      "store_owner_html": "<a href=\"/admin\">Masuk di sini</a>",
+      "store_owner_html": "<a href=\"\/admin\">Masuk di sini<\/a>",
       "continue": "Lanjutkan",
-      "powered_by_html": "Toko ini akan didukung oleh <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Toko ini akan didukung oleh <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

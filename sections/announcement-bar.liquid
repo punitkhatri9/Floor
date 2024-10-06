@@ -1,5 +1,5 @@
-{%- if section.blocks.size > 0 -%}
-
+{%- if section.settings.show_announcement and section.blocks.size > 0 -%}
+  {{ 'section-announcement-bar.min.css' | asset_url | stylesheet_tag }}
   {%- liquid
     assign social_icons = false
     if settings.sm_facebook_link != blank or settings.sm_x_link != blank or settings.sm_youtube_link != blank or settings.sm_flickr_link != blank or settings.sm_pinterest_link != blank or settings.sm_instagram_link != blank or settings.sm_tumblr_link != blank or settings.sm_pinterest_link != blank or settings.sm_youtube_link != blank or settings.sm_vimeo_link != blank or settings.sm_flickr_link != blank or settings.sm_snapchat_link != blank or settings.sm_houzz_link != blank or settings.sm_linkedin_link != blank or settings.sm_tiktok_link != blank
@@ -9,6 +9,16 @@
     assign enable_social_icons = false
     if section.settings.desktop_social_icons and social_icons
       assign enable_social_icons = true
+    endif
+
+    assign enable_close_button = false
+    if section.settings.show_close
+      assign enable_close_button = true
+    endif
+
+    assign enable_divider = false
+    if section.settings.show_divider
+      assign enable_divider = true
     endif
 
     assign announcement_bar_text = false
@@ -26,95 +36,131 @@
     elsif enable_social_icons and announcement_bar_text == false
       assign announcement_bar_layout = 'announcements_icons_only'
     endif
+
+    assign autorotate_speed_in_ms = section.settings.autorotate_speed | times: 1000
   -%}
 
-  <div class="announcement_bar" data-wetheme-section-type="announcement-bar" data-wetheme-section-id="{{ section.id }}" data-social-media-enabled="{{ enable_social_icons }}">
-    {% render 'animated-background-text-colors' with 
-      section_blocks: section.blocks, 
-      announcement_bar_layout: announcement_bar_layout, 
-      enable_social_icons: enable_social_icons  
-    %}
+  <div id="announcement-wrapper">
+    <div
+      class="announcement_bar sticky-header"
+      data-wetheme-section-type="announcement-bar"
+      data-wetheme-section-id="{{ section.id }}"
+      data-social-media-enabled="{{ enable_social_icons }}"
+      data-autorotate-speed="{{ autorotate_speed_in_ms }}">
+      
+      {% if enable_divider %}
+        <div class="divider"></div>
+      {% endif %}
+      {% render 'animated-background-text-colors' with section_blocks: section.blocks, announcement_bar_layout: announcement_bar_layout, enable_social_icons: enable_social_icons, enable_close_button: enable_close_button, enable_divider: enable_divider %}
+    </div>
   </div>
-  
+
+
 {%- endif -%}
 
 {% schema %}
-{
-  "name": "t:sections.announcement-bar.name",
-  "settings": [
-    {
-      "type": "checkbox",
-      "id": "desktop_social_icons",
-      "label": "t:sections.announcement-bar.settings.desktop_social_icons.label",
-      "info": "t:all.To_choose_which_icons_to_display_go_to_Theme_settings__Social_media_",
-      "default": false
-    }
-  ],
-  "blocks": [
-    {
-      "type": "announcement",
-      "name": "t:sections.announcement-bar.blocks.announcement.name",
-      "settings": [
-        {
-          "type": "inline_richtext",
-          "id": "announcement_text",
-          "label": "t:all.Text",
-          "default": "Announce something here"
-        },
-        {
-          "type": "header",
-          "content": "t:all.Color"
-        },
-        {
-          "type": "color",
-          "id": "announcement_bg_color",
-          "label": "t:all.Background",
-          "default": "#F9F9FB"
-        },
-        {
-          "type": "color",
-          "id": "announcement_text_color",
-          "label": "t:all.Text",
-          "default": "#262428"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "t:sections.announcement-bar.presets.name",
-      "blocks": [
-        {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Announce something here",
-            "announcement_bg_color": "#494949",
-            "announcement_text_color": "#fff"
+  {
+    "name": "t:sections.announcement-bar.name",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_announcement",
+        "label": "t:sections.announcement-bar.settings.show_announcement.label",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "mobile_number",
+        "label": "Show Mobile number"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_close",
+        "label": "t:sections.announcement-bar.settings.show_close.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_divider",
+        "label": "t:sections.announcement-bar.settings.show_divider.label",
+        "default": false
+      }, 
+      {
+        "type": "range",
+        "id": "autorotate_speed",
+        "label": "t:sections.announcement-bar.settings.autorotate_speed.label",
+        "max": 10,
+        "min": 2,
+        "step": 1,
+        "unit": "s",
+        "default": 3
+      }, 
+      {
+        "type": "checkbox",
+        "id": "desktop_social_icons",
+        "label": "t:sections.announcement-bar.settings.desktop_social_icons.label",
+        "info": "t:all.To_choose_which_icons_to_display_go_to_Theme_settings__Social_media_",
+        "default": false
+      }
+    ],
+    "blocks": [
+      {
+        "type": "announcement",
+        "name": "t:sections.announcement-bar.blocks.announcement.name",
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "announcement_text",
+            "label": "t:all.Text",
+            "default": "Announce something here"
+          }, {
+            "type": "header",
+            "content": "t:all.Color"
+          }, {
+            "type": "color",
+            "id": "announcement_bg_color",
+            "label": "t:all.Background",
+            "default": "#F9F9FB"
+          }, {
+            "type": "color",
+            "id": "announcement_text_color",
+            "label": "t:all.Text",
+            "default": "#262428"
           }
-        },
-        {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Promote a collection",
-            "announcement_bg_color": "#e6e5e7",
-            "announcement_text_color": "#262428"
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.announcement-bar.presets.name",
+        "blocks": [
+          {
+            "type": "announcement",
+            "settings": {
+              "announcement_text": "Announce something here",
+              "announcement_bg_color": "#494949",
+              "announcement_text_color": "#fff"
+            }
+          }, {
+            "type": "announcement",
+            "settings": {
+              "announcement_text": "Promote a collection",
+              "announcement_bg_color": "#e6e5e7",
+              "announcement_text_color": "#262428"
+            }
+          }, {
+            "type": "announcement",
+            "settings": {
+              "announcement_text": "Sale now on",
+              "announcement_bg_color": "#737373",
+              "announcement_text_color": "#fff"
+            }
           }
-        },
-        {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Sale now on",
-            "announcement_bg_color": "#737373",
-            "announcement_text_color": "#fff"
-          }
-        }
-      ]
+        ]
+      }
+    ],
+    "enabled_on": {
+      "groups": ["header"]
     }
-  ],
-  "enabled_on": {
-    "groups": [
-      "header"
-    ]
   }
-}
 {% endschema %}

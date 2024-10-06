@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Jste skoro tam...",
-      "no_products_html": "Nemáte žádné produkty ve sbírce domovské stránky. Toto zástupné místo se zobrazí, dokud <a href=\"/admin/collections?tutorial=Frontpage\">přidáte produkt do této sbírky</a>.",
+      "no_products_html": "Nemáte žádné produkty ve sbírce domovské stránky. Toto zástupné místo se zobrazí, dokud <a href=\"\/admin\/collections?tutorial=Frontpage\">přidáte produkt do této sbírky<\/a>.",
       "add_product": "Přidat produkt",
       "product_title": "Název produktu",
       "product_description": "Tento prostor slouží k popisu podrobností vašeho produktu. Řekněte zákazníkům o vzhledu, pocitu a stylu vašeho produktu. Přidejte podrobnosti o barvě, použitých materiálech, velikosti a původu.",
-      "no_collections_html": "Zde nejsou žádné kolekce ke zobrazení. <a href=\"/admin/custom_collections\">Přidejte některé kolekce</a> k výchozí domovské stránce.",
+      "no_collections_html": "Zde nejsou žádné kolekce ke zobrazení. <a href=\"\/admin\/custom_collections\">Přidejte některé kolekce<\/a> k výchozí domovské stránce.",
       "add_collection": "Přidat kolekci",
       "collection_title": "Název kolekce",
       "blog_title": "Název vašeho příspěvku",
@@ -76,10 +85,10 @@
       "return_text": "Zpět"
     },
     "localization": {
-      "country_label": "Země/region",
+      "country_label": "Země\/region",
       "language_label": "Jazyk",
       "update_language": "Aktualizovat jazyk",
-      "update_country": "Aktualizovat zemi/region"
+      "update_country": "Aktualizovat zemi\/region"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Nákupní košík",
       "remove": "Odebrat",
-      "note": "Poznámka k objednávce",
-      "add_note": "Přidejte poznámku k objednávce",
-      "edit_note": "Upravit poznámku k objednávce",
-      "save_note": "Uložit poznámku k objednávce",
-      "add_gift_note": "Přidat dárkovou zprávu",
-      "edit_gift_note": "Upravit dárkovou zprávu",
-      "save_gift_note": "Uložit dárkovou zprávu",
-      "save": "Uložit",
+      "note": "Zvláštní pokyny pro prodejce",
       "see_more": "Zobrazit více",
       "subtotal": "Mezisoučet",
-      "regular_subtotal": "Běžný mezisoučet",
-      "sale_subtotal": "Mezisoučet prodeje",
       "taxes_and_shipping_at_checkout": "Daň a doprava se počítají při pokladně",
-      "taxes_and_shipping_policy_at_checkout_html": "Daň a <a href=\"{{ link }}\">doprava</a> se počítají při pokladně",
+      "taxes_and_shipping_policy_at_checkout_html": "Daň a <a href=\"{{ link }}\">doprava<\/a> se počítají při pokladně",
       "taxes_included_but_shipping_at_checkout": "Daň zahrnuta, doprava se počítá při pokladně",
-      "taxes_included_and_shipping_policy_html": "Daň zahrnuta. <a href=\"{{ link }}\">Doprava</a> se počítá při pokladně.",
+      "taxes_included_and_shipping_policy_html": "Daň zahrnuta. <a href=\"{{ link }}\">Doprava<\/a> se počítá při pokladně.",
       "update": "Aktualizovat košík",
       "checkout": "K pokladně",
       "empty": "Váš košík je momentálně prázdný.",
       "close_cart": "Zavřít košík",
-      "view_cart": "Zobrazit košík",
-      "savings_html": "Ušetříte {{ price }}",
-      "return_to_shop": "Návrat do obchodu"
+      "savings_html": "Ušetříte {{ price }}"
     },
     "label": {
       "product": "Produkt",
@@ -262,7 +260,7 @@
       "clear_all": "Vymazat vše",
       "empty": "Nebyly nalezeny žádné produkty",
       "from": "Od",
-      "filter_and_sort": "Filtr/Třídit",
+      "filter_and_sort": "Filtr\/Třídit",
       "filter_by_label": "Filtrovat podle",
       "filter_button": "Filtrovat",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Seřadit podle",
       "title": "Kolekce",
       "to": "Do",
-      "use_fewer_filters_html": "Použijte méně filtrů nebo <a class=\"{{ class }}\" href=\"{{ link }}\">vymažte vše</a>"
+      "use_fewer_filters_html": "Použijte méně filtrů nebo <a class=\"{{ class }}\" href=\"{{ link }}\">vymažte vše<\/a>"
     },
     "events_calendar": {
       "tbc_text": "K oznámení"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Chyba při hledání této adresy",
       "address_no_results": "Žádné výsledky pro tuto adresu",
-      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https://developers.google.com/maps/premium/usage-limits\">plán Premium</a>.",
+      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">plán Premium<\/a>.",
       "auth_error_html": "Došlo k problému při ověření vašeho klíče API Map Google."
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "Přidat produkt",
       "product_title": "Název produktu",
       "product_vendor": "Dodavatel",
-      "no_collections_html": "Zatím nemáte žádné kolekce k zobrazení. <a href=\"/admin/custom_collections\">Přidejte nějaké kolekce</a> k výchozí úvodní stránce.",
+      "no_collections_html": "Zatím nemáte žádné kolekce k zobrazení. <a href=\"\/admin\/custom_collections\">Přidejte nějaké kolekce<\/a> k výchozí úvodní stránce.",
       "add_collection": "Přidat kolekci",
       "collection_title": "Název kolekce",
       "no_content": "Tato sekce momentálně neobsahuje žádný obsah. Přidejte obsah k této sekci pomocí postranního panelu."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Poznámka k dárku",
       "giftwrap_note_placeholder": "Přidejte vaši zprávu k dárku zde",
       "from_text_html": "Od {{ price }}",
-      "file_upload_html": "Přetáhněte nebo <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">procházejte</a> soubory, které chcete nahrát",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Procházet</a> soubory k nahrání"
+      "file_upload_html": "Přetáhněte nebo <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">procházejte<\/a> soubory, které chcete nahrát",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Procházet<\/a> soubory k nahrání"
     },
     "product": {
       "sold_out": "Vyprodáno",
@@ -497,14 +495,14 @@
       "category": "Kategorie",
       "type": "Typ",
       "include_taxes": "Včetně daně.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Doprava</a> počítána při pokladně.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Doprava<\/a> počítána při pokladně.",
       "quote": "Citace",
       "preorder_today": "Předobjednejte ještě dnes",
       "in_stock": "Skladem",
       "low_stock": "Málo kusů na skladě",
       "out_of_stock": "Vyprodáno",
       "stock_left": "kusů na skladě",
-      "out_of_stock_html": "Klikněte <a href=\"#\"><strong>zde</strong></a>, abyste byli informováni emailem, kdy bude produkt {{ product }} - {{ variant }} dostupný.",
+      "out_of_stock_html": "Klikněte <a href=\"#\"><strong>zde<\/strong><\/a>, abyste byli informováni emailem, kdy bude produkt {{ product }} - {{ variant }} dostupný.",
       "wrong_email": "Zadejte prosím platnou emailovou adresu.",
       "out_of_stock_success": "Děkujeme! Budeme vás informovat, až bude tento produkt opět dostupný!",
       "read_more_html": "Číst více",
@@ -564,9 +562,9 @@
       "password": "Zadat heslo a přihlásit se",
       "enter_password": "Zadejte heslo",
       "store_owner": "Jste majitelem obchodu?",
-      "store_owner_html": "<a href=\"/admin\">Přihlásit se zde</a>",
+      "store_owner_html": "<a href=\"\/admin\">Přihlásit se zde<\/a>",
       "continue": "Pokračovat",
-      "powered_by_html": "Tento obchod bude provozován na platformě <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Tento obchod bude provozován na platformě <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Quase lá...",
-      "no_products_html": "Você não possui produtos em sua coleção de página inicial. Este espaço reservado aparecerá até que você <a href=\"/admin/collections?tutorial=Frontpage\">adicionar um produto a esta coleção</a>.",
+      "no_products_html": "Você não possui produtos em sua coleção de página inicial. Este espaço reservado aparecerá até que você <a href=\"\/admin\/collections?tutorial=Frontpage\">adicionar um produto a esta coleção<\/a>.",
       "add_product": "Adicionar um produto",
       "product_title": "Título do produto",
       "product_description": "Esta área é usada para descrever os detalhes do seu produto. Conte aos clientes sobre a aparência, sensação e estilo do seu produto. Adicione detalhes sobre cor, materiais usados, tamanho e onde foi fabricado.",
-      "no_collections_html": "Você não possui nenhuma coleção para mostrar aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para acompanhar a página inicial padrão.",
+      "no_collections_html": "Você não possui nenhuma coleção para mostrar aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para acompanhar a página inicial padrão.",
       "add_collection": "Adicionar uma coleção",
       "collection_title": "Título da coleção",
       "blog_title": "Título do seu post",
@@ -76,10 +85,10 @@
       "return_text": "Voltar"
     },
     "localization": {
-      "country_label": "País/região",
+      "country_label": "País\/região",
       "language_label": "Idioma",
       "update_language": "Atualizar idioma",
-      "update_country": "Atualizar país/região"
+      "update_country": "Atualizar país\/região"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Carrinho de compras",
       "remove": "Remover",
-      "note": "Nota de pedido",
-      "add_note": "Adicionar nota de pedido",
-      "edit_note": "Editar nota do pedido",
-      "save_note": "Salvar nota do pedido",
-      "add_gift_note": "Adicionar mensagem de presente",
-      "edit_gift_note": "Editar mensagem de presente",
-      "save_gift_note": "Salvar mensagem de presente",
-      "save": "Salvar",
+      "note": "Instruções especiais para o vendedor",
       "see_more": "Ver mais",
       "subtotal": "Subtotal",
-      "regular_subtotal": "Subtotal regular",
-      "sale_subtotal": "Subtotal de vendas",
       "taxes_and_shipping_at_checkout": "Impostos e frete calculados no checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">frete</a> calculados no checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">frete<\/a> calculados no checkout",
       "taxes_included_but_shipping_at_checkout": "Imposto incluído e frete calculado no checkout",
-      "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Frete</a> calculado no checkout.",
+      "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Frete<\/a> calculado no checkout.",
       "update": "Atualizar carrinho",
       "checkout": "Finalizar compra",
       "empty": "Seu carrinho está vazio no momento.",
       "close_cart": "Fechar carrinho",
-      "view_cart": "Ver carrinho",
-      "savings_html": "Você está economizando {{ price }}",
-      "return_to_shop": "Retornar à loja"
+      "savings_html": "Você está economizando {{ price }}"
     },
     "label": {
       "product": "Produto",
@@ -262,7 +260,7 @@
       "clear_all": "Limpar tudo",
       "empty": "Nenhum produto encontrado",
       "from": "De",
-      "filter_and_sort": "Filtrar/Classificar",
+      "filter_and_sort": "Filtrar\/Classificar",
       "filter_by_label": "Filtrar por",
       "filter_button": "Filtrar",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Ordenar por",
       "title": "Coleção",
       "to": "Para",
-      "use_fewer_filters_html": "Use menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpe tudo</a>"
+      "use_fewer_filters_html": "Use menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpe tudo<\/a>"
     },
     "events_calendar": {
       "tbc_text": "A ser confirmado"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Não é possível localizar o endereço",
       "address_no_results": "Nenhum resultado para este endereço",
-      "address_query_limit_html": "Você excedeu a cota de uso da API do Google. Considere a atualização para um <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plano Premium</a>.",
+      "address_query_limit_html": "Você excedeu a cota de uso da API do Google. Considere a atualização para um <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plano Premium<\/a>.",
       "auth_error_html": "Houve um problema ao autenticar sua chave da API do Google Maps."
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "Cidade",
       "country": "País",
       "province": "Estado",
-      "zip": "Código Postal/CEP",
+      "zip": "Código Postal\/CEP",
       "phone": "Telefone",
       "set_default": "Definir como endereço padrão",
       "add": "Adicionar endereço",
@@ -422,7 +420,7 @@
       "add_product": "Adicionar um produto",
       "product_title": "Título do produto",
       "product_vendor": "Fornecedor",
-      "no_collections_html": "Você não possui nenhuma coleção para mostrar aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para acompanhar a página inicial padrão.",
+      "no_collections_html": "Você não possui nenhuma coleção para mostrar aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para acompanhar a página inicial padrão.",
       "add_collection": "Adicionar uma coleção",
       "collection_title": "Título da coleção",
       "no_content": "Esta seção não inclui conteúdo no momento. Adicione conteúdo a esta seção usando a barra lateral."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Mensagem de presente",
       "giftwrap_note_placeholder": "Adicione sua mensagem de presente aqui",
       "from_text_html": "A partir de {{ price }}",
-      "file_upload_html": "Arraste e solte ou <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">navegue pelos</a> arquivos para fazer upload",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Procure</a> arquivos para fazer upload"
+      "file_upload_html": "Arraste e solte ou <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">navegue pelos<\/a> arquivos para fazer upload",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Procure<\/a> arquivos para fazer upload"
     },
     "product": {
       "sold_out": "Esgotado",
@@ -497,14 +495,14 @@
       "category": "Categoria",
       "type": "Tipo",
       "include_taxes": "Imposto incluído.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frete</a> calculado no checkout.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frete<\/a> calculado no checkout.",
       "quote": "Citação",
       "preorder_today": "Encomende hoje",
       "in_stock": "Em estoque",
       "low_stock": "Estoque baixo",
       "out_of_stock": "Esgotado",
       "stock_left": "restante",
-      "out_of_stock_html": "Clique <a href=\"#\"><strong>aqui</strong></a> para ser notificado por e-mail quando {{ product }} - {{ variant }} estiver disponível.",
+      "out_of_stock_html": "Clique <a href=\"#\"><strong>aqui<\/strong><\/a> para ser notificado por e-mail quando {{ product }} - {{ variant }} estiver disponível.",
       "wrong_email": "Por favor, forneça um endereço de e-mail válido.",
       "out_of_stock_success": "Obrigado! Vamos notificá-lo quando este produto estiver disponível!",
       "read_more_html": "Ler mais",
@@ -564,9 +562,9 @@
       "password": "Acesse a loja usando senha",
       "enter_password": "Digite a senha",
       "store_owner": "Você é o proprietário da loja?",
-      "store_owner_html": "<a href=\"/admin\">Faça login aqui</a>",
+      "store_owner_html": "<a href=\"\/admin\">Faça login aqui<\/a>",
       "continue": "Continuar",
-      "powered_by_html": "Esta loja será alimentada por <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Esta loja será alimentada por <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

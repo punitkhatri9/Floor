@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Skoraj tam...",
-      "no_products_html": "Na svoji domači strani nimate izdelkov. Do takrat bo ta rezervirano mesto, dokler ne <a href=\"/admin/collections?tutorial=Frontpage\">dodate izdelek v to zbirko</a>.",
+      "no_products_html": "Na svoji domači strani nimate izdelkov. Do takrat bo ta rezervirano mesto, dokler ne <a href=\"\/admin\/collections?tutorial=Frontpage\">dodate izdelek v to zbirko<\/a>.",
       "add_product": "Dodaj izdelek",
       "product_title": "Naslov izdelka",
       "product_description": "Ta območje se uporablja za opis podrobnosti izdelka. Povejte strankam o izgledu, občutku in slogu izdelka. Dodajte podrobnosti o barvi, uporabljenih materialih, velikosti in izvoru izdelka.",
-      "no_collections_html": "Tukaj ni nobenih zbirk. <a href=\"/admin/custom_collections\">Dodajte nekaj zbirk</a>, da se pridružijo privzeti domači strani.",
+      "no_collections_html": "Tukaj ni nobenih zbirk. <a href=\"\/admin\/custom_collections\">Dodajte nekaj zbirk<\/a>, da se pridružijo privzeti domači strani.",
       "add_collection": "Dodaj zbirko",
       "collection_title": "Naslov zbirke",
       "blog_title": "Naslov vaše objave",
@@ -76,10 +85,10 @@
       "return_text": "Nazaj"
     },
     "localization": {
-      "country_label": "Država/regija",
+      "country_label": "Država\/regija",
       "language_label": "Jezik",
       "update_language": "Posodobi jezik",
-      "update_country": "Posodobi državo/regijo"
+      "update_country": "Posodobi državo\/regijo"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Košarica",
       "remove": "Odstrani",
-      "note": "Opomba naročila",
-      "add_note": "Dodajte opombo naročila",
-      "edit_note": "Uredi opombo naročila",
-      "save_note": "Shranite opombo naročila",
-      "add_gift_note": "Dodajte darilno sporočilo",
-      "edit_gift_note": "Uredi darilno sporočilo",
-      "save_gift_note": "Shrani darilno sporočilo",
-      "save": "Shrani",
+      "note": "Posebna navodila za prodajalca",
       "see_more": "Več informacij",
       "subtotal": "Vmesni znesek",
-      "regular_subtotal": "Redni vmesni seštevek",
-      "sale_subtotal": "Vmesni seštevek prodaje",
       "taxes_and_shipping_at_checkout": "Davek in dostava se izračunata ob zaključku nakupa",
-      "taxes_and_shipping_policy_at_checkout_html": "Davek in <a href=\"{{ link }}\">dostava</a> se izračunata ob zaključku nakupa",
+      "taxes_and_shipping_policy_at_checkout_html": "Davek in <a href=\"{{ link }}\">dostava<\/a> se izračunata ob zaključku nakupa",
       "taxes_included_but_shipping_at_checkout": "Davek je vključen, dostava se izračuna ob zaključku nakupa",
-      "taxes_included_and_shipping_policy_html": "Davek je vključen. <a href=\"{{ link }}\">Dostava</a> se izračuna ob zaključku nakupa.",
+      "taxes_included_and_shipping_policy_html": "Davek je vključen. <a href=\"{{ link }}\">Dostava<\/a> se izračuna ob zaključku nakupa.",
       "update": "Posodobi košarico",
       "checkout": "Zaključi nakup",
       "empty": "Vaša košarica je trenutno prazna.",
       "close_cart": "Zapri košarico",
-      "view_cart": "Poglej voziček",
-      "savings_html": "Prihranite {{ price }}",
-      "return_to_shop": "Vrnitev v trgovino"
+      "savings_html": "Prihranite {{ price }}"
     },
     "label": {
       "product": "Izdelek",
@@ -262,7 +260,7 @@
       "clear_all": "Počisti vse",
       "empty": "Ni najdenih izdelkov",
       "from": "Od",
-      "filter_and_sort": "Filtriraj/Razvrsti",
+      "filter_and_sort": "Filtriraj\/Razvrsti",
       "filter_by_label": "Filtriraj po",
       "filter_button": "Filtriraj",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Razvrsti po",
       "title": "Zbirka",
       "to": "Do",
-      "use_fewer_filters_html": "Uporabite manj filtrov ali <a class=\"{{ class }}\" href=\"{{ link }}\">počistite vse</a>"
+      "use_fewer_filters_html": "Uporabite manj filtrov ali <a class=\"{{ class }}\" href=\"{{ link }}\">počistite vse<\/a>"
     },
     "events_calendar": {
       "tbc_text": "Na voljo kmalu"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Pri iskanju tega naslova je prišlo do napake",
       "address_no_results": "Ni rezultatov za ta naslov",
-      "address_query_limit_html": "Prekoračili ste omejitev uporabe Googlovega API-ja. Razmislite o nadgradnji na <a href=\"https://developers.google.com/maps/premium/usage-limits\">paket Premium</a>.",
+      "address_query_limit_html": "Prekoračili ste omejitev uporabe Googlovega API-ja. Razmislite o nadgradnji na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">paket Premium<\/a>.",
       "auth_error_html": "Prišlo je do težave pri preverjanju pristnosti ključa API-ja za Zemljevide Google."
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "Pridať produkt",
       "product_title": "Názov produktu",
       "product_vendor": "Dodávateľ",
-      "no_collections_html": "Nemáte tu žiadne zbierky. <a href=\"/admin/custom_collections\">Pridajte nejaké zbierky</a> k predvolenej úvodnej stránke.",
+      "no_collections_html": "Nemáte tu žiadne zbierky. <a href=\"\/admin\/custom_collections\">Pridajte nejaké zbierky<\/a> k predvolenej úvodnej stránke.",
       "add_collection": "Pridať zbierku",
       "collection_title": "Názov zbierky",
       "no_content": "Táto sekcia momentálne neobsahuje žiadny obsah. Pridajte obsah do tejto sekcie pomocou bočného panelu."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Správa k darčeku",
       "giftwrap_note_placeholder": "Pridajte svoju správu k darčeku sem",
       "from_text_html": "Od {{ price }}",
-      "file_upload_html": "Povlecite in spustite ali <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">prebrskajte</a> datoteke za nalaganje",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Prebrskajte</a> datoteke za nalaganje"
+      "file_upload_html": "Povlecite in spustite ali <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">prebrskajte<\/a> datoteke za nalaganje",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Prebrskajte<\/a> datoteke za nalaganje"
     },
     "product": {
       "sold_out": "Vyprodané",
@@ -497,14 +495,14 @@
       "category": "Kategória",
       "type": "Typ",
       "include_taxes": "Daň zahrnutá.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Doprava</a> spočítaná pri odchode.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Doprava<\/a> spočítaná pri odchode.",
       "quote": "Citát",
       "preorder_today": "Prednaročite še danes",
       "in_stock": "Na sklade",
       "low_stock": "Nízky sklad",
       "out_of_stock": "Nedostupné",
       "stock_left": "ks na sklade",
-      "out_of_stock_html": "Kliknite <a href=\"#\"><strong>sem</strong></a>, aby ste boli upozornení e-mailom, keď bude {{ product }} - {{ variant }} opäť dostupný.",
+      "out_of_stock_html": "Kliknite <a href=\"#\"><strong>sem<\/strong><\/a>, aby ste boli upozornení e-mailom, keď bude {{ product }} - {{ variant }} opäť dostupný.",
       "wrong_email": "Prosím, zadajte platnú e-mailovú adresu.",
       "out_of_stock_success": "Ďakujeme! Oznámime vám, keď bude tento produkt opäť dostupný!",
       "read_more_html": "Čítať viac",
@@ -564,9 +562,9 @@
       "password": "Vstup do obchodu pomocou hesla",
       "enter_password": "Vnesite geslo",
       "store_owner": "Ste majiteľom obchodu?",
-      "store_owner_html": "<a href=\"/admin\">Prihlásiť sa tu</a>",
+      "store_owner_html": "<a href=\"\/admin\">Prihlásiť sa tu<\/a>",
       "continue": "Pokračovať",
-      "powered_by_html": "Tento obchod bude poháňaný <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Tento obchod bude poháňaný <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

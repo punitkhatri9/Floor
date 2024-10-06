@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Χρωματικά σχήματα"
         },
         "header-35": {
-          "content": "Σώβρακο"
+          "content": "Συρταράκι καλαθιού"
         },
         "header-38": {
           "content": "Υποσέλιδο"
@@ -114,31 +123,21 @@
           "label": "Κατά την προσθήκη ενός αντικειμένου στο καλάθι…",
           "options": {
             "show_added_message": "Εμφάνιση μηνύματος 'Προστέθηκε'",
-            "go_to_or_open_cart": "Πήγαινε στο/άνοιξε το καλάθι"
+            "go_to_or_open_cart": "Πήγαινε στο\/άνοιξε το καλάθι"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Εμφάνιση προμηθευτή προϊόντος"
+        },
         "cart_notes_enable": {
-          "label": "Εμφάνιση σημείωσης παραγγελίας"
+          "label": "Ενεργοποίηση σημειώσεων καλαθιού"
         },
         "giftwrap_gift_note": {
           "label": "Ενεργοποίηση μηνύματος δώρου"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Εμφάνιση δυναμικών κουμπιών αγοράς στη σελίδα καλαθιού",
-          "info": "[Μάθετε περισσότερα](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Συστάσεις προϊόντων",
-          "show_cart_recommendations": {
-            "label": "Εμφάνιση δυναμικών προτάσεων",
-            "info": "Οι δυναμικές προτάσεις βασίζονται στα προϊόντα στο καλάθι. Χρησιμοποιούν πληροφορίες παραγγελίας και προϊόντων για να αλλάξουν και να βελτιωθούν με την πάροδο του χρόνου. [Μάθετε περισσότερα](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Άδειο καρότσι",
-          "empty_cart_message": "Μήνυμα",
-          "empty_cart_collections": "Προτεινόμενες συλλογές",
-          "empty_cart_products": "Συστάσεις προϊόντων"
+          "label": "Ενεργοποίηση κουμπιών δυναμικού ολοκλήρωσης αγοράς",
+          "info": "[Μάθετε περισσότερα](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Εμφανίζει τη δεύτερη εικόνα του προϊόντος σας κατά την αιώρηση"
         },
         "badges": {
-          "info": "Προσθέστε προσαρμοσμένα σήματα χρησιμοποιώντας ετικέτες προϊόντων. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Προσθέστε προσαρμοσμένα σήματα χρησιμοποιώντας ετικέτες προϊόντων. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Σήματα",
           "show_badges": "Εμφάνιση σήματων"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Εμφάνιση αξιολόγησης με αστέρια",
           "show_if_no_reviews": "Εμφάνιση αν δεν υπάρχει βαθμολογία",
-          "info": "Για να εμφανίσετε μια βαθμολογία, προσθέστε μια εφαρμογή βαθμολογίας προϊόντος. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "Για να εμφανίσετε μια βαθμολογία, προσθέστε μια εφαρμογή βαθμολογίας προϊόντος. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Εμφάνιση αξιολόγησης με αστέρια ως...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Δείγματα",
-      "info": "Τα δείγματα μπορούν να δημιουργηθούν χρησιμοποιώντας μεταπεδία κατηγορίας ή εικόνες παραλλαγής. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Τα δείγματα μπορούν να δημιουργηθούν χρησιμοποιώντας μεταπεδία κατηγορίας ή εικόνες παραλλαγής. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Στυλ Swatch",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Εμφάνιση εικόνας παραλλαγής για επιλογές",
-          "info": "Για να χρησιμοποιήσετε παραλλαγές εικόνων για δείγματα χρησιμοποιήστε μια λίστα διαχωρισμένη με κόμματα με τα ονόματα επιλογών για τις οποίες θέλετε να δημιουργήσετε δείγματα (π.χ. \"Υλικό, Χρώμα, Γεύση, Μήκος αλυσίδας\"). [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "Για να χρησιμοποιήσετε παραλλαγές εικόνων για δείγματα χρησιμοποιήστε μια λίστα διαχωρισμένη με κόμματα με τα ονόματα επιλογών για τις οποίες θέλετε να δημιουργήσετε δείγματα (π.χ. \"Υλικό, Χρώμα, Γεύση, Μήκος αλυσίδας\"). [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Κοινοποίηση"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Ενεργοποίηση εφέ μεγέθυνσης (zoom)",
-          "info": "Ενεργοποιήστε ένα λεπτό εφέ μεγέθυνσης σε επιλεγμένες εικόνες της αρχικής σελίδας κατά την πρώτη φόρτωση. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Ενεργοποιήστε ένα λεπτό εφέ μεγέθυνσης σε επιλεγμένες εικόνες της αρχικής σελίδας κατά την πρώτη φόρτωση. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Κείμενο",
-      "name": "Ακορντεόν/FAQ",
+      "name": "Ακορντεόν\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "Περιεχόμενο καρτέλας"
         }
       },
       "presets": {
-        "name": "Ακορντεόν/FAQ"
+        "name": "Ακορντεόν\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Πλάτος δοχείου",
       "name": "Προσαρμοσμένο HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Προσαρμοσμένο Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Κινούμενη εικόνα",
@@ -613,7 +614,8 @@
           "label": "Καταστήστε τα περιθώρια τμήματος ίδια με το θέμα"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Εφαρμογές"
       }
@@ -665,14 +667,15 @@
       "name": "Μπάνερ πλοήγησης",
       "settings": {
         "navigation": {
-          "paragraph": "Εμφανίστε ένα Μενού (επεξεργασμένο στο Ηλεκτρονικό κατάστημα > Πλοήγηση > Μενού) ή μια λίστα Συλλογών. Χρησιμοποιήστε μεταπεδία για να εμφανίσετε συγκεκριμένες λίστες Συλλογών με βάση την τοποθεσία. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Εμφανίστε ένα Μενού (επεξεργασμένο στο Ηλεκτρονικό κατάστημα > Πλοήγηση > Μενού) ή μια λίστα Συλλογών. Χρησιμοποιήστε μεταπεδία για να εμφανίσετε συγκεκριμένες λίστες Συλλογών με βάση την τοποθεσία. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Ευθυγράμμιση πλοήγησης",
           "info": "Όταν το στυλ έχει οριστεί σε \"Πλέγμα\""
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Μπάνερ πλοήγησης"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Λογαριασμός",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Ενεργοποίηση λογαριασμού",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Διευθύνσεις",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Σύνδεση",
       "settings": {
         "enable_shop_login_button": "Ενεργοποιήστε τη σύνδεση με το κατάστημα"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Παραγγελία",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Εγγραφή",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Επαναφορά κωδικού πρόσβασης",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Κείμενο",
@@ -1013,7 +1029,8 @@
           "label": "Κέντρο περιεχομένου στον υπολογιστή"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Επικεφαλίδα",
@@ -1051,7 +1068,7 @@
           "name": "Ακολουθήστε το Κατάστημα",
           "settings": {
             "paragraph-0": {
-              "content": "Εμφανίστε το κουμπί 'Ακολουθήστε' για την προστιθέμενη επιφάνεια του καταστήματός σας στην εφαρμογή Κατάστημα. [Μάθετε περισσότερα](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Εμφανίστε το κουμπί 'Ακολουθήστε' για την προστιθέμενη επιφάνεια του καταστήματός σας στην εφαρμογή Κατάστημα. [Μάθετε περισσότερα](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Εικόνα κεφαλίδας"
           },
-          "paragraph": "Μπορείτε επίσης να εμφανίσετε αυτήν την εικόνα στις ειδοποιήσεις ηλεκτρονικού ταχυδρομείου \"Απόδειξη δωροκάρτας\" και \"Νέα δωροκάρτα\". [Μάθετε περισσότερα](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Μπορείτε επίσης να εμφανίσετε αυτήν την εικόνα στις ειδοποιήσεις ηλεκτρονικού ταχυδρομείου \"Απόδειξη δωροκάρτας\" και \"Νέα δωροκάρτα\". [Μάθετε περισσότερα](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Εικόνα κάρτα δώρου",
             "info": "Συνιστάται 900 x 600 pixel"
@@ -1162,7 +1179,7 @@
           "name": "Μεγάλο μενού",
           "settings": {
             "mega-menu": {
-              "info": "Εισαγάγετε ένα υπάρχον στοιχείο μενού για να εφαρμόσετε ένα αναπτυσσόμενο μενού mega. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Εισαγάγετε ένα υπάρχον στοιχείο μενού για να εφαρμόσετε ένα αναπτυσσόμενο μενού mega. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Προώθηση ένα"
@@ -1223,7 +1240,8 @@
           "info": "Το Parallax δεν θα είναι ορατό όταν το 'Ύψος τμήματος' είναι ορισμένο σε 'Αρχικό'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Εικόνα με επικάλυψη κειμένου"
       }
@@ -1238,7 +1256,8 @@
           "label": "Επικάλυψη περιεχομένου στην εικόνα"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Εικόνα με κείμενο"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Ενημερωτικό δελτίο",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Περιεχόμενο ακκορντεόν",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Εμφάνιση περιτύλιγματος δώρου",
-          "info": "[Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) σχετικά με το περιτύλιγμα δώρων"
+          "info": "[Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) σχετικά με το περιτύλιγμα δώρων"
         },
         "paragraph-8": {
           "content": "Επιλέξτε ένα προϊόν για περιτύλιγμα στις ρυθμίσεις του θέματος > Προϊόν"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Χάρτης",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Κλειδί API Google Maps",
-          "info": "Θα χρειαστεί να [καταχωρίσετε ένα κλειδί API Google Maps](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) για την εμφάνιση του χάρτη"
+          "info": "Θα χρειαστεί να [καταχωρίσετε ένα κλειδί API Google Maps](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) για την εμφάνιση του χάρτη"
         },
         "button_text": {
           "label": "Ετικέτα συνδέσμου χάρτη"
@@ -1496,7 +1519,8 @@
           "info": "Εμφανίζεται αν ο χάρτης δεν φορτώνει"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Χάρτης"
       }
@@ -1511,7 +1535,8 @@
           "label": "Εμφάνιση ημερομηνίας"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Σελίδες ιστολογίου",
@@ -1523,7 +1548,8 @@
           "label": "Εμφάνιση 'Πρόσφατα άρθρα'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Γραμματοσειρά",
@@ -1627,7 +1653,7 @@
       "name": "Σελίδα κωδικού πρόσβασης",
       "settings": {
         "paragraph-13": {
-          "content": "[Επεξεργασία του μηνύματος σας στη σελίδα κωδικού πρόσβασης στις ρυθμίσεις του Shopify σας](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Επεξεργασία του μηνύματος σας στη σελίδα κωδικού πρόσβασης στις ρυθμίσεις του Shopify σας](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Επεξεργασία των ρυθμίσεών σας στα μέσα κοινωνικής δικτύωσης και τους λογαριασμούς σας στις Γενικές ρυθμίσεις"
@@ -1636,7 +1662,8 @@
           "label": "Εμφάνιση εγγραφής στο ενημερωτικό δελτίο"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Περιγραφή προϊόντος",
@@ -1645,7 +1672,8 @@
           "label": "Ενεργοποίηση \"διαβάστε περισσότερα\" για περιγραφή (καταργήθηκε)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Σύνδεσμος κουμπιού",
@@ -1658,7 +1686,7 @@
           "label": "Κάθετη ευθυγράμμιση"
         },
         "image_or_video": {
-          "label": "Εικόνα/βίντεο",
+          "label": "Εικόνα\/βίντεο",
           "maximum_width": "Μέγιστο πλάτος"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Συστάσεις προϊόντων",
       "settings": {
         "paragraph-0": {
-          "content": "Οι δυναμικές συστάσεις χρησιμοποιούν πληροφορίες για την παραγγελία και τα προϊόντα για να αλλάξουν και να βελτιώσουν με τον χρόνο. [Μάθετε περισσότερα](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Οι δυναμικές συστάσεις χρησιμοποιούν πληροφορίες για την παραγγελία και τα προϊόντα για να αλλάξουν και να βελτιώσουν με τον χρόνο. [Μάθετε περισσότερα](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Ενεργοποίηση κολλώδους περιεχομένου στον υπολογιστή"
         },
         "image_size": {
-          "info": "Συνιστώμενο ελάχιστο πλάτος 950 px. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Συνιστώμενο ελάχιστο πλάτος 950 px. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Εμφάνιση δευτερευούσας πολυμέσων",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Προπαραγγελία",
-          "info_text": "Προσθέστε μια ετικέτα \"Προπαραγγελία\" σε οποιοδήποτε προϊόν για να ορίσετε τη διατύπωση του κουμπιού Αγορά σε \"Προπαραγγελία\". [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Προσθέστε μια ετικέτα \"Προπαραγγελία\" σε οποιοδήποτε προϊόν για να ορίσετε τη διατύπωση του κουμπιού Αγορά σε \"Προπαραγγελία\". [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Έλεγχος του διαστήματος κάτω από τα τμήματα της εγκατεστημένης εφαρμογής που εμφανίζονται στη φόρμα προϊόντος"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "Για να δημιουργήσετε δείγματα, μεταβείτε στις «Ρυθμίσεις θέματος > Δείγματα».",
-              "swatch_info": "Μπορούν να δημιουργηθούν οπτικά δείγματα χρησιμοποιώντας μεταπεδία κατηγορίας ή εικόνες παραλλαγής. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Μπορούν να δημιουργηθούν οπτικά δείγματα χρησιμοποιώντας μεταπεδία κατηγορίας ή εικόνες παραλλαγής. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Αλλαγή παραλλακτικού με βάση τη μικρογραφία"
@@ -1780,13 +1808,13 @@
           "name": "Συνδεδεμένα προϊόντα",
           "settings": {
             "info": {
-              "content": "Εάν είστε έμπορος Plus, συνιστούμε να χρησιμοποιήσετε την εφαρμογή Συνδυασμένες καταχωρίσεις για αυτήν τη λειτουργία. [Μάθετε περισσότερα](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Εάν είστε έμπορος Plus, συνιστούμε να χρησιμοποιήσετε την εφαρμογή Συνδυασμένες καταχωρίσεις για αυτήν τη λειτουργία. [Μάθετε περισσότερα](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Μέγεθος προβολών"
             },
             "paragraph-4": {
-              "content": "Συνιστούμε τη χρήση μεταπεδίων. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Συνιστούμε τη χρήση μεταπεδίων. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Συσκευασία δώρου",
           "settings": {
             "paragraph-0": {
-              "content": "Επιλέξτε ένα προϊόν συσκευασίας δώρου στις ρυθμίσεις θέματος > Προϊόν. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Επιλέξτε ένα προϊόν συσκευασίας δώρου στις ρυθμίσεις θέματος > Προϊόν. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Εμφάνιση φόρμας πληροφοριών παραλήπτη για προϊόντα κάρτας δώρου",
-              "info": "Τα προϊόντα κάρτας δώρου μπορούν να σταλούν προαιρετικά απευθείας σε παραλήπτη μαζί με προσωπικό μήνυμα. [Μάθετε περισσότερα](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Τα προϊόντα κάρτας δώρου μπορούν να σταλούν προαιρετικά απευθείας σε παραλήπτη μαζί με προσωπικό μήνυμα. [Μάθετε περισσότερα](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Ατομική παραλαβή",
           "settings": {
             "paragraph-0": {
-              "content": "Πρέπει να δημιουργηθούν τοποθεσίες για την ενεργοποίηση της εμφάνισης. [Μάθετε περισσότερα](https://help.shopify.com/en/manual/locations)"
+              "content": "Πρέπει να δημιουργηθούν τοποθεσίες για την ενεργοποίηση της εμφάνισης. [Μάθετε περισσότερα](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Εμπιστοσύνη ενδείξη",
-              "info": "Προτείνεται 100 x 300px. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Προτείνεται 100 x 300px. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Συμπληρωματικά προϊόντα",
           "settings": {
             "paragraph-0": {
-              "content": "Για την επιλογή συμπληρωματικών προϊόντων, προσθέστε την εφαρμογή Αναζήτησης και Εύρεσης. [Μάθετε περισσότερα](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Για την επιλογή συμπληρωματικών προϊόντων, προσθέστε την εφαρμογή Αναζήτησης και Εύρεσης. [Μάθετε περισσότερα](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Προϊόντα προς εμφάνιση"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Πλαίσιο ελέγχου",
             "paragraph": {
-              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Απαιτείται",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Αναπτυσσόμενο",
             "paragraph": {
-              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Πλαίσιο ελέγχου-και-αναπτυσσόμενα)"
+              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Πλαίσιο ελέγχου-και-αναπτυσσόμενα)"
             },
             "required": {
               "label": "Απαιτείται",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Μεταφόρτωση αρχείου",
             "paragraph": {
-              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Απαιτείται",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Κουμπιά ραδιοφώνου",
             "paragraph": {
-              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Απαιτείται",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Πεδίο κειμένου",
             "paragraph": {
-              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Συλλέξτε πληροφορίες προσαρμογής για ένα αντικείμενο που προστέθηκε στο καλάθι. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Απαιτείται",
@@ -1994,7 +2022,8 @@
           "label": "Εμφάνιση ετικετών φίλτρων δειγμάτων"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Συγγραφέας",
@@ -2059,7 +2088,7 @@
         "name": "Κριτικές"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Σύνδεσμος",
       "name": "Κείμενο διαφημίσεων",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Μέγεθος υποτίτλου"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Ήρωας βίντεο"
       }
@@ -2106,7 +2136,8 @@
           "info": "Δεν θα εμφανιστεί εάν η αυτόματη αναπαραγωγή είναι ενεργοποιημένη."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Κείμενο",
@@ -2142,7 +2173,7 @@
     "Heading": "Κεφαλίδα",
     "Icon_style": "Στυλ εικονιδίων",
     "Images": "εικόνες",
-    "Plus_minus": "Συν/Μείον",
+    "Plus_minus": "Συν\/Μείον",
     "Caret": "Λεπτή ακίδα",
     "Text": "Κείμενο",
     "Custom_HTML": "Προσαρμοσμένο HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Κατάργηση διαστήματος",
     "Full_width": "Πλήρες πλάτος",
     "Content_width": "Πλάτος περιεχομένου",
-    "1_2_width": "1/2 πλάτος",
-    "1_3_width": "1/3 πλάτος",
-    "2_3_width": "2/3 πλάτος",
-    "1_4_width": "1/4 πλάτος",
-    "3_4_width": "3/4 πλάτος",
+    "1_2_width": "1\/2 πλάτος",
+    "1_3_width": "1\/3 πλάτος",
+    "2_3_width": "2\/3 πλάτος",
+    "1_4_width": "1\/4 πλάτος",
+    "3_4_width": "3\/4 πλάτος",
     "Extra_small": "Πολύ μικρό",
     "Extra_large": "Πολύ μεγάλο",
     "Top": "Κορυφή",
@@ -2246,10 +2277,10 @@
     "Overlay": "Επικάλυψη",
     "A_Shopify_hosted_video": "Ένα βίντεο που φιλοξενείται από το Shopify",
     "Embed_video_from_URL": "Ενσωμάτωση βίντεο από URL",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Δέχεται YouTube και Vimeo. Το βίντεο θα είναι σίγαση και ορισμένες συσκευές ενδέχεται να αποτρέψουν την αυτόματη αναπαραγωγή. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Δέχεται YouTube και Vimeo. Το βίντεο θα είναι σίγαση και ορισμένες συσκευές ενδέχεται να αποτρέψουν την αυτόματη αναπαραγωγή. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Βίντεο για κινητά",
     "A_Shopify_hosted_video_optional": "Ένα βίντεο που φιλοξενείται από το Shopify (προαιρετικό)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Δέχεται YouTube και Vimeo. [Μάθετε περισσότερα](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Δέχεται YouTube και Vimeo. [Μάθετε περισσότερα](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Στοίχιση κειμένου",
     "Alignment": "Ευθυγραμμία",
     "Countdown_timer": "Χρονομετρητής αντίστροφης μέτρησης",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "Συνιστώμενα 1400 x 1400 εικονοστοιχεία",
     "Menu": "Μενού",
     "Footer_text": "Κείμενο υποσέλιδου",
-    "Country_region_selector": "Επιλογέας χώρας/περιοχής",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Για να προσθέσετε μια χώρα/περιοχή, πηγαίνετε στις [ρυθμίσεις της αγοράς σας](/admin/settings/markets)",
-    "Enable_country_region_selector": "Ενεργοποίηση επιλογέα χώρας/περιοχής",
+    "Country_region_selector": "Επιλογέας χώρας\/περιοχής",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Για να προσθέσετε μια χώρα\/περιοχή, πηγαίνετε στις [ρυθμίσεις της αγοράς σας](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Ενεργοποίηση επιλογέα χώρας\/περιοχής",
     "Language_selector": "Επιλογέας γλώσσας",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Για να προσθέσετε μια γλώσσα, πηγαίνετε στις [ρυθμίσεις της γλώσσας σας](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Για να προσθέσετε μια γλώσσα, πηγαίνετε στις [ρυθμίσεις της γλώσσας σας](\/admin\/settings\/languages)",
     "Enable_language_selector": "Ενεργοποίηση επιλογέα γλώσσας",
     "Newsletter": "Ενημερωτικό δελτίο",
     "Header": "Κεφαλίδα",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Απόκρυψη εκτός αποθέματος παραλλακτικών",
     "Show_vendor": "Εμφάνιση προμηθευτή",
     "Show_dynamic_checkout_button": "Εμφάνιση κουμπιού δυναμικής ολοκλήρωσης",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Επιτρέπει στους πελάτες να ολοκληρώσουν απευθείας την αγορά χρησιμοποιώντας έναν οικείο τρόπο πληρωμής. [Μάθετε περισσότερα](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Επιτρέπει στους πελάτες να ολοκληρώσουν απευθείας την αγορά χρησιμοποιώντας έναν οικείο τρόπο πληρωμής. [Μάθετε περισσότερα](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Πολυμέσα",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Μάθετε περισσότερα σχετικά με τα [τύποι πολυμέσων](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Μάθετε περισσότερα σχετικά με τα [τύποι πολυμέσων](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Ενεργοποίηση επανάληψης βίντεο",
     "Product_rating": "Αξιολόγηση προϊόντος",
     "Label": "Ετικέτα",
     "Rating": "Αξιολόγηση",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Για να εμφανίσετε μια αξιολόγηση, προσθέστε ένα [μεταπεδίο αξιολόγησης προϊόντος](/admin/metafields/product)",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Για να εμφανίσετε μια αξιολόγηση, προσθέστε ένα [μεταπεδίο αξιολόγησης προϊόντος](\/admin\/metafields\/product)",
     "Full_icon": "Πλήρες εικονίδιο",
     "Empty_icon": "Κενό εικονίδιο",
     "Maximum": "Μέγιστο",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Επιλέξτε ένα μέγιστο ίσο με το [μέγιστο κλίμακας του μεταπεδίου αξιολόγησης](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Επιλέξτε ένα μέγιστο ίσο με το [μέγιστο κλίμακας του μεταπεδίου αξιολόγησης](\/admin\/metafields\/product)",
     "Image_with_offers": "Εικόνα με προσφορές",
     "Link_hover_border_color": "Χρώμα περιγράμματος κατά τον περιστροφή του συνδέσμου",
     "Text_with_icon": "Κείμενο με εικονίδιο",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Θέση στον υπολογιστή",
     "Top_bar": "Επάνω μπάρα",
     "Enable_filtering": "Ενεργοποίηση φίλτρων",
-    "Customize_filters_admin_menus": "[Προσαρμογή φίλτρων](/admin/menus)",
+    "Customize_filters_admin_menus": "[Προσαρμογή φίλτρων](\/admin\/menus)",
     "Enable_sorting": "Ενεργοποίηση ταξινόμησης",
     "2000_x_800px_recommended": "Προτείνεται 2000 x 800px",
     "Required_to_show_the_button": "Απαιτείται για να εμφανιστεί το κουμπί",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Πτυσσόμενες καρτέλες",
     "Custom_icon": "Προσαρμοσμένο εικονίδιο",
     "Aspect_ratio_of_1_1_recommended": "Συνιστάται κυρτός λόγος 1:1",
-    "Open_Close_icon_style": "Στυλ εικονιδίου 'Ανοιγμα/Κλείσιμο'",
+    "Open_Close_icon_style": "Στυλ εικονιδίου 'Ανοιγμα\/Κλείσιμο'",
     "Page": "Σελίδα",
     "Page_content": "Περιεχόμενο σελίδας",
     "Image_style": "Στυλ εικόνας",

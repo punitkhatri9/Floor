@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "もう少し...",
-      "no_products_html": "ホームページのコレクションに商品がありません。このプレースホルダーは、<a href=\"/admin/collections?tutorial=Frontpage\">このコレクションに商品を追加</a>するまで表示されます。",
+      "no_products_html": "ホームページのコレクションに商品がありません。このプレースホルダーは、<a href=\"\/admin\/collections?tutorial=Frontpage\">このコレクションに商品を追加<\/a>するまで表示されます。",
       "add_product": "商品を追加",
       "product_title": "商品のタイトル",
       "product_description": "この領域は商品の詳細を説明するために使用されます。製品の外観、質感、スタイルについての情報、色、使用された材料、サイズ、製造地などをお客様に伝えてください。",
-      "no_collections_html": "表示するコレクションはありません。<a href=\"/admin/custom_collections\">コレクションを追加</a>して、デフォルトのホームページに合わせましょう。",
+      "no_collections_html": "表示するコレクションはありません。<a href=\"\/admin\/custom_collections\">コレクションを追加<\/a>して、デフォルトのホームページに合わせましょう。",
       "add_collection": "コレクションを追加",
       "collection_title": "コレクションのタイトル",
       "blog_title": "投稿のタイトル",
@@ -176,29 +185,18 @@
     "general": {
       "title": "ショッピングカート",
       "remove": "削除",
-      "note": "注文メモ",
-      "add_note": "注文メモを追加",
-      "edit_note": "注文メモを編集",
-      "save_note": "注文メモを保存",
-      "add_gift_note": "ギフトメッセージを追加",
-      "edit_gift_note": "ギフトメッセージを編集",
-      "save_gift_note": "ギフトメッセージを保存する",
-      "save": "保存",
+      "note": "売り手への特別な指示",
       "see_more": "詳細を見る",
       "subtotal": "小計",
-      "regular_subtotal": "通常の小計",
-      "sale_subtotal": "売上小計",
       "taxes_and_shipping_at_checkout": "税金および配送料はチェックアウト時に計算されます",
-      "taxes_and_shipping_policy_at_checkout_html": "税金および<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます",
+      "taxes_and_shipping_policy_at_checkout_html": "税金および<a href=\"{{ link }}\">配送料<\/a>はチェックアウト時に計算されます",
       "taxes_included_but_shipping_at_checkout": "税金込み、配送料はチェックアウト時に計算されます",
-      "taxes_included_and_shipping_policy_html": "税金込み。 <a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
+      "taxes_included_and_shipping_policy_html": "税金込み。 <a href=\"{{ link }}\">配送料<\/a>はチェックアウト時に計算されます。",
       "update": "カートを更新",
       "checkout": "チェックアウト",
       "empty": "現在、カートは空です。",
       "close_cart": "カートを閉じる",
-      "view_cart": "カートを見る",
-      "savings_html": "{{ price }} を節約しています",
-      "return_to_shop": "ショップに戻る"
+      "savings_html": "{{ price }} を節約しています"
     },
     "label": {
       "product": "商品",
@@ -262,7 +260,7 @@
       "clear_all": "すべてクリア",
       "empty": "商品が見つかりません",
       "from": "から",
-      "filter_and_sort": "フィルター/並べ替え",
+      "filter_and_sort": "フィルター\/並べ替え",
       "filter_by_label": "フィルター条件",
       "filter_button": "フィルター",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "ソート順",
       "title": "コレクション",
       "to": "から",
-      "use_fewer_filters_html": "フィルターを減らすか、<a class=\"{{ class }}\" href=\"{{ link }}\">すべてクリア</a>"
+      "use_fewer_filters_html": "フィルターを減らすか、<a class=\"{{ class }}\" href=\"{{ link }}\">すべてクリア<\/a>"
     },
     "events_calendar": {
       "tbc_text": "未定"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "住所を調べる際にエラーが発生しました",
       "address_no_results": "その住所は見つかりませんでした",
-      "address_query_limit_html": "Google APIの使用量の制限を超えました。<a href=\"https://developers.google.com/maps/premium/usage-limits\">プレミアムプラン</a>へのアップグレードをご検討ください。",
+      "address_query_limit_html": "Google APIの使用量の制限を超えました。<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">プレミアムプラン<\/a>へのアップグレードをご検討ください。",
       "auth_error_html": "あなたのGoogle Mapsのアカウント認証で問題が発生しました。"
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "商品を追加",
       "product_title": "商品名",
       "product_vendor": "ベンダー",
-      "no_collections_html": "ここに表示するコレクションがありません。<a href=\"/admin/custom_collections\">いくつかのコレクションを追加</a>してデフォルトのフロントページに追加してください。",
+      "no_collections_html": "ここに表示するコレクションがありません。<a href=\"\/admin\/custom_collections\">いくつかのコレクションを追加<\/a>してデフォルトのフロントページに追加してください。",
       "add_collection": "コレクションを追加",
       "collection_title": "コレクション名",
       "no_content": "このセクションには現在コンテンツが含まれていません。サイドバーを使用してコンテンツを追加してください。"
@@ -472,8 +470,8 @@
       "giftwrap_note": "ギフトメッセージ",
       "giftwrap_note_placeholder": "ギフトメッセージをこちらに追加",
       "from_text_html": "{{ price }} から",
-      "file_upload_html": "アップロードするファイルをドラッグアンドドロップまたは<a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">参照します</a>",
-      "file_upload_browse_html": "アップロードするファイルを<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">参照</a>"
+      "file_upload_html": "アップロードするファイルをドラッグアンドドロップまたは<a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">参照します<\/a>",
+      "file_upload_browse_html": "アップロードするファイルを<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">参照<\/a>"
     },
     "product": {
       "sold_out": "売り切れ",
@@ -497,14 +495,14 @@
       "category": "カテゴリ",
       "type": "種類",
       "include_taxes": "税込み。",
-      "shipping_policy_html": "<a href=\"{{ link }}\">配送</a>はチェックアウト時に計算されます。",
+      "shipping_policy_html": "<a href=\"{{ link }}\">配送<\/a>はチェックアウト時に計算されます。",
       "quote": "見積もり",
       "preorder_today": "今すぐ予約注文",
       "in_stock": "在庫あり",
       "low_stock": "在庫が少ない",
       "out_of_stock": "在庫切れ",
       "stock_left": "個残り",
-      "out_of_stock_html": "{{ product }} - {{ variant }} が利用可能になった際にメールでお知らせするには<a href=\"#\"><strong>ここ</strong></a>をクリックしてください。",
+      "out_of_stock_html": "{{ product }} - {{ variant }} が利用可能になった際にメールでお知らせするには<a href=\"#\"><strong>ここ<\/strong><\/a>をクリックしてください。",
       "wrong_email": "有効なメールアドレスを提供してください。",
       "out_of_stock_success": "ありがとうございます！この商品が利用可能になった際にお知らせいたします。",
       "read_more_html": "もっと読む",
@@ -513,7 +511,7 @@
       "view_in_space_label": "自分のスペースで表示、拡張現実ウィンドウにアイテムを読み込みます",
       "video_thumbnail_alt": "ギャラリービューアでビデオを読み込んで再生、{{ imageAlt }}",
       "model_thumbnail_alt": "ギャラリービューアで3Dモデルを読み込む、{{ imageAlt }}",
-      "reviews_rating": "レビュー評価 - {{ value }} / {{ max }} 星",
+      "reviews_rating": "レビュー評価 - {{ value }} \/ {{ max }} 星",
       "reviews": "レビュー",
       "review": "レビュー",
       "no_reviews": "レビューなし"
@@ -564,9 +562,9 @@
       "password": "パスワードを入力してストアにアクセス",
       "enter_password": "パスワードを入力してください",
       "store_owner": "ストアのオーナーですか？",
-      "store_owner_html": "<a href=\"/admin\">こちらからログイン</a>",
+      "store_owner_html": "<a href=\"\/admin\">こちらからログイン<\/a>",
       "continue": "続行",
-      "powered_by_html": "このストアは<a href=\"http://www.shopify.com\">Shopify</a>によって提供されます"
+      "powered_by_html": "このストアは<a href=\"http:\/\/www.shopify.com\">Shopify<\/a>によって提供されます"
     }
   }
 }

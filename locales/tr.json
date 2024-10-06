@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Neredeyse tamam...",
-      "no_products_html": "Ana sayfanızdaki ürün yok. Bu yer tutucu, <a href=\"/admin/collections?tutorial=Frontpage\">bu koleksiyona ürün ekleyene kadar</a> görünecektir.",
+      "no_products_html": "Ana sayfanızdaki ürün yok. Bu yer tutucu, <a href=\"\/admin\/collections?tutorial=Frontpage\">bu koleksiyona ürün ekleyene kadar<\/a> görünecektir.",
       "add_product": "Ürün ekle",
       "product_title": "Ürün başlığı",
       "product_description": "Bu alan, ürününüzün ayrıntılarını açıklamak için kullanılır. Müşterilere ürünün görünümü, hissi ve tarzı hakkında bilgi verin. Renk, kullanılan malzeme, boyut ve ürünün nerede yapıldığı gibi detayları ekleyin.",
-      "no_collections_html": "Burada gösterilecek hiç koleksiyonunuz yok. Varsayılan ana sayfa ile uyumlu gitmek için <a href=\"/admin/custom_collections\">bazı koleksiyonlar ekleyin</a>.",
+      "no_collections_html": "Burada gösterilecek hiç koleksiyonunuz yok. Varsayılan ana sayfa ile uyumlu gitmek için <a href=\"\/admin\/custom_collections\">bazı koleksiyonlar ekleyin<\/a>.",
       "add_collection": "Koleksiyon ekle",
       "collection_title": "Koleksiyon başlığı",
       "blog_title": "Gönderinizin başlığı",
@@ -76,10 +85,10 @@
       "return_text": "Geri dön"
     },
     "localization": {
-      "country_label": "Ülke/Bölge",
+      "country_label": "Ülke\/Bölge",
       "language_label": "Dil",
       "update_language": "Dili Güncelle",
-      "update_country": "Ülke/Bölgeyi Güncelle"
+      "update_country": "Ülke\/Bölgeyi Güncelle"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Alışveriş sepeti",
       "remove": "Kaldır",
-      "note": "Sipariş notu",
-      "add_note": "Sipariş notu ekle",
-      "edit_note": "Sipariş notunu düzenle",
-      "save_note": "Sipariş notunu kaydet",
-      "add_gift_note": "Hediye mesajı ekle",
-      "edit_gift_note": "Hediye mesajını düzenle",
-      "save_gift_note": "Hediye mesajını kaydet",
-      "save": "Kaydetmek",
+      "note": "Satıcıya özel talimatlar",
       "see_more": "Daha fazla gör",
       "subtotal": "Ara toplam",
-      "regular_subtotal": "Düzenli ara toplam",
-      "sale_subtotal": "Satış ara toplamı",
       "taxes_and_shipping_at_checkout": "Vergiler ve nakliye ödemesi ödeme sırasında hesaplanır",
-      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">nakliye</a> ödemesi ödeme sırasında hesaplanır",
+      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">nakliye<\/a> ödemesi ödeme sırasında hesaplanır",
       "taxes_included_but_shipping_at_checkout": "Vergi dahil ve nakliye ödemesi ödeme sırasında hesaplanır",
-      "taxes_included_and_shipping_policy_html": "Vergi dahil. <a href=\"{{ link }}\">Nakliye</a> ödemesi ödeme sırasında hesaplanır.",
+      "taxes_included_and_shipping_policy_html": "Vergi dahil. <a href=\"{{ link }}\">Nakliye<\/a> ödemesi ödeme sırasında hesaplanır.",
       "update": "Sepeti güncelle",
       "checkout": "Ödeme yap",
       "empty": "Sepetiniz şu anda boş.",
       "close_cart": "Sepeti kapat",
-      "view_cart": "Sepeti görüntüle",
-      "savings_html": "{{ price }} tasarruf ediyorsunuz",
-      "return_to_shop": "Mağazaya geri dön"
+      "savings_html": "{{ price }} tasarruf ediyorsunuz"
     },
     "label": {
       "product": "Ürün",
@@ -248,7 +246,7 @@
       "add_product": "Ürün ekle"
     },
     "paginate": {
-      "youve_viewed": "İlgilendiğiniz ürün sayısı: {{ x }} / {{ y }}",
+      "youve_viewed": "İlgilendiğiniz ürün sayısı: {{ x }} \/ {{ y }}",
       "loading": "yükleniyor...",
       "load_more": "Daha fazla yükle"
     }
@@ -262,7 +260,7 @@
       "clear_all": "Tümünü Temizle",
       "empty": "Ürün bulunamadı",
       "from": "Başlangıç",
-      "filter_and_sort": "Filtrele/Sırala",
+      "filter_and_sort": "Filtrele\/Sırala",
       "filter_by_label": "Filtreleme",
       "filter_button": "Filtrele",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Sırala",
       "title": "Koleksiyon",
       "to": "Bitiş",
-      "use_fewer_filters_html": "Daha az filtre kullanın veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü temizleyin</a>"
+      "use_fewer_filters_html": "Daha az filtre kullanın veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü temizleyin<\/a>"
     },
     "events_calendar": {
       "tbc_text": "Belirtilmedi"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Bu adres aranırken hata oluştu",
       "address_no_results": "Bu adres için sonuç yok",
-      "address_query_limit_html": "Google API kullanım sınırını aştınız. <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>'a yükseltmeyi düşünün.",
+      "address_query_limit_html": "Google API kullanım sınırını aştınız. <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>'a yükseltmeyi düşünün.",
       "auth_error_html": "Google Haritalar API Anahtarınızın kimliği doğrulanırken sorun oluştu."
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "Şehir",
       "country": "Ülke",
       "province": "Bölge",
-      "zip": "Posta/Kod",
+      "zip": "Posta\/Kod",
       "phone": "Telefon",
       "set_default": "Varsayılan adres olarak ayarla",
       "add": "Adres ekle",
@@ -422,7 +420,7 @@
       "add_product": "Ürün Ekle",
       "product_title": "Ürün Başlığı",
       "product_vendor": "Satıcı",
-      "no_collections_html": "Burada gösterilecek hiç koleksiyonunuz yok. Varsayılan Ana Sayfa ile birlikte gitmek için <a href=\"/admin/custom_collections\">bazı koleksiyonlar ekleyin</a>.",
+      "no_collections_html": "Burada gösterilecek hiç koleksiyonunuz yok. Varsayılan Ana Sayfa ile birlikte gitmek için <a href=\"\/admin\/custom_collections\">bazı koleksiyonlar ekleyin<\/a>.",
       "add_collection": "Koleksiyon Ekle",
       "collection_title": "Koleksiyon Başlığı",
       "no_content": "Bu bölüm şu anda içerik içermiyor. Kenar çubuğunu kullanarak bu bölüme içerik ekleyin."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Hediye Mesajı",
       "giftwrap_note_placeholder": "Hediye mesajınızı buraya ekleyin",
       "from_text_html": "{{ price }}'dan itibaren",
-      "file_upload_html": "Yüklenecek dosyaları sürükleyip bırakın veya dosyalara <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">göz atın</a>",
-      "file_upload_browse_html": "Yüklenecek dosyalara <a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">göz atın</a>"
+      "file_upload_html": "Yüklenecek dosyaları sürükleyip bırakın veya dosyalara <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">göz atın<\/a>",
+      "file_upload_browse_html": "Yüklenecek dosyalara <a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">göz atın<\/a>"
     },
     "product": {
       "sold_out": "Stokta Yok",
@@ -497,14 +495,14 @@
       "category": "Kategori",
       "type": "Tür",
       "include_taxes": "Vergi dahil.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a> ödemesi ödeme sırasında hesaplanır.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo<\/a> ödemesi ödeme sırasında hesaplanır.",
       "quote": "Alıntı",
       "preorder_today": "Bugün ön sipariş verin",
       "in_stock": "Stokta",
       "low_stock": "Az Stok",
       "out_of_stock": "Stokta Yok",
       "stock_left": "kaldı",
-      "out_of_stock_html": "{{ product }} - {{ variant }} ürünü tekrar stokta olduğunda bildirilmek için buraya <a href=\"#\"><strong>tıklayın</strong></a>.",
+      "out_of_stock_html": "{{ product }} - {{ variant }} ürünü tekrar stokta olduğunda bildirilmek için buraya <a href=\"#\"><strong>tıklayın<\/strong><\/a>.",
       "wrong_email": "Lütfen geçerli bir e-posta adresi sağlayın.",
       "out_of_stock_success": "Teşekkürler! Bu ürün stokta olduğunda sizi bilgilendireceğiz!",
       "read_more_html": "Daha fazla oku",
@@ -513,7 +511,7 @@
       "view_in_space_label": "Mekanınızda Görüntüle, artırılmış gerçeklik penceresinde öğeyi yükler",
       "video_thumbnail_alt": "Videoyu Galeri görüntüleyicide yükle ve oynat, {{ imageAlt }}",
       "model_thumbnail_alt": "3D modeli Galeri görüntüleyicide yükle, {{ imageAlt }}",
-      "reviews_rating": "Değerlendirmeler puanı - {{ value }} / {{ max }} yıldız",
+      "reviews_rating": "Değerlendirmeler puanı - {{ value }} \/ {{ max }} yıldız",
       "reviews": "yorumlar",
       "review": "inceleme",
       "no_reviews": "Henüz yorum yok"
@@ -564,9 +562,9 @@
       "password": "Şifre kullanarak mağazaya giriş yapın",
       "enter_password": "Şifreyi girin",
       "store_owner": "Mağaza sahibi misiniz?",
-      "store_owner_html": "<a href=\"/admin\">Buradan giriş yapın</a>",
+      "store_owner_html": "<a href=\"\/admin\">Buradan giriş yapın<\/a>",
       "continue": "Devam et",
-      "powered_by_html": "Bu mağaza <a href=\"http://www.shopify.com\">Shopify</a> tarafından desteklenmektedir"
+      "powered_by_html": "Bu mağaza <a href=\"http:\/\/www.shopify.com\">Shopify<\/a> tarafından desteklenmektedir"
     }
   }
 }

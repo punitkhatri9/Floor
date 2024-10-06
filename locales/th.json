@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "เร almost ละ...",
-      "no_products_html": "คุณไม่มีสินค้าในคอลเลกชันหน้าหลักของคุณ สิ่งนี้จะปรากฏไปจนกว่าคุณจะ <a href=\"/admin/collections?tutorial=Frontpage\">เพิ่มสินค้าในคอลเลกชันนี้</a>",
+      "no_products_html": "คุณไม่มีสินค้าในคอลเลกชันหน้าหลักของคุณ สิ่งนี้จะปรากฏไปจนกว่าคุณจะ <a href=\"\/admin\/collections?tutorial=Frontpage\">เพิ่มสินค้าในคอลเลกชันนี้<\/a>",
       "add_product": "เพิ่มสินค้า",
       "product_title": "ชื่อสินค้า",
       "product_description": "พื้นที่นี้ใช้ในการอธิบายรายละเอียดของสินค้าของคุณ บอกลูกค้าเกี่ยวกับลักษณะรูปร่าง สีสัน และสไตล์ของสินค้า ระบุรายละเอียดเกี่ยวกับสี วัสดุที่ใช้ ขนาดและสถานที่ผลิต",
-      "no_collections_html": "คุณยังไม่มีคอลเลกชันใด ๆ ในที่นี่ <a href=\"/admin/custom_collections\">เพิ่มคอลเลกชันบางอัน</a> เพื่อใช้ร่วมกับหน้าหลักเริ่มต้น",
+      "no_collections_html": "คุณยังไม่มีคอลเลกชันใด ๆ ในที่นี่ <a href=\"\/admin\/custom_collections\">เพิ่มคอลเลกชันบางอัน<\/a> เพื่อใช้ร่วมกับหน้าหลักเริ่มต้น",
       "add_collection": "เพิ่มคอลเลกชัน",
       "collection_title": "ชื่อคอลเลกชัน",
       "blog_title": "หัวข้อของโพสต์ของคุณ",
@@ -76,10 +85,10 @@
       "return_text": "กลับ"
     },
     "localization": {
-      "country_label": "ประเทศ/ภูมิภาค",
+      "country_label": "ประเทศ\/ภูมิภาค",
       "language_label": "ภาษา",
       "update_language": "อัปเดตภาษา",
-      "update_country": "อัปเดตประเทศ/ภูมิภาค"
+      "update_country": "อัปเดตประเทศ\/ภูมิภาค"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "ตะกร้าสินค้า",
       "remove": "นำออก",
-      "note": "หมายเหตุการสั่งซื้อ",
-      "add_note": "เพิ่มหมายเหตุการสั่งซื้อ",
-      "edit_note": "แก้ไขหมายเหตุการสั่งซื้อ",
-      "save_note": "บันทึกหมายเหตุการสั่งซื้อ",
-      "add_gift_note": "เพิ่มข้อความของขวัญ",
-      "edit_gift_note": "แก้ไขข้อความของขวัญ",
-      "save_gift_note": "บันทึกข้อความของขวัญ",
-      "save": "บันทึก",
+      "note": "คำสั่งพิเศษสำหรับผู้ขาย",
       "see_more": "ดูเพิ่มเติม",
       "subtotal": "ยอดรวมส่วนหนึ่ง",
-      "regular_subtotal": "ยอดรวมย่อยปกติ",
-      "sale_subtotal": "ยอดรวมการขาย",
       "taxes_and_shipping_at_checkout": "คำนวณภาษีและค่าจัดส่งที่จุดชำระเงิน",
-      "taxes_and_shipping_policy_at_checkout_html": "คำนวณภาษีและ <a href=\"{{ link }}\">ค่าจัดส่ง</a> ที่จุดชำระเงิน",
+      "taxes_and_shipping_policy_at_checkout_html": "คำนวณภาษีและ <a href=\"{{ link }}\">ค่าจัดส่ง<\/a> ที่จุดชำระเงิน",
       "taxes_included_but_shipping_at_checkout": "รวมภาษีและคำนวณค่าจัดส่งที่จุดชำระเงิน",
-      "taxes_included_and_shipping_policy_html": "รวมภาษี และ <a href=\"{{ link }}\">ค่าจัดส่ง</a> ที่จุดชำระเงิน",
+      "taxes_included_and_shipping_policy_html": "รวมภาษี และ <a href=\"{{ link }}\">ค่าจัดส่ง<\/a> ที่จุดชำระเงิน",
       "update": "อัปเดตตะกร้า",
       "checkout": "ชำระเงิน",
       "empty": "ตะกร้าของคุณว่างเปล่าในขณะนี้",
       "close_cart": "ปิดตะกร้า",
-      "view_cart": "ดูรถเข็น",
-      "savings_html": "คุณประหยัด {{ price }}",
-      "return_to_shop": "กลับสู่ร้านค้า"
+      "savings_html": "คุณประหยัด {{ price }}"
     },
     "label": {
       "product": "สินค้า",
@@ -262,7 +260,7 @@
       "clear_all": "ล้างทั้งหมด",
       "empty": "ไม่พบสินค้า",
       "from": "จาก",
-      "filter_and_sort": "กรอง/เรียงลำดับ",
+      "filter_and_sort": "กรอง\/เรียงลำดับ",
       "filter_by_label": "กรองโดย",
       "filter_button": "กรอง",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "เรียงตาม",
       "title": "คอลเลคชัน",
       "to": "ถึง",
-      "use_fewer_filters_html": "ใช้ตัวกรองน้อยลงหรือ <a class=\"{{ class }}\" href=\"{{ link }}\">ล้างทั้งหมด</a>"
+      "use_fewer_filters_html": "ใช้ตัวกรองน้อยลงหรือ <a class=\"{{ class }}\" href=\"{{ link }}\">ล้างทั้งหมด<\/a>"
     },
     "events_calendar": {
       "tbc_text": "ยังไม่ได้กำหนด"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "เกิดข้อผิดพลาดในการค้นหาที่อยู่ดังกล่าว",
       "address_no_results": "ไม่พบผลลัพธ์สำหรับที่อยู่ดังกล่าว",
-      "address_query_limit_html": "คุณใช้ Google API ของคุณเกินขีดจำกัดการใช้งานแล้ว ลองพิจารณาอัปเกรดเป็น<a href=\"https://developers.google.com/maps/premium/usage-limits\">แผนพรีเมียม</a>",
+      "address_query_limit_html": "คุณใช้ Google API ของคุณเกินขีดจำกัดการใช้งานแล้ว ลองพิจารณาอัปเกรดเป็น<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">แผนพรีเมียม<\/a>",
       "auth_error_html": "เกิดปัญหาในการยืนยันคีย์ Google Maps API ของคุณ"
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "เพิ่มสินค้า",
       "product_title": "ชื่อสินค้า",
       "product_vendor": "ผู้ผลิต",
-      "no_collections_html": "คุณยังไม่มีคอลเลคชันใดๆ ที่จะแสดงที่นี่ <a href=\"/admin/custom_collections\">เพิ่มคอลเลคชันบางรายการ</a> เพื่อใช้งานพร้อมกับคอลเลคชันหน้าแรกแบบเริ่มต้น",
+      "no_collections_html": "คุณยังไม่มีคอลเลคชันใดๆ ที่จะแสดงที่นี่ <a href=\"\/admin\/custom_collections\">เพิ่มคอลเลคชันบางรายการ<\/a> เพื่อใช้งานพร้อมกับคอลเลคชันหน้าแรกแบบเริ่มต้น",
       "add_collection": "เพิ่มคอลเลคชัน",
       "collection_title": "ชื่อคอลเลคชัน",
       "no_content": "ส่วนนี้ยังไม่มีเนื้อหาใด ๆ ในปัจจุบัน กรุณาเพิ่มเนื้อหาในส่วนนี้โดยใช้แถบข้าง"
@@ -472,8 +470,8 @@
       "giftwrap_note": "ข้อความของขวัญ",
       "giftwrap_note_placeholder": "เพิ่มข้อความของขวัญของคุณที่นี่",
       "from_text_html": "จาก {{ price }}",
-      "file_upload_html": "ลากและวางหรือ <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">เรียกดู</a> ไฟล์ที่จะอัปโหลด",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">เรียกดู</a> ไฟล์ที่จะอัปโหลด"
+      "file_upload_html": "ลากและวางหรือ <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">เรียกดู<\/a> ไฟล์ที่จะอัปโหลด",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">เรียกดู<\/a> ไฟล์ที่จะอัปโหลด"
     },
     "product": {
       "sold_out": "หมด",
@@ -497,14 +495,14 @@
       "category": "หมวดหมู่",
       "type": "ประเภท",
       "include_taxes": "ราคารวมภาษี",
-      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าขนส่ง</a> คำนวณที่จุดจ่ายเงิน",
+      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าขนส่ง<\/a> คำนวณที่จุดจ่ายเงิน",
       "quote": "ข้อคิด",
       "preorder_today": "สั่งซื้อล่วงหน้าวันนี้",
       "in_stock": "มีสินค้า",
       "low_stock": "สินค้าหมดใกล้หมด",
       "out_of_stock": "สินค้าหมด",
       "stock_left": "ชิ้นเหลือ",
-      "out_of_stock_html": "คลิก <a href=\"#\"><strong>ที่นี่</strong></a> เพื่อรับข้อมูลเมื่อ {{ product }} - {{ variant }} มีจำหน่ายอีกครั้งทางอีเมล",
+      "out_of_stock_html": "คลิก <a href=\"#\"><strong>ที่นี่<\/strong><\/a> เพื่อรับข้อมูลเมื่อ {{ product }} - {{ variant }} มีจำหน่ายอีกครั้งทางอีเมล",
       "wrong_email": "โปรดระบุที่อยู่อีเมลที่ถูกต้อง",
       "out_of_stock_success": "ขอบคุณ! เราจะแจ้งให้คุณทราบเมื่อสินค้านี้มีจำหน่ายอีกครั้ง!",
       "read_more_html": "อ่านเพิ่มเติม",
@@ -564,9 +562,9 @@
       "password": "เข้าสู่ร้านโดยใช้รหัสผ่าน",
       "enter_password": "กรอกรหัสผ่าน",
       "store_owner": "คุณเป็นเจ้าของร้านหรือไม่?",
-      "store_owner_html": "<a href=\"/admin\">เข้าสู่ระบบที่นี่</a>",
+      "store_owner_html": "<a href=\"\/admin\">เข้าสู่ระบบที่นี่<\/a>",
       "continue": "ดำเนินการต่อ",
-      "powered_by_html": "ร้านนี้จะขับเคลื่อนโดย <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "ร้านนี้จะขับเคลื่อนโดย <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

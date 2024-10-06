@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Beveik baigta...",
-      "no_products_html": "Jūs neturite produktų savo pagrindinėje puslapio kolekcijoje. Ši vieta laikinai atsiras, kol <a href=\"/admin/collections?tutorial=Frontpage\">pridėsite produktą į šią kolekciją</a>.",
+      "no_products_html": "Jūs neturite produktų savo pagrindinėje puslapio kolekcijoje. Ši vieta laikinai atsiras, kol <a href=\"\/admin\/collections?tutorial=Frontpage\">pridėsite produktą į šią kolekciją<\/a>.",
       "add_product": "Pridėti produktą",
       "product_title": "Produkto pavadinimas",
       "product_description": "Ši vieta skirta produkto detalioms aprašyti. Praneškite klientams apie produkto išvaizdą, stilių ir charakteristikas. Pridėkite informacijos apie spalvą, naudojamus medžiagas, dydį ir gamybos vietą.",
-      "no_collections_html": "Jūs neturite jokių kolekcijų šiame puslapyje. <a href=\"/admin/custom_collections\">Pridėkite kolekcijų</a>, kad galėtumėte pateikti pagrindinėje puslapyje.",
+      "no_collections_html": "Jūs neturite jokių kolekcijų šiame puslapyje. <a href=\"\/admin\/custom_collections\">Pridėkite kolekcijų<\/a>, kad galėtumėte pateikti pagrindinėje puslapyje.",
       "add_collection": "Pridėti kolekciją",
       "collection_title": "Kolekcijos pavadinimas",
       "blog_title": "Jūsų straipsnio pavadinimas",
@@ -76,10 +85,10 @@
       "return_text": "Atgal"
     },
     "localization": {
-      "country_label": "Šalis/regionas",
+      "country_label": "Šalis\/regionas",
       "language_label": "Kalba",
       "update_language": "Atnaujinti kalbą",
-      "update_country": "Atnaujinti šalį/regioną"
+      "update_country": "Atnaujinti šalį\/regioną"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Pirkinių krepšelis",
       "remove": "Pašalinti",
-      "note": "Užsakymo pastaba",
-      "add_note": "Pridėti užsakymo pastabą",
-      "edit_note": "Redaguoti užsakymo pastabą",
-      "save_note": "Išsaugoti užsakymo pastabą",
-      "add_gift_note": "Pridėkite dovanos pranešimą",
-      "edit_gift_note": "Redaguoti dovanos pranešimą",
-      "save_gift_note": "Išsaugoti dovanos pranešimą",
-      "save": "Išsaugoti",
+      "note": "Specialūs pardavėjo instrukcijos",
       "see_more": "Peržiūrėti daugiau",
       "subtotal": "Viso",
-      "regular_subtotal": "Įprasta tarpinė suma",
-      "sale_subtotal": "Išpardavimo tarpinė suma",
       "taxes_and_shipping_at_checkout": "Mokesčiai ir pristatymas apskaičiuojami pirkimo metu",
-      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">pristatymas</a> apskaičiuojami pirkimo metu",
+      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">pristatymas<\/a> apskaičiuojami pirkimo metu",
       "taxes_included_but_shipping_at_checkout": "Mokestis įskaičiuotas, pristatymas apskaičiuojamas pirkimo metu",
-      "taxes_included_and_shipping_policy_html": "Mokestis įskaičiuotas. <a href=\"{{ link }}\">Pristatymas</a> apskaičiuojamas pirkimo metu.",
+      "taxes_included_and_shipping_policy_html": "Mokestis įskaičiuotas. <a href=\"{{ link }}\">Pristatymas<\/a> apskaičiuojamas pirkimo metu.",
       "update": "Atnaujinti krepšelį",
       "checkout": "Baigti apsipirkimą",
       "empty": "Jūsų krepšelis šiuo metu tuščias.",
       "close_cart": "Uždaryti krepšelį",
-      "view_cart": "Žiūrėti krepšelį",
-      "savings_html": "Jūs sutaupote {{ price }}",
-      "return_to_shop": "Grįžti į parduotuvę"
+      "savings_html": "Jūs sutaupote {{ price }}"
     },
     "label": {
       "product": "Prekė",
@@ -262,7 +260,7 @@
       "clear_all": "Išvalyti viską",
       "empty": "Nerasta produktų",
       "from": "Nuo",
-      "filter_and_sort": "Filtruoti / Rūšiuoti",
+      "filter_and_sort": "Filtruoti \/ Rūšiuoti",
       "filter_by_label": "Filtruoti pagal",
       "filter_button": "Filtruoti",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Rūšiuoti pagal",
       "title": "Kolekcija",
       "to": "Iki",
-      "use_fewer_filters_html": "Naudokite mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">išvalykite viską</a>"
+      "use_fewer_filters_html": "Naudokite mažiau filtrų arba <a class=\"{{ class }}\" href=\"{{ link }}\">išvalykite viską<\/a>"
     },
     "events_calendar": {
       "tbc_text": "VČB (Vėliau bus nurodyta)"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Ieškant šio adreso įvyko klaida",
       "address_no_results": "Nerasta šio adreso rezultatų",
-      "address_query_limit_html": "Viršijote „Google“ API naudojimo apribojimą. Apsvarstykite galimybę naujovinti į <a href=\"https://developers.google.com/maps/premium/usage-limits\">planą „Premium“</a>.",
+      "address_query_limit_html": "Viršijote „Google“ API naudojimo apribojimą. Apsvarstykite galimybę naujovinti į <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">planą „Premium“<\/a>.",
       "auth_error_html": "Patvirtinant „Google“ žemėlapių API raktą įvyko klaida."
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "Miestas",
       "country": "Šalis",
       "province": "Apskritis",
-      "zip": "Pašto / Zip kodas",
+      "zip": "Pašto \/ Zip kodas",
       "phone": "Telefonas",
       "set_default": "Nustatyti kaip numatytąjį adresą",
       "add": "Pridėti adresą",
@@ -422,7 +420,7 @@
       "add_product": "Pridėti produktą",
       "product_title": "Prekės pavadinimas",
       "product_vendor": "Tiekėjas",
-      "no_collections_html": "Neturite jokių kolekcijų rodyti čia. <a href=\"/admin/custom_collections\">Pridėkite keletą kolekcijų</a>, kad suderintumėte su pagrindine kolekcija.",
+      "no_collections_html": "Neturite jokių kolekcijų rodyti čia. <a href=\"\/admin\/custom_collections\">Pridėkite keletą kolekcijų<\/a>, kad suderintumėte su pagrindine kolekcija.",
       "add_collection": "Pridėti kolekciją",
       "collection_title": "Kolekcijos pavadinimas",
       "no_content": "Šis skyrius šiuo metu neturi jokios turinio. Pridėkite turinį į šį skyrių naudodami šoninį meniu."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Dovanų žinutė",
       "giftwrap_note_placeholder": "Įrašykite savo dovanos žinutę čia",
       "from_text_html": "Nuo {{ price }}",
-      "file_upload_html": "Nuvilkite arba <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">naršykite</a> failus, kuriuos norite įkelti",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Naršykite</a> failus, kuriuos norite įkelti"
+      "file_upload_html": "Nuvilkite arba <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">naršykite<\/a> failus, kuriuos norite įkelti",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Naršykite<\/a> failus, kuriuos norite įkelti"
     },
     "product": {
       "sold_out": "Parduota",
@@ -497,14 +495,14 @@
       "category": "Kategorija",
       "type": "Tipas",
       "include_taxes": "Mokestis įtrauktas.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Pristatymas</a> skaičiuojamas apmokėjimo metu.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Pristatymas<\/a> skaičiuojamas apmokėjimo metu.",
       "quote": "Citata",
       "preorder_today": "Užsisakykite iš anksto šiandien",
       "in_stock": "Turime sandėlyje",
       "low_stock": "Mažai liko",
       "out_of_stock": "Nėra sandėlyje",
       "stock_left": "liko",
-      "out_of_stock_html": "Spustelėkite <a href=\"#\"><strong>čia</strong></a>, kad gautumėte pranešimą el. paštu, kai {{ product }} - {{ variant }} taptų prieinamas.",
+      "out_of_stock_html": "Spustelėkite <a href=\"#\"><strong>čia<\/strong><\/a>, kad gautumėte pranešimą el. paštu, kai {{ product }} - {{ variant }} taptų prieinamas.",
       "wrong_email": "Pateikite galiojantį el. pašto adresą.",
       "out_of_stock_success": "Dėkojame! Pranešime jums, kai šis produktas taps prieinamas!",
       "read_more_html": "Skaityti daugiau",
@@ -564,9 +562,9 @@
       "password": "Įveskite parduotuvę naudodami slaptažodį",
       "enter_password": "Įveskite slaptažodį",
       "store_owner": "Ar jūs esate parduotuvės savininkas?",
-      "store_owner_html": "<a href=\"/admin\">Prisijunkite čia</a>",
+      "store_owner_html": "<a href=\"\/admin\">Prisijunkite čia<\/a>",
       "continue": "Toliau",
-      "powered_by_html": "Ši parduotuvė veiks naudojant <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Ši parduotuvė veiks naudojant <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

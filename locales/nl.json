@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Bijna daar...",
-      "no_products_html": "Je hebt geen producten in je startpagina-collectie. Deze tijdelijke tekst verschijnt totdat je <a href=\"/admin/collecties?handle=frontpage\">een product aan deze collectie toevoegt</a>.",
+      "no_products_html": "Je hebt geen producten in je startpagina-collectie. Deze tijdelijke tekst verschijnt totdat je <a href=\"\/admin\/collecties?handle=frontpage\">een product aan deze collectie toevoegt<\/a>.",
       "add_product": "Product toevoegen",
       "product_title": "Producttitel",
       "product_description": "Dit gedeelte wordt gebruikt om de details van je product te beschrijven. Vertel klanten over het uiterlijk, het gevoel en de stijl van je product. Voeg details toe over kleur, gebruikte materialen, maatvoering en de herkomst ervan.",
-      "no_collections_html": "Je hebt hier geen collecties om te tonen. <a href=\"/admin/aangepaste-collecties\">Voeg enkele collecties toe</a> om samen met de standaard startpagina te gebruiken.",
+      "no_collections_html": "Je hebt hier geen collecties om te tonen. <a href=\"\/admin\/aangepaste-collecties\">Voeg enkele collecties toe<\/a> om samen met de standaard startpagina te gebruiken.",
       "add_collection": "Collectie toevoegen",
       "collection_title": "Collectietitel",
       "blog_title": "Titel van je bericht",
@@ -76,10 +85,10 @@
       "return_text": "Terug"
     },
     "localization": {
-      "country_label": "Land/regio",
+      "country_label": "Land\/regio",
       "language_label": "Taal",
       "update_language": "Taal bijwerken",
-      "update_country": "Land/regio bijwerken"
+      "update_country": "Land\/regio bijwerken"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Winkelwagen",
       "remove": "Verwijderen",
-      "note": "Bestelnotitie",
-      "add_note": "Bestelnotitie toevoegen",
-      "edit_note": "Bewerk ordernotitie",
-      "save_note": "Bewaar ordernotitie",
-      "add_gift_note": "Voeg een geschenkbericht toe",
-      "edit_gift_note": "Bewerk geschenkbericht",
-      "save_gift_note": "Bewaar geschenkbericht",
-      "save": "Redden",
+      "note": "Speciale instructies voor de verkoper",
       "see_more": "Zie meer",
       "subtotal": "Subtotaal",
-      "regular_subtotal": "Regelmatig subtotaal",
-      "sale_subtotal": "Subtotaal verkoop",
       "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten worden berekend bij het afrekenen",
-      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzending</a> worden berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzending<\/a> worden berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Belasting inbegrepen en verzendkosten worden berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Belasting inbegrepen. <a href=\"{{ link }}\">Verzending</a> wordt berekend bij het afrekenen.",
+      "taxes_included_and_shipping_policy_html": "Belasting inbegrepen. <a href=\"{{ link }}\">Verzending<\/a> wordt berekend bij het afrekenen.",
       "update": "Winkelwagen bijwerken",
       "checkout": "Afrekenen",
       "empty": "Je winkelwagen is momenteel leeg.",
       "close_cart": "Sluit winkelwagen",
-      "view_cart": "Winkelwagen bekijken",
-      "savings_html": "Je bespaart {{ price }}",
-      "return_to_shop": "Terug naar de winkel"
+      "savings_html": "Je bespaart {{ price }}"
     },
     "label": {
       "product": "Product",
@@ -262,7 +260,7 @@
       "clear_all": "Alles wissen",
       "empty": "Geen producten gevonden",
       "from": "Van",
-      "filter_and_sort": "Filteren/Sorteren",
+      "filter_and_sort": "Filteren\/Sorteren",
       "filter_by_label": "Filteren op",
       "filter_button": "Filteren",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Sorteren op",
       "title": "Collectie",
       "to": "Tot",
-      "use_fewer_filters_html": "Gebruik minder filters of <a class=\"{{ class }}\" href=\"{{ link }}\">wis alles</a>"
+      "use_fewer_filters_html": "Gebruik minder filters of <a class=\"{{ class }}\" href=\"{{ link }}\">wis alles<\/a>"
     },
     "events_calendar": {
       "tbc_text": "Nog te bepalen"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Fout bij het opzoeken van dat adres",
       "address_no_results": "Geen resultaten voor dat adres",
-      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-pakket</a>.",
+      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-pakket<\/a>.",
       "auth_error_html": "Er is een probleem opgetreden bij het verifiëren van je Google Maps API-sleutel."
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "Product toevoegen",
       "product_title": "Producttitel",
       "product_vendor": "Leverancier",
-      "no_collections_html": "Je hebt hier geen collecties om te tonen. <a href=\"/admin/aangepaste-collecties\">Voeg enkele collecties toe</a> om samen te gaan met de standaard Frontpage.",
+      "no_collections_html": "Je hebt hier geen collecties om te tonen. <a href=\"\/admin\/aangepaste-collecties\">Voeg enkele collecties toe<\/a> om samen te gaan met de standaard Frontpage.",
       "add_collection": "Collectie toevoegen",
       "collection_title": "Collectietitel",
       "no_content": "Dit gedeelte bevat momenteel geen inhoud. Voeg inhoud toe aan dit gedeelte via de zijbalk."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Bericht bij cadeau",
       "giftwrap_note_placeholder": "Voeg hier je cadeaubericht toe",
       "from_text_html": "Vanaf {{ price }}",
-      "file_upload_html": "Slepen en neerzetten of <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">bladeren</a> door bestanden om te uploaden",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Blader</a> door bestanden om te uploaden"
+      "file_upload_html": "Slepen en neerzetten of <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">bladeren<\/a> door bestanden om te uploaden",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Blader<\/a> door bestanden om te uploaden"
     },
     "product": {
       "sold_out": "Uitverkocht",
@@ -497,14 +495,14 @@
       "category": "Categorie",
       "type": "Type",
       "include_taxes": "Inclusief belastingen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Verzending</a> wordt berekend bij het afrekenen.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzending<\/a> wordt berekend bij het afrekenen.",
       "quote": "Citaat",
       "preorder_today": "Bestel vandaag nog",
       "in_stock": "Op voorraad",
       "low_stock": "Beperkte voorraad",
       "out_of_stock": "Uitverkocht",
       "stock_left": "over",
-      "out_of_stock_html": "Klik <a href=\"#\"><strong>hier</strong></a> om per e-mail op de hoogte te worden gebracht wanneer {{ product }} - {{ variant }} weer beschikbaar is.",
+      "out_of_stock_html": "Klik <a href=\"#\"><strong>hier<\/strong><\/a> om per e-mail op de hoogte te worden gebracht wanneer {{ product }} - {{ variant }} weer beschikbaar is.",
       "wrong_email": "Vul een geldig e-mailadres in.",
       "out_of_stock_success": "Bedankt! We zullen je op de hoogte stellen wanneer dit product weer beschikbaar is!",
       "read_more_html": "Lees meer",
@@ -564,9 +562,9 @@
       "password": "Toegang tot de winkel met een wachtwoord",
       "enter_password": "Voer wachtwoord in",
       "store_owner": "Ben jij de winkelbeheerder?",
-      "store_owner_html": "<a href=\"/admin\">Log hier in</a>",
+      "store_owner_html": "<a href=\"\/admin\">Log hier in<\/a>",
       "continue": "Doorgaan",
-      "powered_by_html": "Deze winkel wordt aangedreven door <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Deze winkel wordt aangedreven door <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

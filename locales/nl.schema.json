@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Kleurschema's"
         },
         "header-35": {
-          "content": "Lades"
+          "content": "Winkelwagen lade"
         },
         "header-38": {
           "content": "Voettekst"
@@ -114,31 +123,21 @@
           "label": "Bij het toevoegen van een artikel aan de winkelwagen…",
           "options": {
             "show_added_message": "'Toegevoegd' bericht tonen",
-            "go_to_or_open_cart": "Ga naar/open winkelwagen"
+            "go_to_or_open_cart": "Ga naar\/open winkelwagen"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Toon productverkoper"
+        },
         "cart_notes_enable": {
-          "label": "Toon ordernotitie"
+          "label": "Notities in winkelwagen inschakelen"
         },
         "giftwrap_gift_note": {
           "label": "Cadeauboodschap inschakelen"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Dynamische afrekenknoppen weergeven op de winkelwagenpagina",
-          "info": "[Meer informatie](https://help.shopify.com/nl/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Productaanbevelingen",
-          "show_cart_recommendations": {
-            "label": "Dynamische aanbevelingen weergeven",
-            "info": "Dynamische aanbevelingen zijn gebaseerd op de producten in de winkelwagen. Ze gebruiken order- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Lege winkelwagen",
-          "empty_cart_message": "Bericht",
-          "empty_cart_collections": "Voorgestelde collecties",
-          "empty_cart_products": "Productaanbevelingen"
+          "label": "Dynamische afrekenknoppen inschakelen",
+          "info": "[Meer informatie](https:\/\/help.shopify.com\/nl\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Toont de tweede afbeelding van uw product bij hoveren"
         },
         "badges": {
-          "info": "Voeg aangepaste badges toe met behulp van producttags. [Leer meer](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Voeg aangepaste badges toe met behulp van producttags. [Leer meer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Badges",
           "show_badges": "Badges tonen"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Toon sterrenbeoordeling",
           "show_if_no_reviews": "Tonen als er geen beoordeling is",
-          "info": "Om een beoordeling weer te geven, voegt u een productbeoordelingsapp toe. [Meer leren](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "Om een beoordeling weer te geven, voegt u een productbeoordelingsapp toe. [Meer leren](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Sterbeoordeling weergeven als...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Stalen",
-      "info": "Stalen kunnen worden gemaakt met behulp van categoriemetavelden of variantafbeeldingen. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Stalen kunnen worden gemaakt met behulp van categoriemetavelden of variantafbeeldingen. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Swatch-stijl",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Toon variantafbeelding voor opties",
-          "info": "Om variantafbeeldingen voor stalen te gebruiken, gebruikt u een door komma's gescheiden lijst met de optienamen waarvoor u stalen wilt maken (bijv. 'Materiaal, Kleur, Smaak, Kettinglengte'). [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "Om variantafbeeldingen voor stalen te gebruiken, gebruikt u een door komma's gescheiden lijst met de optienamen waarvoor u stalen wilt maken (bijv. 'Materiaal, Kleur, Smaak, Kettinglengte'). [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Delen"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Zoomeffect inschakelen",
-          "info": "Schakel een subtiel zoomeffect in op geselecteerde startpagina-afbeeldingen bij het eerste laden. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Schakel een subtiel zoomeffect in op geselecteerde startpagina-afbeeldingen bij het eerste laden. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Tekst",
-      "name": "Accordion/FAQ",
+      "name": "Accordion\/FAQ",
       "blocks": {
         "tab_content": {
           "name": "Tabbladinhoud"
         }
       },
       "presets": {
-        "name": "Accordion/FAQ"
+        "name": "Accordion\/FAQ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Containerbreedte",
       "name": "Aangepaste HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Aangepaste Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Hover-afbeelding",
@@ -613,7 +614,8 @@
           "label": "Maak sectiemarges hetzelfde als het thema"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Apps"
       }
@@ -665,14 +667,15 @@
       "name": "Navigatiebanner",
       "settings": {
         "navigation": {
-          "paragraph": "Geef een menu weer (bewerkt in Online winkel > Navigatie > Menu's) of een collectielijst. Gebruik metavelden om specifieke collectielijsten weer te geven op basis van de locatie. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Geef een menu weer (bewerkt in Online winkel > Navigatie > Menu's) of een collectielijst. Gebruik metavelden om specifieke collectielijsten weer te geven op basis van de locatie. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Uitlijning navigatie",
           "info": "Wanneer Stijl is ingesteld op 'Raster'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Navigatiebanner"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Account",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Activeer account",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Adressen",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Inloggen",
       "settings": {
         "enable_shop_login_button": "Aanmelden met Shop inschakelen"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Bestelling",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Registreren",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Wachtwoord opnieuw instellen",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Tekst",
@@ -1013,7 +1029,8 @@
           "label": "Centreer inhoud op desktop"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Kop",
@@ -1051,7 +1068,7 @@
           "name": "Volgen in de Shop-app",
           "settings": {
             "paragraph-0": {
-              "content": "Toon de volgknop voor jouw winkel op de Shop-app. [Meer informatie](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Toon de volgknop voor jouw winkel op de Shop-app. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Koptekst afbeelding"
           },
-          "paragraph": "U kunt deze afbeelding ook weergeven in de e-mailmeldingen 'Cadeaubonontvangstbewijs' en 'Nieuwe cadeaubon'. [Meer informatie](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "U kunt deze afbeelding ook weergeven in de e-mailmeldingen 'Cadeaubonontvangstbewijs' en 'Nieuwe cadeaubon'. [Meer informatie](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Afbeelding van cadeaubon",
             "info": "900 x 600px aanbevolen"
@@ -1162,7 +1179,7 @@
           "name": "Mega-menu",
           "settings": {
             "mega-menu": {
-              "info": "Voer een bestaand menu-item in om een megamenu-dropdown toe te passen. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Voer een bestaand menu-item in om een megamenu-dropdown toe te passen. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Promotie één"
@@ -1223,7 +1240,8 @@
           "info": "Parallax is niet zichtbaar wanneer de 'Sectiehoogte' is ingesteld op 'Origineel'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Afbeelding met tekstoverlay"
       }
@@ -1238,7 +1256,8 @@
           "label": "Overlay inhoud op afbeelding"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Afbeelding met tekst"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Nieuwsbrief",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Inhoud van accordeon",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Cadeauverpakking tonen",
-          "info": "[Lees meer](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) over cadeauverpakking"
+          "info": "[Lees meer](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) over cadeauverpakking"
         },
         "paragraph-8": {
           "content": "Selecteer een cadeauverpakkingsproduct in Thema-instellingen > Product"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Kaart",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google Maps API-sleutel",
-          "info": "Je moet een [Google Maps API-sleutel registreren](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) om de kaart weer te geven"
+          "info": "Je moet een [Google Maps API-sleutel registreren](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key) om de kaart weer te geven"
         },
         "button_text": {
           "label": "Label van kaartlink"
@@ -1496,7 +1519,8 @@
           "info": "Getoond als de kaart niet wordt geladen"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Kaart"
       }
@@ -1511,7 +1535,8 @@
           "label": "Toon datum"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Blogpagina's",
@@ -1523,7 +1548,8 @@
           "label": "Toon 'Recente artikelen'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Lettertype",
@@ -1627,7 +1653,7 @@
       "name": "Wachtwoordpagina",
       "settings": {
         "paragraph-13": {
-          "content": "[Bewerk je wachtwoordpagina-bericht in de instellingen van Shopify](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Bewerk je wachtwoordpagina-bericht in de instellingen van Shopify](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Bewerk je sociale instellingen en accounts in Algemene instellingen"
@@ -1636,7 +1662,8 @@
           "label": "Toon aanmelding voor nieuwsbrief"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Productbeschrijving",
@@ -1645,7 +1672,8 @@
           "label": "Schakel 'lees meer' in voor de beschrijving (verouderd)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Knoplink",
@@ -1658,7 +1686,7 @@
           "label": "Verticale uitlijning"
         },
         "image_or_video": {
-          "label": "Afbeelding/video",
+          "label": "Afbeelding\/video",
           "maximum_width": "Maximale breedte"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Productaanbevelingen",
       "settings": {
         "paragraph-0": {
-          "content": "Dynamische aanbevelingen gebruiken bestel- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamische aanbevelingen gebruiken bestel- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Sticky content inschakelen op desktop"
         },
         "image_size": {
-          "info": "Aanbevolen minimale breedte van 950px. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Aanbevolen minimale breedte van 950px. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Secundaire mediaweergave",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Voorafgaande bestelling",
-          "info_text": "Voeg de tag 'Voorbestelling' toe aan een product om de tekst op de Koopknop in te stellen op 'Voorbestelling'. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Voeg de tag 'Voorbestelling' toe aan een product om de tekst op de Koopknop in te stellen op 'Voorbestelling'. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Regel de ruimte onder je geïnstalleerde app-blokken die worden weergegeven in het productformulier"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "Om stalen te maken, gaat u naar ‘Thema-instellingen > Stalen’.",
-              "swatch_info": "Visuele stalen kunnen worden gemaakt met behulp van categoriemetavelden of variantafbeeldingen. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Visuele stalen kunnen worden gemaakt met behulp van categoriemetavelden of variantafbeeldingen. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Wijzig variant op basis van miniatuur"
@@ -1780,13 +1808,13 @@
           "name": "Gekoppelde producten",
           "settings": {
             "info": {
-              "content": "Als u een Plus-verkoper bent, raden we u aan voor deze functionaliteit de app Gecombineerde vermeldingen te gebruiken. [Meer informatie](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Als u een Plus-verkoper bent, raden we u aan voor deze functionaliteit de app Gecombineerde vermeldingen te gebruiken. [Meer informatie](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Grootte van kleurstalen"
             },
             "paragraph-4": {
-              "content": "Wij raden u aan metavelden te gebruiken. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Wij raden u aan metavelden te gebruiken. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Cadeaupapier",
           "settings": {
             "paragraph-0": {
-              "content": "Selecteer een cadeauproduct bij Thema-instellingen > Product. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Selecteer een cadeauproduct bij Thema-instellingen > Product. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Toon formulier voor ontvangerinformatie voor cadeaubonproducten",
-              "info": "Cadeaubonproducten kunnen optioneel direct naar een ontvanger worden verzonden, samen met een persoonlijke boodschap. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Cadeaubonproducten kunnen optioneel direct naar een ontvanger worden verzonden, samen met een persoonlijke boodschap. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Afhalen bij winkel",
           "settings": {
             "paragraph-0": {
-              "content": "Locaties moeten worden ingesteld om de weergave mogelijk te maken. [Meer informatie](https://help.shopify.com/en/manual/locations)"
+              "content": "Locaties moeten worden ingesteld om de weergave mogelijk te maken. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Vertrouwensbadge",
-              "info": "Aanbevolen grootte 100 x 300px. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Aanbevolen grootte 100 x 300px. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Aanvullende producten",
           "settings": {
             "paragraph-0": {
-              "content": "Om aanvullende producten te selecteren, voeg de app Zoeken en Ontdekken toe. [Meer informatie](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Om aanvullende producten te selecteren, voeg de app Zoeken en Ontdekken toe. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Te tonen producten"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Selectievakje",
             "paragraph": {
-              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Vereist",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Keuzelijst",
             "paragraph": {
-              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Checkbox-en-Dropdowns)"
+              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Checkbox-en-Dropdowns)"
             },
             "required": {
               "label": "Vereist",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Bestand uploaden",
             "paragraph": {
-              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Vereist",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Keuzerondjes",
             "paragraph": {
-              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Vereist",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Tekstveld",
             "paragraph": {
-              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Verzamel aanpassingsinformatie voor een item dat aan de winkelwagen is toegevoegd. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Vereist",
@@ -1994,7 +2022,8 @@
           "label": "Toon staalfilterlabels"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Auteur",
@@ -2059,7 +2088,7 @@
         "name": "Beoordelingen"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Koppeling",
       "name": "Tekstadvertenties",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Grootte van subtitel"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Video-held"
       }
@@ -2106,7 +2136,8 @@
           "info": "Wordt niet weergegeven als automatisch afspelen is ingeschakeld."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Tekst",
@@ -2142,7 +2173,7 @@
     "Heading": "Kop",
     "Icon_style": "Pictogramstijl",
     "Images": "Afbeeldingen",
-    "Plus_minus": "Plus/minus",
+    "Plus_minus": "Plus\/minus",
     "Caret": "Pijltje",
     "Text": "Tekst",
     "Custom_HTML": "Aangepaste HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Spatiëring verwijderen",
     "Full_width": "Volledige breedte",
     "Content_width": "Inhoudsbreedte",
-    "1_2_width": "1/2 breedte",
-    "1_3_width": "1/3 breedte",
-    "2_3_width": "2/3 breedte",
-    "1_4_width": "1/4 breedte",
-    "3_4_width": "3/4 breedte",
+    "1_2_width": "1\/2 breedte",
+    "1_3_width": "1\/3 breedte",
+    "2_3_width": "2\/3 breedte",
+    "1_4_width": "1\/4 breedte",
+    "3_4_width": "3\/4 breedte",
     "Extra_small": "Extra klein",
     "Extra_large": "Extra groot",
     "Top": "Boven",
@@ -2246,10 +2277,10 @@
     "Overlay": "Overlay",
     "A_Shopify_hosted_video": "Een door Shopify gehoste video",
     "Embed_video_from_URL": "Video insluiten vanuit URL",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepteert YouTube en Vimeo. Video wordt gedempt en sommige apparaten kunnen autoplay voorkomen. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepteert YouTube en Vimeo. Video wordt gedempt en sommige apparaten kunnen autoplay voorkomen. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Mobiele video",
     "A_Shopify_hosted_video_optional": "Een optionele door Shopify gehoste video",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepteert YouTube en Vimeo. [Meer informatie](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Accepteert YouTube en Vimeo. [Meer informatie](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Tekstuitlijning",
     "Alignment": "Uitlijning",
     "Countdown_timer": "Afteltimer",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "Aanbevolen 1400 x 1400px",
     "Menu": "Menu",
     "Footer_text": "Tekst voettekst",
-    "Country_region_selector": "Land/regio-selector",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Om een land/regio toe te voegen, gaat u naar uw [marktinstanties.](/admin/settings/markets)",
-    "Enable_country_region_selector": "Land/regio-selector inschakelen",
+    "Country_region_selector": "Land\/regio-selector",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "Om een land\/regio toe te voegen, gaat u naar uw [marktinstanties.](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Land\/regio-selector inschakelen",
     "Language_selector": "Taalselector",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Om een taal toe te voegen, gaat u naar uw [taalinstanties.](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "Om een taal toe te voegen, gaat u naar uw [taalinstanties.](\/admin\/settings\/languages)",
     "Enable_language_selector": "Taalselector inschakelen",
     "Newsletter": "Nieuwsbrief",
     "Header": "Koptekst",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Verberg varianten die niet op voorraad zijn",
     "Show_vendor": "Toon verkoper",
     "Show_dynamic_checkout_button": "Toon knop Dynamisch afrekenen",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Hiermee kunnen klanten direct afrekenen met een vertrouwde betaalmethode. [Meer informatie](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Hiermee kunnen klanten direct afrekenen met een vertrouwde betaalmethode. [Meer informatie](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Media",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Meer informatie over [mediatypes](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Meer informatie over [mediatypes](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Video-lussen inschakelen",
     "Product_rating": "Productbeoordeling",
     "Label": "Label",
     "Rating": "Beoordeling",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Voeg een [productbeoordelingsmetafield](/admin/metafields/product) toe om een beoordeling weer te geven",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "Voeg een [productbeoordelingsmetafield](\/admin\/metafields\/product) toe om een beoordeling weer te geven",
     "Full_icon": "Volledig pictogram",
     "Empty_icon": "Leeg pictogram",
     "Maximum": "Maximaal",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Selecteer een maximum gelijk aan het maximale bereik van het beoordelingsmetafield [admin/metafields/product](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Selecteer een maximum gelijk aan het maximale bereik van het beoordelingsmetafield [admin\/metafields\/product](\/admin\/metafields\/product)",
     "Image_with_offers": "Afbeelding met aanbiedingen",
     "Link_hover_border_color": "Kleur van de koppeling bij zweven",
     "Text_with_icon": "Tekst met pictogram",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Desktop positie",
     "Top_bar": "Bovenbalk",
     "Enable_filtering": "Filteren inschakelen",
-    "Customize_filters_admin_menus": "[Pas filters aan](/admin/menus)",
+    "Customize_filters_admin_menus": "[Pas filters aan](\/admin\/menus)",
     "Enable_sorting": "Sorteren inschakelen",
     "2000_x_800px_recommended": "Aanbevolen 2000 x 800px",
     "Required_to_show_the_button": "Vereist om de knop te tonen",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Opvouwbare tabbladen",
     "Custom_icon": "Aangepast pictogram",
     "Aspect_ratio_of_1_1_recommended": "Aanbevolen aspectverhouding van 1:1",
-    "Open_Close_icon_style": "Stijl voor Openen/Sluiten pictogram",
+    "Open_Close_icon_style": "Stijl voor Openen\/Sluiten pictogram",
     "Page": "Bladzijde",
     "Page_content": "Pagina-inhoud",
     "Image_style": "Afbeeldingsstijl",

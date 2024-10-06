@@ -792,10 +792,6 @@ class ProductCrossSell extends lit_element_s {
       ]
     };
 
-    if(this.cartType == 'drawer') {
-      formData['sections'] = 'cart-drawer';
-    }
-
     try {
       const fetchResult = await window.fetch('/cart/add.js', {
         method: 'POST',
@@ -811,7 +807,7 @@ class ProductCrossSell extends lit_element_s {
       if (!fetchResult.ok) {
         console.error('Unable to add to cart: ', responseJson);
       } else {
-        this._updateCart(responseJson);
+        this._updateCart();
         return responseJson;
       }
     } catch (e) {
@@ -819,18 +815,15 @@ class ProductCrossSell extends lit_element_s {
     }
   }
 
-  async _updateCart(responseJson) {
-    if(this.cartType == 'drawer') {
-      window.eventBus.emit('update:cart:drawer', responseJson);
-    }
-
+  async _updateCart() {
     const cart = await (await fetch('/cart.js')).json();
 
     if(this.cartType == 'drawer' && this.cartAction == 'go_to_or_open_cart') {
-      window.eventBus.emit('open:cart:drawer', { scrollToTop: true });
+      window.wetheme.toggleRightDrawer('cart', true, { cart: cart });
     }
-
-    window.wetheme.updateCartCount(cart);
+    else {
+      window.wetheme.updateCartDrawer(cart);
+    }
   }
 
   async _handleButtonClick() {

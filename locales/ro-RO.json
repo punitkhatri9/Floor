@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Aproape am terminat...",
-      "no_products_html": "Nu aveți produse în colecția paginii principale. Acest substituent va apărea până când <a href=\"/admin/collections?tutorial=Frontpage\">adaugați un produs la această colecție</a>.",
+      "no_products_html": "Nu aveți produse în colecția paginii principale. Acest substituent va apărea până când <a href=\"\/admin\/collections?tutorial=Frontpage\">adaugați un produs la această colecție<\/a>.",
       "add_product": "Adăugați un produs",
       "product_title": "Titlul produsului",
       "product_description": "Această zonă este utilizată pentru a descrie detaliile produsului dvs. Spuneți clienților despre aspectul, senzația și stilul produsului dvs. Adăugați detalii despre culoare, materiale utilizate, mărime și locul de fabricație.",
-      "no_collections_html": "Nu aveți nicio colecție de afișat aici. <a href=\"/admin/custom_collections\">Adăugați câteva colecții</a> pentru a merge împreună cu pagina principală implicită.",
+      "no_collections_html": "Nu aveți nicio colecție de afișat aici. <a href=\"\/admin\/custom_collections\">Adăugați câteva colecții<\/a> pentru a merge împreună cu pagina principală implicită.",
       "add_collection": "Adăugați o colecție",
       "collection_title": "Titlul colecției",
       "blog_title": "Titlul postării dvs.",
@@ -76,10 +85,10 @@
       "return_text": "Înapoi"
     },
     "localization": {
-      "country_label": "Țară/regione",
+      "country_label": "Țară\/regione",
       "language_label": "Limba",
       "update_language": "Actualizare limbă",
-      "update_country": "Actualizare țară/regione"
+      "update_country": "Actualizare țară\/regione"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Coș de cumpărături",
       "remove": "Eliminați",
-      "note": "Notă de comandă",
-      "add_note": "Adăugați o notă de comandă",
-      "edit_note": "Editați nota de comandă",
-      "save_note": "Salvați nota de comandă",
-      "add_gift_note": "Adăugați un mesaj cadou",
-      "edit_gift_note": "Editați mesajul cadou",
-      "save_gift_note": "Salvați mesajul cadou",
-      "save": "Salva",
+      "note": "Instrucțiuni speciale pentru vânzător",
       "see_more": "Aflați mai mult",
       "subtotal": "Subtotal",
-      "regular_subtotal": "Subtotal obișnuit",
-      "sale_subtotal": "Subtotal vânzări",
       "taxes_and_shipping_at_checkout": "Taxe și livrare calculate la finalizarea comenzii",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxe și <a href=\"{{ link }}\">livrare</a> calculate la finalizarea comenzii",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxe și <a href=\"{{ link }}\">livrare<\/a> calculate la finalizarea comenzii",
       "taxes_included_but_shipping_at_checkout": "Taxa inclusă și livrarea calculate la finalizarea comenzii",
-      "taxes_included_and_shipping_policy_html": "Taxa inclusă. <a href=\"{{ link }}\">Livrare</a> calculate la finalizarea comenzii.",
+      "taxes_included_and_shipping_policy_html": "Taxa inclusă. <a href=\"{{ link }}\">Livrare<\/a> calculate la finalizarea comenzii.",
       "update": "Actualizați coșul",
       "checkout": "Finalizați comanda",
       "empty": "Coșul dvs. este momentan gol.",
       "close_cart": "Închideți coșul",
-      "view_cart": "Vizualizare coș",
-      "savings_html": "Economisiți {{ price }}",
-      "return_to_shop": "Întoarce-te la magazin"
+      "savings_html": "Economisiți {{ price }}"
     },
     "label": {
       "product": "Produs",
@@ -262,7 +260,7 @@
       "clear_all": "Ștergeți tot",
       "empty": "Niciun produs găsit",
       "from": "De la",
-      "filter_and_sort": "Filtrați/Sortați",
+      "filter_and_sort": "Filtrați\/Sortați",
       "filter_by_label": "Filtrează după",
       "filter_button": "Filtru",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Sortare după",
       "title": "Colecție",
       "to": "Către",
-      "use_fewer_filters_html": "Utilizați mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">ștergeți-le pe toate</a>"
+      "use_fewer_filters_html": "Utilizați mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">ștergeți-le pe toate<\/a>"
     },
     "events_calendar": {
       "tbc_text": "În curs de stabilit"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Eroare la căutarea adresei respective",
       "address_no_results": "Nu există rezultate pentru adresa respectivă",
-      "address_query_limit_html": "Ai depășit limita de utilizare a API-ului Google. Ia în considerare trecerea la un <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plan Premium</a>.",
+      "address_query_limit_html": "Ai depășit limita de utilizare a API-ului Google. Ia în considerare trecerea la un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plan Premium<\/a>.",
       "auth_error_html": "A apărut o problemă la autentificarea cheii API pentru Google Maps."
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "Oraș",
       "country": "Țară",
       "province": "Județ",
-      "zip": "Cod poștal/ZIP",
+      "zip": "Cod poștal\/ZIP",
       "phone": "Telefon",
       "set_default": "Setează ca adresă implicită",
       "add": "Adaugă adresă",
@@ -422,7 +420,7 @@
       "add_product": "Adăugați un produs",
       "product_title": "Titlul produsului",
       "product_vendor": "Producător",
-      "no_collections_html": "Nu aveți nicio colecție de afișat aici. <a href=\"/admin/custom_collections\">Adăugați câteva colecții</a> pentru a merge împreună cu pagina principală implicită.",
+      "no_collections_html": "Nu aveți nicio colecție de afișat aici. <a href=\"\/admin\/custom_collections\">Adăugați câteva colecții<\/a> pentru a merge împreună cu pagina principală implicită.",
       "add_collection": "Adăugați o colecție",
       "collection_title": "Titlul colecției",
       "no_content": "Această secțiune nu conține momentan niciun conținut. Adăugați conținut în această secțiune folosind panoul lateral."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Mesaj cadou",
       "giftwrap_note_placeholder": "Adăugați mesajul dvs. pentru cadou aici",
       "from_text_html": "De la {{ price }}",
-      "file_upload_html": "Trageți și plasați sau <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">răsfoiți</a> fișierele pentru a le încărca",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Răsfoiți</a> fișierele pentru a le încărca"
+      "file_upload_html": "Trageți și plasați sau <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">răsfoiți<\/a> fișierele pentru a le încărca",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Răsfoiți<\/a> fișierele pentru a le încărca"
     },
     "product": {
       "sold_out": "Epuizat",
@@ -497,14 +495,14 @@
       "category": "Categorie",
       "type": "Tip",
       "include_taxes": "Taxa inclusă.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Livrare</a> calculată la finalizarea comenzii.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Livrare<\/a> calculată la finalizarea comenzii.",
       "quote": "Citat",
       "preorder_today": "Precomandă astăzi",
       "in_stock": "În stoc",
       "low_stock": "Stoc limitat",
       "out_of_stock": "Lipsă din stoc",
       "stock_left": "rămase",
-      "out_of_stock_html": "Faceți clic <a href=\"#\"><strong>aici</strong></a> pentru a fi notificat prin email când {{ product }} - {{ variant }} devine disponibil.",
+      "out_of_stock_html": "Faceți clic <a href=\"#\"><strong>aici<\/strong><\/a> pentru a fi notificat prin email când {{ product }} - {{ variant }} devine disponibil.",
       "wrong_email": "Vă rugăm să furnizați o adresă de email validă.",
       "out_of_stock_success": "Mulțumim! Vă vom notifica când acest produs devine disponibil!",
       "read_more_html": "Citește mai mult",
@@ -564,9 +562,9 @@
       "password": "Introduceți magazinul cu parolă",
       "enter_password": "Introduceți parola",
       "store_owner": "Sunteți proprietarul magazinului?",
-      "store_owner_html": "<a href=\"/admin\">Conectați-vă aici</a>",
+      "store_owner_html": "<a href=\"\/admin\">Conectați-vă aici<\/a>",
       "continue": "Continuă",
-      "powered_by_html": "Acest magazin va fi alimentat de <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Acest magazin va fi alimentat de <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

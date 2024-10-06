@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "settings_schema": {
     "Colors": {
@@ -63,7 +72,7 @@
           "content": "Цветови схеми"
         },
         "header-35": {
-          "content": "Чекмеджета"
+          "content": "Чекмеджета на кошницата"
         },
         "header-38": {
           "content": "Долен колонтитул"
@@ -114,31 +123,21 @@
           "label": "Когато добавяте артикул в количката…",
           "options": {
             "show_added_message": "Показване на съобщение 'Добавено'",
-            "go_to_or_open_cart": "Отидете на/отворете количката"
+            "go_to_or_open_cart": "Отидете на\/отворете количката"
           }
         },
+        "cart_vendor_enable": {
+          "label": "Покажи доставчик на продукта"
+        },
         "cart_notes_enable": {
-          "label": "Показване на бележката за поръчката"
+          "label": "Активиране на бележки за кошницата"
         },
         "giftwrap_gift_note": {
           "label": "Активиране на подаръчно съобщение"
         },
         "enable-additional-checkout-buttons": {
-          "label": "Показване на динамични бутони за плащане на страницата с количката",
-          "info": "[Научете повече](https://help.shopify.com/en/manual/sell-online/online-store/dynamic-checkout)"
-        },
-        "product_recommendations": {
-          "header": "Продуктови препоръки",
-          "show_cart_recommendations": {
-            "label": "Показване на динамични препоръки",
-            "info": "Динамичните препоръки се основават на продуктите в количката. Те използват информация за поръчка и продукт, за да променят и подобряват с течение на времето. [Научете повече](https://help.shopify.com/themes/development/recommended-products)"
-          }
-        },
-        "empty_cart": {
-          "header": "Празна количка",
-          "empty_cart_message": "Съобщение",
-          "empty_cart_collections": "Предложени колекции",
-          "empty_cart_products": "Продуктови препоръки"
+          "label": "Активиране на бутони за динамично плащане",
+          "info": "[Научете повече](https:\/\/help.shopify.com\/en\/manual\/sell-online\/online-store\/dynamic-checkout)"
         }
       }
     },
@@ -164,7 +163,7 @@
           "info": "Показва второто изображение на вашия продукт при задържане"
         },
         "badges": {
-          "info": "Добавете персонализирани значки, използвайки етикети на продукти. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/23331443929489)",
+          "info": "Добавете персонализирани значки, използвайки етикети на продукти. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/23331443929489)",
           "label": "Значки",
           "show_badges": "Показване на етикети"
         },
@@ -189,7 +188,7 @@
         "show_rating": {
           "label": "Покажи оценка със звезди",
           "show_if_no_reviews": "Показване при липса на оценка",
-          "info": "За да покажете оценка, добавете приложение за оценка на продукта. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/18953803693457-How-to-set-up-Star-ratings-reviews)"
+          "info": "За да покажете оценка, добавете приложение за оценка на продукта. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/18953803693457-How-to-set-up-Star-ratings-reviews)"
         },
         "show_product_rating_as": {
           "label": "Показване на звездния рейтинг като...",
@@ -239,7 +238,7 @@
     },
     "swatches": {
       "name": "Swatches",
-      "info": "Мостри могат да се създават с помощта на метаполета за категория или вариантни изображения. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)",
+      "info": "Мостри могат да се създават с помощта на метаполета за категория или вариантни изображения. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)",
       "settings": {
         "swatch_style": {
           "name": "Мостра стил",
@@ -250,7 +249,7 @@
         },
         "show_variant_image_for_options": {
           "label": "Показване на изображение на вариант за опции",
-          "info": "За да използвате вариантни изображения за мостри, използвайте списък, разделен със запетая, с имената на опциите, за които искате да създадете мостри (напр. „Материал, Цвят, Аромат, Дължина на веригата“). [Научете повече](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
+          "info": "За да използвате вариантни изображения за мостри, използвайте списък, разделен със запетая, с имената на опциите, за които искате да създадете мостри (напр. „Материал, Цвят, Аромат, Дължина на веригата“). [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches#h_01J6YT6WM2K14R01JJCHJ0QKSJ)"
         }
       }
     },
@@ -293,51 +292,51 @@
         },
         "sm_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "sm_x_link": {
           "label": "X",
-          "info": "https://x.com/shopify"
+          "info": "https:\/\/x.com\/shopify"
         },
         "sm_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "sm_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com/"
+          "info": "https:\/\/shopify.tumblr.com\/"
         },
         "sm_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "sm_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "sm_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://www.vimeo.com/shopify"
+          "info": "https:\/\/www.vimeo.com\/shopify"
         },
         "sm_flickr_link": {
           "label": "Flickr",
-          "info": "https://www.flickr.com/photos/shopify"
+          "info": "https:\/\/www.flickr.com\/photos\/shopify"
         },
         "sm_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "sm_houzz_link": {
           "label": "Houzz",
-          "info": "https://www.houzz.com/shopify"
+          "info": "https:\/\/www.houzz.com\/shopify"
         },
         "sm_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://linkedin.com/company/shopify"
+          "info": "https:\/\/linkedin.com\/company\/shopify"
         },
         "sm_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "header-13": {
           "content": "Споделяне"
@@ -467,7 +466,7 @@
         },
         "ken_burns_enabled": {
           "label": "Активиране на зуум ефект",
-          "info": "Активира нежен зуум ефект върху избрани изображения на началната страница при първоначалното зареждане. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/360020107017-Introduction-to-Theme-Settings#animations)"
+          "info": "Активира нежен зуум ефект върху избрани изображения на началната страница при първоначалното зареждане. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020107017-Introduction-to-Theme-Settings#animations)"
         }
       }
     }
@@ -475,20 +474,21 @@
   "sections": {
     "accordion": {
       "label": "Текст",
-      "name": "Акордеон/ЧЗВ",
+      "name": "Акордеон\/ЧЗВ",
       "blocks": {
         "tab_content": {
           "name": "Съдържание на таб"
         }
       },
       "presets": {
-        "name": "Акордеон/ЧЗВ"
+        "name": "Акордеон\/ЧЗВ"
       }
     },
     "advanced-layout--custom-html": {
       "label": "Ширина на контейнера",
       "name": "Потребителски HTML",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "html": {
           "settings": {
@@ -509,7 +509,8 @@
     },
     "advanced-layout--custom-liquid": {
       "name": "Потребителски Liquid",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "advanced-layout--hero": {
       "label": "Изображение при прехвърляне",
@@ -613,7 +614,8 @@
           "label": "Направете отстъпите на секцията същите като в темата"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Приложения"
       }
@@ -665,14 +667,15 @@
       "name": "Навигационен банер",
       "settings": {
         "navigation": {
-          "paragraph": "Показване на меню (редактирано в Онлайн магазин > Навигация > Менюта) или списък с колекция. Използвайте метаполета, за да покажете конкретни списъци с колекции въз основа на местоположението. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
+          "paragraph": "Показване на меню (редактирано в Онлайн магазин > Навигация > Менюта) или списък с колекция. Използвайте метаполета, за да покажете конкретни списъци с колекции въз основа на местоположението. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/26904250141201-How-to-use-metafields-in-the-Navigation-banner-section)"
         },
         "navigation_position": {
           "label": "Позиция на навигацията",
           "info": "Когато стилът е зададен на „Мрежа“"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Навигационен банер"
       }
@@ -864,40 +867,53 @@
     },
     "customer-account": {
       "name": "Профил",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-activate-account": {
       "name": "Активиране на профил",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-addresses": {
       "name": "Адреси",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-login": {
       "name": "Вход",
       "settings": {
         "enable_shop_login_button": "Активирайте Вход с Магазин"
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "customer-order": {
       "name": "Поръчка",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-register": {
       "name": "Регистрация",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "customer-reset-password": {
       "name": "Възстановяване на паролата",
-      "settings": {},
-      "blocks": {}
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "events-calendar": {
       "label": "Текст",
@@ -1013,7 +1029,8 @@
           "label": "Центриране на съдържанието на десктоп"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "footer-main": {
       "label": "Заглавие",
@@ -1051,7 +1068,7 @@
           "name": "Следване в Магазин",
           "settings": {
             "paragraph-0": {
-              "content": "Показване на бутон за следване на вашия магазин в приложението Shop. [Научете повече](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/follow-on-shop)"
+              "content": "Показване на бутон за следване на вашия магазин в приложението Shop. [Научете повече](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
             }
           }
         }
@@ -1072,7 +1089,7 @@
           "header_image": {
             "label": "Заглавно изображение"
           },
-          "paragraph": "Можете също да покажете това изображение в имейл известията „Получаване на карта за подарък“ и „Нова карта за подарък“. [Научете повече](https://www.notion.so/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
+          "paragraph": "Можете също да покажете това изображение в имейл известията „Получаване на карта за подарък“ и „Нова карта за подарък“. [Научете повече](https:\/\/www.notion.so\/Docs-FAQ-5b752b504bc946bf9ea38a3649fab0e2?pvs=4)",
           "gift_card_image": {
             "label": "Изображение на подаръчна карта",
             "info": "Препоръчва се 900 x 600px"
@@ -1162,7 +1179,7 @@
           "name": "Голямо меню",
           "settings": {
             "mega-menu": {
-              "info": "Въведете съществуващ елемент от менюто, за да приложите падащо мега меню. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25140032079633-How-to-set-up-a-mega-menu)"
+              "info": "Въведете съществуващ елемент от менюто, за да приложите падащо мега меню. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25140032079633-How-to-set-up-a-mega-menu)"
             },
             "header-1": {
               "content": "Промоция 1"
@@ -1223,7 +1240,8 @@
           "info": "Паралаксът няма да е видим, когато 'Височината на секцията' е зададена на 'Оригинал'"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Снимка с текстово наслагване"
       }
@@ -1238,7 +1256,8 @@
           "label": "Наслагване на съдържание върху снимката"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Снимка с текст"
       }
@@ -1315,7 +1334,8 @@
     },
     "newsletter--newsletter": {
       "name": "Бюлетин",
-      "blocks": {}
+      "blocks": {
+      }
     },
     "product--accordion-with-image": {
       "label": "Съдържание в акордеон",
@@ -1357,7 +1377,7 @@
         },
         "show-giftwrap": {
           "label": "Покажи опция за подаръчно опаковане",
-          "info": "[Научете повече](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping) за подаръчното опаковане"
+          "info": "[Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping) за подаръчното опаковане"
         },
         "paragraph-8": {
           "content": "Изберете продукт за подаръчно опаковане в Настройки на темата > Продукт"
@@ -1465,9 +1485,12 @@
       }
     },
     "store-availability": {
-      "name": {},
-      "settings": {},
-      "blocks": {}
+      "name": {
+      },
+      "settings": {
+      },
+      "blocks": {
+      }
     },
     "store-information--map": {
       "name": "Карта",
@@ -1481,7 +1504,7 @@
         },
         "api_key": {
           "label": "Google Maps API ключ",
-          "info": "Ще ви е необходим [регистриран ключ на Google Maps API](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key), за да изобразите картата"
+          "info": "Ще ви е необходим [регистриран ключ на Google Maps API](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/map-section-api-key), за да изобразите картата"
         },
         "button_text": {
           "label": "Етикет на връзката към картата"
@@ -1496,7 +1519,8 @@
           "info": "Показва се, ако картата не се зареди"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Карта"
       }
@@ -1511,7 +1535,8 @@
           "label": "Показване на дата"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--blog": {
       "name": "Страници с блог",
@@ -1523,7 +1548,8 @@
           "label": "Показване на 'Скорошни статии'"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--collection": {
       "label": "Шрифт",
@@ -1627,7 +1653,7 @@
       "name": "Страница за парола",
       "settings": {
         "paragraph-13": {
-          "content": "[Редактирайте вашето съобщение за страница с парола в настройките на вашия Shopify магазин](http://www.shopify.com/admin/online_store/preferences)"
+          "content": "[Редактирайте вашето съобщение за страница с парола в настройките на вашия Shopify магазин](http:\/\/www.shopify.com\/admin\/online_store\/preferences)"
         },
         "social_media_icons": {
           "info": "Редактирайте настройките и профилите си в социалните мрежи в Общите настройки"
@@ -1636,7 +1662,8 @@
           "label": "Показване на абонамент за бюлетин"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--description": {
       "name": "Описание на продукта",
@@ -1645,7 +1672,8 @@
           "label": "Активирайте „прочетете повече“ за описание (отхвърлено)"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "template--product--info-columns": {
       "label": "Бутон за връзка",
@@ -1658,7 +1686,7 @@
           "label": "Вертикално подравняване"
         },
         "image_or_video": {
-          "label": "Изображение/видео",
+          "label": "Изображение\/видео",
           "maximum_width": "Максимална ширина"
         }
       },
@@ -1694,7 +1722,7 @@
       "name": "Продуктови препоръки",
       "settings": {
         "paragraph-0": {
-          "content": "Динамичните препоръки използват информация за поръчки и продукти, за да се променят и подобрят с времето. [Научете повече](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Динамичните препоръки използват информация за поръчки и продукти, за да се променят и подобрят с времето. [Научете повече](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       },
       "presets": {
@@ -1709,7 +1737,7 @@
           "label": "Включване на закрепена част на настолен компютър"
         },
         "image_size": {
-          "info": "Препоръчителна минимална ширина от 950 пиксела. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25142554011793-Images)"
+          "info": "Препоръчителна минимална ширина от 950 пиксела. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25142554011793-Images)"
         },
         "image-display": {
           "label": "Показване на вторичен медиен дисплей",
@@ -1731,7 +1759,7 @@
         },
         "preorder": {
           "preorder": "Предварителна поръчка",
-          "info_text": "Добавете етикет „Предварителна поръчка“ към всеки продукт, за да зададете текста на бутона „Купете“ на „Предварителна поръчка“. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25232847289745-How-to-set-up-a-Preorder-product)"
+          "info_text": "Добавете етикет „Предварителна поръчка“ към всеки продукт, за да зададете текста на бутона „Купете“ на „Предварителна поръчка“. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25232847289745-How-to-set-up-a-Preorder-product)"
         },
         "app_margin_bottom": {
           "info": "Контролиране на разстоянието под инсталираните блокове на приложения, които се показват в продуктовата форма"
@@ -1759,7 +1787,7 @@
           "settings": {
             "variant_style": {
               "info": "За да създадете образци, отидете на „Настройки на темата > Мостри“.",
-              "swatch_info": "Могат да се създават визуални мостри с помощта на метаполета за категория или вариантни изображения. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/27864028041745-How-to-set-up-swatches)"
+              "swatch_info": "Могат да се създават визуални мостри с помощта на метаполета за категория или вариантни изображения. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/27864028041745-How-to-set-up-swatches)"
             },
             "thumbnail_changes_variant": {
               "label": "Промяна на варианта на основния медиен файл"
@@ -1780,13 +1808,13 @@
           "name": "Свързани продукти",
           "settings": {
             "info": {
-              "content": "Ако сте търговец на Plus, препоръчваме да използвате приложението Комбинирани обяви за тази функционалност. [Научете повече](https://www.shopify.com/enterprise/blog/combined-listings)"
+              "content": "Ако сте търговец на Plus, препоръчваме да използвате приложението Комбинирани обяви за тази функционалност. [Научете повече](https:\/\/www.shopify.com\/enterprise\/blog\/combined-listings)"
             },
             "swatches_size": {
               "label": "Размер на образците"
             },
             "paragraph-4": {
-              "content": "Препоръчваме да използвате метаполета. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/16547811310609-How-to-set-up-linked-products)"
+              "content": "Препоръчваме да използвате метаполета. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/16547811310609-How-to-set-up-linked-products)"
             }
           }
         },
@@ -1815,7 +1843,7 @@
           "name": "Подаръчно опаковане",
           "settings": {
             "paragraph-0": {
-              "content": "Изберете продукт за подаръчно опаковане в Настройките на темата > Продукт. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/360020396138-How-to-Enable-Product-Gift-Wrapping)."
+              "content": "Изберете продукт за подаръчно опаковане в Настройките на темата > Продукт. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020396138-How-to-Enable-Product-Gift-Wrapping)."
             }
           }
         },
@@ -1824,7 +1852,7 @@
           "settings": {
             "enable_gift_card_recipient_form": {
               "label": "Показване на формуляра за информация за получателя на подаръчни карти за продукти",
-              "info": "Подаръчните карти могат да бъдат изпратени директно на получател с лично съобщение. [Научете повече](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Подаръчните карти могат да бъдат изпратени директно на получател с лично съобщение. [Научете повече](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1832,7 +1860,7 @@
           "name": "Лично получаване",
           "settings": {
             "paragraph-0": {
-              "content": "За да се активира показването, трябва да настроите локации. [Научете повече](https://help.shopify.com/en/manual/locations)"
+              "content": "За да се активира показването, трябва да настроите локации. [Научете повече](https:\/\/help.shopify.com\/en\/manual\/locations)"
             }
           }
         },
@@ -1841,7 +1869,7 @@
           "settings": {
             "trust-badge": {
               "label": "Значка за доверие",
-              "info": "Препоръчителен размер 100 x 300px. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/360020242537-Trust-Badges)"
+              "info": "Препоръчителен размер 100 x 300px. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020242537-Trust-Badges)"
             }
           }
         },
@@ -1857,7 +1885,7 @@
           "name": "Спътни продукти",
           "settings": {
             "paragraph-0": {
-              "content": "За да изберете спътни продукти, добавете приложението за Търсене и Откриване. [Научете повече](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "За да изберете спътни продукти, добавете приложението за Търсене и Откриване. [Научете повече](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "products_limit": {
               "label": "Показвани продукти"
@@ -1897,7 +1925,7 @@
           "settings": {
             "label": "Квадратче за отметка",
             "paragraph": {
-              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Задължително",
@@ -1910,7 +1938,7 @@
           "settings": {
             "label": "Падащо меню",
             "paragraph": {
-              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Квадратче за отметка и падащи менюта)"
+              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads -Квадратче за отметка и падащи менюта)"
             },
             "required": {
               "label": "Задължително",
@@ -1928,7 +1956,7 @@
           "settings": {
             "label": "Качване на файл",
             "paragraph": {
-              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Задължително",
@@ -1941,7 +1969,7 @@
           "settings": {
             "label": "Радио бутони",
             "paragraph": {
-              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Задължително",
@@ -1959,7 +1987,7 @@
           "settings": {
             "label": "Текстово поле",
             "paragraph": {
-              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
+              "content": "Съберете информация за персонализиране за артикул, добавен в количката. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/25697916845841-How-to-Add-Custom-Fields-to-Product-Pages-Text-Fields-Radio-Buttons-Uploads-Checkbox-and-Dropdowns)"
             },
             "required": {
               "label": "Задължително",
@@ -1994,7 +2022,8 @@
           "label": "Показване на етикетите на филтъра за образци"
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "text--product-testimonials": {
       "label": "Автор",
@@ -2059,7 +2088,7 @@
         "name": "Отзиви"
       }
     },
-    "text--text-adverts": {
+    "text--promotion-blocks": {
       "label": "Връзка",
       "name": "Текстови реклами",
       "blocks": {
@@ -2094,7 +2123,8 @@
           "label": "Размер на подзаглавието"
         }
       },
-      "blocks": {},
+      "blocks": {
+      },
       "presets": {
         "name": "Видео херо"
       }
@@ -2106,7 +2136,8 @@
           "info": "Няма да се покаже, ако е включено автоматично възпроизвеждане."
         }
       },
-      "blocks": {}
+      "blocks": {
+      }
     },
     "visual-navigation-banner": {
       "label": "Текст",
@@ -2142,7 +2173,7 @@
     "Heading": "Заглавие",
     "Icon_style": "Стил на иконите",
     "Images": "Изображения",
-    "Plus_minus": "Плюс/минус",
+    "Plus_minus": "Плюс\/минус",
     "Caret": "Стрелка за разкриване",
     "Text": "Текст",
     "Custom_HTML": "Персонален HTML",
@@ -2228,11 +2259,11 @@
     "Remove_spacing": "Премахване на интервали",
     "Full_width": "Пълна ширина",
     "Content_width": "Ширина на съдържанието",
-    "1_2_width": "1/2 ширина",
-    "1_3_width": "1/3 ширина",
-    "2_3_width": "2/3 ширина",
-    "1_4_width": "1/4 ширина",
-    "3_4_width": "3/4 ширина",
+    "1_2_width": "1\/2 ширина",
+    "1_3_width": "1\/3 ширина",
+    "2_3_width": "2\/3 ширина",
+    "1_4_width": "1\/4 ширина",
+    "3_4_width": "3\/4 ширина",
     "Extra_small": "Екстра малко",
     "Extra_large": "Екстра голямо",
     "Top": "Горе",
@@ -2246,10 +2277,10 @@
     "Overlay": "Покрив",
     "A_Shopify_hosted_video": "Видео, хоствано от Shopify",
     "Embed_video_from_URL": "Вграждане на видео от URL адрес",
-    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Приема YouTube и Vimeo. Видеото ще бъде заглушено и на някои устройства може да бъде предотвратено автоматичното възпроизвеждане. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Video_will_be_muted_and_some_devices_may_prevent_autoplay__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Приема YouTube и Vimeo. Видеото ще бъде заглушено и на някои устройства може да бъде предотвратено автоматичното възпроизвеждане. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Mobile_video": "Видео за мобилни устройства",
     "A_Shopify_hosted_video_optional": "Видео, хоствано от Shopify (по избор)",
-    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Приема YouTube и Vimeo. [Научете повече](https://support.eightthemes.com/hc/en-us/articles/360020109497-Product-Media#heading-2)",
+    "Accepts_YouTube_and_Vimeo__Learn_morehttps___support_eightthemes_com_hc_en_us_articles_360020109497_Product_Mediaheading_2": "Приема YouTube и Vimeo. [Научете повече](https:\/\/support.eightthemes.com\/hc\/en-us\/articles\/360020109497-Product-Media#heading-2)",
     "Text_alignment": "Подравняване на текста",
     "Alignment": "Подравняване",
     "Countdown_timer": "Таймер за обратно броене",
@@ -2294,11 +2325,11 @@
     "1400_x_1400px_recommended": "Препоръчителни размери 1400 x 1400px",
     "Menu": "Меню",
     "Footer_text": "Текст в долния колонтитул",
-    "Country_region_selector": "Избор на държава/регион",
-    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "За да добавите държава/регион, посетете вашите [настройки на пазара](/admin/settings/markets)",
-    "Enable_country_region_selector": "Включване на избора на държава/регион",
+    "Country_region_selector": "Избор на държава\/регион",
+    "To_add_a_country_region_go_to_your_market_settings__admin_settings_markets": "За да добавите държава\/регион, посетете вашите [настройки на пазара](\/admin\/settings\/markets)",
+    "Enable_country_region_selector": "Включване на избора на държава\/регион",
     "Language_selector": "Избор на език",
-    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "За да добавите език, посетете вашите [настройки на езика](/admin/settings/languages)",
+    "To_add_a_language_go_to_your_language_settings__admin_settings_languages": "За да добавите език, посетете вашите [настройки на езика](\/admin\/settings\/languages)",
     "Enable_language_selector": "Включване на избора на език",
     "Newsletter": "Бюлетин",
     "Header": "Заглавие",
@@ -2330,18 +2361,18 @@
     "Hide_out_of_stock_variants": "Скриване на вариантите, които са изчерпани",
     "Show_vendor": "Показване на производителя",
     "Show_dynamic_checkout_button": "Показване на бутона за динамично плащане",
-    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Позволява на клиентите да плащат директно с познат метод за плащане. [Научете повече](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+    "Lets_customers_check_out_directly_using_a_familiar_payment_method__Learn_morehttps___help_shopify_com_manual_using_themes_change_the_layout_dynamic_checkout": "Позволява на клиентите да плащат директно с познат метод за плащане. [Научете повече](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
     "Media": "Медийни файлове",
-    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Научете повече за [видовете медия](https://help.shopify.com/en/manual/products/product-media)",
+    "Learn_more_about_media_typeshttps___help_shopify_com_en_manual_products_product_media": "Научете повече за [видовете медия](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
     "Enable_video_looping": "Включване на повторение на видео",
     "Product_rating": "Оценка на продукта",
     "Label": "Етикет",
     "Rating": "Рейтинг",
-    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "За да покажете рейтинг, добавете [метаполе за оценка на продукта](/admin/metafields/product)",
+    "To_display_a_rating_add_a_product_rating_metafield_admin_metafields_product": "За да покажете рейтинг, добавете [метаполе за оценка на продукта](\/admin\/metafields\/product)",
     "Full_icon": "Пълна икона",
     "Empty_icon": "Празна икона",
     "Maximum": "Максимум",
-    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Изберете максимум, равен на максимума на мащаба на метаполето за оценка. [Настройки на продукта](/admin/metafields/product)",
+    "Select_a_maximum_equal_to_the_rating_metafields_scale_maximum_admin_metafields_product": "Изберете максимум, равен на максимума на мащаба на метаполето за оценка. [Настройки на продукта](\/admin\/metafields\/product)",
     "Image_with_offers": "Изображение с оферти",
     "Link_hover_border_color": "Цвят на границата при прехвърляне на връзката",
     "Text_with_icon": "Текст с икона",
@@ -2404,7 +2435,7 @@
     "Desktop_position": "Позиция на десктоп",
     "Top_bar": "Горен панел",
     "Enable_filtering": "Включване на филтрирането",
-    "Customize_filters_admin_menus": "[Персонализиране на филтрите](/admin/menus)",
+    "Customize_filters_admin_menus": "[Персонализиране на филтрите](\/admin\/menus)",
     "Enable_sorting": "Включване на сортирането",
     "2000_x_800px_recommended": "Препоръчителни размери 2000 x 800px",
     "Required_to_show_the_button": "Задължително, за да се покаже бутона",
@@ -2420,7 +2451,7 @@
     "Collapsible_tabs": "Сгъваеми раздели",
     "Custom_icon": "Персонализирана икона",
     "Aspect_ratio_of_1_1_recommended": "Препоръчително съотношение 1:1",
-    "Open_Close_icon_style": "Стил на иконата 'Отвори/Затвори'",
+    "Open_Close_icon_style": "Стил на иконата 'Отвори\/Затвори'",
     "Page": "Страница",
     "Page_content": "Съдържание на страницата",
     "Image_style": "Стил на изображението",

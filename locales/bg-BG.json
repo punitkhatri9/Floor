@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Почти сте там...",
-      "no_products_html": "Нямате продукти в началната си страница. Този заместител ще се появи, докато <a href=\"/admin/collections?tutorial=Frontpage\">добавите продукт към тази колекция</a>.",
+      "no_products_html": "Нямате продукти в началната си страница. Този заместител ще се появи, докато <a href=\"\/admin\/collections?tutorial=Frontpage\">добавите продукт към тази колекция<\/a>.",
       "add_product": "Добави продукт",
       "product_title": "Заглавие на продукта",
       "product_description": "Този раздел се използва, за да опишете подробностите на вашия продукт. Разкажете на клиентите за външния вид, усещането и стила на продукта. Добавете детайли относно цвета, използваните материали, размерите и откъде е направен.",
-      "no_collections_html": "Нямате колекции, които да покажете тук. <a href=\"/admin/custom_collections\">Добавете някои колекции</a>, заедно с началната страница по подразбиране.",
+      "no_collections_html": "Нямате колекции, които да покажете тук. <a href=\"\/admin\/custom_collections\">Добавете някои колекции<\/a>, заедно с началната страница по подразбиране.",
       "add_collection": "Добави колекция",
       "collection_title": "Заглавие на колекцията",
       "blog_title": "Заглавие на вашата публикация",
@@ -76,10 +85,10 @@
       "return_text": "Обратно"
     },
     "localization": {
-      "country_label": "Държава/регион",
+      "country_label": "Държава\/регион",
       "language_label": "Език",
       "update_language": "Обнови езика",
-      "update_country": "Обнови държава/регион"
+      "update_country": "Обнови държава\/регион"
     },
     "accessibility": {
       "back_to_top": {
@@ -176,29 +185,18 @@
     "general": {
       "title": "Количка за пазаруване",
       "remove": "Премахни",
-      "note": "Бележка за поръчката",
-      "add_note": "Добавете бележка за поръчката",
-      "edit_note": "Редактиране на бележката за поръчката",
-      "save_note": "Запазете бележката за поръчката",
-      "add_gift_note": "Добавете съобщение за подарък",
-      "edit_gift_note": "Редактиране на съобщение за подарък",
-      "save_gift_note": "Запазете съобщение за подарък",
-      "save": "Запазване",
+      "note": "Специални инструкции към продавача",
       "see_more": "Виж още",
       "subtotal": "Междинна сума",
-      "regular_subtotal": "Редовна междинна сума",
-      "sale_subtotal": "Междинна сума за продажба",
       "taxes_and_shipping_at_checkout": "Данъци и доставка се изчисляват при проверка",
-      "taxes_and_shipping_policy_at_checkout_html": "Данъци и <a href=\"{{ link }}\">доставка</a> се изчисляват при проверка",
+      "taxes_and_shipping_policy_at_checkout_html": "Данъци и <a href=\"{{ link }}\">доставка<\/a> се изчисляват при проверка",
       "taxes_included_but_shipping_at_checkout": "В цената са включени данъци и доставка се изчислява при проверка",
-      "taxes_included_and_shipping_policy_html": "В цената са включени данъци. <a href=\"{{ link }}\">Доставка</a> се изчислява при проверка.",
+      "taxes_included_and_shipping_policy_html": "В цената са включени данъци. <a href=\"{{ link }}\">Доставка<\/a> се изчислява при проверка.",
       "update": "Актуализирай количката",
       "checkout": "Плащане",
       "empty": "Вашата количка е в момента празна.",
       "close_cart": "Затвори количката",
-      "view_cart": "Вижте количката",
-      "savings_html": "Изберете {{ price }} и спестете",
-      "return_to_shop": "Върнете се в магазина"
+      "savings_html": "Изберете {{ price }} и спестете"
     },
     "label": {
       "product": "Продукт",
@@ -262,7 +260,7 @@
       "clear_all": "Изчисти всичко",
       "empty": "Не са намерени продукти",
       "from": "От",
-      "filter_and_sort": "Филтриране/Сортиране",
+      "filter_and_sort": "Филтриране\/Сортиране",
       "filter_by_label": "Филтриране по",
       "filter_button": "Филтър",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Сортиране по",
       "title": "Колекция",
       "to": "До",
-      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">изчистете всички</a>"
+      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">изчистете всички<\/a>"
     },
     "events_calendar": {
       "tbc_text": "TBC"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Грешка при търсенето на този адрес",
       "address_no_results": "За този адрес няма резултати",
-      "address_query_limit_html": "Превишихте ограничението за използване на Google API. Помислете за надграждане до <a href=\"https://developers.google.com/maps/premium/usage-limits\">план Premium</a>.",
+      "address_query_limit_html": "Превишихте ограничението за използване на Google API. Помислете за надграждане до <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">план Premium<\/a>.",
       "auth_error_html": "Възникна проблем при удостоверяването на вашия API ключ за Google Карти."
     },
     "shop_the_look": {
@@ -336,7 +334,7 @@
       "city": "Град",
       "country": "Държава",
       "province": "Област",
-      "zip": "Пощенски/Пощенски код",
+      "zip": "Пощенски\/Пощенски код",
       "phone": "Телефон",
       "set_default": "Задай като адрес по подразбиране",
       "add": "Добавяне на адрес",
@@ -422,7 +420,7 @@
       "add_product": "Добави продукт",
       "product_title": "Заглавие на продукта",
       "product_vendor": "Производител",
-      "no_collections_html": "Нямате никакви колекции за показване тук. <a href=\"/admin/custom_collections\">Добавете няколко колекции</a>, заедно с началната страница по подразбиране.",
+      "no_collections_html": "Нямате никакви колекции за показване тук. <a href=\"\/admin\/custom_collections\">Добавете няколко колекции<\/a>, заедно с началната страница по подразбиране.",
       "add_collection": "Добави колекция",
       "collection_title": "Заглавие на колекцията",
       "no_content": "Този раздел в момента не съдържа съдържание. Добавете съдържание към този раздел, използвайки страничната лента."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Подаръчно съобщение",
       "giftwrap_note_placeholder": "Добавете вашето подаръчно съобщение тук",
       "from_text_html": "От {{ price }}",
-      "file_upload_html": "Плъзнете и пуснете или <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">разглеждайте</a> файлове за качване",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Преглед на</a> файлове за качване"
+      "file_upload_html": "Плъзнете и пуснете или <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">разглеждайте<\/a> файлове за качване",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Преглед на<\/a> файлове за качване"
     },
     "product": {
       "sold_out": "Изчерпан",
@@ -497,14 +495,14 @@
       "category": "Категория",
       "type": "Тип",
       "include_taxes": "С включен данък.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Доставка</a> изчислена при проверка.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Доставка<\/a> изчислена при проверка.",
       "quote": "Цитат",
       "preorder_today": "Поръчайте предварително днес",
       "in_stock": "На склад",
       "low_stock": "Ниска наличност",
       "out_of_stock": "Изчерпан",
       "stock_left": "остават",
-      "out_of_stock_html": "Натиснете <a href=\"#\"><strong>тук</strong></a>, за да бъдете уведомени по имейл, когато {{ product }} - {{ variant }} стане наличен.",
+      "out_of_stock_html": "Натиснете <a href=\"#\"><strong>тук<\/strong><\/a>, за да бъдете уведомени по имейл, когато {{ product }} - {{ variant }} стане наличен.",
       "wrong_email": "Моля, предоставете валиден имейл адрес.",
       "out_of_stock_success": "Благодарим! Ще ви уведомим, когато този продукт стане наличен!",
       "read_more_html": "Прочети още",
@@ -564,9 +562,9 @@
       "password": "Влезте в магазина с парола",
       "enter_password": "Въведете парола",
       "store_owner": "Вие сте собственик на магазина?",
-      "store_owner_html": "<a href=\"/admin\">Влезте тук</a>",
+      "store_owner_html": "<a href=\"\/admin\">Влезте тук<\/a>",
       "continue": "Продължете",
-      "powered_by_html": "Този магазин ще бъде поддържан от <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Този магазин ще бъде поддържан от <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }

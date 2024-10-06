@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -61,11 +70,11 @@
     },
     "onboarding": {
       "modal_title": "Samo još malo...",
-      "no_products_html": "Nemate proizvoda u svojoj kolekciji početne stranice. Ovaj zamjenski tekst će se prikazati dok ne dodate <a href=\"/admin/collections?tutorial=Frontpage\">proizvod u ovu kolekciju</a>.",
+      "no_products_html": "Nemate proizvoda u svojoj kolekciji početne stranice. Ovaj zamjenski tekst će se prikazati dok ne dodate <a href=\"\/admin\/collections?tutorial=Frontpage\">proizvod u ovu kolekciju<\/a>.",
       "add_product": "Dodaj proizvod",
       "product_title": "Naziv proizvoda",
       "product_description": "Ovo područje služi za opisivanje detalja vašeg proizvoda. Obavijestite kupce o izgledu, materijalima, veličini i podrijetlu proizvoda. Dodajte detalje o boji, korištenim materijalima, veličini i gdje je proizveden.",
-      "no_collections_html": "Nemate nijednu kolekciju za prikazivanje ovdje. <a href=\"/admin/custom_collections\">Dodajte neke kolekcije</a> uz zadanu početnu stranicu.",
+      "no_collections_html": "Nemate nijednu kolekciju za prikazivanje ovdje. <a href=\"\/admin\/custom_collections\">Dodajte neke kolekcije<\/a> uz zadanu početnu stranicu.",
       "add_collection": "Dodaj kolekciju",
       "collection_title": "Naziv kolekcije",
       "blog_title": "Naslov vaše objave",
@@ -76,10 +85,10 @@
       "return_text": "Natrag"
     },
     "localization": {
-      "country_label": "Država/region",
+      "country_label": "Država\/region",
       "language_label": "Jezik",
       "update_language": "Ažuriraj jezik",
-      "update_country": "Ažuriraj državu/region"
+      "update_country": "Ažuriraj državu\/region"
     },
     "accessibility": {
       "back_to_top": {
@@ -146,7 +155,7 @@
   },
   "blogs": {
     "article": {
-      "author_on_date_html": "Objavio/la {{ author }} dana {{ date }}",
+      "author_on_date_html": "Objavio\/la {{ author }} dana {{ date }}",
       "older_post": "Stariji članak",
       "newer_post": "Noviji članak",
       "tags": "Oznake",
@@ -176,29 +185,18 @@
     "general": {
       "title": "Košarica za kupnju",
       "remove": "Ukloni",
-      "note": "Napomena o narudžbi",
-      "add_note": "Dodajte napomenu o narudžbi",
-      "edit_note": "Uredi bilješku o narudžbi",
-      "save_note": "Spremi bilješku o narudžbi",
-      "add_gift_note": "Dodajte poruku o poklonu",
-      "edit_gift_note": "Uredi poruku o poklonu",
-      "save_gift_note": "Spremi poruku o poklonu",
-      "save": "Uštedjeti",
+      "note": "Posebne upute za prodavača",
       "see_more": "Vidi više",
       "subtotal": "Međuzbroj",
-      "regular_subtotal": "Redoviti međuzbroj",
-      "sale_subtotal": "Međuzbroj prodaje",
       "taxes_and_shipping_at_checkout": "Porezi i dostava izračunavaju se pri odjavi",
-      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\">dostava</a> izračunavaju se pri odjavi",
+      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\">dostava<\/a> izračunavaju se pri odjavi",
       "taxes_included_but_shipping_at_checkout": "Porez je uključen, a dostava se izračunava pri odjavi",
-      "taxes_included_and_shipping_policy_html": "Porez je uključen. <a href=\"{{ link }}\">Dostava</a> se izračunava pri odjavi.",
+      "taxes_included_and_shipping_policy_html": "Porez je uključen. <a href=\"{{ link }}\">Dostava<\/a> se izračunava pri odjavi.",
       "update": "Ažuriraj košaricu",
       "checkout": "Odjavi se",
       "empty": "Vaša košarica je trenutačno prazna.",
       "close_cart": "Zatvori košaricu",
-      "view_cart": "Pogledaj košaricu",
-      "savings_html": "Uštedjet ćete {{ price }}",
-      "return_to_shop": "Povratak u trgovinu"
+      "savings_html": "Uštedjet ćete {{ price }}"
     },
     "label": {
       "product": "Proizvod",
@@ -262,7 +260,7 @@
       "clear_all": "Očisti sve",
       "empty": "Nema pronađenih proizvoda",
       "from": "Od",
-      "filter_and_sort": "Filtriraj/Sortiraj",
+      "filter_and_sort": "Filtriraj\/Sortiraj",
       "filter_by_label": "Filtriraj prema",
       "filter_button": "Filtriraj",
       "filters_selected": {
@@ -279,7 +277,7 @@
       "sort_by_label": "Sortiraj prema",
       "title": "Kolekcija",
       "to": "Do",
-      "use_fewer_filters_html": "Koristite manje filtere ili <a class=\"{{ class }}\" href=\"{{ link }}\">očistite sve</a>"
+      "use_fewer_filters_html": "Koristite manje filtere ili <a class=\"{{ class }}\" href=\"{{ link }}\">očistite sve<\/a>"
     },
     "events_calendar": {
       "tbc_text": "Nema informacija"
@@ -287,7 +285,7 @@
     "map": {
       "address_error": "Pogreška prilikom traženja te adrese",
       "address_no_results": "Nema rezultata za tu adresu",
-      "address_query_limit_html": "Premašili ste ograničenje upotrebe Google API-ja. Razmislite o nadogradnji na <a href=\"https://developers.google.com/maps/premium/usage-limits\">tarifu Premium</a> .",
+      "address_query_limit_html": "Premašili ste ograničenje upotrebe Google API-ja. Razmislite o nadogradnji na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">tarifu Premium<\/a> .",
       "auth_error_html": "Pojavio se problem prilikom provjere autentičnosti API ključa za Google karte."
     },
     "shop_the_look": {
@@ -422,7 +420,7 @@
       "add_product": "Dodaj proizvod",
       "product_title": "Naslov proizvoda",
       "product_vendor": "Dobavljač",
-      "no_collections_html": "Nemate nijednu kolekciju za prikazivanje ovdje. <a href=\"/admin/custom_collections\">Dodajte neke kolekcije</a> uz zadanu početnu stranicu.",
+      "no_collections_html": "Nemate nijednu kolekciju za prikazivanje ovdje. <a href=\"\/admin\/custom_collections\">Dodajte neke kolekcije<\/a> uz zadanu početnu stranicu.",
       "add_collection": "Dodaj kolekciju",
       "collection_title": "Naslov kolekcije",
       "no_content": "Ovaj odjeljak trenutačno ne sadrži sadržaj. Dodajte sadržaj u ovaj odjeljak pomoću bočne trake."
@@ -472,8 +470,8 @@
       "giftwrap_note": "Poruka uz poklon",
       "giftwrap_note_placeholder": "Dodajte poruku uz poklon ovdje",
       "from_text_html": "Od {{ price }}",
-      "file_upload_html": "Povucite i ispustite ili <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">pregledajte</a> datoteke za prijenos",
-      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Pregledajte</a> datoteke za prijenos"
+      "file_upload_html": "Povucite i ispustite ili <a aria-label=\"browse\" href=\"#\" onclick=\"event.preventDefault();\">pregledajte<\/a> datoteke za prijenos",
+      "file_upload_browse_html": "<a aria-label=\"Browse\" href=\"#\" onclick=\"event.preventDefault();\">Pregledajte<\/a> datoteke za prijenos"
     },
     "product": {
       "sold_out": "Rasprodano",
@@ -497,14 +495,14 @@
       "category": "Kategorija",
       "type": "Vrsta",
       "include_taxes": "Porez uključen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Dostava</a> izračunava se pri odjavi.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Dostava<\/a> izračunava se pri odjavi.",
       "quote": "Citat",
       "preorder_today": "Naručite već danas",
       "in_stock": "Na zalihi",
       "low_stock": "Malo zaliha",
       "out_of_stock": "Nema na zalihi",
       "stock_left": "preostalo",
-      "out_of_stock_html": "Kliknite <a href=\"#\"><strong>ovdje</strong></a> da vas obavijestimo putem e-maila kada {{ product }} - {{ variant }} postane dostupan.",
+      "out_of_stock_html": "Kliknite <a href=\"#\"><strong>ovdje<\/strong><\/a> da vas obavijestimo putem e-maila kada {{ product }} - {{ variant }} postane dostupan.",
       "wrong_email": "Unesite valjanu e-mail adresu.",
       "out_of_stock_success": "Hvala! Obavijestit ćemo vas kada ovaj proizvod postane dostupan!",
       "read_more_html": "Pročitajte više",
@@ -564,9 +562,9 @@
       "password": "Unesite trgovinu koristeći lozinku",
       "enter_password": "Unesite lozinku",
       "store_owner": "Jeste li vlasnik trgovine?",
-      "store_owner_html": "<a href=\"/admin\">Prijavite se ovdje</a>",
+      "store_owner_html": "<a href=\"\/admin\">Prijavite se ovdje<\/a>",
       "continue": "Nastavite",
-      "powered_by_html": "Ova trgovina će biti pokretana od strane <a href=\"http://www.shopify.com\">Shopify</a>"
+      "powered_by_html": "Ova trgovina će biti pokretana od strane <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
   }
 }
